@@ -1,0 +1,875 @@
+[INFO] [Compiler] Fetched 10 font face(s) for "Nunito" from Google Fonts (cached to /Users/ryanmorrison/.cache/hyperframes/fonts/nunito)
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)")
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to /Users/ryanmorrison/.cache/hyperframes/fonts/eb-garamond)
+[INFO] [Compiler] Fetched 4 font face(s) for "Space Mono" from Google Fonts (cached to /Users/ryanmorrison/.cache/hyperframes/fonts/space-mono)
+[INFO] [Compiler] Injected deterministic @font-face rules for 3 requested font families
+[hyperframes] check: samples 1/9
+[hyperframes] check: samples 2/9
+[hyperframes] check: samples 3/9
+[hyperframes] check: samples 4/9
+[hyperframes] check: samples 5/9
+[hyperframes] check: samples 6/9
+[hyperframes] check: samples 7/9
+[hyperframes] check: samples 8/9
+[hyperframes] check: samples 9/9
+[hyperframes] check: craft 1/576
+[hyperframes] check: craft 2/576
+[hyperframes] check: craft 3/576
+[hyperframes] check: craft 4/576
+[hyperframes] check: craft 5/576
+[hyperframes] check: craft 6/576
+[hyperframes] check: craft 7/576
+[hyperframes] check: craft 8/576
+[hyperframes] check: craft 9/576
+[hyperframes] check: craft 10/576
+[hyperframes] check: craft 11/576
+[hyperframes] check: craft 12/576
+[hyperframes] check: craft 13/576
+[hyperframes] check: craft 14/576
+[hyperframes] check: craft 15/576
+[hyperframes] check: craft 16/576
+[hyperframes] check: craft 17/576
+[hyperframes] check: craft 18/576
+[hyperframes] check: craft 19/576
+[hyperframes] check: craft 20/576
+[hyperframes] check: craft 21/576
+[hyperframes] check: craft 22/576
+[hyperframes] check: craft 23/576
+[hyperframes] check: craft 24/576
+[hyperframes] check: craft 25/576
+[hyperframes] check: craft 26/576
+[hyperframes] check: craft 27/576
+[hyperframes] check: craft 28/576
+[hyperframes] check: craft 29/576
+[hyperframes] check: craft 30/576
+[hyperframes] check: craft 31/576
+[hyperframes] check: craft 32/576
+[hyperframes] check: craft 33/576
+[hyperframes] check: craft 34/576
+[hyperframes] check: craft 35/576
+[hyperframes] check: craft 36/576
+[hyperframes] check: craft 37/576
+[hyperframes] check: craft 38/576
+[hyperframes] check: craft 39/576
+[hyperframes] check: craft 40/576
+[hyperframes] check: craft 41/576
+[hyperframes] check: craft 42/576
+[hyperframes] check: craft 43/576
+[hyperframes] check: craft 44/576
+[hyperframes] check: craft 45/576
+[hyperframes] check: craft 46/576
+[hyperframes] check: craft 47/576
+[hyperframes] check: craft 48/576
+[hyperframes] check: craft 49/576
+[hyperframes] check: craft 50/576
+[hyperframes] check: craft 51/576
+[hyperframes] check: craft 52/576
+[hyperframes] check: craft 53/576
+[hyperframes] check: craft 54/576
+[hyperframes] check: craft 55/576
+[hyperframes] check: craft 56/576
+[hyperframes] check: craft 57/576
+[hyperframes] check: craft 58/576
+[hyperframes] check: craft 59/576
+[hyperframes] check: craft 60/576
+[hyperframes] check: craft 61/576
+[hyperframes] check: craft 62/576
+[hyperframes] check: craft 63/576
+[hyperframes] check: craft 64/576
+[hyperframes] check: craft 65/576
+[hyperframes] check: craft 66/576
+[hyperframes] check: craft 67/576
+[hyperframes] check: craft 68/576
+[hyperframes] check: craft 69/576
+[hyperframes] check: craft 70/576
+[hyperframes] check: craft 71/576
+[hyperframes] check: craft 72/576
+[hyperframes] check: craft 73/576
+[hyperframes] check: craft 74/576
+[hyperframes] check: craft 75/576
+[hyperframes] check: craft 76/576
+[hyperframes] check: craft 77/576
+[hyperframes] check: craft 78/576
+[hyperframes] check: craft 79/576
+[hyperframes] check: craft 80/576
+[hyperframes] check: craft 81/576
+[hyperframes] check: craft 82/576
+[hyperframes] check: craft 83/576
+[hyperframes] check: craft 84/576
+[hyperframes] check: craft 85/576
+[hyperframes] check: craft 86/576
+[hyperframes] check: craft 87/576
+[hyperframes] check: craft 88/576
+[hyperframes] check: craft 89/576
+[hyperframes] check: craft 90/576
+[hyperframes] check: craft 91/576
+[hyperframes] check: craft 92/576
+[hyperframes] check: craft 93/576
+[hyperframes] check: craft 94/576
+[hyperframes] check: craft 95/576
+[hyperframes] check: craft 96/576
+[hyperframes] check: craft 97/576
+[hyperframes] check: craft 98/576
+[hyperframes] check: craft 99/576
+[hyperframes] check: craft 100/576
+[hyperframes] check: craft 101/576
+[hyperframes] check: craft 102/576
+[hyperframes] check: craft 103/576
+[hyperframes] check: craft 104/576
+[hyperframes] check: craft 105/576
+[hyperframes] check: craft 106/576
+[hyperframes] check: craft 107/576
+[hyperframes] check: craft 108/576
+[hyperframes] check: craft 109/576
+[hyperframes] check: craft 110/576
+[hyperframes] check: craft 111/576
+[hyperframes] check: craft 112/576
+[hyperframes] check: craft 113/576
+[hyperframes] check: craft 114/576
+[hyperframes] check: craft 115/576
+[hyperframes] check: craft 116/576
+[hyperframes] check: craft 117/576
+[hyperframes] check: craft 118/576
+[hyperframes] check: craft 119/576
+[hyperframes] check: craft 120/576
+[hyperframes] check: craft 121/576
+[hyperframes] check: craft 122/576
+[hyperframes] check: craft 123/576
+[hyperframes] check: craft 124/576
+[hyperframes] check: craft 125/576
+[hyperframes] check: craft 126/576
+[hyperframes] check: craft 127/576
+[hyperframes] check: craft 128/576
+[hyperframes] check: craft 129/576
+[hyperframes] check: craft 130/576
+[hyperframes] check: craft 131/576
+[hyperframes] check: craft 132/576
+[hyperframes] check: craft 133/576
+[hyperframes] check: craft 134/576
+[hyperframes] check: craft 135/576
+[hyperframes] check: craft 136/576
+[hyperframes] check: craft 137/576
+[hyperframes] check: craft 138/576
+[hyperframes] check: craft 139/576
+[hyperframes] check: craft 140/576
+[hyperframes] check: craft 141/576
+[hyperframes] check: craft 142/576
+[hyperframes] check: craft 143/576
+[hyperframes] check: craft 144/576
+[hyperframes] check: craft 145/576
+[hyperframes] check: craft 146/576
+[hyperframes] check: craft 147/576
+[hyperframes] check: craft 148/576
+[hyperframes] check: craft 149/576
+[hyperframes] check: craft 150/576
+[hyperframes] check: craft 151/576
+[hyperframes] check: craft 152/576
+[hyperframes] check: craft 153/576
+[hyperframes] check: craft 154/576
+[hyperframes] check: craft 155/576
+[hyperframes] check: craft 156/576
+[hyperframes] check: craft 157/576
+[hyperframes] check: craft 158/576
+[hyperframes] check: craft 159/576
+[hyperframes] check: craft 160/576
+[hyperframes] check: craft 161/576
+[hyperframes] check: craft 162/576
+[hyperframes] check: craft 163/576
+[hyperframes] check: craft 164/576
+[hyperframes] check: craft 165/576
+[hyperframes] check: craft 166/576
+[hyperframes] check: craft 167/576
+[hyperframes] check: craft 168/576
+[hyperframes] check: craft 169/576
+[hyperframes] check: craft 170/576
+[hyperframes] check: craft 171/576
+[hyperframes] check: craft 172/576
+[hyperframes] check: craft 173/576
+[hyperframes] check: craft 174/576
+[hyperframes] check: craft 175/576
+[hyperframes] check: craft 176/576
+[hyperframes] check: craft 177/576
+[hyperframes] check: craft 178/576
+[hyperframes] check: craft 179/576
+[hyperframes] check: craft 180/576
+[hyperframes] check: craft 181/576
+[hyperframes] check: craft 182/576
+[hyperframes] check: craft 183/576
+[hyperframes] check: craft 184/576
+[hyperframes] check: craft 185/576
+[hyperframes] check: craft 186/576
+[hyperframes] check: craft 187/576
+[hyperframes] check: craft 188/576
+[hyperframes] check: craft 189/576
+[hyperframes] check: craft 190/576
+[hyperframes] check: craft 191/576
+[hyperframes] check: craft 192/576
+[hyperframes] check: craft 193/576
+[hyperframes] check: craft 194/576
+[hyperframes] check: craft 195/576
+[hyperframes] check: craft 196/576
+[hyperframes] check: craft 197/576
+[hyperframes] check: craft 198/576
+[hyperframes] check: craft 199/576
+[hyperframes] check: craft 200/576
+[hyperframes] check: craft 201/576
+[hyperframes] check: craft 202/576
+[hyperframes] check: craft 203/576
+[hyperframes] check: craft 204/576
+[hyperframes] check: craft 205/576
+[hyperframes] check: craft 206/576
+[hyperframes] check: craft 207/576
+[hyperframes] check: craft 208/576
+[hyperframes] check: craft 209/576
+[hyperframes] check: craft 210/576
+[hyperframes] check: craft 211/576
+[hyperframes] check: craft 212/576
+[hyperframes] check: craft 213/576
+[hyperframes] check: craft 214/576
+[hyperframes] check: craft 215/576
+[hyperframes] check: craft 216/576
+[hyperframes] check: craft 217/576
+[hyperframes] check: craft 218/576
+[hyperframes] check: craft 219/576
+[hyperframes] check: craft 220/576
+[hyperframes] check: craft 221/576
+[hyperframes] check: craft 222/576
+[hyperframes] check: craft 223/576
+[hyperframes] check: craft 224/576
+[hyperframes] check: craft 225/576
+[hyperframes] check: craft 226/576
+[hyperframes] check: craft 227/576
+[hyperframes] check: craft 228/576
+[hyperframes] check: craft 229/576
+[hyperframes] check: craft 230/576
+[hyperframes] check: craft 231/576
+[hyperframes] check: craft 232/576
+[hyperframes] check: craft 233/576
+[hyperframes] check: craft 234/576
+[hyperframes] check: craft 235/576
+[hyperframes] check: craft 236/576
+[hyperframes] check: craft 237/576
+[hyperframes] check: craft 238/576
+[hyperframes] check: craft 239/576
+[hyperframes] check: craft 240/576
+[hyperframes] check: craft 241/576
+[hyperframes] check: craft 242/576
+[hyperframes] check: craft 243/576
+[hyperframes] check: craft 244/576
+[hyperframes] check: craft 245/576
+[hyperframes] check: craft 246/576
+[hyperframes] check: craft 247/576
+[hyperframes] check: craft 248/576
+[hyperframes] check: craft 249/576
+[hyperframes] check: craft 250/576
+[hyperframes] check: craft 251/576
+[hyperframes] check: craft 252/576
+[hyperframes] check: craft 253/576
+[hyperframes] check: craft 254/576
+[hyperframes] check: craft 255/576
+[hyperframes] check: craft 256/576
+[hyperframes] check: craft 257/576
+[hyperframes] check: craft 258/576
+[hyperframes] check: craft 259/576
+[hyperframes] check: craft 260/576
+[hyperframes] check: craft 261/576
+[hyperframes] check: craft 262/576
+[hyperframes] check: craft 263/576
+[hyperframes] check: craft 264/576
+[hyperframes] check: craft 265/576
+[hyperframes] check: craft 266/576
+[hyperframes] check: craft 267/576
+[hyperframes] check: craft 268/576
+[hyperframes] check: craft 269/576
+[hyperframes] check: craft 270/576
+[hyperframes] check: craft 271/576
+[hyperframes] check: craft 272/576
+[hyperframes] check: craft 273/576
+[hyperframes] check: craft 274/576
+[hyperframes] check: craft 275/576
+[hyperframes] check: craft 276/576
+[hyperframes] check: craft 277/576
+[hyperframes] check: craft 278/576
+[hyperframes] check: craft 279/576
+[hyperframes] check: craft 280/576
+[hyperframes] check: craft 281/576
+[hyperframes] check: craft 282/576
+[hyperframes] check: craft 283/576
+[hyperframes] check: craft 284/576
+[hyperframes] check: craft 285/576
+[hyperframes] check: craft 286/576
+[hyperframes] check: craft 287/576
+[hyperframes] check: craft 288/576
+[hyperframes] check: craft 289/576
+[hyperframes] check: craft 290/576
+[hyperframes] check: craft 291/576
+[hyperframes] check: craft 292/576
+[hyperframes] check: craft 293/576
+[hyperframes] check: craft 294/576
+[hyperframes] check: craft 295/576
+[hyperframes] check: craft 296/576
+[hyperframes] check: craft 297/576
+[hyperframes] check: craft 298/576
+[hyperframes] check: craft 299/576
+[hyperframes] check: craft 300/576
+[hyperframes] check: craft 301/576
+[hyperframes] check: craft 302/576
+[hyperframes] check: craft 303/576
+[hyperframes] check: craft 304/576
+[hyperframes] check: craft 305/576
+[hyperframes] check: craft 306/576
+[hyperframes] check: craft 307/576
+[hyperframes] check: craft 308/576
+[hyperframes] check: craft 309/576
+[hyperframes] check: craft 310/576
+[hyperframes] check: craft 311/576
+[hyperframes] check: craft 312/576
+[hyperframes] check: craft 313/576
+[hyperframes] check: craft 314/576
+[hyperframes] check: craft 315/576
+[hyperframes] check: craft 316/576
+[hyperframes] check: craft 317/576
+[hyperframes] check: craft 318/576
+[hyperframes] check: craft 319/576
+[hyperframes] check: craft 320/576
+[hyperframes] check: craft 321/576
+[hyperframes] check: craft 322/576
+[hyperframes] check: craft 323/576
+[hyperframes] check: craft 324/576
+[hyperframes] check: craft 325/576
+[hyperframes] check: craft 326/576
+[hyperframes] check: craft 327/576
+[hyperframes] check: craft 328/576
+[hyperframes] check: craft 329/576
+[hyperframes] check: craft 330/576
+[hyperframes] check: craft 331/576
+[hyperframes] check: craft 332/576
+[hyperframes] check: craft 333/576
+[hyperframes] check: craft 334/576
+[hyperframes] check: craft 335/576
+[hyperframes] check: craft 336/576
+[hyperframes] check: craft 337/576
+[hyperframes] check: craft 338/576
+[hyperframes] check: craft 339/576
+[hyperframes] check: craft 340/576
+[hyperframes] check: craft 341/576
+[hyperframes] check: craft 342/576
+[hyperframes] check: craft 343/576
+[hyperframes] check: craft 344/576
+[hyperframes] check: craft 345/576
+[hyperframes] check: craft 346/576
+[hyperframes] check: craft 347/576
+[hyperframes] check: craft 348/576
+[hyperframes] check: craft 349/576
+[hyperframes] check: craft 350/576
+[hyperframes] check: craft 351/576
+[hyperframes] check: craft 352/576
+[hyperframes] check: craft 353/576
+[hyperframes] check: craft 354/576
+[hyperframes] check: craft 355/576
+[hyperframes] check: craft 356/576
+[hyperframes] check: craft 357/576
+[hyperframes] check: craft 358/576
+[hyperframes] check: craft 359/576
+[hyperframes] check: craft 360/576
+[hyperframes] check: craft 361/576
+[hyperframes] check: craft 362/576
+[hyperframes] check: craft 363/576
+[hyperframes] check: craft 364/576
+[hyperframes] check: craft 365/576
+[hyperframes] check: craft 366/576
+[hyperframes] check: craft 367/576
+[hyperframes] check: craft 368/576
+[hyperframes] check: craft 369/576
+[hyperframes] check: craft 370/576
+[hyperframes] check: craft 371/576
+[hyperframes] check: craft 372/576
+[hyperframes] check: craft 373/576
+[hyperframes] check: craft 374/576
+[hyperframes] check: craft 375/576
+[hyperframes] check: craft 376/576
+[hyperframes] check: craft 377/576
+[hyperframes] check: craft 378/576
+[hyperframes] check: craft 379/576
+[hyperframes] check: craft 380/576
+[hyperframes] check: craft 381/576
+[hyperframes] check: craft 382/576
+[hyperframes] check: craft 383/576
+[hyperframes] check: craft 384/576
+[hyperframes] check: craft 385/576
+[hyperframes] check: craft 386/576
+[hyperframes] check: craft 387/576
+[hyperframes] check: craft 388/576
+[hyperframes] check: craft 389/576
+[hyperframes] check: craft 390/576
+[hyperframes] check: craft 391/576
+[hyperframes] check: craft 392/576
+[hyperframes] check: craft 393/576
+[hyperframes] check: craft 394/576
+[hyperframes] check: craft 395/576
+[hyperframes] check: craft 396/576
+[hyperframes] check: craft 397/576
+[hyperframes] check: craft 398/576
+[hyperframes] check: craft 399/576
+[hyperframes] check: craft 400/576
+[hyperframes] check: craft 401/576
+[hyperframes] check: craft 402/576
+[hyperframes] check: craft 403/576
+[hyperframes] check: craft 404/576
+[hyperframes] check: craft 405/576
+[hyperframes] check: craft 406/576
+[hyperframes] check: craft 407/576
+[hyperframes] check: craft 408/576
+[hyperframes] check: craft 409/576
+[hyperframes] check: craft 410/576
+[hyperframes] check: craft 411/576
+[hyperframes] check: craft 412/576
+[hyperframes] check: craft 413/576
+[hyperframes] check: craft 414/576
+[hyperframes] check: craft 415/576
+[hyperframes] check: craft 416/576
+[hyperframes] check: craft 417/576
+[hyperframes] check: craft 418/576
+[hyperframes] check: craft 419/576
+[hyperframes] check: craft 420/576
+[hyperframes] check: craft 421/576
+[hyperframes] check: craft 422/576
+[hyperframes] check: craft 423/576
+[hyperframes] check: craft 424/576
+[hyperframes] check: craft 425/576
+[hyperframes] check: craft 426/576
+[hyperframes] check: craft 427/576
+[hyperframes] check: craft 428/576
+[hyperframes] check: craft 429/576
+[hyperframes] check: craft 430/576
+[hyperframes] check: craft 431/576
+[hyperframes] check: craft 432/576
+[hyperframes] check: craft 433/576
+[hyperframes] check: craft 434/576
+[hyperframes] check: craft 435/576
+[hyperframes] check: craft 436/576
+[hyperframes] check: craft 437/576
+[hyperframes] check: craft 438/576
+[hyperframes] check: craft 439/576
+[hyperframes] check: craft 440/576
+[hyperframes] check: craft 441/576
+[hyperframes] check: craft 442/576
+[hyperframes] check: craft 443/576
+[hyperframes] check: craft 444/576
+[hyperframes] check: craft 445/576
+[hyperframes] check: craft 446/576
+[hyperframes] check: craft 447/576
+[hyperframes] check: craft 448/576
+[hyperframes] check: craft 449/576
+[hyperframes] check: craft 450/576
+[hyperframes] check: craft 451/576
+[hyperframes] check: craft 452/576
+[hyperframes] check: craft 453/576
+[hyperframes] check: craft 454/576
+[hyperframes] check: craft 455/576
+[hyperframes] check: craft 456/576
+[hyperframes] check: craft 457/576
+[hyperframes] check: craft 458/576
+[hyperframes] check: craft 459/576
+[hyperframes] check: craft 460/576
+[hyperframes] check: craft 461/576
+[hyperframes] check: craft 462/576
+[hyperframes] check: craft 463/576
+[hyperframes] check: craft 464/576
+[hyperframes] check: craft 465/576
+[hyperframes] check: craft 466/576
+[hyperframes] check: craft 467/576
+[hyperframes] check: craft 468/576
+[hyperframes] check: craft 469/576
+[hyperframes] check: craft 470/576
+[hyperframes] check: craft 471/576
+[hyperframes] check: craft 472/576
+[hyperframes] check: craft 473/576
+[hyperframes] check: craft 474/576
+[hyperframes] check: craft 475/576
+[hyperframes] check: craft 476/576
+[hyperframes] check: craft 477/576
+[hyperframes] check: craft 478/576
+[hyperframes] check: craft 479/576
+[hyperframes] check: craft 480/576
+[hyperframes] check: craft 481/576
+[hyperframes] check: craft 482/576
+[hyperframes] check: craft 483/576
+[hyperframes] check: craft 484/576
+[hyperframes] check: craft 485/576
+[hyperframes] check: craft 486/576
+[hyperframes] check: craft 487/576
+[hyperframes] check: craft 488/576
+[hyperframes] check: craft 489/576
+[hyperframes] check: craft 490/576
+[hyperframes] check: craft 491/576
+[hyperframes] check: craft 492/576
+[hyperframes] check: craft 493/576
+[hyperframes] check: craft 494/576
+[hyperframes] check: craft 495/576
+[hyperframes] check: craft 496/576
+[hyperframes] check: craft 497/576
+[hyperframes] check: craft 498/576
+[hyperframes] check: craft 499/576
+[hyperframes] check: craft 500/576
+[hyperframes] check: craft 501/576
+[hyperframes] check: craft 502/576
+[hyperframes] check: craft 503/576
+[hyperframes] check: craft 504/576
+[hyperframes] check: craft 505/576
+[hyperframes] check: craft 506/576
+[hyperframes] check: craft 507/576
+[hyperframes] check: craft 508/576
+[hyperframes] check: craft 509/576
+[hyperframes] check: craft 510/576
+[hyperframes] check: craft 511/576
+[hyperframes] check: craft 512/576
+[hyperframes] check: craft 513/576
+[hyperframes] check: craft 514/576
+[hyperframes] check: craft 515/576
+[hyperframes] check: craft 516/576
+[hyperframes] check: craft 517/576
+[hyperframes] check: craft 518/576
+[hyperframes] check: craft 519/576
+[hyperframes] check: craft 520/576
+[hyperframes] check: craft 521/576
+[hyperframes] check: craft 522/576
+[hyperframes] check: craft 523/576
+[hyperframes] check: craft 524/576
+[hyperframes] check: craft 525/576
+[hyperframes] check: craft 526/576
+[hyperframes] check: craft 527/576
+[hyperframes] check: craft 528/576
+[hyperframes] check: craft 529/576
+[hyperframes] check: craft 530/576
+[hyperframes] check: craft 531/576
+[hyperframes] check: craft 532/576
+[hyperframes] check: craft 533/576
+[hyperframes] check: craft 534/576
+[hyperframes] check: craft 535/576
+[hyperframes] check: craft 536/576
+[hyperframes] check: craft 537/576
+[hyperframes] check: craft 538/576
+[hyperframes] check: craft 539/576
+[hyperframes] check: craft 540/576
+[hyperframes] check: craft 541/576
+[hyperframes] check: craft 542/576
+[hyperframes] check: craft 543/576
+[hyperframes] check: craft 544/576
+[hyperframes] check: craft 545/576
+[hyperframes] check: craft 546/576
+[hyperframes] check: craft 547/576
+[hyperframes] check: craft 548/576
+[hyperframes] check: craft 549/576
+[hyperframes] check: craft 550/576
+[hyperframes] check: craft 551/576
+[hyperframes] check: craft 552/576
+[hyperframes] check: craft 553/576
+[hyperframes] check: craft 554/576
+[hyperframes] check: craft 555/576
+[hyperframes] check: craft 556/576
+[hyperframes] check: craft 557/576
+[hyperframes] check: craft 558/576
+[hyperframes] check: craft 559/576
+[hyperframes] check: craft 560/576
+[hyperframes] check: craft 561/576
+[hyperframes] check: craft 562/576
+[hyperframes] check: craft 563/576
+[hyperframes] check: craft 564/576
+[hyperframes] check: craft 565/576
+[hyperframes] check: craft 566/576
+[hyperframes] check: craft 567/576
+[hyperframes] check: craft 568/576
+[hyperframes] check: craft 569/576
+[hyperframes] check: craft 570/576
+[hyperframes] check: craft 571/576
+[hyperframes] check: craft 572/576
+[hyperframes] check: craft 573/576
+[hyperframes] check: craft 574/576
+[hyperframes] check: craft 575/576
+[hyperframes] check: craft 576/576
+[hyperframes] check: overlap 1/23
+[hyperframes] check: overlap 2/23
+[hyperframes] check: overlap 3/23
+[hyperframes] check: overlap 4/23
+[hyperframes] check: overlap 5/23
+[hyperframes] check: overlap 6/23
+[hyperframes] check: overlap 7/23
+[hyperframes] check: overlap 8/23
+[hyperframes] check: overlap 9/23
+[hyperframes] check: overlap 10/23
+[hyperframes] check: overlap 11/23
+[hyperframes] check: overlap 12/23
+[hyperframes] check: overlap 13/23
+[hyperframes] check: overlap 14/23
+[hyperframes] check: overlap 15/23
+[hyperframes] check: overlap 16/23
+[hyperframes] check: overlap 17/23
+[hyperframes] check: overlap 18/23
+[hyperframes] check: overlap 19/23
+[hyperframes] check: overlap 20/23
+[hyperframes] check: overlap 21/23
+[hyperframes] check: overlap 22/23
+[hyperframes] check: overlap 23/23
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 4 has 9 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/cozy/film/compositions/cozy.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 5 has 6 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/cozy/film/compositions/cozy.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 2
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 72,
+    "samples": [
+      4,
+      12,
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4,
+      20,
+      36,
+      52,
+      68
+    ],
+    "checked": 23,
+    "passed": 23
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 7,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "film_silent",
+        "severity": "warning",
+        "message": "This 72 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.50 s (5.38–9.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 5.375,
+        "seconds": 4.5,
+        "floorSeconds": 3,
+        "until": 9.875
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.50 s (21.38–25.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 21.375,
+        "seconds": 4.5,
+        "floorSeconds": 3,
+        "until": 25.875
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.50 s (26.38–30.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 26.375,
+        "seconds": 4.5,
+        "floorSeconds": 3,
+        "until": 30.875
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.50 s (31.38–35.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 31.375,
+        "seconds": 4.5,
+        "floorSeconds": 3,
+        "until": 35.875
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 6.50 s (36.38–42.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 36.375,
+        "seconds": 6.5,
+        "floorSeconds": 3,
+        "until": 42.875
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.88 s (63.00–66.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 63,
+        "seconds": 3.875,
+        "floorSeconds": 3,
+        "until": 66.875
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 576
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "323f6a67-5414-4cc2-9ebf-2770fa1d11cf",
+    "revision": null,
+    "report": "/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/cozy/film/.hyperframes/artifacts/checks/323f6a67-5414-4cc2-9ebf-2770fa1d11cf.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.8.198",
+    "latestVersion": "0.8.198",
+    "updateAvailable": false
+  }
+}
+
+  3 HyperFrames skills out of date or missing.
+  Run: npx hyperframes skills update
+

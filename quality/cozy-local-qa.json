@@ -1,0 +1,48 @@
+{
+  "verifiedAt": "2026-10-25T17:41:50.481247+00:00",
+  "scope": "local only; no new cloud synchronization, deployment, schedule, purchase or submission",
+  "tests": {
+    "passed": 95,
+    "failed": 0,
+    "log": "cozy-test-results.tap"
+  },
+  "typecheck": {
+    "exitCode": 0,
+    "log": "cozy-typecheck-results.log"
+  },
+  "scopedEslint": {
+    "exitCode": 0,
+    "log": "cozy-lint-results.log"
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "log": "cozy-build-results.log"
+  },
+  "browser": {
+    "url": "http://127.0.0.1:4318/play",
+    "proof": "cozy-local-browser-final.jpg",
+    "passed": [
+      "plant, water, wait, harvest",
+      "gift accepted after witnessed harvest",
+      "exact rule preview and apply",
+      "physical 3-person festival completion",
+      "cold exact replay",
+      "paired independent forks and equal-time comparison",
+      "prospective restore",
+      "historical undo branch",
+      "saved reload retains inventory/rules/festival",
+      "minimum camera fit fills playfield",
+      "illustrated well opens correct interaction",
+      "200ms and sustained keyboard movement/stop"
+    ],
+    "handoff": "paused saved town; primary local preview retained"
+  },
+  "finalReplay": {
+    "verified": true,
+    "finalHash": "e728189f856d71c77f39058ff18253b333e61a4350ac2de696ec6f18ec3b12f8",
+    "finalStep": 15116,
+    "modelCalls": 0
+  },
+  "modelBoundary": "Meta disconnected. Manual rule editor and rule policy labeled. Separate Llama license question remains unanswered; no download or inference.",
+  "persistenceBoundary": "Local SQL saves and recorded bounded page-driven updates. Unattended updates with browser closed are not verified."
+}

@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-25T16:50:10.905262+00:00",
+  "purpose": "Original cozy life-sim production art. Not a gameplay or AI-inference assertion.",
+  "scope": "Only art/cozy and public/assets/cozy. Legacy art is preserved.",
+  "background": {
+    "source": "Earlier original project concept; exact reference and prompt preserved in source package.",
+    "currentBuiltInImageEditCalls": 2,
+    "earlierConceptImageGenerationCalls": 1,
+    "method": "Built-in edits, local Aseprite nearest resize, optimal palette quantization, original scene-material path clearance.",
+    "nativePixels": [
+      512,
+      384
+    ],
+    "opaqueColors": 254,
+    "containsBakedPeopleAnimalsFoodCropsFestivalTableBunting": false,
+    "modularity": "Fixed environment raster with separate semantic overlays; not a modular building tile atlas."
+  },
+  "characters": {
+    "method": "Original native Aseprite construction from included Lua",
+    "remoteGenerationCalls": 0,
+    "residents": 4,
+    "poses": 288,
+    "clips": 96,
+    "cell": [
+      24,
+      32
+    ],
+    "footAnchor": [
+      12,
+      31
+    ],
+    "cargoAnchor": [
+      12,
+      22
+    ]
+  },
+  "foreground": {
+    "method": "Original native Aseprite construction from included Lua",
+    "remoteGenerationCalls": 0,
+    "sourceCells": 21,
+    "namedFrames": 24,
+    "clips": 2,
+    "intentionalTransparentFrames": [
+      "crop.empty"
+    ]
+  },
+  "thirdPartyReferencePixelsImported": 0,
+  "paidProviderCalls": 0,
+  "purchases": 0,
+  "metaCallsInArtWorkflow": 0,
+  "checks": {
+    "nativeAuditPassed": true,
+    "connectedGroundCells": 154,
+    "reachablePlaces": 9,
+    "reachablePlots": 3,
+    "noGroundInsideSceneryOrBuildingBlocks": true,
+    "nativeContactSheetVisuallyInspected": true,
+    "integrationPreviewIsStagedArt": true,
+    "browserIntegrationQa": "Parent agent; this subagent CUA exposed no browser surfaces"
+  },
+  "runtimeFiles": [
+    {
+      "path": "characters.json",
+      "bytes": 96712,
+      "sha256": "914efddb19253423392c5ae786bae106af17628e3acef380f6fa7e68d404751e"
+    },
+    {
+      "path": "characters.png",
+      "bytes": 41847,
+      "sha256": "7e992b8f838c636126e339f14f128d87846bb07264a43e11d229b54d0bf85f49",
+      "dimensions": {
+        "width": 512,
+        "height": 768
+      }
+    },
+    {
+      "path": "foreground.json",
+      "bytes": 8520,
+      "sha256": "7ad49d045e663291fc7886b9652d32a7bdb8998c1cbcba6012acaa9e5218db9d"
+    },
+    {
+      "path": "foreground.png",
+      "bytes": 3875,
+      "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643",
+      "dimensions": {
+        "width": 512,
+        "height": 256
+      }
+    },
+    {
+      "path": "map.json",
+      "bytes": 16940,
+      "sha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474"
+    },
+    {
+      "path": "map.png",
+      "bytes": 545656,
+      "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937",
+      "dimensions": {
+        "width": 512,
+        "height": 384
+      }
+    },
+    {
+      "path": "viewer.html",
+      "bytes": 107002,
+      "sha256": "6eae912ee6f0e233ee6d48003d6a34e46f4944d7864d075d2d4d72a1786c0057"
+    }
+  ]
+}

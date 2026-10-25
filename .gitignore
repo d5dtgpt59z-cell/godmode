@@ -21,6 +21,8 @@ next-env.d.ts
 # Test output
 /coverage/
 /demo/*.mp4
+/demo/**/*.mp4
+/demo/**/.hyperframes/
 /demo/.hyperframes/
 
 # Package-manager logs
@@ -47,3 +49,7 @@ yarn-error.log*
 
 # OS metadata
 .DS_Store
+
+/demo/**/.thumbnails/
+
+/demo/cozy/film/snapshots-*/

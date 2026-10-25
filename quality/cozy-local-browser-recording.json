@@ -1,0 +1,263 @@
+{
+  "format": "godmode-cozy-save",
+  "version": 1,
+  "recording": {
+    "format": "godmode-cozy",
+    "version": 1,
+    "engineVersion": "cozy-engine-1",
+    "contentVersion": "cozy-wheat-1",
+    "origin": {
+      "seed": 137,
+      "branchId": "49915440-c13a-4d30-b84d-cf73cd0d2654",
+      "parentBranchId": "981c6fd3-c216-47d1-95c6-7a43ff765781",
+      "parentHash": "8aa02c9c38810353cf195d743a29809abd56c32eab48c8b68b28b9cdb0375787",
+      "checkpointState": "{\"branchId\":\"49915440-c13a-4d30-b84d-cf73cd0d2654\",\"commandIds\":[\"8d093624-3062-430b-9c3a-88b4dfbbeab7\",\"5d250fd0-e2de-4f20-86b7-714393e99aed\",\"a77ed8da-81e0-425e-98e7-3f9a00036f80\",\"0e12dff3-72d7-4fd2-b819-1f74a3ece217\",\"ec9d6e50-57ed-4640-92a6-ba11894c9088\",\"5456ce57-8687-4630-9fb6-481018c231e3\",\"cc64fe63-669c-47a4-97a2-b17407853fde\",\"ddbb0c95-c351-4235-9627-c620684de9ec\",\"003727ba-d245-47a5-b6ee-def3af5989c2\",\"fec8ce17-fb93-47d5-a2d2-c1fb4f76779d\",\"fb90ebd8-aa8d-433c-8a0a-672246469983\"],\"contentVersion\":\"cozy-wheat-1\",\"day\":1,\"engineVersion\":\"cozy-engine-1\",\"eventHead\":\"a3bad8eab45eb0eec99f94e3c0212aa38936bbecfcaafd1a3ca062c8eea07059\",\"eventSeq\":49,\"events\":[{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"e1373217496c4e3c293aa131f9f1f416733d763c97296a934c6e705326f29e5c\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:1\",\"payload\":{\"command\":{\"id\":\"8d093624-3062-430b-9c3a-88b4dfbbeab7\",\"target\":{\"x\":11,\"y\":8},\"type\":\"move\"}},\"prevHash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"rulesRevision\":0,\"seq\":1,\"sourceIds\":[],\"step\":0,\"tick\":0,\"type\":\"player_command\"},{\"actorId\":\"player\",\"audience\":[\"mara\",\"player\"],\"hash\":\"71760f2e9c72fd67aef990fc29ae7047714e5463f4189e4fad74fba6214193b7\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:2\",\"payload\":{\"plotId\":\"plot-1\",\"seed\":1},\"prevHash\":\"e1373217496c4e3c293aa131f9f1f416733d763c97296a934c6e705326f29e5c\",\"rulesRevision\":0,\"seq\":2,\"sourceIds\":[],\"step\":112,\"tick\":11.2,\"type\":\"crop_planted\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"28087db3ab3eb0ffd8e394832e01f6295f45e4c0ca2aee43f894010b699e2faa\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:3\",\"payload\":{\"command\":{\"id\":\"5d250fd0-e2de-4f20-86b7-714393e99aed\",\"plotId\":\"plot-1\",\"type\":\"plant\"}},\"prevHash\":\"71760f2e9c72fd67aef990fc29ae7047714e5463f4189e4fad74fba6214193b7\",\"rulesRevision\":0,\"seq\":3,\"sourceIds\":[],\"step\":112,\"tick\":11.2,\"type\":\"player_command\"},{\"actorId\":\"player\",\"audience\":[\"mara\",\"player\"],\"hash\":\"31c03d10f8608106f0d3886ffa2a246adf45c134213ebfe07583effec6ff59e1\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:4\",\"payload\":{\"plotId\":\"plot-1\",\"readyAt\":4426,\"water\":1},\"prevHash\":\"28087db3ab3eb0ffd8e394832e01f6295f45e4c0ca2aee43f894010b699e2faa\",\"rulesRevision\":0,\"seq\":4,\"sourceIds\":[],\"step\":4246,\"tick\":424.6,\"type\":\"crop_watered\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"3cfad693d7a187dd50624010d74a9c2be30d96f083ba613449ee2c1023bf58ad\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:5\",\"payload\":{\"command\":{\"id\":\"a77ed8da-81e0-425e-98e7-3f9a00036f80\",\"plotId\":\"plot-1\",\"type\":\"water\"}},\"prevHash\":\"31c03d10f8608106f0d3886ffa2a246adf45c134213ebfe07583effec6ff59e1\",\"rulesRevision\":0,\"seq\":5,\"sourceIds\":[],\"step\":4246,\"tick\":424.6,\"type\":\"player_command\"},{\"actorId\":null,\"audience\":[\"mara\",\"player\"],\"hash\":\"3e45c0149e4d8cee6498261f2a9a48e728464735e36ce334cfba0c6ca9eb5060\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:6\",\"payload\":{\"plotId\":\"plot-1\"},\"prevHash\":\"3cfad693d7a187dd50624010d74a9c2be30d96f083ba613449ee2c1023bf58ad\",\"rulesRevision\":0,\"seq\":6,\"sourceIds\":[],\"step\":4426,\"tick\":442.6,\"type\":\"crop_ripened\"},{\"actorId\":null,\"audience\":[],\"hash\":\"6c48e0ddd9f8d45d013101f4cf0370da1aadfc274489d3a18f4525fd49433ac6\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:7\",\"payload\":{\"atStep\":4994,\"priorArchiveHash\":\"5439a18b03e1c50fa6af2489e00b63669110c871aa6dbce0d87c355166a5a0ae\",\"priorEventHash\":\"3e45c0149e4d8cee6498261f2a9a48e728464735e36ce334cfba0c6ca9eb5060\"},\"prevHash\":\"3e45c0149e4d8cee6498261f2a9a48e728464735e36ce334cfba0c6ca9eb5060\",\"rulesRevision\":0,\"seq\":7,\"sourceIds\":[],\"step\":4994,\"tick\":499.4,\"type\":\"cozy_history_checkpointed\"},{\"actorId\":\"ada\",\"audience\":[\"ada\"],\"hash\":\"79854c3ecfac6a288a140239eeeae263ca9a7e2ec5b98a8394458c13977feb67\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:8\",\"payload\":{\"item\":\"bread\",\"placeId\":\"bakery\",\"quantity\":1},\"prevHash\":\"6c48e0ddd9f8d45d013101f4cf0370da1aadfc274489d3a18f4525fd49433ac6\",\"rulesRevision\":0,\"seq\":8,\"sourceIds\":[],\"step\":5000,\"tick\":500,\"type\":\"goods_collected\"},{\"actorId\":\"ada\",\"audience\":[\"ada\"],\"hash\":\"73fdacbca56f657d91760460559c251da8883858a8797d9f09c04d7ea61e75b4\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:9\",\"payload\":{\"item\":\"bread\",\"quantity\":1},\"prevHash\":\"79854c3ecfac6a288a140239eeeae263ca9a7e2ec5b98a8394458c13977feb67\",\"rulesRevision\":0,\"seq\":9,\"sourceIds\":[],\"step\":5020,\"tick\":502,\"type\":\"npc_meal_eaten\"},{\"actorId\":\"player\",\"audience\":[\"mara\",\"player\"],\"hash\":\"e4a2e62946640b8d951889380cb700f43709abc04cc13725de0f67960cfb16be\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:10\",\"payload\":{\"item\":\"grain\",\"plotId\":\"plot-1\",\"quantity\":4},\"prevHash\":\"73fdacbca56f657d91760460559c251da8883858a8797d9f09c04d7ea61e75b4\",\"rulesRevision\":0,\"seq\":10,\"sourceIds\":[],\"step\":6236,\"tick\":623.6,\"type\":\"crop_harvested\"},{\"actorId\":\"mara\",\"audience\":[\"mara\",\"player\"],\"hash\":\"0e6780954d3fed4efdcfa23115dbf14de64e6326487b39e0f535772012f8b9a1\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:11\",\"payload\":{\"text\":\"I saw this harvest myself. Those supplies are real.\"},\"prevHash\":\"e4a2e62946640b8d951889380cb700f43709abc04cc13725de0f67960cfb16be\",\"rulesRevision\":0,\"seq\":11,\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:10\"],\"step\":6236,\"tick\":623.6,\"type\":\"npc_dialogue\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"24e9789e4f620d1e44264f737506ff187f9ec7f6628d26ba8dc0be83b0621de0\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:12\",\"payload\":{\"command\":{\"id\":\"0e12dff3-72d7-4fd2-b819-1f74a3ece217\",\"plotId\":\"plot-1\",\"type\":\"harvest\"}},\"prevHash\":\"0e6780954d3fed4efdcfa23115dbf14de64e6326487b39e0f535772012f8b9a1\",\"rulesRevision\":0,\"seq\":12,\"sourceIds\":[],\"step\":6236,\"tick\":623.6,\"type\":\"player_command\"},{\"actorId\":\"mara\",\"audience\":[\"ada\",\"mara\"],\"hash\":\"0612e5718202130b360e1a210a179ccee6d84adab233c9bedaa4830f0cb204ff\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:13\",\"payload\":{\"item\":\"bread\",\"placeId\":\"bakery\",\"quantity\":1},\"prevHash\":\"24e9789e4f620d1e44264f737506ff187f9ec7f6628d26ba8dc0be83b0621de0\",\"rulesRevision\":0,\"seq\":13,\"sourceIds\":[],\"step\":6600,\"tick\":660,\"type\":\"goods_collected\"},{\"actorId\":\"mara\",\"audience\":[\"ada\",\"mara\"],\"hash\":\"aeb35f192a477584ad411c50a6ca0eb347b67de4f5fee3050ffbb8e8896fbf3a\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:14\",\"payload\":{\"item\":\"bread\",\"quantity\":1},\"prevHash\":\"0612e5718202130b360e1a210a179ccee6d84adab233c9bedaa4830f0cb204ff\",\"rulesRevision\":0,\"seq\":14,\"sourceIds\":[],\"step\":6620,\"tick\":662,\"type\":\"npc_meal_eaten\"},{\"actorId\":\"wren\",\"audience\":[\"ada\",\"wren\"],\"hash\":\"545b72af753049e23fa1395c100a5311a57661e8a5c49e3577983374c0abcf2e\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:15\",\"payload\":{\"item\":\"grain\",\"placeId\":\"bakery\",\"quantity\":1},\"prevHash\":\"aeb35f192a477584ad411c50a6ca0eb347b67de4f5fee3050ffbb8e8896fbf3a\",\"rulesRevision\":0,\"seq\":15,\"sourceIds\":[],\"step\":7100,\"tick\":710,\"type\":\"goods_collected\"},{\"actorId\":\"player\",\"audience\":[\"mara\",\"player\"],\"hash\":\"3018851e1aeffb296502470e9f3342507e1f92cd01609ab94daee96523838142\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:16\",\"payload\":{\"accepted\":true,\"item\":\"grain\",\"npcId\":\"mara\",\"quantity\":1},\"prevHash\":\"545b72af753049e23fa1395c100a5311a57661e8a5c49e3577983374c0abcf2e\",\"rulesRevision\":0,\"seq\":16,\"sourceIds\":[],\"step\":7119,\"tick\":711.9,\"type\":\"gift_accepted\"},{\"actorId\":\"mara\",\"audience\":[\"mara\",\"player\"],\"hash\":\"f4d644f05aeb23de32713c6196743a77edaa3d649c3334d094d8658e9384a910\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:17\",\"payload\":{\"text\":\"Practical help. I appreciate that.\"},\"prevHash\":\"3018851e1aeffb296502470e9f3342507e1f92cd01609ab94daee96523838142\",\"rulesRevision\":0,\"seq\":17,\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:16\"],\"step\":7119,\"tick\":711.9,\"type\":\"npc_dialogue\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"b01cac6d4baedbf05785da596be491e0880ba7219ecc45c77d7fa227f7f83cac\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:18\",\"payload\":{\"command\":{\"id\":\"ec9d6e50-57ed-4640-92a6-ba11894c9088\",\"item\":\"grain\",\"npcId\":\"mara\",\"quantity\":1,\"type\":\"gift\"}},\"prevHash\":\"f4d644f05aeb23de32713c6196743a77edaa3d649c3334d094d8658e9384a910\",\"rulesRevision\":0,\"seq\":18,\"sourceIds\":[],\"step\":7119,\"tick\":711.9,\"type\":\"player_command\"},{\"actorId\":\"wren\",\"audience\":[\"ada\",\"wren\"],\"hash\":\"a7223a7f32213d2ccea52985bee8c90c96a0e762218962a33f84363360c6a259\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:19\",\"payload\":{\"item\":\"grain\",\"quantity\":1},\"prevHash\":\"b01cac6d4baedbf05785da596be491e0880ba7219ecc45c77d7fa227f7f83cac\",\"rulesRevision\":0,\"seq\":19,\"sourceIds\":[],\"step\":7120,\"tick\":712,\"type\":\"npc_meal_eaten\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"419ea30512c7f3a772da9da820425cd829ab368eb08d989bce085a49790048db\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:20\",\"payload\":{\"command\":{\"id\":\"5456ce57-8687-4630-9fb6-481018c231e3\",\"type\":\"stop\"}},\"prevHash\":\"a7223a7f32213d2ccea52985bee8c90c96a0e762218962a33f84363360c6a259\",\"rulesRevision\":0,\"seq\":20,\"sourceIds\":[],\"step\":7588,\"tick\":758.8,\"type\":\"player_command\"},{\"actorId\":null,\"audience\":[\"player\"],\"hash\":\"71d7a7932112e28ae371bf9d74a117960dd4ce85a5a16ccf66bc5a07aa6294e8\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:21\",\"payload\":{\"next\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"villagers\",\"seedReserve\":1,\"venue\":\"square\"},\"patch\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"villagers\",\"seedReserve\":1,\"venue\":\"square\"},\"previous\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"player\",\"seedReserve\":1,\"venue\":\"square\"},\"provenance\":{\"mode\":\"manual\",\"proposalId\":\"3cb27fb9-6b87-4a65-9759-c6d8bdd5ec50\"}},\"prevHash\":\"419ea30512c7f3a772da9da820425cd829ab368eb08d989bce085a49790048db\",\"rulesRevision\":1,\"seq\":21,\"sourceIds\":[],\"step\":8938,\"tick\":893.8,\"type\":\"rules_applied\"},{\"actorId\":\"wren\",\"audience\":[\"ada\",\"mara\",\"wren\"],\"hash\":\"1f172f5dcd3d7176451e83fb31dad29dc25b6e735228c4231b56ab3e9f679c19\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:22\",\"payload\":{\"festivalId\":1,\"foodTarget\":3,\"provenance\":\"deterministic rule policy\",\"source\":\"Public gathering request\",\"venue\":\"square\"},\"prevHash\":\"71d7a7932112e28ae371bf9d74a117960dd4ce85a5a16ccf66bc5a07aa6294e8\",\"rulesRevision\":1,\"seq\":22,\"sourceIds\":[],\"step\":8939,\"tick\":893.9,\"type\":\"festival_notice_posted\"},{\"actorId\":\"ada\",\"audience\":[\"ada\"],\"hash\":\"7a6f5b83bbe64d72d3fc4750fa5c3dec246edf5e72cbee11db50e0ebbf93e0c4\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:23\",\"payload\":{\"item\":\"grain\",\"placeId\":\"bakery\",\"quantity\":3},\"prevHash\":\"1f172f5dcd3d7176451e83fb31dad29dc25b6e735228c4231b56ab3e9f679c19\",\"rulesRevision\":1,\"seq\":23,\"sourceIds\":[],\"step\":8940,\"tick\":894,\"type\":\"goods_reserved\"},{\"actorId\":\"ada\",\"audience\":[\"ada\"],\"hash\":\"088858bf585fddeef4e39b8fec7af385ac2dfb5bcd76df369c8ee1e105571fd4\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:24\",\"payload\":{\"kind\":\"food\",\"provenance\":\"deterministic rule policy\",\"reason\":\"I can contribute actual grain to our shared table.\"},\"prevHash\":\"7a6f5b83bbe64d72d3fc4750fa5c3dec246edf5e72cbee11db50e0ebbf93e0c4\",\"rulesRevision\":1,\"seq\":24,\"sourceIds\":[],\"step\":8940,\"tick\":894,\"type\":\"festival_bid\"},{\"actorId\":\"mara\",\"audience\":[\"mara\"],\"hash\":\"af3b1703da5f3e1bbfe985b29d26c6c0ebd0223b18a73f81e07cfd7c485b6fa2\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:25\",\"payload\":{\"item\":\"timber\",\"placeId\":\"woodpile\",\"quantity\":1},\"prevHash\":\"088858bf585fddeef4e39b8fec7af385ac2dfb5bcd76df369c8ee1e105571fd4\",\"rulesRevision\":1,\"seq\":25,\"sourceIds\":[],\"step\":8940,\"tick\":894,\"type\":\"goods_reserved\"},{\"actorId\":\"mara\",\"audience\":[\"mara\"],\"hash\":\"9f313200234615ed3ed9b7bb1612873d62541c6ff14b208969b40df6952715c6\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:26\",\"payload\":{\"kind\":\"setup\",\"provenance\":\"deterministic rule policy\",\"reason\":\"A gathering needs a real, prepared place.\"},\"prevHash\":\"af3b1703da5f3e1bbfe985b29d26c6c0ebd0223b18a73f81e07cfd7c485b6fa2\",\"rulesRevision\":1,\"seq\":26,\"sourceIds\":[],\"step\":8940,\"tick\":894,\"type\":\"festival_bid\"},{\"actorId\":\"wren\",\"audience\":[\"wren\"],\"hash\":\"dc4d5f8f9f449e3ff5dc74cf0e0b91da70e15c751e527753510d462081d25d8f\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:27\",\"payload\":{\"kind\":\"invite\",\"provenance\":\"deterministic rule policy\",\"reason\":\"I want the others to feel welcome.\"},\"prevHash\":\"9f313200234615ed3ed9b7bb1612873d62541c6ff14b208969b40df6952715c6\",\"rulesRevision\":1,\"seq\":27,\"sourceIds\":[],\"step\":8940,\"tick\":894,\"type\":\"festival_bid\"},{\"actorId\":\"ada\",\"audience\":[\"ada\"],\"hash\":\"e41a1787f5211ce446afbe6ba5df3b0e8a5917b370def97394d2f1fdb65a68e0\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:28\",\"payload\":{\"item\":\"grain\",\"placeId\":\"bakery\",\"quantity\":3},\"prevHash\":\"dc4d5f8f9f449e3ff5dc74cf0e0b91da70e15c751e527753510d462081d25d8f\",\"rulesRevision\":1,\"seq\":28,\"sourceIds\":[],\"step\":8941,\"tick\":894.1,\"type\":\"goods_collected\"},{\"actorId\":\"mara\",\"audience\":[\"mara\"],\"hash\":\"d3cc70214e61ab78c97e458405cfeadd87c45457e9d2db9ce93fcb5dde3eb874\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:29\",\"payload\":{\"item\":\"timber\",\"placeId\":\"woodpile\",\"quantity\":1},\"prevHash\":\"e41a1787f5211ce446afbe6ba5df3b0e8a5917b370def97394d2f1fdb65a68e0\",\"rulesRevision\":1,\"seq\":29,\"sourceIds\":[],\"step\":8980,\"tick\":898,\"type\":\"goods_collected\"},{\"actorId\":\"wren\",\"audience\":[\"ada\",\"wren\"],\"hash\":\"67dbe75c2313b1a13973931c9c8ab51452bfa9218e9cf5f02941661cb3d21af1\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:30\",\"payload\":{\"festivalId\":1,\"npcId\":\"ada\",\"venue\":\"square\"},\"prevHash\":\"d3cc70214e61ab78c97e458405cfeadd87c45457e9d2db9ce93fcb5dde3eb874\",\"rulesRevision\":1,\"seq\":30,\"sourceIds\":[],\"step\":8982,\"tick\":898.2,\"type\":\"festival_invitation\"},{\"actorId\":\"wren\",\"audience\":[\"wren\"],\"hash\":\"1b5fe3ca1f7fa090cfd278ed5772115b8739dfbe62f9af1a8e2367fa214a83d8\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:31\",\"payload\":{\"kind\":\"invite\",\"provenance\":\"deterministic rule policy\",\"reason\":\"I want the others to feel welcome.\"},\"prevHash\":\"67dbe75c2313b1a13973931c9c8ab51452bfa9218e9cf5f02941661cb3d21af1\",\"rulesRevision\":1,\"seq\":31,\"sourceIds\":[],\"step\":9000,\"tick\":900,\"type\":\"festival_bid\"},{\"actorId\":\"ada\",\"audience\":[\"ada\",\"mara\"],\"hash\":\"a37ba57fe9c4d5d9f46d704a3bf7300d7f101d698b83d29c194039098967d6ee\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:32\",\"payload\":{\"festivalId\":1,\"quantity\":3,\"text\":\"Ada brought 3 grain.\",\"venue\":\"square\"},\"prevHash\":\"1b5fe3ca1f7fa090cfd278ed5772115b8739dfbe62f9af1a8e2367fa214a83d8\",\"rulesRevision\":1,\"seq\":32,\"sourceIds\":[],\"step\":9029,\"tick\":902.9,\"type\":\"festival_food_added\"},{\"actorId\":\"ada\",\"audience\":[\"ada\"],\"hash\":\"715d4a4462ee369fbf195416ca5267a08139062e07350f12df82192044d132b9\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:33\",\"payload\":{\"accepted\":true,\"provenance\":\"deterministic rule policy\",\"reason\":\"I saw that the preparations are ready.\"},\"prevHash\":\"a37ba57fe9c4d5d9f46d704a3bf7300d7f101d698b83d29c194039098967d6ee\",\"rulesRevision\":1,\"seq\":33,\"sourceIds\":[],\"step\":9040,\"tick\":904,\"type\":\"festival_commitment\"},{\"actorId\":\"wren\",\"audience\":[\"mara\",\"wren\"],\"hash\":\"154bbcd0331cfd7df0db9daf613431696bc4c335e95e96f4786aef27035d1fcb\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:34\",\"payload\":{\"festivalId\":1,\"npcId\":\"mara\",\"venue\":\"square\"},\"prevHash\":\"715d4a4462ee369fbf195416ca5267a08139062e07350f12df82192044d132b9\",\"rulesRevision\":1,\"seq\":34,\"sourceIds\":[],\"step\":9049,\"tick\":904.9,\"type\":\"festival_invitation\"},{\"actorId\":\"ada\",\"audience\":[\"ada\",\"mara\",\"wren\"],\"hash\":\"02bcf75e9d95bcdf37a64bf9c0630e34da07860cd2f73166c99130aca782096e\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:35\",\"payload\":{\"attendanceSpot\":{\"x\":12,\"y\":17},\"festivalId\":1,\"position\":{\"x\":12,\"y\":17},\"text\":\"Ada arrived of their own accord.\",\"venue\":\"square\"},\"prevHash\":\"154bbcd0331cfd7df0db9daf613431696bc4c335e95e96f4786aef27035d1fcb\",\"rulesRevision\":1,\"seq\":35,\"sourceIds\":[],\"step\":9052,\"tick\":905.2,\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"audience\":[\"wren\"],\"hash\":\"511ee50b539480250011608f25bd1439ed0238f8607f4fd4353afdde55bac543\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:36\",\"payload\":{\"accepted\":true,\"provenance\":\"deterministic rule policy\",\"reason\":\"I enjoy bringing people together.\"},\"prevHash\":\"02bcf75e9d95bcdf37a64bf9c0630e34da07860cd2f73166c99130aca782096e\",\"rulesRevision\":1,\"seq\":36,\"sourceIds\":[],\"step\":9060,\"tick\":906,\"type\":\"festival_commitment\"},{\"actorId\":\"mara\",\"audience\":[\"ada\",\"mara\",\"wren\"],\"hash\":\"0a493b7d0afda9251f1926badabbe75156df9672c6178050a831c64c0f7a341f\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:37\",\"payload\":{\"festivalId\":1,\"text\":\"Mara prepared the gathering place.\",\"timber\":1,\"venue\":\"square\"},\"prevHash\":\"511ee50b539480250011608f25bd1439ed0238f8607f4fd4353afdde55bac543\",\"rulesRevision\":1,\"seq\":37,\"sourceIds\":[],\"step\":9061,\"tick\":906.1,\"type\":\"festival_setup_completed\"},{\"actorId\":\"wren\",\"audience\":[\"ada\",\"mara\",\"wren\"],\"hash\":\"67d2acfcd1a9b7f06add7f2b839bd590e87371bb4615c81196f744645b307ca5\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:38\",\"payload\":{\"attendanceSpot\":{\"x\":16,\"y\":17},\"festivalId\":1,\"position\":{\"x\":16,\"y\":17},\"text\":\"Wren arrived of their own accord.\",\"venue\":\"square\"},\"prevHash\":\"0a493b7d0afda9251f1926badabbe75156df9672c6178050a831c64c0f7a341f\",\"rulesRevision\":1,\"seq\":38,\"sourceIds\":[],\"step\":9077,\"tick\":907.7,\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"audience\":[\"ada\",\"mara\",\"wren\"],\"hash\":\"ded1e51906e90f92af6bb439c8f7990ad04b932879ea0f2720922d1a78d1649c\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:39\",\"payload\":{\"festivalId\":1,\"participants\":[\"ada\",\"wren\"],\"quantity\":3,\"text\":\"The villagers gathered around food they really brought.\",\"venue\":\"square\"},\"prevHash\":\"67d2acfcd1a9b7f06add7f2b839bd590e87371bb4615c81196f744645b307ca5\",\"rulesRevision\":1,\"seq\":39,\"sourceIds\":[],\"step\":9077,\"tick\":907.7,\"type\":\"festival_started\"},{\"actorId\":\"mara\",\"audience\":[\"mara\"],\"hash\":\"65cd2d1c922651f8c2e14b7a2fd7e70567140af691b159822e5750896472f04f\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:40\",\"payload\":{\"accepted\":true,\"provenance\":\"deterministic rule policy\",\"reason\":\"The preparations are ready, and I would like to join.\"},\"prevHash\":\"ded1e51906e90f92af6bb439c8f7990ad04b932879ea0f2720922d1a78d1649c\",\"rulesRevision\":1,\"seq\":40,\"sourceIds\":[],\"step\":9080,\"tick\":908,\"type\":\"festival_commitment\"},{\"actorId\":\"mara\",\"audience\":[\"ada\",\"mara\",\"wren\"],\"hash\":\"f2021062e871030a9a920a7a9df8f41371760b1c880f290792491eeee9fb7e02\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:41\",\"payload\":{\"attendanceSpot\":{\"x\":14,\"y\":17},\"festivalId\":1,\"position\":{\"x\":14,\"y\":17},\"text\":\"Mara arrived of their own accord.\",\"venue\":\"square\"},\"prevHash\":\"65cd2d1c922651f8c2e14b7a2fd7e70567140af691b159822e5750896472f04f\",\"rulesRevision\":1,\"seq\":41,\"sourceIds\":[],\"step\":9084,\"tick\":908.4,\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"audience\":[\"ada\",\"mara\",\"wren\"],\"hash\":\"8e26a95f651abeb0beac0ed0bbf871b1334a7bdb2fa1d3e3e7deca471212c05f\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:42\",\"payload\":{\"festivalId\":1,\"participants\":[\"ada\",\"wren\",\"mara\"],\"text\":\"A small festival became a shared memory.\",\"venue\":\"square\"},\"prevHash\":\"f2021062e871030a9a920a7a9df8f41371760b1c880f290792491eeee9fb7e02\",\"rulesRevision\":1,\"seq\":42,\"sourceIds\":[],\"step\":9177,\"tick\":917.7,\"type\":\"festival_completed\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"a26b1b83005d116da8dec2b82d1199ab4376d10df818b8e6f529c909aba77842\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:43\",\"payload\":{\"command\":{\"id\":\"ddbb0c95-c351-4235-9627-c620684de9ec\",\"type\":\"stop\"}},\"prevHash\":\"8e26a95f651abeb0beac0ed0bbf871b1334a7bdb2fa1d3e3e7deca471212c05f\",\"rulesRevision\":1,\"seq\":43,\"sourceIds\":[],\"step\":9356,\"tick\":935.6,\"type\":\"player_command\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"5196fda09a0ba84c17f8b4e914442b93d31e2a7336c536ea2722828cb958669e\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:44\",\"payload\":{\"command\":{\"id\":\"003727ba-d245-47a5-b6ee-def3af5989c2\",\"type\":\"stop\"}},\"prevHash\":\"a26b1b83005d116da8dec2b82d1199ab4376d10df818b8e6f529c909aba77842\",\"rulesRevision\":1,\"seq\":44,\"sourceIds\":[],\"step\":10151,\"tick\":1015.1,\"type\":\"player_command\"},{\"actorId\":null,\"audience\":[],\"hash\":\"2761b9fbd9df4286345a0938ee9eecb138dfac05ca102d973943c940e5f892b2\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:45\",\"payload\":{\"atStep\":10537,\"priorArchiveHash\":\"da26e78bc6994745a3e68f4010b7753283e1ebf6570f1e7e50fb55781b24bd3f\",\"priorEventHash\":\"5196fda09a0ba84c17f8b4e914442b93d31e2a7336c536ea2722828cb958669e\"},\"prevHash\":\"5196fda09a0ba84c17f8b4e914442b93d31e2a7336c536ea2722828cb958669e\",\"rulesRevision\":1,\"seq\":45,\"sourceIds\":[],\"step\":10537,\"tick\":1053.7,\"type\":\"cozy_history_checkpointed\"},{\"actorId\":null,\"audience\":[],\"hash\":\"d8bb9524dee739f70cd0bb6734474496ed9db1f38aa4436951bf36c0a579210b\",\"id\":\"981c6fd3-c216-47d1-95c6-7a43ff765781:46\",\"payload\":{\"atStep\":14973,\"parentBranchId\":\"1f0b371d-ac44-495e-ac0a-db8bef168443\",\"parentHash\":\"b2fc59a8655723aaa9eaed4f6f8f84bba65b878550b672067832d2f073b7107c\"},\"prevHash\":\"2761b9fbd9df4286345a0938ee9eecb138dfac05ca102d973943c940e5f892b2\",\"rulesRevision\":1,\"seq\":46,\"sourceIds\":[],\"step\":14973,\"tick\":1497.3,\"type\":\"cozy_branch_forked\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"7f6d2fac0d1b8a4f2d5f0867ebbafabe5e22151fcfb5ed227f4e5e422d8d66a6\",\"id\":\"981c6fd3-c216-47d1-95c6-7a43ff765781:47\",\"payload\":{\"command\":{\"id\":\"fec8ce17-fb93-47d5-a2d2-c1fb4f76779d\",\"type\":\"stop\"}},\"prevHash\":\"d8bb9524dee739f70cd0bb6734474496ed9db1f38aa4436951bf36c0a579210b\",\"rulesRevision\":1,\"seq\":47,\"sourceIds\":[],\"step\":14973,\"tick\":1497.3,\"type\":\"player_command\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"767624fff981495a6f55b7ce1800a51c5691e03834ef06617a6f2a0f96650c94\",\"id\":\"981c6fd3-c216-47d1-95c6-7a43ff765781:48\",\"payload\":{\"command\":{\"id\":\"fb90ebd8-aa8d-433c-8a0a-672246469983\",\"type\":\"stop\"}},\"prevHash\":\"7f6d2fac0d1b8a4f2d5f0867ebbafabe5e22151fcfb5ed227f4e5e422d8d66a6\",\"rulesRevision\":1,\"seq\":48,\"sourceIds\":[],\"step\":14973,\"tick\":1497.3,\"type\":\"player_command\"},{\"actorId\":null,\"audience\":[],\"hash\":\"a3bad8eab45eb0eec99f94e3c0212aa38936bbecfcaafd1a3ca062c8eea07059\",\"id\":\"49915440-c13a-4d30-b84d-cf73cd0d2654:49\",\"payload\":{\"atStep\":14973,\"parentBranchId\":\"981c6fd3-c216-47d1-95c6-7a43ff765781\",\"parentHash\":\"8aa02c9c38810353cf195d743a29809abd56c32eab48c8b68b28b9cdb0375787\"},\"prevHash\":\"767624fff981495a6f55b7ce1800a51c5691e03834ef06617a6f2a0f96650c94\",\"rulesRevision\":1,\"seq\":49,\"sourceIds\":[],\"step\":14973,\"tick\":1497.3,\"type\":\"cozy_branch_forked\"}],\"festival\":{\"announced\":true,\"completedAt\":9177,\"food\":0,\"foodReserved\":{},\"id\":1,\"invitations\":{\"ada\":{\"source\":\"wren\",\"step\":8982},\"mara\":{\"source\":\"wren\",\"step\":9049}},\"participants\":[\"ada\",\"wren\",\"mara\"],\"phase\":\"complete\",\"setupDone\":true,\"setupOwner\":null,\"startedAt\":9077,\"venue\":\"square\"},\"flood\":{\"active\":false,\"egress\":[],\"expiresAt\":null,\"ruleRevision\":0,\"startedAt\":null},\"ledger\":{\"consumed\":{\"bread\":2,\"grain\":5,\"timber\":1,\"water\":1},\"environment\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"initial\":{\"bread\":2,\"grain\":11,\"timber\":6,\"water\":14},\"produced\":{\"bread\":0,\"grain\":4,\"timber\":0,\"water\":0},\"waste\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},\"nextId\":1,\"npcs\":[{\"action\":\"Enjoying a familiar walk\",\"affinity\":43,\"festivalAccepted\":true,\"festivalObservation\":{\"food\":0,\"id\":1,\"phase\":\"complete\",\"setupDone\":true,\"step\":9208,\"venue\":\"square\"},\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":90},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"ada-home\",\"id\":\"ada\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":true,\"lastDecisionStep\":14960,\"lastGiftStep\":-1000,\"memories\":[{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:8/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:8\"],\"step\":5000,\"text\":\"Ada collected 1 bread at Ada\u2019s bakery.\",\"type\":\"goods_collected\"},{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:9/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:9\"],\"step\":5020,\"text\":\"Ada ate a real meal before helping again.\",\"type\":\"npc_meal_eaten\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:13/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:13\"],\"step\":6600,\"text\":\"Mara collected 1 bread at Ada\u2019s bakery.\",\"type\":\"goods_collected\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:14/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:14\"],\"step\":6620,\"text\":\"Mara ate a real meal before helping again.\",\"type\":\"npc_meal_eaten\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:15/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:15\"],\"step\":7100,\"text\":\"Wren collected 1 grain at Ada\u2019s bakery.\",\"type\":\"goods_collected\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:19/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:19\"],\"step\":7120,\"text\":\"Wren ate a real meal before helping again.\",\"type\":\"npc_meal_eaten\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:22/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:22\"],\"step\":8939,\"text\":\"The village notice asks for food, a prepared space and invitations. Each villager chooses whether to help.\",\"type\":\"festival_notice_posted\"},{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:24/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:24\"],\"step\":8940,\"text\":\"Ada chose to help with food.\",\"type\":\"festival_bid\"},{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:28/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:28\"],\"step\":8941,\"text\":\"Ada collected 3 grain at Ada\u2019s bakery.\",\"type\":\"goods_collected\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:30/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:30\"],\"step\":8982,\"text\":\"wren invited Ada to the gathering.\",\"type\":\"festival_invitation\"},{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:32/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:32\"],\"step\":9029,\"text\":\"Ada brought 3 grain.\",\"type\":\"festival_food_added\"},{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:35/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:35\"],\"step\":9052,\"text\":\"Ada arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:37/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:37\"],\"step\":9061,\"text\":\"Mara prepared the gathering place.\",\"type\":\"festival_setup_completed\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:38/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:38\"],\"step\":9077,\"text\":\"Wren arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:39/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:39\"],\"step\":9077,\"text\":\"The villagers gathered around food they really brought.\",\"type\":\"festival_started\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:41/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:41\"],\"step\":9084,\"text\":\"Mara arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:42/m/ada\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:42\"],\"step\":9177,\"text\":\"A small festival became a shared memory.\",\"type\":\"festival_completed\"}],\"name\":\"Ada\",\"needs\":{\"energy\":77,\"hunger\":84,\"social\":57},\"path\":[],\"reason\":\"I saw that the preparations are ready.\",\"task\":null,\"traits\":[\"Practical baker\",\"Grateful for useful grain\"],\"trust\":51,\"x\":26,\"y\":6},{\"action\":\"Enjoying a familiar walk\",\"affinity\":46,\"festivalAccepted\":true,\"festivalObservation\":{\"food\":0,\"id\":1,\"phase\":\"complete\",\"setupDone\":true,\"step\":9200,\"venue\":\"square\"},\"giftCount\":1,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":65},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":90}],\"harvestsSeen\":1,\"homeId\":\"mara-home\",\"id\":\"mara\",\"inventory\":{\"bread\":0,\"grain\":1,\"timber\":0,\"water\":0},\"knownFestival\":true,\"lastDecisionStep\":14960,\"lastGiftStep\":7119,\"memories\":[{\"actorId\":\"player\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:2/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:2\"],\"step\":112,\"text\":\"You planted one grain seed.\",\"type\":\"crop_planted\"},{\"actorId\":\"player\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:4/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:4\"],\"step\":4246,\"text\":\"You watered the wheat.\",\"type\":\"crop_watered\"},{\"actorId\":null,\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:6/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:6\"],\"step\":4426,\"text\":\"The watered wheat is ready to harvest.\",\"type\":\"crop_ripened\"},{\"actorId\":\"player\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:10/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:10\"],\"step\":6236,\"text\":\"You harvested four grain from wheat you grew.\",\"type\":\"crop_harvested\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:11/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:11\",\"1f0b371d-ac44-495e-ac0a-db8bef168443:10\"],\"step\":6236,\"text\":\"Mara: I saw this harvest myself. Those supplies are real.\",\"type\":\"npc_dialogue\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:13/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:13\"],\"step\":6600,\"text\":\"Mara collected 1 bread at Ada\u2019s bakery.\",\"type\":\"goods_collected\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:14/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:14\"],\"step\":6620,\"text\":\"Mara ate a real meal before helping again.\",\"type\":\"npc_meal_eaten\"},{\"actorId\":\"player\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:16/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:16\"],\"step\":7119,\"text\":\"Mara accepted your gift.\",\"type\":\"gift_accepted\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:17/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:17\",\"1f0b371d-ac44-495e-ac0a-db8bef168443:16\"],\"step\":7119,\"text\":\"Mara: Practical help. I appreciate that.\",\"type\":\"npc_dialogue\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:22/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:22\"],\"step\":8939,\"text\":\"The village notice asks for food, a prepared space and invitations. Each villager chooses whether to help.\",\"type\":\"festival_notice_posted\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:26/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:26\"],\"step\":8940,\"text\":\"Mara chose to help with setup.\",\"type\":\"festival_bid\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:29/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:29\"],\"step\":8980,\"text\":\"Mara collected 1 timber at Shared woodpile.\",\"type\":\"goods_collected\"},{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:32/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:32\"],\"step\":9029,\"text\":\"Ada brought 3 grain.\",\"type\":\"festival_food_added\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:34/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:34\"],\"step\":9049,\"text\":\"wren invited Mara to the gathering.\",\"type\":\"festival_invitation\"},{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:35/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:35\"],\"step\":9052,\"text\":\"Ada arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:37/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:37\"],\"step\":9061,\"text\":\"Mara prepared the gathering place.\",\"type\":\"festival_setup_completed\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:38/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:38\"],\"step\":9077,\"text\":\"Wren arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:39/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:39\"],\"step\":9077,\"text\":\"The villagers gathered around food they really brought.\",\"type\":\"festival_started\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:41/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:41\"],\"step\":9084,\"text\":\"Mara arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:42/m/mara\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:42\"],\"step\":9177,\"text\":\"A small festival became a shared memory.\",\"type\":\"festival_completed\"}],\"name\":\"Mara\",\"needs\":{\"energy\":81,\"hunger\":69,\"social\":57},\"path\":[],\"reason\":\"The preparations are ready, and I would like to join.\",\"task\":null,\"traits\":[\"Careful planner\",\"Checks preparations\"],\"trust\":53,\"x\":11,\"y\":8},{\"action\":\"Enjoying a familiar walk\",\"affinity\":43,\"festivalAccepted\":true,\"festivalObservation\":{\"food\":0,\"id\":1,\"phase\":\"complete\",\"setupDone\":true,\"step\":14973,\"venue\":\"square\"},\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":60},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":95},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"wren-home\",\"id\":\"wren\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":true,\"lastDecisionStep\":14960,\"lastGiftStep\":-1000,\"memories\":[{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:15/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:15\"],\"step\":7100,\"text\":\"Wren collected 1 grain at Ada\u2019s bakery.\",\"type\":\"goods_collected\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:19/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:19\"],\"step\":7120,\"text\":\"Wren ate a real meal before helping again.\",\"type\":\"npc_meal_eaten\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:22/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:22\"],\"step\":8939,\"text\":\"The village notice asks for food, a prepared space and invitations. Each villager chooses whether to help.\",\"type\":\"festival_notice_posted\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:27/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:27\"],\"step\":8940,\"text\":\"Wren chose to help with invite.\",\"type\":\"festival_bid\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:30/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:30\"],\"step\":8982,\"text\":\"wren invited Ada to the gathering.\",\"type\":\"festival_invitation\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:31/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:31\"],\"step\":9000,\"text\":\"Wren chose to help with invite.\",\"type\":\"festival_bid\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:34/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:34\"],\"step\":9049,\"text\":\"wren invited Mara to the gathering.\",\"type\":\"festival_invitation\"},{\"actorId\":\"ada\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:35/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:35\"],\"step\":9052,\"text\":\"Ada arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:37/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:37\"],\"step\":9061,\"text\":\"Mara prepared the gathering place.\",\"type\":\"festival_setup_completed\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:38/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:38\"],\"step\":9077,\"text\":\"Wren arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:39/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:39\"],\"step\":9077,\"text\":\"The villagers gathered around food they really brought.\",\"type\":\"festival_started\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:41/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:41\"],\"step\":9084,\"text\":\"Mara arrived of their own accord.\",\"type\":\"festival_arrival\"},{\"actorId\":\"wren\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:42/m/wren\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:42\"],\"step\":9177,\"text\":\"A small festival became a shared memory.\",\"type\":\"festival_completed\"}],\"name\":\"Wren\",\"needs\":{\"energy\":92,\"hunger\":64,\"social\":57},\"path\":[],\"reason\":\"I enjoy bringing people together.\",\"task\":null,\"traits\":[\"Sociable courier\",\"Shares good news\"],\"trust\":51,\"x\":14,\"y\":16}],\"operations\":[],\"origin\":{\"branchId\":\"49915440-c13a-4d30-b84d-cf73cd0d2654\",\"parentBranchId\":\"981c6fd3-c216-47d1-95c6-7a43ff765781\",\"parentHash\":\"8aa02c9c38810353cf195d743a29809abd56c32eab48c8b68b28b9cdb0375787\",\"seed\":137},\"places\":[{\"id\":\"player-home\",\"kind\":\"home\",\"name\":\"Your cottage\",\"position\":{\"x\":4,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"mara-home\",\"kind\":\"home\",\"name\":\"Mara\u2019s cottage\",\"position\":{\"x\":4,\"y\":6},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"bakery\",\"kind\":\"bakery\",\"name\":\"Ada\u2019s bakery\",\"position\":{\"x\":26,\"y\":6},\"stock\":{\"bread\":0,\"grain\":3,\"timber\":0,\"water\":0}},{\"id\":\"ada-home\",\"kind\":\"home\",\"name\":\"Ada\u2019s cottage\",\"position\":{\"x\":28,\"y\":11},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"wren-home\",\"kind\":\"home\",\"name\":\"Wren\u2019s cottage\",\"position\":{\"x\":27,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"well\",\"kind\":\"well\",\"name\":\"Catchment well\",\"position\":{\"x\":8,\"y\":14},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":12}},{\"id\":\"woodpile\",\"kind\":\"woodpile\",\"name\":\"Shared woodpile\",\"position\":{\"x\":5,\"y\":12},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":4,\"water\":0}},{\"id\":\"square\",\"kind\":\"venue\",\"name\":\"Village square\",\"position\":{\"x\":14,\"y\":16},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"market\",\"kind\":\"venue\",\"name\":\"Market green\",\"position\":{\"x\":24,\"y\":15},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}}],\"player\":{\"action\":\"Enjoying the village\",\"gifts\":1,\"harvests\":1,\"id\":\"player\",\"inventory\":{\"bread\":0,\"grain\":6,\"timber\":1,\"water\":1},\"memories\":[{\"actorId\":\"player\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:2/m/player\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:2\"],\"step\":112,\"text\":\"You planted one grain seed.\",\"type\":\"crop_planted\"},{\"actorId\":\"player\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:4/m/player\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:4\"],\"step\":4246,\"text\":\"You watered the wheat.\",\"type\":\"crop_watered\"},{\"actorId\":null,\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:6/m/player\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:6\"],\"step\":4426,\"text\":\"The watered wheat is ready to harvest.\",\"type\":\"crop_ripened\"},{\"actorId\":\"player\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:10/m/player\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:10\"],\"step\":6236,\"text\":\"You harvested four grain from wheat you grew.\",\"type\":\"crop_harvested\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:11/m/player\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:11\",\"1f0b371d-ac44-495e-ac0a-db8bef168443:10\"],\"step\":6236,\"text\":\"Mara: I saw this harvest myself. Those supplies are real.\",\"type\":\"npc_dialogue\"},{\"actorId\":\"player\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:16/m/player\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:16\"],\"step\":7119,\"text\":\"Mara accepted your gift.\",\"type\":\"gift_accepted\"},{\"actorId\":\"mara\",\"id\":\"1f0b371d-ac44-495e-ac0a-db8bef168443:17/m/player\",\"sourceIds\":[\"1f0b371d-ac44-495e-ac0a-db8bef168443:17\",\"1f0b371d-ac44-495e-ac0a-db8bef168443:16\"],\"step\":7119,\"text\":\"Mara: Practical help. I appreciate that.\",\"type\":\"npc_dialogue\"}],\"name\":\"You\",\"path\":[],\"task\":null,\"x\":11,\"y\":8},\"plots\":[{\"harvestCount\":1,\"id\":\"plot-1\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":11,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":192,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-2\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":13,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":216,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-3\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":14,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":240,\"y\":124},\"wateredAt\":null}],\"reservations\":[],\"ruleHistory\":[{\"kind\":\"apply\",\"next\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"villagers\",\"seedReserve\":1,\"venue\":\"square\"},\"operationIndex\":675,\"originHash\":\"59ee161fb3a24664802b1ad1315669438274df242b01c653ed448f05bc68ddd5\",\"originStep\":4994,\"patch\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"villagers\",\"seedReserve\":1,\"venue\":\"square\"},\"previous\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"player\",\"seedReserve\":1,\"venue\":\"square\"},\"provenance\":{\"mode\":\"manual\",\"proposalId\":\"3cb27fb9-6b87-4a65-9759-c6d8bdd5ec50\"},\"revision\":1,\"step\":8938}],\"rules\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"villagers\",\"seedReserve\":1,\"venue\":\"square\"},\"rulesRevision\":1,\"seed\":137,\"step\":14973,\"tick\":1497.3,\"version\":1}"
+    },
+    "operations": [
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "49ce47ba-8881-4e61-9c54-5d87235ae9ae"
+        }
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "350282ed-3a02-4e68-a45e-b2e062683d3b"
+        }
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "7c287208-e970-464e-8fd8-6491f6c2d9af"
+        }
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 8,
+            "y": 8
+          },
+          "id": "b1a91eaa-63bb-4fed-9569-ea98d12fcfcd"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "841a09ff-8f2d-4d7b-a269-e2893b8cff94"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 11,
+            "y": 9
+          },
+          "id": "98669a09-8ecb-4760-8907-4845eefc02a1"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 11,
+            "y": 9
+          },
+          "id": "422cd083-d946-4d5e-a9b9-2040e558f262"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 11,
+            "y": 9
+          },
+          "id": "3fa37200-d41c-4772-8a87-9af140b00924"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 11,
+            "y": 9
+          },
+          "id": "e92f9078-7476-4a2a-ab10-5fc98d2d900e"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "3db15b66-065f-4c32-8c8a-4f25fc4af9f1"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      }
+    ],
+    "finalStep": 15116,
+    "finalHash": "e728189f856d71c77f39058ff18253b333e61a4350ac2de696ec6f18ec3b12f8",
+    "eventHead": "843150ff344b75520c34cd6ce8613598c518a52a80f052eb810107719754065e"
+  },
+  "clock": {
+    "paused": true,
+    "pace": 1
+  },
+  "providerAudit": [],
+  "importedProviderAudit": {
+    "provenance": "unverified-import",
+    "records": []
+  },
+  "archiveIndex": [],
+  "notice": "Local prototype started October25. Rule-policy simulation; imported provider claims are unverified. No final submission."
+}

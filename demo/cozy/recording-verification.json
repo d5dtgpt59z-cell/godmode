@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "modelCalls": 0,
+  "providerInferenceIncluded": false,
+  "results": [
+    {
+      "file": "primary-recording.json",
+      "step": 954,
+      "finalHash": "c1cd1a3467936f32d23c90812577fd7e36d8f765fe611c760e4c314b98db4842",
+      "eventHead": "8eb8ff11965db39e223f505a4d72b3624348d69cb541c244cbf91443fbd00c64",
+      "operations": 331,
+      "replayVerified": true,
+      "festival": "complete",
+      "participants": [
+        "wren",
+        "mara",
+        "ada"
+      ],
+      "placeFieldsDefined": true,
+      "modelPlanOperations": 0
+    },
+    {
+      "file": "baseline-recording.json",
+      "step": 954,
+      "finalHash": "f89b3462911509d31f6649cfeddfe527073617c25738266178073db7861fe953",
+      "eventHead": "9eb6b8ac3235e76336ebebaa85176fa15ec9e4b4cddc11e2efb0cc80dc57c4e2",
+      "operations": 141,
+      "replayVerified": true,
+      "festival": "planning",
+      "participants": [],
+      "placeFieldsDefined": true,
+      "modelPlanOperations": 0
+    }
+  ]
+}

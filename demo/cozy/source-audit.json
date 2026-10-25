@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-10-25T17:17:58.058175+00:00",
+  "engineFiles": [
+    {
+      "snapshot": "cozy/contracts.ts",
+      "sha256": "2d6a721b08c1e9c81b6ddde20682001f732c55037ee22b734b6feb62f374bf79",
+      "matchesLiveSource": true
+    },
+    {
+      "snapshot": "cozy/engine.ts",
+      "sha256": "2c886ed63bcc7ebc1c6888cbfcec2cc4e40c6554a9ad1707243e4591e21db232",
+      "matchesLiveSource": true
+    },
+    {
+      "snapshot": "cozy/replay.ts",
+      "sha256": "02a9c7bee2cc09bd10f1c2c4b3ad17b8f9830020d555a48be8e264ab6d2e0c8f",
+      "matchesLiveSource": true
+    },
+    {
+      "snapshot": "cozy/index.ts",
+      "sha256": "2b270e9032d5d3419b8f7bd6a1f0c1fdd3e3387a49b31baed6e9c975f4c16a42",
+      "matchesLiveSource": true
+    },
+    {
+      "snapshot": "cozy/world.ts",
+      "sha256": "f0f5dd32e2832d295c897cefe2874418d42fa9170e66efdda214e6fa454fde20",
+      "matchesLiveSource": true
+    },
+    {
+      "snapshot": "sim/canonical.ts",
+      "sha256": "63390b860611ec3832c788746a6127f31c873e3b330fe65e67adfd1efb66b033",
+      "matchesLiveSource": true
+    }
+  ],
+  "allFrozenSourceMatchesFinalSource": true,
+  "placeNameKindChecks": 4266,
+  "missingPlaceFields": 0,
+  "placeAndCropArtGeometryMatches": true,
+  "snapshotCount": 474,
+  "recordedAttendancePositions": [
+    {
+      "actor": "wren",
+      "step": 677,
+      "position": {
+        "x": 16,
+        "y": 17
+      }
+    },
+    {
+      "actor": "mara",
+      "step": 824,
+      "position": {
+        "x": 14,
+        "y": 17
+      }
+    },
+    {
+      "actor": "ada",
+      "step": 832,
+      "position": {
+        "x": 12,
+        "y": 17
+      }
+    }
+  ],
+  "renderOnlyActorOffsets": 0,
+  "strictTypeScriptCheck": {
+    "passed": true,
+    "files": [
+      "generate-recording.ts",
+      "verify-recordings.ts"
+    ],
+    "includesTransitiveFrozenEngine": true,
+    "settings": [
+      "noEmit",
+      "strict",
+      "targetES2022",
+      "moduleESNext",
+      "moduleResolutionBundler",
+      "skipLibCheck"
+    ]
+  }
+}

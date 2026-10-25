@@ -1,0 +1,32 @@
+[
+  {
+    "source": "outputs/godmode/lib/cozy/contracts.ts",
+    "snapshot": "cozy/contracts.ts",
+    "sha256": "2d6a721b08c1e9c81b6ddde20682001f732c55037ee22b734b6feb62f374bf79"
+  },
+  {
+    "source": "outputs/godmode/lib/cozy/engine.ts",
+    "snapshot": "cozy/engine.ts",
+    "sha256": "2c886ed63bcc7ebc1c6888cbfcec2cc4e40c6554a9ad1707243e4591e21db232"
+  },
+  {
+    "source": "outputs/godmode/lib/cozy/replay.ts",
+    "snapshot": "cozy/replay.ts",
+    "sha256": "02a9c7bee2cc09bd10f1c2c4b3ad17b8f9830020d555a48be8e264ab6d2e0c8f"
+  },
+  {
+    "source": "outputs/godmode/lib/cozy/index.ts",
+    "snapshot": "cozy/index.ts",
+    "sha256": "2b270e9032d5d3419b8f7bd6a1f0c1fdd3e3387a49b31baed6e9c975f4c16a42"
+  },
+  {
+    "source": "outputs/godmode/lib/cozy/world.ts",
+    "snapshot": "cozy/world.ts",
+    "sha256": "f0f5dd32e2832d295c897cefe2874418d42fa9170e66efdda214e6fa454fde20"
+  },
+  {
+    "source": "outputs/godmode/lib/sim/canonical.ts",
+    "snapshot": "sim/canonical.ts",
+    "sha256": "63390b860611ec3832c788746a6127f31c873e3b330fe65e67adfd1efb66b033"
+  }
+]

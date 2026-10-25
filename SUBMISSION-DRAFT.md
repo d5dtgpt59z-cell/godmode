@@ -1,53 +1,49 @@
 # GODMODE — submission draft
 
-**DRAFT ONLY — FINAL SUBMISSION ON HOLD.** The user authorized implementation/preparation and explicitly prohibited final submission. This is not an organizer-approved entry, completed application update or final-project receipt. Do not paste or submit these materials until the separate eligibility and final-field checks are satisfied and the user changes that hold.
+**DRAFT ONLY. FINAL SUBMISSION ON HOLD.** This text is for preparation/review and must not be submitted under the current instruction. Final rules, eligibility, pivot permission and mandatory fields remain unresolved.
 
-Snapshot: October 25, 2026. Applicant: **Ryan Morrison**, founder of Built by Magnus LLC, Creative Director at North of Common Capital, independent developer. Application track: **Indie Dev**. The received application proposed Worldlift; permission/process for changing the final project to GODMODE remains unconfirmed.
+Applicant: **Ryan Morrison**, founder of Built by Magnus LLC, Creative Director at North of Common Capital, independent developer. Existing application track: Indie Dev; submitted proposal: Worldlift. Snapshot: October 25, 2026.
 
-## Proposed title and pitch
+## Title and intended experience
 
-**GODMODE — a little world with a memory.**
+**GODMODE — A small world. Its own ideas.**
 
-Bellwether is a playable, secular microcosm of 24 residents with different needs, goals, relationships and partial knowledge. Watch them carry supplies, bake, build a crossing and share information. Change one condition—rain, a finite delivery or a note—then follow the physical and social consequences. Inspect what a resident actually received, rewind a recorded moment and branch into another future.
+Grow a little wheat. Give a neighbor something useful. Then ask what should change in your town.
 
-The intended audience is people building or exploring agent-driven games: a readable environment for examining coordination and information flow, with recorded evidence instead of a scripted explanation. It is a fictional model, not a prediction of real communities or evidence of human-like consciousness.
+GODMODE is a secular cozy game about living inside a small world whose rules can change while you play. You plant, water and harvest wheat; meet Ada, Mara and Wren; and prepare a harvest festival. The neighbors have different needs, goals, trust, memories and reasons to help. The interesting moment is handing the festival over to them: food still has to be found and carried, timber fetched, setup completed, invitations delivered and people physically brought together.
 
-## What exists today
+The larger thesis is to let a player propose a rule in ordinary language, review a validated interpretation, and watch a persistent world adapt. Designers could use the same recorded branches to inspect how a small rule changes coordination. This is a fictional game environment, not a prediction of human communities or a claim of conscious characters.
 
-The current prototype has a deterministic physical economy, local observation/memory projection, directed relationships, finite-resource accounting, sourced beliefs, ordinary interventions, exact replay and isolated forks. A persistent mode continues through night, rest and dawn with finite ecology additions and individual meal periods. A D1-backed saved clock records bounded catch-up jobs, pause/pace settings, receipts and archived history. Background scheduling has not yet been activated or verified.
+## Implemented now
 
-Original anime-inspired chibi art covers 24 residents and 576 character animations. The current manifest contains 1,861 named atlas keys, including aliases. The renderer's normalized sprite-anchor regression is fixed; the six-step tutorial and latest saved-world UI are undergoing integrated QA.
+The current local slice has one controllable player and three neighbors, fixed 100 ms simulation, finite inventories, wheat growth/harvest, gifts and differing reactions, needs/goals/memories, actual NPC festival tasks and bounded low-path flooding. Typed rules change festival organizer, venue, food target, seed reserve and flood policy. Preview shows an exact diff; Apply is explicit. Revert restores prior rules prospectively. Historical Undo forks the exact operation prefix and preserves the original timeline, including prior same-step actions.
 
-**All demonstrated autonomous choices so far use the explicitly labeled deterministic rule policy.** No real Meta request, live result or model evaluation has occurred. A private Site is registered, but no deployment confirmation exists in this snapshot.
+Separate D1/SQLite saves, wall-clock debt, idempotent commands/ticks, import/export, exact replay, archived segments and equal-time comparisons are implemented. New neighborhoods do not overwrite older ones. The original 24-resident Bellwether engine/saves are preserved separately.
 
-## Intended Meta contribution — pending validation
+**All demonstrated decisions currently use the labeled rule policy.** The exact rule editor is functional. Natural-language rules and optional NPC-plan adapters are implemented but disconnected; there is no fake language interpretation or template fallback. Real Meta behavior, latency and costs remain unverified. The new cozy build is local only by the user’s explicit request, “Keep it local for now.” No source sync/push, new deployment, schedule or credentials are authorized; the prior private release remains unchanged.
 
-The implemented server adapter is designed to request bounded resident intentions/dialogue from `muse-spark-1.3` using exact token-count preflight, minimal reasoning and strict structured output. Only received evidence IDs and known targets may be cited. The simulation owns legal actions, inventory, paths and outcomes; model speech cannot create goods or make a rumor true.
+## Intended Meta role — not yet demonstrated
 
-Model attempts/results, IDs, visible JSON, usage and conservative reservations are persisted before simulation commit. Replies commit in stable logical order. Replay makes zero new requests; a new branch requires new reasoning after its checkpoint. Imported provider records are explicitly unverified claims. This adapter has only been exercised with injected synthetic fixtures.
+The hosted adapter is designed to use Spark to translate a request into a supported structured proposal. Schema/capability bounds, current-rule revisions and physical preconditions are enforced by the server. The model cannot generate executable code, spawn arbitrary goods or invent unsupported systems. Apply remains a separate owner action.
 
-**Do not describe this as a completed Meta-powered product yet.** Real account/credit authorization, latency, semantic validity, token fit, fallback rate, costs and behavior still require measured runs. If access stays unavailable, retain this as a rule-policy prototype and report the eligible-technology blocker honestly.
+An optional event planner can propose intentions for Ada, Mara and Wren using each person's own context and received evidence. Actual paths, reservations, work, spending and festival attendance remain engine-owned. Model calls are bounded and audited; there is no continuous inference inside the physics loop. Imported receipts remain explicitly unverified claims.
 
-## Demo capture outline — format unconfirmed
+A local Llama 3.2 path was researched because the event lists Meta open weights. It has not been downloaded or used; separate license acceptance including the identified indemnity provision is pending. It is an alternative investigation, not a working feature or a solution to hosted-provider access. The local-only instruction does not grant model-license consent.
 
-1. Show the current mode and a short resident routine with real resource movement.
-2. Select one resident and show their actual observations/goals; distinguish observer information.
-3. Apply one ordinary intervention and observe the response.
-4. Follow a sourced claim through receipt/read/speech/belief instead of treating hearsay as truth.
-5. Rewind/fork a settled point; compare equal logical times and verify an exported recording.
-6. Show saved-world continuity and a genuine service receipt only if unattended access is actually verified.
-7. If authorized live Meta integration succeeds, capture actual Meta decisions and measured usage alongside the rule-policy baseline. Label recorded/live/fixture material and any edits.
+Do not describe this draft as a finished Meta-powered entry until an authorized real model path has been integrated, tested and retained with actual receipts/results. No API key, billing plan or purchases have been added.
 
-No official video duration, final repository visibility, required upload format or judge access policy is verified. No final demo video has been produced. Current browser screenshots and the offline asset viewer are supporting artifacts, not a substitute.
+## Demonstration and evidence plan
 
-## Materials still needed
+Show one complete, understandable play loop: grow wheat, meet/gift the neighbors, preview and apply villagers-organize, then follow actual food/setup/invitation/attendance events. Compare a preserved branch at the same logical time. Demonstrate flood routing and prospective Revert separately, then use exact historical Undo and verify a recording with no inference.
 
-- Newly published/participant-only rules, build-window and prior-work decision, AI-assistance disclosures and pivot procedure.
-- Acceptance, actual event-credit activation/terms and real Meta integration evidence, with no unexpected financial commitment.
-- Final integrated browser QA, deployment confirmation, private judge-access solution and separately verified background schedule if presented.
-- Release commit and secret-free source package, dependency/asset rights inventory, refreshed current asset zip, reproducible recording/linked archives and exact test/build evidence.
-- Final portal fields and required demo/video/repository links, filled only from verified material.
+The completed [72-second cozy prototype film](./demo/cozy/godmode-cozy-prototype-72s.mp4) uses actual recorded rule-policy states with editorial camera/time compression. Its [source ZIP](./demo/cozy/godmode-cozy-demo-source.zip), source/recording audits and encoded-contact-sheet visual review are complete. It is not live Meta output or footage of the UI being operated. The earlier 56-second film remains preserved as a superseded prototype. Neither duration is an established official requirement.
 
-The software and pixel construction were Codex-assisted. Prototype code/assets began **October 25, 2026, before the announced October 26 event start**. Preserve those dates. Hashes establish internal consistency, not proof of provider origin or competition compliance.
+If real Meta access is later cleared, capture the real interpretation, explicit preview/apply, three bounded NPC plans, actual usage/failures and a held-out request/behavior check. Keep manual, model, fixture, imported and edited footage labels accurate. The full suite passed 95/95 and typecheck passed. The local production build completed with exit 0 ([build log](./quality/cozy-build-results.log)). Browser QA passed exact replay, paired branch/comparison at 1497.3 seconds, prospective rule restore and historical Undo; saved reload, camera fit, well interaction and keyboard movement also passed.
 
-For official requirements, use the [Meta event](https://dev.meta.ai/events/global-hackathon), [Cerebral Valley event](https://cerebralvalley.ai/e/meta-ai-developer-hackathon), [linked waiver](https://cerebralvalley.ai/e/meta-ai-developer-hackathon/waiver) and the participant-accessible [final portal](https://cerebralvalley.ai/e/meta-ai-developer-hackathon/hackathon/submit). The latest saved audit is October 25 at 14:43 UTC; a fresh official review remains required.
+## Provenance, package and stop
+
+The new art uses an original concept-derived background with two built-in image edits and native Aseprite processing. Player/NPC animation and foreground pieces are original native Aseprite/Lua construction. The earlier concept used one separate generation call. Code and art were Codex-assisted; disclose that and true October 25 work dates as required. No protected game raster assets were imported.
+
+Preserve the local source/package hashes, reproducible build/test instructions, complete recordings/linked archives, art/demo source packages and rights/assistance notices. Keep this release local; any future publication or judge-access change needs a later user instruction. Check the [official event](https://cerebralvalley.ai/e/meta-ai-developer-hackathon), [Meta event](https://dev.meta.ai/events/global-hackathon), [waiver](https://cerebralvalley.ai/e/meta-ai-developer-hackathon/waiver) and actual participant [final portal](https://cerebralvalley.ai/e/meta-ai-developer-hackathon/hackathon/submit). No final form field, video format, repository visibility or eligibility approval is established by this draft.
+
+**STOP before final submission.** Local completion, a private deployment, license consent or working inference would not remove the user's hold.

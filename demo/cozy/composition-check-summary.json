@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "sourceReport": "2724f813-4832-40fe-a47e-f78a2d40dd7f.json",
+  "stages": {
+    "lint": {
+      "errors": 0,
+      "warnings": 2,
+      "findings": [
+        {
+          "code": "timeline_track_too_dense",
+          "severity": "warning",
+          "message": "Track 4 has 9 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff."
+        },
+        {
+          "code": "timeline_track_too_dense",
+          "severity": "warning",
+          "message": "Track 5 has 6 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff."
+        }
+      ]
+    },
+    "runtime": {
+      "errors": 0,
+      "warnings": 0,
+      "findings": []
+    },
+    "layout": {
+      "errors": 0,
+      "warnings": 0,
+      "findings": []
+    },
+    "contrast": {
+      "errors": 0,
+      "warnings": 0,
+      "findings": []
+    },
+    "craft": {
+      "errors": 0,
+      "warnings": 7,
+      "findings": [
+        {
+          "code": "film_silent",
+          "severity": "warning",
+          "message": "This 72 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md."
+        },
+        {
+          "code": "dead_stretch",
+          "severity": "warning",
+          "message": "Nothing on screen changes for 4.50 s (5.38\u20139.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md."
+        },
+        {
+          "code": "dead_stretch",
+          "severity": "warning",
+          "message": "Nothing on screen changes for 4.50 s (21.38\u201325.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md."
+        },
+        {
+          "code": "dead_stretch",
+          "severity": "warning",
+          "message": "Nothing on screen changes for 4.50 s (26.38\u201330.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md."
+        },
+        {
+          "code": "dead_stretch",
+          "severity": "warning",
+          "message": "Nothing on screen changes for 4.50 s (31.38\u201335.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md."
+        },
+        {
+          "code": "dead_stretch",
+          "severity": "warning",
+          "message": "Nothing on screen changes for 6.50 s (36.38\u201342.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md."
+        },
+        {
+          "code": "dead_stretch",
+          "severity": "warning",
+          "message": "Nothing on screen changes for 3.88 s (63.00\u201366.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "images": [
+    {
+      "id": "map",
+      "path": "assets/map.png",
+      "origin": "Approved local cozy production asset, copied byte-for-byte",
+      "bytes": 545656,
+      "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937",
+      "width": 512,
+      "height": 384,
+      "newGenerationCallsForFilm": 0
+    },
+    {
+      "id": "characters",
+      "path": "assets/characters.png",
+      "origin": "Approved local cozy production asset, copied byte-for-byte",
+      "bytes": 41847,
+      "sha256": "7e992b8f838c636126e339f14f128d87846bb07264a43e11d229b54d0bf85f49",
+      "width": 512,
+      "height": 768,
+      "newGenerationCallsForFilm": 0
+    },
+    {
+      "id": "foreground",
+      "path": "assets/foreground.png",
+      "origin": "Approved local cozy production asset, copied byte-for-byte",
+      "bytes": 3875,
+      "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643",
+      "width": 512,
+      "height": 256,
+      "newGenerationCallsForFilm": 0
+    }
+  ],
+  "assetProvenance": "assets/provenance.json",
+  "audio": [],
+  "fonts": "HyperFrames bundled font workflow: Nunito, EB Garamond, Space Mono",
+  "newRemoteMediaGenerationCalls": 0
+}

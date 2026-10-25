@@ -1,0 +1,22 @@
+Use case: precise-object-edit.
+Edit target: the attached original GODMODE concept image owned by this project. Turn its visual language into a clean, usable gameplay environment background for an original cozy life simulation. Preserve the beautiful clustered foliage, warm limestone/plaster, dark timber beams, teal and indigo tiled roofs, rounded stone paths, flower pots and dense purposeful small details. Recompose the village to the exact layout below. Do NOT imitate any existing game's assets, characters, architecture or map.
+
+Asset: overhead / slightly oblique 2D game map, no UI, no text, no border. Compose as a 4:3 landscape designed to reduce crisply to 512 by 384 native pixels on a 32 by 24 grid of 16px tiles. Keep individual materials in crisp pixel clusters and readable shapes rather than painterly blur or single-pixel confetti. A beautifully finished original pixel game environment, not a concept board or diagram.
+
+CRITICAL CLEAN BACKGROUND: remove ALL people, characters, silhouettes, chickens, cats, dogs and other animals. Remove ALL food, edible produce, crops, planted seedlings, fruit on counters, wheat and harvested goods. Decorative non-edible flowers and foliage may remain. Remove ALL festival tables, table settings, prepared food, bunting and decorations that would imply the festival is ready. Market counter and crates must be empty. Farm is empty tilled soil only. The runtime will overlay actual people, crop stages and festival states later.
+
+Map placement, using (column,row) tile coordinates, origin upper left; centers are x=column*16+8,y=row*16+8 at native512x384:
+- Player cottage southwest: building body columns3..6, rows15..17, clear south-facing entrance at (5,18). A charming pale plaster/dark-beam cottage with teal roof.
+- Mara cottage northwest: body columns3..7,rows3..5, clear south-facing entrance (5,6).
+- Bakery northeast: body columns23..27,rows3..5, entrance (25,6); exterior oven/chimney may be visible but absolutely no food.
+- Ada small cottage immediately below bakery: body columns23..27,rows7..8, entrance (25,9). Keep a clear footpath between the two buildings.
+- Empty market canopy east: body columns23..27,rows14..16, approach (25,17).
+- Wren cottage southeast: body columns23..27,rows18..20, clear south-facing entrance (25,21).
+- Small catchment well at (7,15), woodpile at (5,13), both west of center.
+- Exactly three adjacent empty farm plots at (8,10),(9,10),(10,10), within one small bare tilled bed. No plants or harvests baked into these plots.
+- Central open stone square around (14,17), at least four tiles across and three tiles tall, absolutely empty of a table or people; space for runtime festival setup.
+- Narrow brook running north-to-south in column19 only. Its water stays roughly within native x304..320. A single stone footbridge crosses horizontally at row12 (native y192..208). All east/west routes use that bridge. Frame water with gorgeous low stone banks and foliage but leave approaches walkable.
+- A clear low field path in columns12..15,rows10..13, native x192..256,y160..224. No walls, trees or furniture there: this exact zone will flood dynamically.
+- Connect all doors, plots, well, square and bridge with coherent readable warm stone/earth paths. Door approaches must be empty. Keep foliage dense around the perimeter and behind architecture, not across those interaction points.
+
+Lighting: sun from upper left, warm gentle daylight, deeper green under-canopy shade, high-quality material color depth. The buildings and foliage must remain as appealing and richly authored as the input image. Crop empty ground modestly around the layout so the village fills the frame; no huge blank grass areas. No people/animals, no crops/food, no festival readiness, no labels, no watermark.

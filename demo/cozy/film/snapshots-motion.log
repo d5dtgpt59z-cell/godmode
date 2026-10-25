@@ -1,0 +1,26 @@
+◆  Capturing 8 frames from film
+[INFO] [Compiler] Fetched 10 font face(s) for "Nunito" from Google Fonts (cached to /Users/ryanmorrison/.cache/hyperframes/fonts/nunito)
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to /Users/ryanmorrison/.cache/hyperframes/fonts/eb-garamond)
+[INFO] [Compiler] Fetched 4 font face(s) for "Space Mono" from Google Fonts (cached to /Users/ryanmorrison/.cache/hyperframes/fonts/space-mono)
+[INFO] [Compiler] Injected deterministic @font-face rules for 3 requested font families
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)")
+
+   Fonts: 5 loaded, 10 unused
+   Sampling 8 frames within 43–58s
+   Revision: none (inputs-changed)
+   State: /Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/cozy/film/.hyperframes/video-state.json
+
+◇  8 snapshots saved to /Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/cozy/film/snapshots-motion
+   snapshots-motion/frame-00-at-43s.png
+   snapshots-motion/frame-01-at-45.143s.png
+   snapshots-motion/frame-02-at-47.286s.png
+   snapshots-motion/frame-03-at-49.429s.png
+   snapshots-motion/frame-04-at-51.571s.png
+   snapshots-motion/frame-05-at-53.714s.png
+   snapshots-motion/frame-06-at-55.857s.png
+   snapshots-motion/frame-07-at-58s.png
+   /Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/cozy/film/snapshots-motion/contact-sheet.jpg (grid view for AI review)
+
+  3 HyperFrames skills out of date or missing.
+  Run: npx hyperframes skills update
+

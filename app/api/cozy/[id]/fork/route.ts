@@ -1,0 +1,3 @@
+import {z} from 'zod';
+import {authorized,cozyBody,cozyHandle,cozyService,json,cozyId,cozyRevision,cozyStep} from '@/lib/server/cozy-http';
+export async function POST(request:Request,{params}:{params:Promise<{id:string}>}){return cozyHandle(async()=>{await authorized();const input=z.object({expectedRevision:cozyRevision,step:cozyStep.optional(),operationIndex:z.number().int().min(0).max(5000).optional(),originHash:z.string().regex(/^[a-f0-9]{64}$/).optional()}).strict().refine(value=>value.operationIndex===undefined?value.originHash===undefined:value.step===undefined&&!!value.originHash).parse(await cozyBody(request));return json(await cozyService().fork(cozyId.parse((await params).id),input.expectedRevision,input.step,input.operationIndex,input.originHash),201);});}

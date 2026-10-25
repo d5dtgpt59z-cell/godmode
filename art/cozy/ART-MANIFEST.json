@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "sourceFiles": [
+    {
+      "path": "README.md",
+      "bytes": 5813,
+      "sha256": "937274792a4941dc4df1739be4f4b74616f6af0a3503839c8a7afe4360a4bb24"
+    },
+    {
+      "path": "audit-assets.lua",
+      "bytes": 4491,
+      "sha256": "a1c665c712eb31e5e90a1ddcd4046212dd3ea7af005b3422a11e71a70b0b77f9"
+    },
+    {
+      "path": "background-rebuild-qa.json",
+      "bytes": 185,
+      "sha256": "19a7bd844e2c1a3918c7c1ac547035f06947af04e2f4dd85fb25a34ac4a05b22"
+    },
+    {
+      "path": "build-sprites.lua",
+      "bytes": 16457,
+      "sha256": "1cbf5f768bb6acd238b9b716705e25c6b8aa95f9ccb970f50c9261667698add1"
+    },
+    {
+      "path": "build-viewer.py",
+      "bytes": 7824,
+      "sha256": "fb71fe7b0024d20db7bf37226c0a99370dcb23dd5ac1ddab34a6c7ab21a0b4ab"
+    },
+    {
+      "path": "characters-timeline.aseprite",
+      "bytes": 97694,
+      "sha256": "7117bf2ad51f0a6e1b27e3b6eb470bcd6a0e757c92b4e5a25f32805bf903385f"
+    },
+    {
+      "path": "characters.aseprite",
+      "bytes": 24873,
+      "sha256": "5925ee1b9cb2262132ee44bda38606ed82a13102993903adfa0d6e0f30105101"
+    },
+    {
+      "path": "concept-reference-prompt.txt",
+      "bytes": 2900,
+      "sha256": "06e89b196d1b795cbacbc7a62d8917bf169af54ec22b76c7465f2920ca1d560d"
+    },
+    {
+      "path": "concept-reference.png",
+      "bytes": 3864700,
+      "sha256": "919f65d7af3cf627613f31a4f4f8171af6833c6fcd3e89de828093a224381444",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "path": "debug-map.lua",
+      "bytes": 1779,
+      "sha256": "2ad2c414527da2cd727f1b66a40e5ab4aa587b20c9295f5264e5052406e20cd6"
+    },
+    {
+      "path": "east-detail-4x.png",
+      "bytes": 119101,
+      "sha256": "7be076dbf6128271b0005b0a8ee68ac921d681e49550e3b5aac41884e7e71ec6",
+      "dimensions": {
+        "width": 640,
+        "height": 896
+      }
+    },
+    {
+      "path": "environment-bridge-edit-prompt.txt",
+      "bytes": 889,
+      "sha256": "710d636f61b2890c8b93d37d9bdafadd60fd71c2ba884f85d6d51743ce530b8a"
+    },
+    {
+      "path": "environment-edit-prompt.txt",
+      "bytes": 3784,
+      "sha256": "2f58ca4e8d22033c05e364ee0eeaf1363def744d41c11f7f85bbf81389929ede"
+    },
+    {
+      "path": "environment-map-v1.aseprite",
+      "bytes": 660639,
+      "sha256": "9d0adadef1931e29fb404f755cc8ad0eb9a5ab921dd285e8b26e006f2d58cd4d"
+    },
+    {
+      "path": "environment-palette.json",
+      "bytes": 3862,
+      "sha256": "7cc28d6a626e2f7de56bf07cdcbdb73389bfc8f43f77d9a6ae6edd38b4e64f51"
+    },
+    {
+      "path": "environment-source-v1.png",
+      "bytes": 4232146,
+      "sha256": "10528023eb566be07ba50663eb70adee13dbffcc2b99693263cc71c3095f8f67",
+      "dimensions": {
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "path": "environment-source-v2.png",
+      "bytes": 3858246,
+      "sha256": "76b89ccb6e31092616d0026269b383079d8cdcf6fd33d343c7049d4ba8b6699a",
+      "dimensions": {
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "path": "foreground.aseprite",
+      "bytes": 3375,
+      "sha256": "374ec43e461f7b139cd9795f41be8a6f3a1ebb7eb1357e56544f8e6904aa228b"
+    },
+    {
+      "path": "generation-scope.md",
+      "bytes": 370,
+      "sha256": "478e057c13e0d0860f6be6f1be1c7f069ecee580405dc35f30634038ee3f720d"
+    },
+    {
+      "path": "integration-preview-3x.png",
+      "bytes": 620588,
+      "sha256": "d700a669d870eb8af8db2455c63d91e5c3a7e688ef5af5b275574d17e2eff5dc",
+      "dimensions": {
+        "width": 1536,
+        "height": 1152
+      }
+    },
+    {
+      "path": "integration-preview-native.png",
+      "bytes": 543465,
+      "sha256": "e5a26df1fc31bcab5a859bf0ab77c32b016d6660719d7a76632ad27f5f7dec9c",
+      "dimensions": {
+        "width": 512,
+        "height": 384
+      }
+    },
+    {
+      "path": "integration-preview.aseprite",
+      "bytes": 212878,
+      "sha256": "4ecbc71ab2cdfdd26864fdbf4dd731f767deea52eac356a81963a3f526162958"
+    },
+    {
+      "path": "map-3x.png",
+      "bytes": 619094,
+      "sha256": "2ea854428903d28205b086ff0be3782455a6882dd93619411e7865a8aa83357f",
+      "dimensions": {
+        "width": 1536,
+        "height": 1152
+      }
+    },
+    {
+      "path": "map-candidate-v1.png",
+      "bytes": 548750,
+      "sha256": "aedde7ec910708101557a3376cea62299d2966007d9b38a8a548ecde38cddc5e",
+      "dimensions": {
+        "width": 512,
+        "height": 384
+      }
+    },
+    {
+      "path": "map-grid-3x.png",
+      "bytes": 652484,
+      "sha256": "572f8787a0cc4e74d28e62561df5aa3d08fb6ad8a0fc6ea9e28c7f24e691e32e",
+      "dimensions": {
+        "width": 1536,
+        "height": 1152
+      }
+    },
+    {
+      "path": "map-rebuilt.png",
+      "bytes": 545643,
+      "sha256": "373be6601bce09c6f81a5d1342ad13329c19ce0626dfef45c563a9205d193489",
+      "dimensions": {
+        "width": 512,
+        "height": 384
+      }
+    },
+    {
+      "path": "map.aseprite",
+      "bytes": 212995,
+      "sha256": "42a654fd7936145bce9fb61275d25c302869473f0c33fb36829018ce22c2865b"
+    },
+    {
+      "path": "native-qa.json",
+      "bytes": 28100,
+      "sha256": "758e710592321bfbfa0d475c1f3563a5db4ed95ecabbb66869cb9b376f6ba39e"
+    },
+    {
+      "path": "package-audit.py",
+      "bytes": 4470,
+      "sha256": "e320ec0799f6601e3e810f75fb8e606dc9533be5bc32f713274b87e40b015536"
+    },
+    {
+      "path": "pixel-core.lua",
+      "bytes": 5768,
+      "sha256": "926900f0db8f9f0d77203e11161718f752426a079f5cf016bc75cefe45a4ff0a"
+    },
+    {
+      "path": "player-south-walk-3x.gif",
+      "bytes": 53420,
+      "sha256": "9cfc240dffa88d35383f7176bd0c2416e74963c8ddcf2e4a21160c80a6bd4a4c"
+    },
+    {
+      "path": "rebuild-background.lua",
+      "bytes": 2100,
+      "sha256": "5e1a8c45a1a12b1a63bf3db6eccd76b808d32715017cdb000da52d3ab6e58e8a"
+    },
+    {
+      "path": "walk-contact-3x.png",
+      "bytes": 14950,
+      "sha256": "c5d91439efe9378ddfcf097675af9535fef64b39c273eab11359457dfee75b24",
+      "dimensions": {
+        "width": 1152,
+        "height": 384
+      }
+    },
+    {
+      "path": "walk-contact.aseprite",
+      "bytes": 6571,
+      "sha256": "0a00be7d23d5bf67cc893b2184482aa95ef50756f6177773076cf04dfcaeab3d"
+    },
+    {
+      "path": "walk-contact.png",
+      "bytes": 10098,
+      "sha256": "bcffeb889a01f1acc84851701699a838cdb8bceb38e0b7c726c5159be61869c2",
+      "dimensions": {
+        "width": 384,
+        "height": 128
+      }
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "path": "characters.json",
+      "bytes": 96712,
+      "sha256": "914efddb19253423392c5ae786bae106af17628e3acef380f6fa7e68d404751e"
+    },
+    {
+      "path": "characters.png",
+      "bytes": 41847,
+      "sha256": "7e992b8f838c636126e339f14f128d87846bb07264a43e11d229b54d0bf85f49",
+      "dimensions": {
+        "width": 512,
+        "height": 768
+      }
+    },
+    {
+      "path": "foreground.json",
+      "bytes": 8520,
+      "sha256": "7ad49d045e663291fc7886b9652d32a7bdb8998c1cbcba6012acaa9e5218db9d"
+    },
+    {
+      "path": "foreground.png",
+      "bytes": 3875,
+      "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643",
+      "dimensions": {
+        "width": 512,
+        "height": 256
+      }
+    },
+    {
+      "path": "map.json",
+      "bytes": 16940,
+      "sha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474"
+    },
+    {
+      "path": "map.png",
+      "bytes": 545656,
+      "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937",
+      "dimensions": {
+        "width": 512,
+        "height": 384
+      }
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 3187,
+      "sha256": "2929dc3db6a11d9e3ea3e324bfa09be5f711bb719406a8a9b3273e25317a66a2"
+    },
+    {
+      "path": "viewer.html",
+      "bytes": 107002,
+      "sha256": "6eae912ee6f0e233ee6d48003d6a34e46f4944d7864d075d2d4d72a1786c0057"
+    }
+  ]
+}

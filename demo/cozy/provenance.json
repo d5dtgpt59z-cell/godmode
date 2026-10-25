@@ -1,0 +1,674 @@
+{
+  "version": 1,
+  "sourceDate": "2026-10-25",
+  "video": {
+    "file": "godmode-cozy-prototype-72s.mp4",
+    "bytes": 45610883,
+    "sha256": "9d6cba567891430d65bd29966cea4cc27b4ff6baabb892434d030e478282494a",
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pixelFormat": "yuv420p",
+    "fps": "30/1",
+    "frames": 2160,
+    "duration": 72.0,
+    "audio": "none; intentionally silent",
+    "fullDecodePassed": true,
+    "decodedReviewTimes": [
+      0,
+      6.5,
+      12,
+      17,
+      20.5,
+      23,
+      28,
+      33,
+      39,
+      46,
+      51,
+      56.5,
+      60,
+      65.5,
+      69.5,
+      71.9
+    ],
+    "visualReview": "Passed: all16 decoded review frames inspected, both contact sheets reviewed, plus full-resolution56.5s attendance and65.5s branch outcome frames. Three recorded guests are visibly distinct; disclosures and receipts remain readable.",
+    "reviewedActualEncodedFile": true
+  },
+  "recordings": {
+    "passed": true,
+    "modelCalls": 0,
+    "providerInferenceIncluded": false,
+    "results": [
+      {
+        "file": "primary-recording.json",
+        "step": 954,
+        "finalHash": "c1cd1a3467936f32d23c90812577fd7e36d8f765fe611c760e4c314b98db4842",
+        "eventHead": "8eb8ff11965db39e223f505a4d72b3624348d69cb541c244cbf91443fbd00c64",
+        "operations": 331,
+        "replayVerified": true,
+        "festival": "complete",
+        "participants": [
+          "wren",
+          "mara",
+          "ada"
+        ],
+        "placeFieldsDefined": true,
+        "modelPlanOperations": 0
+      },
+      {
+        "file": "baseline-recording.json",
+        "step": 954,
+        "finalHash": "f89b3462911509d31f6649cfeddfe527073617c25738266178073db7861fe953",
+        "eventHead": "9eb6b8ac3235e76336ebebaa85176fa15ec9e4b4cddc11e2efb0cc80dc57c4e2",
+        "operations": 141,
+        "replayVerified": true,
+        "festival": "planning",
+        "participants": [],
+        "placeFieldsDefined": true,
+        "modelPlanOperations": 0
+      }
+    ]
+  },
+  "sourceAudit": {
+    "passed": true,
+    "verifiedAt": "2026-10-25T17:17:58.058175+00:00",
+    "engineFiles": [
+      {
+        "snapshot": "cozy/contracts.ts",
+        "sha256": "2d6a721b08c1e9c81b6ddde20682001f732c55037ee22b734b6feb62f374bf79",
+        "matchesLiveSource": true
+      },
+      {
+        "snapshot": "cozy/engine.ts",
+        "sha256": "2c886ed63bcc7ebc1c6888cbfcec2cc4e40c6554a9ad1707243e4591e21db232",
+        "matchesLiveSource": true
+      },
+      {
+        "snapshot": "cozy/replay.ts",
+        "sha256": "02a9c7bee2cc09bd10f1c2c4b3ad17b8f9830020d555a48be8e264ab6d2e0c8f",
+        "matchesLiveSource": true
+      },
+      {
+        "snapshot": "cozy/index.ts",
+        "sha256": "2b270e9032d5d3419b8f7bd6a1f0c1fdd3e3387a49b31baed6e9c975f4c16a42",
+        "matchesLiveSource": true
+      },
+      {
+        "snapshot": "cozy/world.ts",
+        "sha256": "f0f5dd32e2832d295c897cefe2874418d42fa9170e66efdda214e6fa454fde20",
+        "matchesLiveSource": true
+      },
+      {
+        "snapshot": "sim/canonical.ts",
+        "sha256": "63390b860611ec3832c788746a6127f31c873e3b330fe65e67adfd1efb66b033",
+        "matchesLiveSource": true
+      }
+    ],
+    "allFrozenSourceMatchesFinalSource": true,
+    "placeNameKindChecks": 4266,
+    "missingPlaceFields": 0,
+    "placeAndCropArtGeometryMatches": true,
+    "snapshotCount": 474,
+    "recordedAttendancePositions": [
+      {
+        "actor": "wren",
+        "step": 677,
+        "position": {
+          "x": 16,
+          "y": 17
+        }
+      },
+      {
+        "actor": "mara",
+        "step": 824,
+        "position": {
+          "x": 14,
+          "y": 17
+        }
+      },
+      {
+        "actor": "ada",
+        "step": 832,
+        "position": {
+          "x": 12,
+          "y": 17
+        }
+      }
+    ],
+    "renderOnlyActorOffsets": 0,
+    "strictTypeScriptCheck": {
+      "passed": true,
+      "files": [
+        "generate-recording.ts",
+        "verify-recordings.ts"
+      ],
+      "includesTransitiveFrozenEngine": true,
+      "settings": [
+        "noEmit",
+        "strict",
+        "targetES2022",
+        "moduleESNext",
+        "moduleResolutionBundler",
+        "skipLibCheck"
+      ]
+    }
+  },
+  "claims": {
+    "mode": "Exact manual editor plus deterministic rule-policy simulation",
+    "metaConnected": false,
+    "modelCalls": 0,
+    "rawProductUiRecording": false,
+    "presentation": "Recorded states, edited for time; cosmetic sprite/path interpolation only",
+    "rendererCosmeticStackSpacingMaxNativePixels": 0,
+    "newMediaGenerationCalls": 0,
+    "audio": "intentionally silent",
+    "cloudPublishing": false,
+    "hackathonSubmission": false
+  },
+  "selectedSourceEvents": {
+    "manualRule": {
+      "id": "cozy-demo-main:25",
+      "seq": 25,
+      "step": 531,
+      "tick": 53.1,
+      "type": "rules_applied",
+      "actorId": null,
+      "audience": [
+        "player"
+      ],
+      "payload": {
+        "previous": {
+          "organizer": "player",
+          "venue": "square",
+          "foodTarget": 3,
+          "seedReserve": 1,
+          "flood": {
+            "enabled": false,
+            "zone": "low-path",
+            "durationSteps": 300
+          }
+        },
+        "next": {
+          "organizer": "villagers",
+          "venue": "square",
+          "foodTarget": 3,
+          "seedReserve": 1,
+          "flood": {
+            "enabled": false,
+            "zone": "low-path",
+            "durationSteps": 300
+          }
+        },
+        "patch": {
+          "organizer": "villagers"
+        },
+        "provenance": {
+          "mode": "manual",
+          "sourceText": "Exact field: organizer = villagers"
+        }
+      },
+      "sourceIds": [],
+      "rulesRevision": 1,
+      "prevHash": "3840b7d935ed636fdedab1562a8410c00207ee54c349308ae33e23a9d044c1bc",
+      "hash": "8f93b93b46602a103b07248fa84d25e8118dbd5f26757054e2eeec86e70b6708"
+    },
+    "food": {
+      "id": "cozy-demo-main:34",
+      "seq": 34,
+      "step": 628,
+      "tick": 62.8,
+      "type": "festival_food_added",
+      "actorId": "ada",
+      "audience": [
+        "ada",
+        "mara",
+        "player"
+      ],
+      "payload": {
+        "festivalId": 1,
+        "venue": "square",
+        "quantity": 1,
+        "text": "Ada brought 1 grain."
+      },
+      "sourceIds": [],
+      "rulesRevision": 1,
+      "prevHash": "3aa49a940f27877de860e7a6ddce8fabcddcd92cdb4195808414d3a6755502ca",
+      "hash": "7fd3be1c8df8042c1628b00e756e20db3ebac492307d7e502254a7841127050f"
+    },
+    "setup": {
+      "id": "cozy-demo-main:39",
+      "seq": 39,
+      "step": 661,
+      "tick": 66.1,
+      "type": "festival_setup_completed",
+      "actorId": "mara",
+      "audience": [
+        "mara",
+        "player",
+        "wren"
+      ],
+      "payload": {
+        "festivalId": 1,
+        "venue": "square",
+        "timber": 1,
+        "text": "Mara prepared the gathering place."
+      },
+      "sourceIds": [],
+      "rulesRevision": 1,
+      "prevHash": "ab986b1f288040181af95cccabe54c8e355d8fdba2d605b39b506557d1bb61ea",
+      "hash": "c0c90decacc054f930a1211ef7d1e0b25cdc8c1ea99dd74e5b2af5b40393855e"
+    },
+    "arrivals": [
+      {
+        "id": "cozy-demo-main:40",
+        "seq": 40,
+        "step": 677,
+        "tick": 67.7,
+        "type": "festival_arrival",
+        "actorId": "wren",
+        "audience": [
+          "mara",
+          "player",
+          "wren"
+        ],
+        "payload": {
+          "festivalId": 1,
+          "venue": "square",
+          "text": "Wren arrived of their own accord.",
+          "position": {
+            "x": 16,
+            "y": 17
+          },
+          "attendanceSpot": {
+            "x": 16,
+            "y": 17
+          }
+        },
+        "sourceIds": [],
+        "rulesRevision": 1,
+        "prevHash": "c0c90decacc054f930a1211ef7d1e0b25cdc8c1ea99dd74e5b2af5b40393855e",
+        "hash": "5e6d92ec14a2b672512b4d26b71655fa3529da1b9290ed971ee5c8cff9a2ef00"
+      },
+      {
+        "id": "cozy-demo-main:52",
+        "seq": 52,
+        "step": 824,
+        "tick": 82.4,
+        "type": "festival_arrival",
+        "actorId": "mara",
+        "audience": [
+          "ada",
+          "mara",
+          "player",
+          "wren"
+        ],
+        "payload": {
+          "festivalId": 1,
+          "venue": "square",
+          "text": "Mara arrived of their own accord.",
+          "position": {
+            "x": 14,
+            "y": 17
+          },
+          "attendanceSpot": {
+            "x": 14,
+            "y": 17
+          }
+        },
+        "sourceIds": [],
+        "rulesRevision": 1,
+        "prevHash": "5be66d85e06a5943af566419b75092c22b3d04ecb6df847ddee8c33a9d16423c",
+        "hash": "6245c2342b6d033fa7f1101f17beb915a034d151c401e11a79b50817c8e75e95"
+      },
+      {
+        "id": "cozy-demo-main:54",
+        "seq": 54,
+        "step": 832,
+        "tick": 83.2,
+        "type": "festival_arrival",
+        "actorId": "ada",
+        "audience": [
+          "ada",
+          "mara",
+          "player",
+          "wren"
+        ],
+        "payload": {
+          "festivalId": 1,
+          "venue": "square",
+          "text": "Ada arrived of their own accord.",
+          "position": {
+            "x": 12,
+            "y": 17
+          },
+          "attendanceSpot": {
+            "x": 12,
+            "y": 17
+          }
+        },
+        "sourceIds": [],
+        "rulesRevision": 1,
+        "prevHash": "1ba7d75105a99d8a3076b1f832b712b06043b077f8d67a8c6efbe670da7a32ac",
+        "hash": "29d68537d1a1988b0cde09ba52039ba478ca392436008ae1aa36a907ec760a75"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5933,
+      "sha256": "653178280e8250985defcaa85a2d043c897ff95e3f6e4ab728a6620430b33018"
+    },
+    {
+      "path": "baseline-events.json",
+      "bytes": 9768,
+      "sha256": "d4872a6644e9f1499c46ff69232de5cc0fd9a12a6e09de18111653844c675ebd"
+    },
+    {
+      "path": "baseline-final-state.json",
+      "bytes": 45637,
+      "sha256": "0c956a731e3cdb6e3d03b6098b5a8cfdf1414d347607b4c2822b34f901226be7"
+    },
+    {
+      "path": "baseline-recording.json",
+      "bytes": 26666,
+      "sha256": "069523cad85294863943f20f61e5974c407ef10d91f719a300d71f395e84575c"
+    },
+    {
+      "path": "build-film.py",
+      "bytes": 8349,
+      "sha256": "7e91c57f8731ae94b309e7460dd707a367464d792996318ebc42702c740da697"
+    },
+    {
+      "path": "composition-check-summary.json",
+      "bytes": 3070,
+      "sha256": "df276104a017481b8514e64e3dd4b31a24002d0eaf7902d4e9925f8afa619784"
+    },
+    {
+      "path": "decoded-review/encoded-contact-1.png",
+      "bytes": 5380039,
+      "sha256": "2fc0cde35ab6a708453a7eba68a315c285c80838e18a713900cef19382b4f15c"
+    },
+    {
+      "path": "decoded-review/encoded-contact-2.png",
+      "bytes": 5085947,
+      "sha256": "609ab2fdcc8a0e2d7d162d4459951d15b6f71c69b9cb584535b1bf60f9a6dbb0"
+    },
+    {
+      "path": "engine-snapshot/cozy/contracts.ts",
+      "bytes": 6089,
+      "sha256": "2d6a721b08c1e9c81b6ddde20682001f732c55037ee22b734b6feb62f374bf79"
+    },
+    {
+      "path": "engine-snapshot/cozy/engine.ts",
+      "bytes": 45149,
+      "sha256": "2c886ed63bcc7ebc1c6888cbfcec2cc4e40c6554a9ad1707243e4591e21db232"
+    },
+    {
+      "path": "engine-snapshot/cozy/index.ts",
+      "bytes": 106,
+      "sha256": "2b270e9032d5d3419b8f7bd6a1f0c1fdd3e3387a49b31baed6e9c975f4c16a42"
+    },
+    {
+      "path": "engine-snapshot/cozy/replay.ts",
+      "bytes": 6926,
+      "sha256": "02a9c7bee2cc09bd10f1c2c4b3ad17b8f9830020d555a48be8e264ab6d2e0c8f"
+    },
+    {
+      "path": "engine-snapshot/cozy/world.ts",
+      "bytes": 14267,
+      "sha256": "f0f5dd32e2832d295c897cefe2874418d42fa9170e66efdda214e6fa454fde20"
+    },
+    {
+      "path": "engine-snapshot/sim/canonical.ts",
+      "bytes": 2685,
+      "sha256": "63390b860611ec3832c788746a6127f31c873e3b330fe65e67adfd1efb66b033"
+    },
+    {
+      "path": "engine-snapshot/source-hashes.json",
+      "bytes": 1065,
+      "sha256": "3c537a2ace1110765cea6484158d54a83a64a16c457eef4284c226b8e682c99d"
+    },
+    {
+      "path": "ffprobe.json",
+      "bytes": 2501,
+      "sha256": "9062f9bc5b05e7955d807e8bbb968904bae591f3622b36b01274b56fbd1e7054"
+    },
+    {
+      "path": "film/.thumbnails/v5_0cbadf48023113ce_cbf8384ae1859bb8_jpeg_source_index.html_1920x1080_1920x1080_1792947676452_0.00.jpg",
+      "bytes": 632361,
+      "sha256": "e0620bb9fc8ec75f6475a650c699b292fd0833b44f9ee7e828e765334a506f81"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_0cbadf48023113ce_cbf8384ae1859bb8_jpeg_preview_index.html_1920x1080_240x135_1792947676452_3.00.jpg",
+      "bytes": 16119,
+      "sha256": "595933571a7f6d9564206c344fe47610d75291b00827d33ce02b8248d0311b13"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_38d96d47d990e385_09ebc458e207d96c_jpeg_preview_compositions_components_ui-focus-zoom.html_1920x1080_240x135_1792947676449_3.00.jpg",
+      "bytes": 963,
+      "sha256": "8f578636ea8d3af38b72eec2a889116ee5feeeb39b845423c8de78a4aac32555"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_46c2d89b5da729fc_8638254268fdb6cc_jpeg_preview_compositions_cozy.html_1920x1080_240x135_1792947676451_3.00.jpg",
+      "bytes": 16135,
+      "sha256": "0c90e8755446efde44dfb8f304233dddab45c8cd6c36c3573059b1fac89e23de"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_82145c2bb2ccd520_0711dda15383640a_jpeg_preview_compositions_cozy.html_1920x1080_240x135_1792947774129_3.00.jpg",
+      "bytes": 16135,
+      "sha256": "0c90e8755446efde44dfb8f304233dddab45c8cd6c36c3573059b1fac89e23de"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_8c87f6e35a373836_0711dda15383640a_jpeg_preview_compositions_cozy.html_1920x1080_240x135_1792948525008_3.00.jpg",
+      "bytes": 16135,
+      "sha256": "0c90e8755446efde44dfb8f304233dddab45c8cd6c36c3573059b1fac89e23de"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_b0b822d6446c169c_09ebc458e207d96c_jpeg_preview_compositions_components_ui-focus-zoom.html_1920x1080_240x135_1792947676449_3.00.jpg",
+      "bytes": 963,
+      "sha256": "8f578636ea8d3af38b72eec2a889116ee5feeeb39b845423c8de78a4aac32555"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_cb2351e981badff8_0711dda15383640a_jpeg_preview_compositions_cozy.html_1920x1080_240x135_1792947824316_3.00.jpg",
+      "bytes": 16135,
+      "sha256": "0c90e8755446efde44dfb8f304233dddab45c8cd6c36c3573059b1fac89e23de"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_f0778f833d3bdee2_0711dda15383640a_jpeg_preview_compositions_cozy.html_1920x1080_240x135_1792948525008_3.00.jpg",
+      "bytes": 16135,
+      "sha256": "0c90e8755446efde44dfb8f304233dddab45c8cd6c36c3573059b1fac89e23de"
+    },
+    {
+      "path": "film/.thumbnails/v5_v3_f77097478c8c6869_dd208c9091e32cfc_jpeg_preview_index.html_1920x1080_240x135_1792948525008_3.00.jpg",
+      "bytes": 16119,
+      "sha256": "595933571a7f6d9564206c344fe47610d75291b00827d33ce02b8248d0311b13"
+    },
+    {
+      "path": "film/AGENTS.md",
+      "bytes": 7275,
+      "sha256": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    {
+      "path": "film/CLAUDE.md",
+      "bytes": 7275,
+      "sha256": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    {
+      "path": "film/REVIEW.md",
+      "bytes": 3351,
+      "sha256": "c69e679ba6369f02925f0fe47e4879eb3087115132cb24cce3e28fdf7ef2f0fe"
+    },
+    {
+      "path": "film/SPEC.md",
+      "bytes": 2894,
+      "sha256": "0495f5f0b4a19f0cb38b55bc7301c1bea96aabbfe8e9847298b23eedd9e80188"
+    },
+    {
+      "path": "film/STORYLINES.md",
+      "bytes": 1088,
+      "sha256": "94d099e7b405e46741bae821ecce8e7aa5d494fd723fc2d797cc223b2d4b93b6"
+    },
+    {
+      "path": "film/assets/atlas-data.js",
+      "bytes": 122098,
+      "sha256": "d0e13be32239a5c91c543d052ad8f725fec3ca8c25627ff6b65dcf4a9f5fa1f1"
+    },
+    {
+      "path": "film/assets/characters.json",
+      "bytes": 96712,
+      "sha256": "914efddb19253423392c5ae786bae106af17628e3acef380f6fa7e68d404751e"
+    },
+    {
+      "path": "film/assets/characters.png",
+      "bytes": 41847,
+      "sha256": "7e992b8f838c636126e339f14f128d87846bb07264a43e11d229b54d0bf85f49"
+    },
+    {
+      "path": "film/assets/foreground.json",
+      "bytes": 8520,
+      "sha256": "7ad49d045e663291fc7886b9652d32a7bdb8998c1cbcba6012acaa9e5218db9d"
+    },
+    {
+      "path": "film/assets/foreground.png",
+      "bytes": 3875,
+      "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643"
+    },
+    {
+      "path": "film/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "film/assets/map.json",
+      "bytes": 16940,
+      "sha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474"
+    },
+    {
+      "path": "film/assets/map.png",
+      "bytes": 545656,
+      "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937"
+    },
+    {
+      "path": "film/assets/media-ledger.json",
+      "bytes": 1224,
+      "sha256": "700e2406029039ba740b904c6f21bf32ac2331db26a8091d5ebd0652c513153e"
+    },
+    {
+      "path": "film/assets/provenance.json",
+      "bytes": 3187,
+      "sha256": "2929dc3db6a11d9e3ea3e324bfa09be5f711bb719406a8a9b3273e25317a66a2"
+    },
+    {
+      "path": "film/assets/recording-data.js",
+      "bytes": 2507789,
+      "sha256": "995dbfb674ad8b4b3570c8f9e0d82a7f47bcef25f5bfb6e3de1d63758c2dbcef"
+    },
+    {
+      "path": "film/assets/render-cozy.js",
+      "bytes": 8609,
+      "sha256": "5480afe77099214c2b26b0bbbd70f375ac982df17a505ce8cf342963e24f3e40"
+    },
+    {
+      "path": "film/assets/snapshots.json",
+      "bytes": 2507767,
+      "sha256": "014b54e7b2379ecb6e1b5376fb977ba5438e379fee82e5869ff5c696589d7cdd"
+    },
+    {
+      "path": "film/compositions/components/ui-focus-zoom.html",
+      "bytes": 23413,
+      "sha256": "2da44ee109ccdabbcd64324284078978b42e3c55725fdf44fe261b74d248736b"
+    },
+    {
+      "path": "film/compositions/cozy.html",
+      "bytes": 8216,
+      "sha256": "2409b4e7788aa8f2bb433ba90897223c185a689f15b8c84f9f1cadd1a716186c"
+    },
+    {
+      "path": "film/hyperframes.json",
+      "bytes": 487,
+      "sha256": "e38e36939e0a3cb42c5bc69aa0250ca8a8fd6d0c8d0409b43318d4de98b305bf"
+    },
+    {
+      "path": "film/hyperframes.lock.json",
+      "bytes": 119,
+      "sha256": "1553175953f1e9c64a7dbd7b5af6ae33dfef37da26e2dffe603772eda3b9c1a7"
+    },
+    {
+      "path": "film/index.html",
+      "bytes": 1144,
+      "sha256": "b1d1b9c052c07329be2983f99f41490d78368ae290f4b2a6e1f9e112b6e5f602"
+    },
+    {
+      "path": "film/meta.json",
+      "bytes": 79,
+      "sha256": "43132e023d8aecdaec8a6fe6be8a5e9ec41b7ca49bd0730efa2cc778fcde7c78"
+    },
+    {
+      "path": "film/package.json",
+      "bytes": 293,
+      "sha256": "db76b1715e94cc764ae4ddfca22c75b4cb11b0da87bd3dd0e8e32e881a938f4b"
+    },
+    {
+      "path": "final-state.json",
+      "bytes": 52273,
+      "sha256": "425423a117248a54b3f05cb9d99416956f3da1e94435deaa94fff158ad008e98"
+    },
+    {
+      "path": "generate-recording.ts",
+      "bytes": 7029,
+      "sha256": "f311d9a886e6eed5dbe8642b423300e61fdabaaf5574df3e7488289a802308b6"
+    },
+    {
+      "path": "package-source.py",
+      "bytes": 1941,
+      "sha256": "26391c239b558a5efc26ac5d9013282202130a5478d67d3d987f3585f4c82e62"
+    },
+    {
+      "path": "package.json",
+      "bytes": 361,
+      "sha256": "6724d24cae9aabc8b7779411b35ca74704ae6a8e178f4d4d15b7eb5209b12750"
+    },
+    {
+      "path": "primary-recording.json",
+      "bytes": 10887,
+      "sha256": "96e71078d501641cb1c3acf61ae4dbf91721356e70b6f39bf485408faad5aaf2"
+    },
+    {
+      "path": "recording-summary.json",
+      "bytes": 80456,
+      "sha256": "551cb7ae518f1213faf5fb59b579e31e307dc68c9e0486fb647ea9d2224926e1"
+    },
+    {
+      "path": "recording-verification.json",
+      "bytes": 995,
+      "sha256": "5e2e238344752f6b40e90a85338d456a068d95d3d37943333707cd5a26f6e410"
+    },
+    {
+      "path": "source-audit.json",
+      "bytes": 2009,
+      "sha256": "b09b40dc256edb89c236de18a3850fa3e5c0b579c20e9b41711f0b2bcf98804e"
+    },
+    {
+      "path": "source-events.json",
+      "bytes": 22140,
+      "sha256": "cbab1dcd75ff96f020c37e861d15919edbdd286471b79e89a7bef678c501ab84"
+    },
+    {
+      "path": "verify-recordings.ts",
+      "bytes": 1662,
+      "sha256": "9c44c75e43fa8791958970828cf0a126e0876c0dae06c8cc96e2725a61cac690"
+    },
+    {
+      "path": "verify-video.py",
+      "bytes": 2032,
+      "sha256": "6c8576aee3cbb9a046f4af22df3fff20b062960ccf2d6b51ac66f4a9409e1f02"
+    },
+    {
+      "path": "video-verification.json",
+      "bytes": 812,
+      "sha256": "9fb1a4429783ff3dbf3672c094dee3c1b9cc6a1e6acb7e28ec58886090fc8c31"
+    }
+  ]
+}

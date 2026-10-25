@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "GODMODE — A small world. Its own ideas.",
-  description: "A living pixel town of 24 individual inhabitants. Change a condition, follow a consequence, rewind and compare another afternoon.",
+  description: "A cozy pixel world with memories and consequences. Grow wheat, meet your neighbors, and change validated world rules without restarting the game.",
   icons: {
     icon: "/favicon-godmode.svg",
     shortcut: "/favicon-godmode.svg",

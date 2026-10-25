@@ -1,98 +1,102 @@
 # GODMODE
 
-A secular living-world experiment/game by **Ryan Morrison — founder of Built by Magnus LLC, Creative Director at North of Common Capital, and independent developer**.
+**A small world. Its own ideas.**
 
-Twenty-four residents carry supplies, bake, build, eat, trade information and form individual beliefs in Bellwether. Observe their limited knowledge, change the weather or supplies, deliver an ordinary note, then inspect or branch the recorded consequences. The presentation uses original anime-inspired chibi pixel art. There is no religious or deity mechanic.
+Grow wheat, get to know three neighbors, and change who organizes the harvest festival. Carry real supplies, watch people take on food, setup and invitation work, then branch the record and try another rule. GODMODE is a secular cozy game by **Ryan Morrison — founder of Built by Magnus LLC, Creative Director at North of Common Capital, and independent developer**.
 
-**October 25, 2026: local prototype; final hackathon submission ON HOLD.** Ryan authorized implementation and preparation, with an explicit stop before final submission. This is currently a working **rule-policy** simulation. The Meta adapter is implemented and fixture-tested, but no real Meta inference has run. Competition eligibility, the Worldlift-to-GODMODE pivot and final participant rules remain unresolved. See [COMPLIANCE.md](./COMPLIANCE.md) and [SUBMISSION-DRAFT.md](./SUBMISSION-DRAFT.md).
+The larger thesis is a living world whose rules you can propose in your own words, review as concrete changes, and then observe in play. **Today the playable slice uses deterministic rule-policy behavior and a working exact rule editor.** Meta language/NPC adapters exist, but real inference remains disconnected and unverified. There is no keyword-based substitute presented as AI.
 
-## Current release state
+**October 25, 2026 snapshot: the new cozy slice is LOCAL ONLY at the user’s explicit request, “Keep it local for now.” Final hackathon submission is ON HOLD.** Do not sync/push source, deploy, create schedules or add credentials under the current instruction. The earlier owner-private Bellwether release remains unchanged. This prototype and its assets began before the announced October 26 event start; eligibility and the application-idea pivot remain unconfirmed. See [COMPLIANCE.md](./COMPLIANCE.md) and [SUBMISSION-DRAFT.md](./SUBMISSION-DRAFT.md).
 
-| Area | Verified or reported state |
+## Play and preserved work
+
+| Working-tree route | Experience |
 |---|---|
-| Simulation | Pure TypeScript, 24 distinct residents, local knowledge, finite goods, directed relationships and sourced beliefs; scenario and continuing-world modes. |
-| Persistence | Local SQLite/D1 routes verified, saved wall-clock debt, pause/pace controls, serialized tick jobs, crash recovery and immutable history segments. |
-| Presentation | Phaser renderer, original chibi assets, corrected normalized sprite anchors and six-step tutorial component. Latest saved-world UI integration and browser QA are still in progress. |
-| Meta | Server adapter, strict decisions, token preflight, durable usage/budget accounting and injected synthetic tests. Real account access and behavior are unverified. |
-| Hosting | Owner-private Site registered as `appgprj_6ade1785d97081918bf2848820894406`; deployment has not yet been confirmed. |
-| Background | Writer implemented. No unattended writer invocation or active native schedule has been verified. |
-| Final package | Source, art and draft documentation exist. Release commit, final demo video, official field mapping and final submission are pending. |
+| `/` | New cozy neighborhood; the primary game entry. |
+| `/play` | The same cozy game. |
+| `/bellwether` | Preserved 24-resident experiment/continuing-town interface. |
 
-The expected private address is [godmode-by-magnus.magnusrobot.chatgpt.site](https://godmode-by-magnus.magnusrobot.chatgpt.site/). **This address is not evidence of a deployment.** Private access requires the Site's supported authentication.
+The cozy loop is plant → water → harvest → give a gift → change a festival rule → observe the response. Ada, Mara and Wren have individual needs, goals, trust, preferences and bounded memories. Their current choices and dialogue are rule-policy behavior. Food, timber, seed protection, work duration, movement, invitations and flood routing belong to the physical simulation, rather than being visual counters.
 
-## Run locally
+Use click-to-walk or WASD/arrows, the garden tools, journal and Town rules. The exact editor supports organizer, venue, food target, seed reserve and bounded low-path flooding. Preview shows the actual diff before Apply. Revert changes rules prospectively; historical Undo creates a separate branch using the exact operation prefix. Harvests, spent goods and memories are not erased from the original timeline. Unsupported language requests cannot create new mechanics.
 
-Use Node.js **22.13 or newer**. Node's SQLite support is used only by local tests/tools; hosted routes use D1.
+The old `lib/sim/` engine, routes and saves remain intact. The cozy engine is separate in `lib/cozy/`; server/API additions use separate cozy tables. Preservation artifacts are the Git tag `godmode-before-cozy-20261025`, sibling [Git bundle](../godmode-before-cozy-20261025.bundle), and [local world backup](../godmode-local-world-backup.json). The earlier [56-second film](./demo/godmode-prototype-56s.mp4) remains a legacy artifact, superseded for the current pitch.
+
+## Current release and evidence
+
+- **Cozy local implementation:** farming, four actors including the player, three NPCs with needs/goals/memories, gifts, physical festival tasks, bounded floods, typed rule proposals, apply/revert, exact Undo, comparison, save/export/replay and real clock debt.
+- **Local verification:** [quality/cozy-test-results.tap](./quality/cozy-test-results.tap) records **95 passing tests, zero failures**; typecheck passed. `npm run build` completed successfully with exit 0; see [build log](./quality/cozy-build-results.log). Browser QA passed exact replay, a paired branch and comparison at the same 1497.3 simulated seconds, prospective rule restore and historical Undo. Saved reload retained inventory, rule history and the completed 3-person festival. Native screenshot: `quality/cozy-local-browser-final.jpg`. Scoped ESLint also passed.
+- **Input timing:** command transactions consume owed 100 ms steps under the previous intent before recording a new command. 100/200 ms move-stop tests and actual local HTTP testing establish authoritative movement/replay. Duplicate commands consume nothing again; more than 60 seconds of debt returns `COZY_CATCH_UP` until bounded ticks flush it.
+- **New film:** the completed [72-second cozy prototype](./demo/cozy/godmode-cozy-prototype-72s.mp4) and [editable source ZIP](./demo/cozy/godmode-cozy-demo-source.zip) passed source/recording audits and visual review of encoded contact sheets. It presents recorded rule-policy states with editorial timing, not footage of product controls or live Meta. It is a local prototype film; official final-video requirements remain unknown. See [film provenance](./demo/cozy/README.md).
+- **Deployment:** the native receipt for the older private release is `appgdep_6ade24250c848191a27a50675c8972d7`, source commit `c80fd18c94fda81a069369d93f857edd5bf31fc7`, October 25 at 15:45:51 UTC. [Private Site](https://godmode-by-magnus.magnusrobot.chatgpt.site/) access requires supported authentication. The cozy build remains local only; no new source sync/push or deployment is authorized. That receipt belongs only to the unchanged legacy release.
+- **Background:** bounded service-capable writers exist. No active native schedule or successful unattended cozy tick has been verified. Browser-driven updates are not unattended operation. The local-only instruction excludes creating a hosted schedule.
+
+## Local setup and reproduction
+
+Use Node.js 22.13 or newer. Local tests use Node SQLite; hosted routes use D1. The project retains the Sites/Vinext framework integration.
 
 ```sh
 npm run install:ci
 npm run build
 ```
 
-Apply each **unapplied** local migration in order after the build creates its Wrangler configuration:
+After a fresh build creates `dist/server/wrangler.json`, apply only pending local migrations, in order:
 
 ```sh
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_abnormal_ezekiel_stane.sql
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_lying_siren.sql
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0002_white_gabe_jones.sql
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0003_new_satana.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0004_boring_pestilence.sql
 npm run dev
 ```
 
-Use the printed loopback URL; the current QA preview uses port 4318. Local migrations 0000–0003 were already applied to this workspace's preview database: **do not replay them here**. A fresh checkout has a separate database. `npm start` previews the built Worker locally; it does not deploy it. Local Vite development permits the local preview's write flows; production still requires trusted owner access.
+Migrations 0000–0004 are already applied to this workspace's local preview. Do not replay or edit them. A fresh database is separate. New schema changes append a Drizzle migration; handlers never run DDL. `npm start` previews the built Worker locally and does not deploy it. **Keep this build local under the current user instruction.** No new source sync/push, hosted migration, deployment, schedule or credential action is authorized. The existing private legacy Site stays unchanged.
 
-After changing `db/schema.ts`, use `npm run db:generate` to append a migration. Request handlers never create or alter schema. Do not edit applied migrations. Preserve the Sites/Vinext integration and `.openai/hosting.json`. Production publication must use the supported Sites build/source/deployment workflow, which applies hosted migrations separately. It is not performed by the commands above.
-
-## Explore
-
-- **Saved world:** `GET /api/world` restores the same town. Explicit Play selects Normal pace, one simulated second per real second; Slow is 0.1. The server consumes owed time only through bounded `/api/world/tick` jobs. Paused wall time adds no debt.
-- **Separate experiments:** six-hour afternoons end at tick 21,600. Their controls and recordings remain separate from the saved world's clock.
-- **Information:** select/follow a resident, inspect their received observations, goals and stated reasons, then use the belief lens or chronicle. The observer knows more than any resident; a rumor is not a world fact.
-- **Interventions:** rain, a finite supply delivery and ordinary notes change conditions. They do not prescribe a resident's response.
-- **History:** rewind within `historyStartTick..state.tick`; fork at a settled five-minute boundary. Earlier segments remain under `/api/world/archives`. Export/import and cold replay retain explicit provenance and use no new inference.
-- **Art book:** open `public/assets/viewer.html` directly, or `/assets/viewer.html` through the preview. It embeds the PNG/JSON bytes and needs no model service.
-
-The UI/tour paths require the latest integrated browser check; this README does not claim that final QA has finished.
-
-## Architecture and server configuration
-
-`lib/sim/` owns deterministic one-second physical ticks, permissions, resources, observations, memories, beliefs, decision barriers and replay. `lib/server/` owns D1/SQLite, identity, clocks, provider requests and budget receipts. `components/town-stage.tsx` renders committed state; Phaser owns no authoritative economy. See [simulation contract](./lib/sim/README.md), [server API](./lib/server/README.md) and [background access/setup](./lib/server/BACKGROUND-UPDATES.md).
-
-Production writes require the trusted signed-in email to match server-only `CREATOR_EMAIL`. The registered Site is owner-private. The background writer's service path relies on the confirmed private Sites Dispatch boundary and an explicit `GODMODE_BACKGROUND_ENABLED` gate; it does not obtain visitor identity or app consent from a service token. Never make the Site public to make that writer work.
-
-| Server binding | Purpose/current gate |
-|---|---|
-| `DB` | Required D1 storage binding, declared in the hosting manifest. |
-| `CREATOR_EMAIL` | Owner check; configured privately from the native Site owner. No value belongs in source. |
-| `GODMODE_LIVE_ENABLED` | Currently false. |
-| `MODEL_API_KEY` | Absent. No key was created. |
-| `GODMODE_PROJECT_BUDGET_MICRO_USD` | Absent. A positive explicit project cap is required before live mode, up to 110,000,000 microdollars. |
-| `GODMODE_BACKGROUND_ENABLED` | Writer gate only; not proof of a schedule or unattended execution. |
-
-Use [env.example](./lib/server/env.example) only as a key-name reference. Keep actual local values in ignored `.dev.vars`; never use client-exposed prefixes or commit credentials/runtime state.
-
-The proposed live decision path uses `muse-spark-1.3`, exact input-token preflight, 2,000 input tokens, 768 total output tokens including reasoning, minimal reasoning and strict JSON plus semantic validation. Durable reservation/reconciliation covers both the run and the project. Limits are six active generations across runs, 500 generation attempts/1,000 count-plus-generation HTTP requests/96 event admissions per run, and a $3 per-run ledger ceiling. These are application controls, not a provider-enforced spending guarantee. Do not enable live mode until eligibility, account/credits, prices and spending authorization are verified. Official API references: [token counting](https://dev.meta.ai/docs/token-counting), [reasoning](https://dev.meta.ai/docs/reasoning), [structured output](https://dev.meta.ai/docs/structured-output).
-
-Background scheduling is a distinct pending milestone. The proposed native schedule runs every 30 minutes in America/Boise and processes at most **30 requests / 1,800 owed simulation seconds** per occurrence. At Slow it normally needs three requests; at Normal, thirty. It stops on pause, exhausted debt or writer conflict, retains excess debt, and never enables inference. A past service receipt does not prove a future schedule remains enabled.
-
-## Assets and verification
-
-The current version-2 manifest records **1,861 named frames**: 1,728 character poses, 70 town keys and 63 object keys. Town/object keys include aliases; these are not 1,861 unique raster images. There are 24 residents and **576 character animations**. Editable Aseprite files, Lua construction source, contact sheets, hashes, native pixel audits and the anchor regression check are included. No remote image model or third-party game raster asset generated this pack. See [art provenance and reproduction](./art/README.md) and [manifest](./public/assets/manifest.json).
-
-The sibling `../godmode-sprite-pack.zip` currently contains the earlier version-1 manifest; regenerate and verify it before presenting it as the current chibi pack. Runtime/source version 2 and its offline viewer are current. No separate public asset-pack license has been granted.
+Use the printed loopback address; current local QA uses port 4318. New cozy saves start paused. `POST /api/cozy {seed?,fresh:true}` creates another independent neighborhood without changing the primary or older saves. The Help action “New neighborhood · keep this one saved” uses this path.
 
 ```sh
 npm test
 npm run typecheck
-python3 art/check-package.py
 ```
 
-`quality/test-results.tap` records **44 tests passed, zero failed** in the saved full-suite run. Later targeted tests also verified persistent rewind/fork beyond the first six hours and archive-floor errors. Tests cover conservation, knowledge isolation, exact replay/forks, malformed decisions, budgets, concurrency, durable restart and crash recovery. Provider-shaped fixtures are injected transport tests; they are not live Meta results. The two `quality/browser-cute-tutorial-*` images are intermediate browser evidence, not completion of the latest UI or a final demo video.
+The current full suite, typecheck and local build passed. Browser replay, branch/comparison and rule-history checks passed; saved reload, minimum camera fit, illustrated well hitbox and keyboard movement also passed. Preserve the final local source/package hashes and retained recording/archive lineage. The completed film’s replay/render/encoded-frame checks are documented in `demo/cozy/README.md`. A finished local artifact does not establish official submission-format compliance.
 
-Node/SQLite afternoon and multi-day checks do not establish Cloudflare Free CPU compliance. Active heads/archives have 1.8 MB caps and replay work is bounded; hosting limits, final integrated browser behavior, private service access and unattended scheduling still need their respective checks.
+## Server, persistence and provenance
 
-## Release and submission
+[cozy-api.ts](./lib/server/cozy-api.ts) documents the exact HTTP contract; [cozy-contract.ts](./lib/server/cozy-contract.ts) contains client DTOs. `/api/cozy` creates/loads the main save, `/:id/command` applies validated actions, `/:id/tick` consumes bounded owed time, and rule endpoints separate preview, real-model proposals, Apply and Revert. Import/replay/fork/compare/archive endpoints preserve explicit provenance. Exact Undo supplies an operation index and history-origin hash, preserving prior same-step actions.
 
-Freeze the final source revision, run the clean install/build/tests, verify art hashes and refresh the asset zip, retain one export plus all linked archive segments, test import/replay in a fresh database, then capture the actual supported mode. Record commit/package hashes, exact provenance, real measured usage if live access becomes available, dependency/asset rights and remaining limitations. Do not relabel a rule run or imported claim as live Meta.
+Cozy physics uses fixed 100 ms steps. State, command receipts, clock debits and audit records commit through SQL lease/CAS transactions. 100 ms is the authoritative input resolution. GET never advances. Saved heads/archives are capped at 1.8 MB, recording work is bounded, and older segments are retained before checkpoint replacement. Existing-database upgrade, restart, concurrency, no-double-dispatch, conservation and replay checks are included. Hashes establish deterministic consistency, not signatures or proof that a provider generated an imported claim. Hosted CPU/resource suitability remains a separate verification.
 
-The application was received with native Pending status; it proposed **Worldlift**. That is separate from this project and from a final-project receipt. The public rules review last performed October 25 did not settle pre-event work, pivot permission or final form fields. This prototype and its assets began on **October 25, before the October 26 event start**. Preserve that date and disclose/rebuild as later official instructions require. Final submission remains **ON HOLD under the user's explicit instruction**, even after publication or preparation succeeds.
+Production writes require the trusted creator identity and preserve the Site's owner-private audience. Only bounded tick writers additionally support the existing private Sites service boundary. Service access is not visitor identity and cannot authorize rule editing. No source file or client response contains a key value.
+
+| Server binding/gate | Current status |
+|---|---|
+| `DB` | Required D1 storage. 0004 adds separate cozy tables and a shared model-job purpose defaulting to `resident`. |
+| `CREATOR_EMAIL` | Privately configured from the native Site owner. |
+| `MODEL_API_KEY` | Absent; no key created. |
+| `GODMODE_PROJECT_BUDGET_MICRO_USD` | Absent; a positive explicit project cap is required for model calls. |
+| `GODMODE_RULE_AUTHORING_ENABLED` | Natural-language rule interpretation remains off/unconfigured. |
+| `GODMODE_COZY_NPC_ENABLED` | Optional Meta plans for the three NPCs remain off/unconfigured. |
+| `GODMODE_LIVE_ENABLED` | Legacy resident live mode remains false. |
+| `GODMODE_BACKGROUND_ENABLED` | Writer gate only; never proof of a schedule or unattended execution. |
+
+The implemented hosted adapter requests `muse-spark-1.3` with exact token preflight, 2,000 input tokens, 768 total output tokens including reasoning, minimal effort and strict schemas plus current-world validation. Rules produce proposals, never automatic application. NPC plans use individual received evidence and actual task/resource limits. No model inference runs continuously inside ticks. All transport tests use labeled fixtures.
+
+Model requests share the existing project ledger and six-generation concurrency limit. Cozy saves retain 500 generation attempts/1,000 count-plus-generation HTTP requests / $3 reservation limits. Unknown outcomes stay conservatively charged in the application ledger; retries do not blindly resend an attempt. These controls are not a provider-enforced spending guarantee. [Token counting](https://dev.meta.ai/docs/token-counting), [reasoning](https://dev.meta.ai/docs/reasoning), [structured output](https://dev.meta.ai/docs/structured-output).
+
+A local **Llama 3.2** alternative was researched because the event lists Meta open weights. It has **not been downloaded, accepted or used**. Separate user license acceptance, including the identified indemnity commitment, is pending. “Keep it local for now” does not authorize accepting this license or downloading a model. Acceptance would still leave integration and real behavior tests to do; it would not connect the hosted NLP surface by itself. Hosted interpretation currently needs a verified provider path. No billing or purchases have occurred.
+
+## New art and retained media
+
+The new production set is [art/cozy/](./art/cozy/README.md) and `public/assets/cozy/`: a 512×384 fixed environment, four 24×32 character sets with 288 poses / 96 clips, and separate crop/gift/goods/festival/flood overlays. It is not a modular architecture tileset. Geometry masks and visual anchors are audited against interaction targets.
+
+The environment derives from the original project concept and **two built-in image-edit calls**, followed by native Aseprite resize/palette work and authored path clearance. The earlier concept used one separate image-generation call. Characters and foreground sprites were constructed natively with Aseprite/Lua; no remote character-generation calls or protected game raster imports were used. This supersedes earlier blanket “no image generation” wording for the project's new background. See [runtime provenance](./public/assets/cozy/provenance.json), [source manifest](./art/cozy/ART-MANIFEST.json) and [art source zip](./art/cozy/cozy-art-source.zip).
+
+The asset room is `/assets/cozy/viewer.html`; it stages art, not gameplay. The older sprite pack and 56-second film remain preserved as earlier-revision artifacts. No separate public asset-pack license is granted by these manifests. Dependency/asset rights and required AI-assistance disclosures still need final review.
+
+## Submission boundary
+
+The application was received with Pending status and proposed **Worldlift**. Admission, project-pivot permission, final selected-participant rules, permitted prior work and final portal fields remain unresolved. Current code/art dates are October 25, before the announced October 26 start. Preserve those dates and comply with later disclosure/rebuild requirements.
+
+The intended final pitch now follows the cozy loop and validated-rule thesis. Actual eligible Meta behavior, the official final-video format, final source package, judge access and field-by-field compliance still need evidence. **Final submission remains ON HOLD under the user's explicit instruction**, even if a later private deployment or preparation milestone succeeds.

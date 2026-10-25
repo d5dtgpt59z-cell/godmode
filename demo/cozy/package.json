@@ -1,0 +1,16 @@
+{
+  "name": "godmode-cozy-recorded-demo",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "capture": "node --import tsx generate-recording.ts",
+    "verify:recordings": "node --import tsx verify-recordings.ts",
+    "build:film": "python3 build-film.py"
+  },
+  "devDependencies": {
+    "tsx": "4.20.6"
+  }
+}
