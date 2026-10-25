@@ -1,0 +1,730 @@
+{
+  "version": 2,
+  "createdDate": "2026-10-25",
+  "project": "GODMODE",
+  "status": "Original local prototype asset pack; competition eligibility unconfirmed",
+  "authoring": {
+    "style": "Anime-inspired chibi, warm pastel palette",
+    "method": "Original native Aseprite pixel construction via project Lua source; deterministic geometry and palette variants",
+    "tool": "Aseprite 1.3.18.6-dev",
+    "projectOwner": "Ryan Morrison / Built by Magnus",
+    "remoteGenerativeModel": null,
+    "remoteJobId": null,
+    "providerCalls": 0,
+    "providerChargeForThisPack": 0,
+    "thirdPartyRasterAssets": [],
+    "reference": "Ultima VII-era miniature-world visual density only; no imported game content",
+    "rightsNote": "Original project assets; no separate public asset-pack license granted by this manifest"
+  },
+  "rendering": {
+    "nativeTile": 16,
+    "townTiles": {
+      "width": 64,
+      "height": 48
+    },
+    "characterCell": {
+      "width": 16,
+      "height": 24
+    },
+    "footAnchor": {
+      "x": 8,
+      "y": 23
+    },
+    "cargoAnchor": {
+      "x": 8,
+      "y": 18
+    },
+    "lighting": "upper-left",
+    "sampling": "nearest-neighbor",
+    "palette": [
+      "3b334b",
+      "51485e",
+      "756b81",
+      "938a9d",
+      "b2aab5",
+      "d2c7c6",
+      "dcc5a4",
+      "f5dfb5",
+      "fff1d3",
+      "594051",
+      "80545b",
+      "a97165",
+      "ce9276",
+      "eab58c",
+      "856b63",
+      "b89a7d",
+      "d7b693",
+      "f2d4ab",
+      "688363",
+      "83a879",
+      "a3c68d",
+      "c1d9a1",
+      "e0e9b8",
+      "496d66",
+      "679879",
+      "8fbe8b",
+      "bbdca3",
+      "65879a",
+      "86adbb",
+      "a4cfd1",
+      "c3e4d8",
+      "e6f5df",
+      "84516a",
+      "af7582",
+      "d69c9f",
+      "efb5aa",
+      "ffdbc3",
+      "a27565",
+      "d5aa6f",
+      "f9d99e",
+      "b87c76",
+      "e7aa94",
+      "f7c7ab",
+      "ffe1c3",
+      "754c60",
+      "a77577",
+      "d2a18e",
+      "a26178",
+      "d78f9d",
+      "f4bdc2",
+      "638f9c",
+      "8ebac1",
+      "bce0d7",
+      "756f9f",
+      "a19aca",
+      "cac3e8",
+      "ac895c",
+      "d8b980",
+      "f3ddac",
+      "946f96",
+      "c5a0bc",
+      "e6c8d8",
+      "fff8ec",
+      "312b40"
+    ]
+  },
+  "atlases": {
+    "characters": {
+      "png": "/assets/characters.png",
+      "metadata": "/assets/characters.json",
+      "width": 512,
+      "height": 1664,
+      "packedSourceFrames": 1728,
+      "namedFrames": 1728,
+      "animations": 576
+    },
+    "town": {
+      "png": "/assets/town.png",
+      "metadata": "/assets/town.json",
+      "width": 512,
+      "height": 1024,
+      "packedSourceFrames": 56,
+      "namedFrames": 70,
+      "animations": 1
+    },
+    "objects": {
+      "png": "/assets/objects.png",
+      "metadata": "/assets/objects.json",
+      "width": 512,
+      "height": 512,
+      "packedSourceFrames": 54,
+      "namedFrames": 63,
+      "animations": 7
+    }
+  },
+  "residents": [
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "iona",
+      "name": "Iona",
+      "role": "granary keeper",
+      "variant": 1
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "bram",
+      "name": "Bram",
+      "role": "porter",
+      "variant": 2
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "leda",
+      "name": "Leda",
+      "role": "porter",
+      "variant": 3
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "kitt",
+      "name": "Kitt",
+      "role": "porter",
+      "variant": 4
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "moss",
+      "name": "Moss",
+      "role": "porter",
+      "variant": 5
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "ada",
+      "name": "Ada",
+      "role": "baker",
+      "variant": 6
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "tomas",
+      "name": "Tomas",
+      "role": "baker",
+      "variant": 7
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "orin",
+      "name": "Orin",
+      "role": "timber worker",
+      "variant": 8
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "june",
+      "name": "June",
+      "role": "timber worker",
+      "variant": 9
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "nell",
+      "name": "Nell",
+      "role": "builder",
+      "variant": 10
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "pip",
+      "name": "Pip",
+      "role": "builder",
+      "variant": 11
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "sela",
+      "name": "Sela",
+      "role": "well tender",
+      "variant": 12
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "rook",
+      "name": "Rook",
+      "role": "innkeeper",
+      "variant": 13
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "mara",
+      "name": "Mara",
+      "role": "market clerk",
+      "variant": 14
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "dara",
+      "name": "Dara",
+      "role": "stallholder",
+      "variant": 15
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "vale",
+      "name": "Vale",
+      "role": "stallholder",
+      "variant": 16
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "wren",
+      "name": "Wren",
+      "role": "courier",
+      "variant": 17
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "ivo",
+      "name": "Ivo",
+      "role": "bell keeper",
+      "variant": 18
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "elin",
+      "name": "Elin",
+      "role": "supper cook",
+      "variant": 19
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "bo",
+      "name": "Bo",
+      "role": "householder",
+      "variant": 20
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "fenn",
+      "name": "Fenn",
+      "role": "householder",
+      "variant": 21
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "joss",
+      "name": "Joss",
+      "role": "householder",
+      "variant": 22
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "tavi",
+      "name": "Tavi",
+      "role": "householder",
+      "variant": 23
+    },
+    {
+      "anchor": {
+        "x": 8,
+        "y": 23
+      },
+      "cargoAnchor": {
+        "x": 8,
+        "y": 18
+      },
+      "id": "una",
+      "name": "Una",
+      "role": "householder",
+      "variant": 24
+    }
+  ],
+  "viewer": "/assets/viewer.html",
+  "validation": {
+    "atlases": {
+      "characters": {
+        "animations": 576,
+        "framesWithTransparency": 1728,
+        "height": 1664,
+        "namedFrames": 1728,
+        "sourceFrames": 1728,
+        "uniqueRasterFrames": 1536,
+        "width": 512
+      },
+      "objects": {
+        "animations": 7,
+        "framesWithTransparency": 63,
+        "height": 512,
+        "namedFrames": 63,
+        "sourceFrames": 54,
+        "uniqueRasterFrames": 54,
+        "width": 512
+      },
+      "town": {
+        "animations": 1,
+        "framesWithTransparency": 39,
+        "height": 1024,
+        "namedFrames": 70,
+        "sourceFrames": 56,
+        "uniqueRasterFrames": 54,
+        "width": 512
+      }
+    },
+    "checks": [
+      "All frame rectangles inside exported PNG dimensions",
+      "All frames contain visible pixels",
+      "All pixel anchors, normalized Phaser pivots and durations valid",
+      "All animation references resolve",
+      "24 residents x 4 facings x 6 actions covered",
+      "1728 character poses and 576 character animations",
+      "All character cells16x24 with anchor8,23",
+      "Every action/facing has at least two distinct raster poses",
+      "All translucent character pixels are alpha70 contact shadows at foot rows21-23"
+    ],
+    "status": "passed"
+  },
+  "verification": {
+    "nativePixelAudit": "passed",
+    "visualContactReview": "Native and exact2x sheets inspected",
+    "browserAnimationReview": "Pending integrated root browser playtest; in-app browser unavailable to asset agent",
+    "stagingNote": "Contact town is a deliberate art arrangement, not a simulated result"
+  },
+  "exports": [
+    {
+      "path": "public/assets/characters.json",
+      "bytes": 574274,
+      "sha256": "c36edc7dbc10384755599fe1902acf9de4b6960dc2c5fecfc7536188de0c8cbc"
+    },
+    {
+      "path": "public/assets/characters.png",
+      "bytes": 151046,
+      "sha256": "bcd6217489fb4b09323f19d44b996f2f01d479849d48b63f97886e60c02be595",
+      "width": 512,
+      "height": 1664
+    },
+    {
+      "path": "public/assets/contact-characters.png",
+      "bytes": 16277,
+      "sha256": "1ab64dff774b1e791921bfb9e2182b52ee32d0172872d3414e79ee98ab7b6331",
+      "width": 528,
+      "height": 136
+    },
+    {
+      "path": "public/assets/contact-objects.png",
+      "bytes": 4453,
+      "sha256": "8a87216ad52f4e3ed82cb9bd5d88e7358df8552d6e0582640278e3cbbbb1b469",
+      "width": 384,
+      "height": 160
+    },
+    {
+      "path": "public/assets/contact-poses.png",
+      "bytes": 7139,
+      "sha256": "d3dfb5708b33db1d24a073dc5f2d946b5be3d18986af94cff3ac5eedaa96196d",
+      "width": 360,
+      "height": 120
+    },
+    {
+      "path": "public/assets/contact-town-2x.png",
+      "bytes": 40840,
+      "sha256": "84b71c35d82f92b8f7085dff87f6be9dc6f066c3c3e34b0b3df2d45ee0ea432b",
+      "width": 800,
+      "height": 512
+    },
+    {
+      "path": "public/assets/contact-town-populated.png",
+      "bytes": 32303,
+      "sha256": "7adbe81378aeb7470cec718fbc3d00689185cbde21bbb652d0f4b2cf192705f2",
+      "width": 400,
+      "height": 256
+    },
+    {
+      "path": "public/assets/contact-town.png",
+      "bytes": 23102,
+      "sha256": "4e07d1a33a095f15a06a654405bd6589eaeab625430a0554673426bd1107e84d",
+      "width": 400,
+      "height": 256
+    },
+    {
+      "path": "public/assets/objects.json",
+      "bytes": 19413,
+      "sha256": "026734b8982106679dd3d28499dc9ef87b454bbce5fe6faec62f963f1ae3b7e2"
+    },
+    {
+      "path": "public/assets/objects.png",
+      "bytes": 7265,
+      "sha256": "899322354ba106961d7f1c9654a7b114a52a7aadd4b247ffff4cb55e612182cc",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "public/assets/residents.json",
+      "bytes": 3136,
+      "sha256": "79274b1e0c6dc1762bbe66befa9147ce9360b4c41d0ba4ab2f5715b3eec4e56e"
+    },
+    {
+      "path": "public/assets/town.json",
+      "bytes": 20856,
+      "sha256": "7ffa846ff1b02d90453f72f83f21975a1ac321e863ea7178b5c5775dc16e9fe7"
+    },
+    {
+      "path": "public/assets/town.png",
+      "bytes": 19853,
+      "sha256": "8a0ec620250cd25b867c74f0069093b83045e575cbd6e4a92458ce1aa8ab5223",
+      "width": 512,
+      "height": 1024
+    },
+    {
+      "path": "public/assets/validation.json",
+      "bytes": 1004,
+      "sha256": "26fd235ceea5eb2469c36905aff7678d505970b18c2c86b88ad229659b19b324"
+    },
+    {
+      "path": "public/assets/viewer.html",
+      "bytes": 826471,
+      "sha256": "31d9e2532052b73cd206e0720588356123aa19fe7e25637ea3346227e07d610f"
+    }
+  ],
+  "editableSources": [
+    {
+      "path": "art/README.md",
+      "bytes": 7637,
+      "sha256": "0cc9d513c8480d960ce1f505d4c8d51025cbddf05b5518e94c9be5e9bddd169d"
+    },
+    {
+      "path": "art/audit.lua",
+      "bytes": 3975,
+      "sha256": "d98f88bdde4d28462bd44af06f5060e641ed583105a4ec2b26d77d03c55d6500"
+    },
+    {
+      "path": "art/build-viewer.py",
+      "bytes": 11522,
+      "sha256": "26c6fb018d1ea162dd67d00318d88c2a81900d70b09309e4d6ef728e0189023a"
+    },
+    {
+      "path": "art/characters-base-rig.aseprite",
+      "bytes": 22595,
+      "sha256": "7502cdf89aa4f05812a4e92012698e0e2aafbca91d80c36f0c29c4093c885dfb"
+    },
+    {
+      "path": "art/characters-master.aseprite",
+      "bytes": 488957,
+      "sha256": "9b67d2f9670bc603ad431f8961ea7fb85390e43736dc15cc2a84d68bc713bb37"
+    },
+    {
+      "path": "art/characters.aseprite",
+      "bytes": 88014,
+      "sha256": "60a82f86b49b2f3a98917e6c5c7769b15962bd7c60806da0f3e1d49ff9ffec89"
+    },
+    {
+      "path": "art/characters.lua",
+      "bytes": 3533,
+      "sha256": "ba01a6897dd47637545c6f7bdb7d4dfd34bbe9401230d35863b26e7d83aa330c"
+    },
+    {
+      "path": "art/check-package.py",
+      "bytes": 1463,
+      "sha256": "7e7232a885a7cccfc6e6084a41c0d0f89bfea9e5fd8a3b805218f5412bbee10e"
+    },
+    {
+      "path": "art/check-phaser-anchors.cjs",
+      "bytes": 1427,
+      "sha256": "feb1ea2f55737ebd26c0beea017a18f557b961f25913aeb75be3ebe571174c00"
+    },
+    {
+      "path": "art/chibi-rig.lua",
+      "bytes": 5293,
+      "sha256": "09c138734c1eb80b092b55bb16bf94efa043101a21e56302e5e45d9d15f95a3d"
+    },
+    {
+      "path": "art/classic-style-before-chibi.zip",
+      "bytes": 736388,
+      "sha256": "1cafe5226b9a2eb2cd49ff6894cdbff89303e52dc58d100e927a4df4e02c8c0f"
+    },
+    {
+      "path": "art/contact-characters.aseprite",
+      "bytes": 9257,
+      "sha256": "4cc87ac8754b48e2ea09bf63f22ae04b1307a5ea0cefaee581ca253a68f21a7b"
+    },
+    {
+      "path": "art/contact-objects.aseprite",
+      "bytes": 3181,
+      "sha256": "a8aef9758f26fb4a0569f82a6623fa485dc82a71dc8091d72c993708216a69fd"
+    },
+    {
+      "path": "art/contact-town-populated.aseprite",
+      "bytes": 18119,
+      "sha256": "a69b397ec27014602b28f1d1c17993a154df80ed49843cad778d0ad45e32f0f5"
+    },
+    {
+      "path": "art/contact-town.aseprite",
+      "bytes": 14104,
+      "sha256": "82bfa7e024e17949dab90ca03b561753d13236b9c575dcfbef4846aad069366a"
+    },
+    {
+      "path": "art/objects.aseprite",
+      "bytes": 5207,
+      "sha256": "6b183a009dab22873f7dd14a5060dcfdbb71caa32d64e657060b04015399b429"
+    },
+    {
+      "path": "art/objects.lua",
+      "bytes": 8274,
+      "sha256": "5456a525a99deddf9b3236b6d887814b48651f8467b58ff4bce47786e146abfe"
+    },
+    {
+      "path": "art/package-assets.py",
+      "bytes": 2881,
+      "sha256": "098a221c5d6ea9a11b8fda03c8e09e5ec835d6c113ceeaa0d98d493aa3a3f0ca"
+    },
+    {
+      "path": "art/pixel-core.lua",
+      "bytes": 5366,
+      "sha256": "05bcff4db007a98e09f0eece2c4a4662727a27809b55984a7b50cf4e3dca3ac4"
+    },
+    {
+      "path": "art/stage.lua",
+      "bytes": 1926,
+      "sha256": "abfba379b998279d0d35501be14d7fca5b832323432444d9ee2d76bffc2528ec"
+    },
+    {
+      "path": "art/town.aseprite",
+      "bytes": 13941,
+      "sha256": "b67d777fe52886864526766df232840687f17ea867a95c2ed45b280bbc584dc8"
+    },
+    {
+      "path": "art/town.lua",
+      "bytes": 17480,
+      "sha256": "53fd10bdf447963eefa8b322fda48eb9eac70380e036a2927a5eae04485067da"
+    }
+  ]
+}

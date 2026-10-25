@@ -1,0 +1,478 @@
+{
+  "video": {
+    "file": "godmode-prototype-56s.mp4",
+    "bytes": 16568385,
+    "sha256": "d70250d6a0f63ddb2dabbfd8df2f0ba2a8b5248959e1f70df9460239dd04bfec",
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 1680,
+    "duration": 56.0,
+    "audio": "none; intentionally silent",
+    "decodedFrames": [
+      0,
+      10,
+      20.5,
+      28,
+      36,
+      43,
+      49,
+      54.5
+    ]
+  },
+  "sourceDate": "2026-10-25",
+  "engineEvidence": {
+    "seed": 137,
+    "mode": "rule-policy",
+    "worldMode": "persistent",
+    "metaCalls": 0,
+    "durationSimSeconds": 93600,
+    "snapshots": 961,
+    "bridge": {
+      "id": "demo-main:229",
+      "seq": 229,
+      "branchId": "demo-main",
+      "tick": 1938,
+      "phase": "physical",
+      "type": "bridge_completed",
+      "actorId": "pip",
+      "audience": [
+        "ada",
+        "bram",
+        "june",
+        "kitt",
+        "leda",
+        "nell",
+        "orin",
+        "pip",
+        "tomas"
+      ],
+      "payload": {
+        "workerSeconds": 3600
+      },
+      "sourceIds": [],
+      "prevHash": "7248c1cd42175dbc6549cb6c7819cd166762ba0a358c079fb89e1e6756556445",
+      "hash": "fdd62d65afef26f3969cbebd36ba48a44bffb55007cb2ebbebaeff798e1ef377"
+    },
+    "read": {
+      "id": "demo-main:304",
+      "seq": 304,
+      "branchId": "demo-main",
+      "tick": 2701,
+      "phase": "physical",
+      "type": "note_read",
+      "actorId": "wren",
+      "audience": [
+        "wren"
+      ],
+      "payload": {
+        "noteId": "demo-main/note/42",
+        "claimId": "granary-twelve",
+        "text": "The granary contains twelve sacks of grain.",
+        "source": "anonymous note"
+      },
+      "sourceIds": [],
+      "prevHash": "d01e02bfa7fd78c153b9410bd24f4d94145a60dc28806e6406c545e4030c4025",
+      "hash": "b1163bde8ec6a55aa50d2ef73be13ca105cc0f4ad32072f365f57dd82faa5625"
+    },
+    "check": {
+      "id": "demo-main:664",
+      "seq": 664,
+      "branchId": "demo-main",
+      "tick": 6865,
+      "phase": "observation",
+      "type": "store_inspected",
+      "actorId": "wren",
+      "audience": [
+        "wren"
+      ],
+      "payload": {
+        "placeId": "granary",
+        "stock": {
+          "grain": 0,
+          "water": 0,
+          "timber": 0,
+          "bread": 0
+        }
+      },
+      "sourceIds": [],
+      "prevHash": "98955b57b5a43decb8fb96aed1dc5560457a0761f813999720bea6f96bf70eca",
+      "hash": "faf1379943f1a95f5f53e3b72ad4787603eedb69d211865ae3df86fb2174cdec"
+    },
+    "supply": {
+      "id": "demo-main:232",
+      "seq": 232,
+      "branchId": "demo-main",
+      "tick": 2100,
+      "phase": "command",
+      "type": "supplies_delivered",
+      "actorId": null,
+      "audience": [
+        "ivo",
+        "mara",
+        "vale",
+        "wren"
+      ],
+      "payload": {
+        "commandId": "demo-supplies",
+        "placeId": "square",
+        "item": "bread",
+        "quantity": 4,
+        "externalReserve": 8
+      },
+      "sourceIds": [],
+      "prevHash": "66b7d51d668c6fe18b1fe8f3b8e85ee26b944e5d1e29156516a565d9b83fe824",
+      "hash": "e72f314544b33db67bdad99d0ef3c0bf21f9c10d285aeb6fe05da894f3dc0eda"
+    },
+    "night": {
+      "id": "demo-main:2498",
+      "seq": 2498,
+      "branchId": "demo-main",
+      "tick": 28800,
+      "phase": "calendar",
+      "type": "night_started",
+      "actorId": null,
+      "audience": [
+        "ada",
+        "bo",
+        "bram",
+        "dara",
+        "elin",
+        "fenn",
+        "iona",
+        "ivo",
+        "joss",
+        "june",
+        "kitt",
+        "leda",
+        "mara",
+        "moss",
+        "nell",
+        "orin",
+        "pip",
+        "rook",
+        "sela",
+        "tavi",
+        "tomas",
+        "una",
+        "vale",
+        "wren"
+      ],
+      "payload": {
+        "day": 1,
+        "hour": 20
+      },
+      "sourceIds": [],
+      "prevHash": "9466a17682ca49de8f173c7bf563bb274ed310085e6e9bacc288df1af9423cdf",
+      "hash": "d45299566d9ae7a4dfa5e265a34a2d3bb115150df7f702cb84427f287588c8be"
+    },
+    "dawn": {
+      "id": "demo-main:4787",
+      "seq": 4787,
+      "branchId": "demo-main",
+      "tick": 64800,
+      "phase": "calendar",
+      "type": "day_started",
+      "actorId": null,
+      "audience": [
+        "ada",
+        "bo",
+        "bram",
+        "dara",
+        "elin",
+        "fenn",
+        "iona",
+        "ivo",
+        "joss",
+        "june",
+        "kitt",
+        "leda",
+        "mara",
+        "moss",
+        "nell",
+        "orin",
+        "pip",
+        "rook",
+        "sela",
+        "tavi",
+        "tomas",
+        "una",
+        "vale",
+        "wren"
+      ],
+      "payload": {
+        "day": 2,
+        "hour": 6
+      },
+      "sourceIds": [],
+      "prevHash": "6b416ad63d7f859da7f4ded75a93b89b138e623a6be30548bf3f15b35401b717",
+      "hash": "6ebf96f37b052f325697ac4c01d2825e4fa142a16185407674acb3dc6c6966f8"
+    },
+    "firstSupper": {
+      "tick": 21600,
+      "fed": 24,
+      "bridge": true,
+      "decisions": 388
+    },
+    "branch": {
+      "forkTick": 1800,
+      "fed": 24,
+      "bridge": true,
+      "externalBreadDelivered": 0
+    },
+    "primaryHash": "4900cbe3f71eb006d07b8828ba297e4cd4a61bd14f8b72f8b3803ed4b78cb172",
+    "branchHash": "1a373e8a3cae258b3846a7202a997d63b0798ae64322b81d4c79e844a88b7777",
+    "primaryReplayVerified": true,
+    "branchReplayVerified": true,
+    "providerCalls": 0,
+    "events": 7336
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4447,
+      "sha256": "9b6429df3ba78d3bb1b3f1ac2ebf9fec7e0ad72b70a10e14c1f05c815a07857e"
+    },
+    {
+      "path": "decoded-review/00-at-0s.png",
+      "bytes": 1289922,
+      "sha256": "be6faf903cb70944091b7279c90a906e0e8c9a3ecc5bd2e0922422d2900f5bc1"
+    },
+    {
+      "path": "decoded-review/01-at-10s.png",
+      "bytes": 846869,
+      "sha256": "521ff45a30747f022d1c5ccd0ba9e5a32d2f3b98f93d89c9e114c2af45309dae"
+    },
+    {
+      "path": "decoded-review/02-at-20.5s.png",
+      "bytes": 833252,
+      "sha256": "36ae88fbb46f07c9eb93673ba51e8586d0b10655b5fcefaaaa9d81a1e61f8426"
+    },
+    {
+      "path": "decoded-review/03-at-28s.png",
+      "bytes": 903893,
+      "sha256": "5ef177bdd9f5fb6c41b29a8d9089ecb6f5385dd356c61bd712bd2fb2b61d156c"
+    },
+    {
+      "path": "decoded-review/04-at-36s.png",
+      "bytes": 1071442,
+      "sha256": "9bf49835620287808e268e562a947ac75298257e5bbed2ed894bb6137d2e2ab7"
+    },
+    {
+      "path": "decoded-review/05-at-43s.png",
+      "bytes": 976229,
+      "sha256": "27fa681f4118bef2f0f39fd6c64319689fc1e4a66dfcc51dd8532f58f42fa8c0"
+    },
+    {
+      "path": "decoded-review/06-at-49s.png",
+      "bytes": 850114,
+      "sha256": "c64519aa006d83475d530c5882ffde399ecd60db70140c36c1881eb77caeabe9"
+    },
+    {
+      "path": "decoded-review/07-at-54.5s.png",
+      "bytes": 1125196,
+      "sha256": "855883fa8d3fe2d2ac964fa4e9b3ccd265f1c6756a1c3d849ec5022671f479b5"
+    },
+    {
+      "path": "decoded-review/encoded-contact.png",
+      "bytes": 3075487,
+      "sha256": "24cd48dd5dba90ba96e0399a1864427bf6568b0028daf44190db3f4ad4711b81"
+    },
+    {
+      "path": "engine-snapshot/canonical.ts",
+      "bytes": 2685,
+      "sha256": "63390b860611ec3832c788746a6127f31c873e3b330fe65e67adfd1efb66b033"
+    },
+    {
+      "path": "engine-snapshot/contracts.ts",
+      "bytes": 7119,
+      "sha256": "fa33520eef09650283334b5f7164dd8597d88101d9717e213735e3cd8497b0a3"
+    },
+    {
+      "path": "engine-snapshot/engine.ts",
+      "bytes": 58265,
+      "sha256": "e80070194adba978984a52f96bf308075ce35f76c84e7631d40b3ab5bd67ef2d"
+    },
+    {
+      "path": "engine-snapshot/index.ts",
+      "bytes": 143,
+      "sha256": "3a5001c913d91b97881ddb266aea70821b1a852f78254fd2040d47c2bd4be03e"
+    },
+    {
+      "path": "engine-snapshot/pathfinding.ts",
+      "bytes": 1178,
+      "sha256": "f141e7a0f10475752dec327e129ef3ad5ed42949c9dfdbd936757e15cab27587"
+    },
+    {
+      "path": "engine-snapshot/scenario.ts",
+      "bytes": 8081,
+      "sha256": "79ded2088bb3cc9ce2a0260e107fb57d4fad4e2c63ecda1af9c92df408447ab5"
+    },
+    {
+      "path": "engine-snapshot/source-hashes.json",
+      "bytes": 705,
+      "sha256": "b2ec29e316da2e011a72b305554fa0bec7ab46ea59a9c2cbfc5bffcd5a7d7ba6"
+    },
+    {
+      "path": "ffprobe.json",
+      "bytes": 2490,
+      "sha256": "ad569faaf8b118bef46239af9dc533df46c882a3d847bc3d378f792cca50bc3b"
+    },
+    {
+      "path": "film/AGENTS.md",
+      "bytes": 7275,
+      "sha256": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    {
+      "path": "film/CLAUDE.md",
+      "bytes": 7275,
+      "sha256": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    {
+      "path": "film/REVIEW.md",
+      "bytes": 2292,
+      "sha256": "c3fbaeee755157bfceb7cb007ca9e69c97e5a951a2a755d9b4f3312d66027f35"
+    },
+    {
+      "path": "film/SPEC.md",
+      "bytes": 3381,
+      "sha256": "f166f486442ee7701301cb83a0a9c4e9e5106bdf232ab41b25ed447a45cab5b9"
+    },
+    {
+      "path": "film/STORYLINES.md",
+      "bytes": 1269,
+      "sha256": "372a2b7209487c3562ae879f8a1cab400405ee12fa18e97c82a172146d073fee"
+    },
+    {
+      "path": "film/assets/atlas-data.js",
+      "bytes": 532582,
+      "sha256": "9878b11af99924327c86877b8c7ad02d249feed8840530e6abaa266876d032d6"
+    },
+    {
+      "path": "film/assets/characters.json",
+      "bytes": 574274,
+      "sha256": "c36edc7dbc10384755599fe1902acf9de4b6960dc2c5fecfc7536188de0c8cbc"
+    },
+    {
+      "path": "film/assets/characters.png",
+      "bytes": 151046,
+      "sha256": "bcd6217489fb4b09323f19d44b996f2f01d479849d48b63f97886e60c02be595"
+    },
+    {
+      "path": "film/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "film/assets/objects.json",
+      "bytes": 19413,
+      "sha256": "026734b8982106679dd3d28499dc9ef87b454bbce5fe6faec62f963f1ae3b7e2"
+    },
+    {
+      "path": "film/assets/objects.png",
+      "bytes": 7265,
+      "sha256": "899322354ba106961d7f1c9654a7b114a52a7aadd4b247ffff4cb55e612182cc"
+    },
+    {
+      "path": "film/assets/recording-data.js",
+      "bytes": 9081172,
+      "sha256": "f503bf78bd160a44dd381232eba2231a14609a333a613423746023cce987fd6f"
+    },
+    {
+      "path": "film/assets/render-world.js",
+      "bytes": 8769,
+      "sha256": "a04a274384272e6d720283ef79a8191d1abb70dda4677965f057ddd3fcb618f9"
+    },
+    {
+      "path": "film/assets/snapshots.json",
+      "bytes": 9081147,
+      "sha256": "f7159d4218cd94228b08b8057905c3724bffb195bf8e1b88ae61f8fae4b5a20d"
+    },
+    {
+      "path": "film/assets/town.json",
+      "bytes": 20856,
+      "sha256": "7ffa846ff1b02d90453f72f83f21975a1ac321e863ea7178b5c5775dc16e9fe7"
+    },
+    {
+      "path": "film/assets/town.png",
+      "bytes": 19853,
+      "sha256": "8a0ec620250cd25b867c74f0069093b83045e575cbd6e4a92458ce1aa8ab5223"
+    },
+    {
+      "path": "film/check-evidence.json",
+      "bytes": 856,
+      "sha256": "19e1acfb05ad63d42eb278fa19591739829cf6229d7ba2f4921bf22e25d1427a"
+    },
+    {
+      "path": "film/compositions/components/ui-focus-zoom.html",
+      "bytes": 23413,
+      "sha256": "2da44ee109ccdabbcd64324284078978b42e3c55725fdf44fe261b74d248736b"
+    },
+    {
+      "path": "film/compositions/village.html",
+      "bytes": 7447,
+      "sha256": "5f384d89e4533910ae5df02ae98df91fdd6e963b8c43e5650f4e1375cc2ae905"
+    },
+    {
+      "path": "film/hyperframes.json",
+      "bytes": 487,
+      "sha256": "e38e36939e0a3cb42c5bc69aa0250ca8a8fd6d0c8d0409b43318d4de98b305bf"
+    },
+    {
+      "path": "film/hyperframes.lock.json",
+      "bytes": 119,
+      "sha256": "1553175953f1e9c64a7dbd7b5af6ae33dfef37da26e2dffe603772eda3b9c1a7"
+    },
+    {
+      "path": "film/index.html",
+      "bytes": 1190,
+      "sha256": "c3292527cb746d7d06f4240db4bf4faa6a8308896fe6f32728a9f6dd681dc4b4"
+    },
+    {
+      "path": "film/meta.json",
+      "bytes": 79,
+      "sha256": "9bd63928af11a4a7206eac6a5e3d3d86a425dd7d901c77e9997bcb1576e2ae26"
+    },
+    {
+      "path": "film/package.json",
+      "bytes": 293,
+      "sha256": "db76b1715e94cc764ae4ddfca22c75b4cb11b0da87bd3dd0e8e32e881a938f4b"
+    },
+    {
+      "path": "fork-recording.json",
+      "bytes": 270178,
+      "sha256": "22358754c1231be5e07f73b2926a167dfdff66a8db775c9ef7d6ee0e618fff2a"
+    },
+    {
+      "path": "generate-recording.ts",
+      "bytes": 4288,
+      "sha256": "bc3f1949603fe55380fceaeda85157299b3c4b00f7ca9ad5055b7908ca69204e"
+    },
+    {
+      "path": "primary-recording.json",
+      "bytes": 53669,
+      "sha256": "bac317dbe11f706a49a5ccb2133f70f0f646b31f039b38ad3b9c916cd09f8d71"
+    },
+    {
+      "path": "recording-summary.json",
+      "bytes": 3263,
+      "sha256": "19a241f588615a549b996f88fec6121fdeb9c66c403434475c368fc83ece65b1"
+    },
+    {
+      "path": "source-events.json",
+      "bytes": 4102329,
+      "sha256": "11d5cd9e297930796aa3c9365a8e2810560f264d4c91a7fb54ddb44891027834"
+    },
+    {
+      "path": "verify-video.py",
+      "bytes": 1730,
+      "sha256": "cac80fdba8139272b06b8fe13eb2183a104b76df85fc5c5e03dc03420f052dce"
+    },
+    {
+      "path": "video-verification.json",
+      "bytes": 385,
+      "sha256": "6bde04fd53ed90518e66ffa2e80681b80f2217671dcf3c5cb186e87c31a684c9"
+    }
+  ]
+}

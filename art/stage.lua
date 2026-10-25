@@ -1,0 +1,9 @@
+local P=dofile('/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/art/pixel-core.lua')
+local function read(path) local f=assert(io.open(path,'r'));local s=f:read('*a');f:close();return json.decode(s) end
+local data=read(P.root..'/public/assets/characters.json');local sheet=Image{fromFile=P.root..'/public/assets/characters.png'};local scene=Image{fromFile=P.root..'/public/assets/contact-town.png'}
+local actors={{'iona',79,106,'idle','s'},{'bram',128,173,'carry','e'},{'leda',174,180,'carry','e'},{'kitt',231,178,'walk','e'},{'moss',256,202,'carry','s'},{'ada',311,105,'work','s'},{'tomas',295,125,'carry','w'},{'orin',39,231,'work','e'},{'june',59,236,'carry','n'},{'nell',187,192,'work','e'},{'pip',230,196,'work','w'},{'sela',161,153,'idle','s'},{'rook',99,205,'idle','s'},{'mara',308,189,'talk','w'},{'dara',333,189,'idle','s'},{'vale',345,212,'carry','w'},{'wren',264,209,'talk','e'},{'ivo',251,160,'idle','s'},{'elin',316,239,'carry','e'},{'bo',283,229,'walk','e'},{'fenn',111,146,'walk','s'},{'joss',83,216,'talk','e'},{'tavi',133,229,'idle','w'},{'una',372,234,'rest','w'}}
+table.sort(actors,function(x,y) return x[3]<y[3] end)
+for _,actor in ipairs(actors) do local f=data.frames[actor[1]..'.'..actor[4]..'.'..actor[5]..'.0'].frame;local im=P.image(16,24);for y=0,23 do for x=0,15 do im:drawPixel(x,y,sheet:getPixel(f.x+x,f.y+y)) end end;scene:drawImage(im,Point(actor[2]-8,actor[3]-23)) end
+P.saveImage(scene,P.root..'/public/assets/contact-town-populated.png');P.saveSprite(scene,P.root..'/art/contact-town-populated.aseprite','Art staging only — 24 residents, no simulated outcomes')
+local enlarged=P.image(800,512);for y=0,255 do for x=0,399 do local c=scene:getPixel(x,y);P.rect(enlarged,x*2,y*2,2,2,c) end end;P.saveImage(enlarged,P.root..'/public/assets/contact-town-2x.png')
+print('24 resident art staging contact; 2x nearest-neighbor inspection image.')

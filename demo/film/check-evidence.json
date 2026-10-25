@@ -1,0 +1,43 @@
+{
+  "lint": {
+    "ok": true,
+    "errors": 0,
+    "warnings": 2,
+    "findings": [
+      "timeline_track_too_dense",
+      "timeline_track_too_dense"
+    ]
+  },
+  "runtime": {
+    "ok": true,
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  "contrast": {
+    "ok": true,
+    "errors": 0,
+    "warnings": 0,
+    "findings": []
+  },
+  "craft": {
+    "ok": true,
+    "errors": 0,
+    "warnings": 6,
+    "findings": [
+      "dead_stretch",
+      "film_silent",
+      "dead_stretch",
+      "dead_stretch",
+      "dead_stretch",
+      "dead_stretch"
+    ]
+  },
+  "report": "/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/film/.hyperframes/artifacts/checks/042add53-bb13-4fe6-95ac-2dfabcc13adc.json"
+}

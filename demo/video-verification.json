@@ -1,0 +1,22 @@
+{
+  "file": "godmode-prototype-56s.mp4",
+  "bytes": 16568385,
+  "sha256": "d70250d6a0f63ddb2dabbfd8df2f0ba2a8b5248959e1f70df9460239dd04bfec",
+  "codec": "h264",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 1680,
+  "duration": 56.0,
+  "audio": "none; intentionally silent",
+  "decodedFrames": [
+    0,
+    10,
+    20.5,
+    28,
+    36,
+    43,
+    49,
+    54.5
+  ]
+}

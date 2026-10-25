@@ -1,0 +1,26 @@
+[
+  {
+    "path": "pathfinding.ts",
+    "sha256": "f141e7a0f10475752dec327e129ef3ad5ed42949c9dfdbd936757e15cab27587"
+  },
+  {
+    "path": "contracts.ts",
+    "sha256": "fa33520eef09650283334b5f7164dd8597d88101d9717e213735e3cd8497b0a3"
+  },
+  {
+    "path": "scenario.ts",
+    "sha256": "79ded2088bb3cc9ce2a0260e107fb57d4fad4e2c63ecda1af9c92df408447ab5"
+  },
+  {
+    "path": "canonical.ts",
+    "sha256": "63390b860611ec3832c788746a6127f31c873e3b330fe65e67adfd1efb66b033"
+  },
+  {
+    "path": "engine.ts",
+    "sha256": "e80070194adba978984a52f96bf308075ce35f76c84e7631d40b3ab5bd67ef2d"
+  },
+  {
+    "path": "index.ts",
+    "sha256": "3a5001c913d91b97881ddb266aea70821b1a852f78254fd2040d47c2bd4be03e"
+  }
+]

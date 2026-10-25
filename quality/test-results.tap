@@ -1,0 +1,59 @@
+
+> godmode-living-world@0.1.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ rule-policy routes execute, preserve command idempotence, rewind, fork and cold replay with zero inference (222.405875ms)
+Local Node/SQLite full-afternoon evidence: 2409 ms including cold replay; max state 756756 bytes; 72 append batches; zero HTTP/model calls. Not a Cloudflare CPU measurement.
+✔ synthetic transport integration captures usage and commits canonical decisions without real provider traffic (129.665542ms)
+✔ a complete six-hour rule-policy afternoon remains durably exportable below the state cap (2410.141666ms)
+✔ private diagnostics locate database failures without logging uncontrolled message text (34.090708ms)
+✔ missing or disabled Meta never sends a request (1.360041ms)
+✔ exact count preflight and generation capture real-response-shaped usage without live calls (39.994541ms)
+✔ over-limit input prevents generation (1.06825ms)
+✔ unknown resident evidence, targets and illegal behavior are rejected (1.017791ms)
+✔ compact knowledge retains a distant worksite and received note evidence (0.208541ms)
+✔ invalid generation retains provider response and billed usage audit (0.670208ms)
+✔ provider failures are sanitized and deadlines do not fabricate decisions (5.758458ms)
+✔ saved clock accrues real elapsed time but reads never pretend to advance it (76.244291ms)
+✔ paused wall time is excluded and pace changes preserve already owed time (31.960916ms)
+✔ a crash after simulation commit recovers its durable tick receipt without stepping twice (29.04225ms)
+✔ simultaneous saved-world tick writers cannot consume the same clock debt (21.216ms)
+✔ persistent archives commit before checkpoint replacement and continue exact cold replay (2600.556958ms)
+✔ durable SQLite heads enforce lease/CAS and transactional rollback (10.680875ms)
+✔ budget reservations, request receipts and unknown billing reconcile once (1.293334ms)
+✔ event and generation caps reject before increment or dispatch (0.767667ms)
+✔ project reservations span every run and cannot be raised by another configured run (1.001625ms)
+✔ six active generation slots are shared across runs (5.829041ms)
+✔ canonical SHA-256 matches independent Node implementation including Unicode and long inputs (5.220625ms)
+✔ 24 stable identities have distinct walkable spawn tiles and authored individual needs and priorities (17.379583ms)
+✔ advance without completed decisions stops at a logical barrier and never invents AI (18.152583ms)
+✔ network completion order cannot change canonical commit order or world state (30.48925ms)
+✔ one-second ticks produce the same world under different client advance chunk sizes (69.459292ms)
+✔ projected residents receive local knowledge rather than observer-only stock or unread note claims (59.917167ms)
+✔ decision validation rejects unavailable evidence and converts bad output to an explicit deterministic fallback (6.624333ms)
+✔ manual resource actions require real quantities, and private stores reject unauthorized collection (12.620292ms)
+✔ competing collectors reserve finite goods and cannot both claim the final loaf (7.821792ms)
+✔ a resident can eat a reserved public meal while carrying a full pack of other goods (9.31975ms)
+✔ offered goods do not transfer until the recipient independently accepts them (7.781625ms)
+✔ rain, supply deliveries, and notes obey finite budgets and tick-boundary order (11.680917ms)
+✔ afternoon baseline is a real finite economy with 24 unique meal accounts and a constructed crossing (251.632209ms)
+✔ finite interventions change actual resources; all 24 can eat without a scripted success outcome (279.650292ms)
+✔ false notes remain sourced claims and can be rejected using first-hand observations (221.717208ms)
+✔ complete recordings replay without inference and reject altered operations or checkpoint metadata (830.807083ms)
+✔ rewind reconstructs exact earlier history and fork isolates new interventions from its parent (212.179833ms)
+✔ rewind cannot inherit answers to future decisions from a live recording (15.634708ms)
+✔ observer projections and decision requests cannot mutate authoritative private state (9.910417ms)
+✔ imported branch checkpoints reject future observations and unknown belief evidence (20.705125ms)
+✔ persistent mode continues beyond the experiment horizon and residents go home and rest at night (386.487125ms)
+✔ a persistent dawn logs finite ecology production and preserves resident histories and conservation (991.116791ms)
+✔ persistent background chunking and archival rollover preserve exact deterministic replay (2977.301208ms)
+✔ persistent dawn renews daily interventions through an explicit outside allocation without creating town food (1170.998625ms)
+✔ commands delivered exactly at dawn count against the new day rather than bypassing its limits (1160.673916ms)
+ℹ tests 46
+ℹ suites 0
+ℹ pass 46
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9058.101125

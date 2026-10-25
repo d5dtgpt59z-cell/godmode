@@ -1,0 +1,3 @@
+import {z} from 'zod';
+import {authorized,body,handle,json,revision,runId,service} from '@/lib/server/http';
+export async function POST(request:Request,context:{params:Promise<{id:string}>}){return handle(async()=>{await authorized();const input=z.object({expectedRevision:revision,commandId:z.string().min(1).max(100),command:z.object({id:z.string().max(100).optional(),type:z.enum(['rain','resourceDrop','message']),targetId:z.string().max(100).nullable().optional(),claimId:z.string().max(100).nullable().optional()}).strict()}).strict().parse(await body(request));return json(await service().command(runId.parse((await context.params).id),input.expectedRevision,input.commandId,{...input.command,id:input.commandId}));});}

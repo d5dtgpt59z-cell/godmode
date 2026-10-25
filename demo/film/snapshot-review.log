@@ -1,0 +1,33 @@
+◆  Capturing review frames (beats, seams, phone) from film
+[INFO] [Compiler] Fetched 10 font face(s) for "Nunito" from Google Fonts (cached to /Users/ryanmorrison/.cache/hyperframes/fonts/nunito)
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)")
+
+   Fonts: 2 loaded, 3 unused
+   Review: 14 beat(s) and 0 seam(s) within 0–56s
+   Revision: none (inputs-changed)
+   State: /Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/film/.hyperframes/video-state.json
+
+◇  14 snapshots saved to /Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/film/snapshots-review
+   snapshots-review/beat-01-at-0.3s.png
+   snapshots-review/beat-02-at-5.6s.png
+   snapshots-review/beat-03-at-7.3s.png
+   snapshots-review/beat-04-at-15.3s.png
+   snapshots-review/beat-05-at-16.8s.png
+   snapshots-review/beat-06-at-23.3s.png
+   snapshots-review/beat-07-at-28s.png
+   snapshots-review/beat-08-at-31.3s.png
+   snapshots-review/beat-09-at-39.2s.png
+   snapshots-review/beat-10-at-39.3s.png
+   snapshots-review/beat-11-at-47.3s.png
+   snapshots-review/beat-12-at-50.3s.png
+   snapshots-review/beat-13-at-50.4s.png
+   snapshots-review/beat-14-at-53.3s.png
+   Beat sheet (settled frame per scene): /Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/film/snapshots-review/review-beats.jpg
+     0.3s beat:opening · 5.6s t=5.6 · 7.3s beat:rain · 15.3s beat:bridge · 16.8s t=16.8 · 23.3s beat:delivery · 28s t=28 · 31.3s beat:evidence · 39.2s t=39.2 · 39.3s beat:fork · 47.3s beat:night · 50.3s beat:dawn · 50.4s t=50.4 · 53.3s beat:end
+   Phone sheet (beats at 360 px wide): /Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/demo/film/snapshots-review/review-phone.jpg
+   Fewer than two scene starts; 5 beats are spread evenly instead. Time scenes as sub-composition hosts or clips to review each one.
+
+  3 HyperFrames skills out of date or missing.
+  Run: npx hyperframes skills update
+
