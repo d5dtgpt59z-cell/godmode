@@ -1,14 +1,26 @@
 # GODMODE
 
-**A small world. Its own ideas.**
+**The era of finished software is ending.**
+
+*In the future, you won't just play the game. You'll change what the game is.*
 
 Grow wheat, get to know three neighbors, and change who organizes the harvest festival. Carry real supplies, watch people take on food, setup and invitation work, then branch the record and try another rule. GODMODE is a secular cozy game by **Ryan Morrison — founder of Built by Magnus LLC, Creative Director at North of Common Capital, and independent developer**.
 
-The larger thesis is a living world whose rules you can propose in your own words, review as concrete changes, and then observe in play. **Today the playable slice uses deterministic rule-policy behavior and a working exact rule editor.** Natural-language rule interpretation now works locally through the existing Ollama `qwen3.5:9b`; it produces validated previews requiring explicit Apply. NPCs still use the rule policy. Meta language/NPC adapters remain disconnected and unverified; Qwen is not counted as Meta. There is no keyword-based substitute presented as AI.
+The larger thesis is a living world whose rules you can propose in your own words, review as concrete changes, and then observe in play. Natural-language rule interpretation works locally through the existing Ollama `qwen3.5:9b`; it produces validated previews requiring explicit Apply. An optional living branch now also lets a resident propose a bounded cooperative charter from their own observed conditions. Responses and physical work remain deterministic resident policy. Meta adapters remain disconnected and unverified; Qwen is not counted as Meta.
 
 **October 25, 2026 snapshot: the new cozy slice is LOCAL ONLY at the user’s explicit request, “Keep it local for now.” Final hackathon submission is ON HOLD.** The user authorized a public GitHub source mirror for inspection: [d5dtgpt59z-cell/godmode](https://github.com/d5dtgpt59z-cell/godmode). Hosted deployment, schedules, new credentials and final submission remain on hold. The earlier owner-private Bellwether release remains unchanged. This prototype and its assets began before the announced October 26 event start; eligibility and the application-idea pivot remain unconfirmed. See [COMPLIANCE.md](./COMPLIANCE.md) and [SUBMISSION-DRAFT.md](./SUBMISSION-DRAFT.md).
 
 ## Latest inspection snapshot
+
+**Emergence foundation:** open the journal in an existing neighborhood, choose **Start a living branch**, then Play. The original save is preserved, with its original engine. The new branch can retain model-authored charters, physically delivered proposals, independent consent, an association, owner permission and real finite work. Slow inference runs outside movement and tick queues. Pausing stops new dispatches and retains in-flight results for safe recovery.
+
+In fresh native-browser gameplay, Wren proposed **Morning Square Gathering** without a player-written proposal. Ada joined; Mara required harvest evidence. After owner approval, Ada and Wren physically delivered four grain, consumed one timber preparing the square, and completed a two-person meal. Mara joined after witnessing the player's harvest. Her recorded causal references point to the delivery and harvest. Four actual browser Qwen calls produced one charter and three waits; a separate ordinary-state service evaluation made one additional real call. None used Meta or paid inference. The recording replayed exactly at 534.8 seconds and survived reload.
+
+See [audit and migration plan](./docs/EMERGENCE-PLAN.md), [actual browser evidence](./quality/emergence-browser-qa.json), [replayable recording and raw model receipts](./quality/emergence-browser-recording.json), and [official-rules/Meta status](./docs/META-STATUS-20261025.md). **147/147 tests**, typecheck, scoped lint and the local production build pass; evidence is in `quality/emergence-*`.
+
+![Mara's actual conditional reply during living-branch gameplay](./quality/emergence-mara-dialogue.jpg)
+
+This is one executable shared-gathering capability, not a general civilization intelligence. Charters are immutable, membership has no leave mechanism, and associations share the existing festival resource account. General belief propagation, rich pairwise relationships, new occupations, death and broad terraforming are not implemented. The next development focus is one deeper, embodied resident before scaling that intelligence to the rest of the town.
 
 The current cast has grounded adult life-sim proportions and eight original 96×96 neutral/warm portraits. When an NPC actually speaks to the player, the game shows that speaker’s portrait and literal recorded line in a dialogue box. Continue/Enter returns control; reading locks movement. Old dialogue is not replayed on load. Previous casts and all saved worlds remain preserved.
 
@@ -24,7 +36,7 @@ Start with [PROJECT-INSPECTION.md](./PROJECT-INSPECTION.md) for the source map, 
 | `/play` | The same cozy game. |
 | `/bellwether` | Preserved 24-resident experiment/continuing-town interface. |
 
-The cozy loop is plant → water → harvest → give a gift → change a festival rule → observe the response. Ada, Mara and Wren have individual needs, goals, trust, preferences and bounded memories. Their current choices and dialogue are rule-policy behavior. Food, timber, seed protection, work duration, movement, invitations and flood routing belong to the physical simulation, rather than being visual counters.
+The cozy loop is plant → water → harvest → give a gift → change a festival rule → observe the response. Ada, Mara and Wren have individual needs, goals, trust, preferences and bounded memories. Routine activity, charter responses and dialogue use recorded resident policy; a living branch separately admits bounded model-authored initiatives. Food, timber, seed protection, work duration, movement, invitations and flood routing belong to the physical simulation.
 
 Use click-to-walk or WASD/arrows, the garden tools, journal and Town rules. The exact editor supports organizer, venue, food target, seed reserve and bounded low-path flooding. Preview shows the actual diff before Apply. Revert changes rules prospectively; historical Undo creates a separate branch using the exact operation prefix. Harvests, spent goods and memories are not erased from the original timeline. Unsupported language requests cannot create new mechanics.
 
@@ -56,10 +68,11 @@ node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0002_white_gabe_jones.sql
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0003_new_satana.sql
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0004_boring_pestilence.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0005_orange_bushwacker.sql
 npm run dev
 ```
 
-Migrations 0000–0004 are already applied to this workspace's local preview. Do not replay or edit them. A fresh database is separate. New schema changes append a Drizzle migration; handlers never run DDL. `npm start` previews the built Worker locally and does not deploy it. **Keep this build local under the current user instruction.** GitHub source export is authorized for inspection; hosted migrations, deployment, schedules and credential changes remain outside this step. The existing private legacy Site stays unchanged.
+Migrations 0000–0005 are already applied to this workspace's local preview. Do not replay or edit them. A fresh database is separate. New schema changes append a Drizzle migration; handlers never run DDL. `npm start` previews the built Worker locally and does not deploy it. **Keep this build local under the current user instruction.** GitHub source export is authorized for inspection; hosted migrations, deployment, schedules and credential changes remain outside this step. The existing private legacy Site stays unchanged.
 
 Use the printed loopback address; current local QA uses port 4318. New cozy saves start paused. `POST /api/cozy {seed?,fresh:true}` creates another independent neighborhood without changing the primary or older saves. The Help action “New neighborhood · keep this one saved” uses this path.
 
@@ -68,7 +81,7 @@ npm test
 npm run typecheck
 ```
 
-The current integrated release passed 104 tests, typecheck, scoped ESLint and the local production build. See `quality/current-refinement-{tests.tap,typecheck.log,lint.log,build.log}`. Real browser Qwen preview/apply/unsupported/replay checks and portrait dialogue checks passed. Browser replay, branch/comparison and rule-history checks passed; saved reload, minimum camera fit, illustrated well hitbox and keyboard movement also passed. Preserve the final local source/package hashes and retained recording/archive lineage. The completed film’s replay/render/encoded-frame checks are documented in `demo/cozy/README.md`. A finished local artifact does not establish official submission-format compliance.
+The current integrated release passed 147 tests, typecheck, scoped ESLint and the local production build. See `quality/emergence-{tests.tap,typecheck.log,lint.log,build.log}`. Earlier `quality/current-refinement-*` records the preceding 104-test character/dialogue release. Fresh living-branch gameplay verified original farming, physical delivery, differing responses, permission, real cooperative work, an evidence-backed change of mind, saved reload and exact replay. Preserve the final local source/package hashes and retained recording/archive lineage. The completed film’s replay/render/encoded-frame checks are documented in `demo/cozy/README.md`. A finished local artifact does not establish official submission-format compliance.
 
 ## Server, persistence and provenance
 
@@ -90,8 +103,11 @@ Production writes require the trusted creator identity and preserve the Site's o
 | `GODMODE_BACKGROUND_ENABLED` | Writer gate only; never proof of a schedule or unattended execution. |
 | `GODMODE_LOCAL_QWEN_ENABLED` | Explicitly true only in local `.dev.vars`; adapter also requires development mode. |
 | `GODMODE_LOCAL_QWEN_MODEL` | Existing approved `qwen3.5:9b` tag and observed digest; no downloads or remote fallback. |
+| `GODMODE_LOCAL_INITIATIVE_ENABLED` | Separate development-only opt-in for resident proposals; enabled in this local preview. No browser-closed scheduler. |
 
 Local authoring uses fixed server-only loopback Ollama with JSON schema, 4096 context, 768 output, thinking off, 90-second deadline, one active local generation and durable request receipts. Five actual held-out service requests passed: three supported changes and two honest unsupported outcomes. Local calls/provenance are separate from Meta; Meta budgets remain untouched. Use `npm run dev`, not the production-build preview, for this temporary local model. See [actual receipts, limits and verification](./quality/local-qwen-verification.md).
+
+Resident initiatives share the one local generation slot and 100-attempt allowance per save with local rule interpretation. They additionally cap dispatch at 12 per save per wall hour and use a 30-simulation-second resident cooldown. These are per-save limits, not a global lifetime inference budget. Immutable tickets retain the own-observation snapshot and raw provider receipt. Accepted decisions are replayed without inference. A new tab can recover an existing ticket without accidentally admitting another generation. Already admitted requests may finish after a page closes; no ongoing browser-closed evolution is claimed.
 
 The implemented hosted adapter requests `muse-spark-1.3` with exact token preflight, 2,000 input tokens, 768 total output tokens including reasoning, minimal effort and strict schemas plus current-world validation. Rules produce proposals, never automatic application. NPC plans use individual received evidence and actual task/resource limits. No model inference runs continuously inside ticks. All transport tests use labeled fixtures.
 

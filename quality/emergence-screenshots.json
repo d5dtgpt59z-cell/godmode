@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Capture the real proposal before neighbors hear it",
+    "path": "quality/emergence-proposal.jpg",
+    "mimeType": "image/jpeg",
+    "dimensions": [
+      604,
+      984
+    ],
+    "sha256": "1b5fbe37246670ca4e26554a35d0af1a04920befa6cf3ff3cb79acdb163f55c8",
+    "source": "native cua_repl screenshot; original bytes preserved"
+  },
+  {
+    "title": "Capture Mara\u2019s actual conditional reply with her portrait",
+    "path": "quality/emergence-mara-dialogue.jpg",
+    "mimeType": "image/jpeg",
+    "dimensions": [
+      604,
+      984
+    ],
+    "sha256": "ac020aedd5acb123db5e69413d925eda7ad3231bc6b645b69927e541b406728c",
+    "source": "native cua_repl screenshot; original bytes preserved"
+  },
+  {
+    "title": "Capture the association and actual permission diff",
+    "path": "quality/emergence-permission.jpg",
+    "mimeType": "image/jpeg",
+    "dimensions": [
+      604,
+      984
+    ],
+    "sha256": "384070487ecd4dd2ee2312deab0db78603e7619c015961528439d3761f63d530",
+    "source": "native cua_repl screenshot; original bytes preserved"
+  },
+  {
+    "title": "Verify Wren\u2019s notebook opens at its beginning on desktop",
+    "path": "quality/emergence-wren-desktop.jpg",
+    "mimeType": "image/jpeg",
+    "dimensions": [
+      1280,
+      800
+    ],
+    "sha256": "cb213571adbcaeeb499c474a4254e3c58df9413383fc14589cf0bddef816baa6",
+    "source": "native cua_repl browser screenshot; original bytes preserved"
+  }
+]

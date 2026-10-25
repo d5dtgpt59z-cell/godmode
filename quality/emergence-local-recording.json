@@ -1,0 +1,470 @@
+{
+  "format": "godmode-cozy-save",
+  "version": 1,
+  "recording": {
+    "format": "godmode-cozy",
+    "version": 1,
+    "engineVersion": "cozy-engine-2",
+    "contentVersion": "cozy-cooperation-1",
+    "origin": {
+      "seed": 137,
+      "branchId": "972164f5-8874-42bc-ae80-32fa870457f2",
+      "parentBranchId": "4adbd439-972a-43b5-9c5d-febb36c1d15a",
+      "parentHash": "2332e4ee8aaef9fc8dae19e64cebc7b8d52e879d695b15b976d65ec552d2b472",
+      "migration": {
+        "fromEngine": "cozy-engine-1",
+        "fromContent": "cozy-wheat-1",
+        "parentHash": "2332e4ee8aaef9fc8dae19e64cebc7b8d52e879d695b15b976d65ec552d2b472"
+      },
+      "checkpointState": "{\"branchId\":\"972164f5-8874-42bc-ae80-32fa870457f2\",\"commandIds\":[],\"contentVersion\":\"cozy-cooperation-1\",\"day\":1,\"emergence\":{\"actors\":{\"ada\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-100},\"mara\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-100},\"wren\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-100}},\"history\":[],\"institutions\":[],\"proposals\":[],\"version\":1},\"engineVersion\":\"cozy-engine-2\",\"eventHead\":\"cbea4aa8d7f941a4e6657d78c2e8d3021fb89168405348d9b6cdebc71f38062a\",\"eventSeq\":2,\"events\":[{\"actorId\":null,\"audience\":[],\"hash\":\"d846edbe5d7283e13d33e62728a3cfd8aa4a498e00d9a3b165017017ac5c658b\",\"id\":\"972164f5-8874-42bc-ae80-32fa870457f2:1\",\"payload\":{\"atStep\":200,\"parentBranchId\":\"4adbd439-972a-43b5-9c5d-febb36c1d15a\",\"parentHash\":\"2332e4ee8aaef9fc8dae19e64cebc7b8d52e879d695b15b976d65ec552d2b472\"},\"prevHash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"rulesRevision\":0,\"seq\":1,\"sourceIds\":[],\"step\":200,\"tick\":20,\"type\":\"cozy_branch_forked\"},{\"actorId\":null,\"audience\":[],\"hash\":\"cbea4aa8d7f941a4e6657d78c2e8d3021fb89168405348d9b6cdebc71f38062a\",\"id\":\"972164f5-8874-42bc-ae80-32fa870457f2:2\",\"payload\":{\"explicit\":true,\"fromContent\":\"cozy-wheat-1\",\"fromEngine\":\"cozy-engine-1\",\"parentHash\":\"2332e4ee8aaef9fc8dae19e64cebc7b8d52e879d695b15b976d65ec552d2b472\",\"toContent\":\"cozy-cooperation-1\",\"toEngine\":\"cozy-engine-2\"},\"prevHash\":\"d846edbe5d7283e13d33e62728a3cfd8aa4a498e00d9a3b165017017ac5c658b\",\"rulesRevision\":0,\"seq\":2,\"sourceIds\":[],\"step\":200,\"tick\":20,\"type\":\"cozy_world_upgraded\"}],\"festival\":{\"announced\":false,\"completedAt\":null,\"food\":0,\"foodReserved\":{},\"id\":1,\"invitations\":{},\"participants\":[],\"phase\":\"planning\",\"setupDone\":false,\"setupOwner\":null,\"startedAt\":null,\"venue\":\"square\"},\"flood\":{\"active\":false,\"egress\":[],\"expiresAt\":null,\"ruleRevision\":0,\"startedAt\":null},\"ledger\":{\"consumed\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"environment\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"initial\":{\"bread\":2,\"grain\":11,\"timber\":6,\"water\":14},\"produced\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"waste\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},\"nextId\":1,\"npcs\":[{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":90},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"ada-home\",\"id\":\"ada\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":200,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Ada\",\"needs\":{\"energy\":80,\"hunger\":37,\"social\":32},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Practical baker\",\"Grateful for useful grain\"],\"trust\":50,\"x\":26,\"y\":6},{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":65},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":90}],\"harvestsSeen\":0,\"homeId\":\"mara-home\",\"id\":\"mara\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":200,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Mara\",\"needs\":{\"energy\":85,\"hunger\":22,\"social\":22},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Careful planner\",\"Checks preparations\"],\"trust\":50,\"x\":11,\"y\":8},{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"festivalObservation\":{\"food\":0,\"id\":1,\"phase\":\"planning\",\"setupDone\":false,\"step\":200,\"venue\":\"square\"},\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":60},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":95},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"wren-home\",\"id\":\"wren\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":true,\"lastDecisionStep\":200,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Wren\",\"needs\":{\"energy\":94,\"hunger\":17,\"social\":77},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Sociable courier\",\"Shares good news\"],\"trust\":50,\"x\":14,\"y\":16}],\"operations\":[],\"origin\":{\"branchId\":\"972164f5-8874-42bc-ae80-32fa870457f2\",\"migration\":{\"fromContent\":\"cozy-wheat-1\",\"fromEngine\":\"cozy-engine-1\",\"parentHash\":\"2332e4ee8aaef9fc8dae19e64cebc7b8d52e879d695b15b976d65ec552d2b472\"},\"parentBranchId\":\"4adbd439-972a-43b5-9c5d-febb36c1d15a\",\"parentHash\":\"2332e4ee8aaef9fc8dae19e64cebc7b8d52e879d695b15b976d65ec552d2b472\",\"seed\":137},\"places\":[{\"id\":\"player-home\",\"kind\":\"home\",\"name\":\"Your cottage\",\"position\":{\"x\":4,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"mara-home\",\"kind\":\"home\",\"name\":\"Mara’s cottage\",\"position\":{\"x\":4,\"y\":6},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"bakery\",\"kind\":\"bakery\",\"name\":\"Ada’s bakery\",\"position\":{\"x\":26,\"y\":6},\"stock\":{\"bread\":2,\"grain\":7,\"timber\":0,\"water\":0}},{\"id\":\"ada-home\",\"kind\":\"home\",\"name\":\"Ada’s cottage\",\"position\":{\"x\":28,\"y\":11},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"wren-home\",\"kind\":\"home\",\"name\":\"Wren’s cottage\",\"position\":{\"x\":27,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"well\",\"kind\":\"well\",\"name\":\"Catchment well\",\"position\":{\"x\":8,\"y\":14},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":12}},{\"id\":\"woodpile\",\"kind\":\"woodpile\",\"name\":\"Shared woodpile\",\"position\":{\"x\":5,\"y\":12},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":5,\"water\":0}},{\"id\":\"square\",\"kind\":\"venue\",\"name\":\"Village square\",\"position\":{\"x\":14,\"y\":16},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"market\",\"kind\":\"venue\",\"name\":\"Market green\",\"position\":{\"x\":24,\"y\":15},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}}],\"player\":{\"action\":\"Taking in the day\",\"gifts\":0,\"harvests\":0,\"id\":\"player\",\"inventory\":{\"bread\":0,\"grain\":4,\"timber\":1,\"water\":2},\"memories\":[],\"name\":\"You\",\"path\":[],\"task\":null,\"x\":4,\"y\":21},\"plots\":[{\"harvestCount\":0,\"id\":\"plot-1\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":11,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":192,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-2\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":13,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":216,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-3\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":14,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":240,\"y\":124},\"wateredAt\":null}],\"reservations\":[],\"ruleHistory\":[],\"rules\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"player\",\"seedReserve\":1,\"venue\":\"square\"},\"rulesRevision\":0,\"seed\":137,\"step\":200,\"tick\":20,\"version\":1}"
+    },
+    "operations": [
+      {
+        "type": "social-initiative",
+        "id": "initiative:1b5bc67e-af99-494a-9e7c-ea36a215d168",
+        "decision": {
+          "npcId": "wren",
+          "triggerKey": "initiative:wren:baaadeed94c7e0602f740af2",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "action": "propose",
+          "proposalId": null,
+          "targetId": "ada",
+          "name": "Morning Square Gathering",
+          "purpose": "Share time with neighbors and check before committing to a shared plan.",
+          "charter": {
+            "venue": "square",
+            "grainTarget": 4,
+            "seedFloor": 1
+          },
+          "reason": "I want to propose a gathering at the square with Ada. I have no grain in inventory and cannot claim unseen stock, so I set a target of 4 units for us to gather together.",
+          "evidenceIds": []
+        },
+        "provenance": {
+          "mode": "local-qwen",
+          "model": "qwen3.5:9b",
+          "proposalId": "1b5bc67e-af99-494a-9e7c-ea36a215d168"
+        }
+      }
+    ],
+    "finalStep": 200,
+    "finalHash": "9a2a8526248dd082dd6d66dedafeb86bdc6e784d6098a8bcc2830242f04a2d26",
+    "eventHead": "3cf25b2ab9a228b37cb22df2c8c842156544d4069efe09d143bbca7dbea5d176"
+  },
+  "clock": {
+    "paused": false,
+    "pace": 1
+  },
+  "initiativeTickets": [
+    {
+      "id": "1b5bc67e-af99-494a-9e7c-ea36a215d168",
+      "save_id": "972164f5-8874-42bc-ae80-32fa870457f2",
+      "request_id": "actual-initiative-1",
+      "trigger_key": "initiative:wren:baaadeed94c7e0602f740af2",
+      "npc_id": "wren",
+      "snapshot_step": 200,
+      "rules_revision": 0,
+      "intent_hash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+      "context_hash": "5579bc011acf8e8ec3825276fb6f4c5f64f7e558ba352b6a40c4d573e3a27b2e",
+      "source": "local-qwen",
+      "status": "applied",
+      "job_id": "18c01b7b-4479-44b9-8ddc-9e5dbbeed6b3",
+      "summary": "I want to propose a gathering at the square with Ada. I have no grain in inventory and cannot claim unseen stock, so I set a target of 4 units for us to gather together.",
+      "error_code": null,
+      "created_at": 1792957782989,
+      "updated_at": 1792957804793,
+      "context": {
+        "version": 1,
+        "npcId": "wren",
+        "step": 200,
+        "triggerKey": "initiative:wren:baaadeed94c7e0602f740af2",
+        "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+        "npc": {
+          "name": "Wren",
+          "traits": [
+            "Sociable courier",
+            "Shares good news"
+          ],
+          "needs": {
+            "hunger": 17,
+            "energy": 94,
+            "social": 77
+          },
+          "goals": [
+            {
+              "id": "help",
+              "label": "Make something useful",
+              "weight": 60
+            },
+            {
+              "id": "belong",
+              "label": "Share time with neighbors",
+              "weight": 95
+            },
+            {
+              "id": "understand",
+              "label": "Check before committing",
+              "weight": 40
+            }
+          ],
+          "trust": 50,
+          "affinity": 40,
+          "inventory": {
+            "grain": 0,
+            "water": 0,
+            "timber": 0,
+            "bread": 0
+          }
+        },
+        "observations": [],
+        "nearbyActors": [],
+        "neighbors": [
+          {
+            "id": "ada",
+            "name": "Ada",
+            "homeId": "ada-home"
+          },
+          {
+            "id": "mara",
+            "name": "Mara",
+            "homeId": "mara-home"
+          }
+        ],
+        "observedPlaces": [
+          {
+            "id": "player-home",
+            "position": {
+              "x": 4,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "mara-home",
+            "position": {
+              "x": 4,
+              "y": 6
+            },
+            "stock": null
+          },
+          {
+            "id": "bakery",
+            "position": {
+              "x": 26,
+              "y": 6
+            },
+            "stock": null
+          },
+          {
+            "id": "ada-home",
+            "position": {
+              "x": 28,
+              "y": 11
+            },
+            "stock": null
+          },
+          {
+            "id": "wren-home",
+            "position": {
+              "x": 27,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "well",
+            "position": {
+              "x": 8,
+              "y": 14
+            },
+            "stock": null
+          },
+          {
+            "id": "woodpile",
+            "position": {
+              "x": 5,
+              "y": 12
+            },
+            "stock": null
+          },
+          {
+            "id": "square",
+            "position": {
+              "x": 14,
+              "y": 16
+            },
+            "stock": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          },
+          {
+            "id": "market",
+            "position": {
+              "x": 24,
+              "y": 15
+            },
+            "stock": null
+          }
+        ],
+        "observedFestival": {
+          "id": 1,
+          "venue": "square",
+          "phase": "planning",
+          "food": 0,
+          "setupDone": false
+        },
+        "knownProposals": [],
+        "institutions": [],
+        "capability": {
+          "kind": "shared-gathering",
+          "venues": [
+            "square"
+          ],
+          "grainTarget": {
+            "min": 2,
+            "max": 6
+          },
+          "seedFloor": {
+            "min": 0,
+            "max": 3
+          }
+        },
+        "eligibility": {
+          "canPropose": true,
+          "canShare": false,
+          "nextEligibleStep": 200
+        }
+      },
+      "decision": {
+        "npcId": "wren",
+        "triggerKey": "initiative:wren:baaadeed94c7e0602f740af2",
+        "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+        "action": "propose",
+        "proposalId": null,
+        "targetId": "ada",
+        "name": "Morning Square Gathering",
+        "purpose": "Share time with neighbors and check before committing to a shared plan.",
+        "charter": {
+          "venue": "square",
+          "grainTarget": 4,
+          "seedFloor": 1
+        },
+        "reason": "I want to propose a gathering at the square with Ada. I have no grain in inventory and cannot claim unseen stock, so I set a target of 4 units for us to gather together.",
+        "evidenceIds": []
+      }
+    }
+  ],
+  "providerAudit": [
+    {
+      "attemptId": "18c01b7b-4479-44b9-8ddc-9e5dbbeed6b3",
+      "purpose": "cozy-initiative-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "initiative",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T19:50:04.775787Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 1152,
+        "outputTokens": 254,
+        "durationMs": 21764,
+        "rawText": "{\n  \"npcId\": \"wren\",\n  \"triggerKey\": \"initiative:wren:baaadeed94c7e0602f740af2\",\n  \"intentHash\": \"5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1\",\n  \"action\": \"propose\",\n  \"proposalId\": null,\n  \"targetId\": \"ada\",\n  \"name\": \"Morning Square Gathering\",\n  \"purpose\": \"Share time with neighbors and check before committing to a shared plan.\",\n  \"charter\": {\n    \"venue\": \"square\",\n    \"grainTarget\": 4,\n    \"seedFloor\": 1\n  },\n  \"reason\": \"I want to propose a gathering at the square with Ada. I have no grain in inventory and cannot claim unseen stock, so I set a target of 4 units for us to gather together.\",\n  \"evidenceIds\": []\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "version": 1,
+          "npcId": "wren",
+          "step": 200,
+          "triggerKey": "initiative:wren:baaadeed94c7e0602f740af2",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "npc": {
+            "name": "Wren",
+            "traits": [
+              "Sociable courier",
+              "Shares good news"
+            ],
+            "needs": {
+              "hunger": 17,
+              "energy": 94,
+              "social": 77
+            },
+            "goals": [
+              {
+                "id": "help",
+                "label": "Make something useful",
+                "weight": 60
+              },
+              {
+                "id": "belong",
+                "label": "Share time with neighbors",
+                "weight": 95
+              },
+              {
+                "id": "understand",
+                "label": "Check before committing",
+                "weight": 40
+              }
+            ],
+            "trust": 50,
+            "affinity": 40,
+            "inventory": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          },
+          "observations": [],
+          "nearbyActors": [],
+          "neighbors": [
+            {
+              "id": "ada",
+              "name": "Ada",
+              "homeId": "ada-home"
+            },
+            {
+              "id": "mara",
+              "name": "Mara",
+              "homeId": "mara-home"
+            }
+          ],
+          "observedPlaces": [
+            {
+              "id": "player-home",
+              "position": {
+                "x": 4,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "mara-home",
+              "position": {
+                "x": 4,
+                "y": 6
+              },
+              "stock": null
+            },
+            {
+              "id": "bakery",
+              "position": {
+                "x": 26,
+                "y": 6
+              },
+              "stock": null
+            },
+            {
+              "id": "ada-home",
+              "position": {
+                "x": 28,
+                "y": 11
+              },
+              "stock": null
+            },
+            {
+              "id": "wren-home",
+              "position": {
+                "x": 27,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "well",
+              "position": {
+                "x": 8,
+                "y": 14
+              },
+              "stock": null
+            },
+            {
+              "id": "woodpile",
+              "position": {
+                "x": 5,
+                "y": 12
+              },
+              "stock": null
+            },
+            {
+              "id": "square",
+              "position": {
+                "x": 14,
+                "y": 16
+              },
+              "stock": {
+                "grain": 0,
+                "water": 0,
+                "timber": 0,
+                "bread": 0
+              }
+            },
+            {
+              "id": "market",
+              "position": {
+                "x": 24,
+                "y": 15
+              },
+              "stock": null
+            }
+          ],
+          "observedFestival": {
+            "id": 1,
+            "venue": "square",
+            "phase": "planning",
+            "food": 0,
+            "setupDone": false
+          },
+          "knownProposals": [],
+          "institutions": [],
+          "capability": {
+            "kind": "shared-gathering",
+            "venues": [
+              "square"
+            ],
+            "grainTarget": {
+              "min": 2,
+              "max": 6
+            },
+            "seedFloor": {
+              "min": 0,
+              "max": 3
+            }
+          },
+          "eligibility": {
+            "canPropose": true,
+            "canShare": false,
+            "nextEligibleStep": 200
+          }
+        },
+        "value": {
+          "npcId": "wren",
+          "triggerKey": "initiative:wren:baaadeed94c7e0602f740af2",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "action": "propose",
+          "proposalId": null,
+          "targetId": "ada",
+          "name": "Morning Square Gathering",
+          "purpose": "Share time with neighbors and check before committing to a shared plan.",
+          "charter": {
+            "venue": "square",
+            "grainTarget": 4,
+            "seedFloor": 1
+          },
+          "reason": "I want to propose a gathering at the square with Ada. I have no grain in inventory and cannot claim unseen stock, so I set a target of 4 units for us to gather together.",
+          "evidenceIds": []
+        }
+      }
+    }
+  ],
+  "importedProviderAudit": {
+    "provenance": "unverified-import",
+    "records": []
+  },
+  "archiveIndex": [],
+  "notice": "Local prototype started October25. Rule-policy simulation; imported provider claims are unverified. No final submission."
+}

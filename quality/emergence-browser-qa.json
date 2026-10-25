@@ -1,0 +1,386 @@
+{
+  "kind": "actual-native-browser-gameplay",
+  "capturedAt": "2026-10-25T20:02:42.913Z",
+  "branchId": "674a6592-2a2b-4ece-9789-ff0422967f9e",
+  "engineVersion": "cozy-engine-2",
+  "paused": true,
+  "finalStep": 5348,
+  "finalHash": "fbda78e37755f346589ec291584ae2fddddf947e9f7ceb3f72949689b12c7ebf",
+  "replayVerified": true,
+  "violations": [],
+  "initiativeTickets": [
+    {
+      "id": "ad0a9a18-42f3-4652-b225-2d31f62dcc1f",
+      "npcId": "wren",
+      "status": "applied",
+      "source": "local-qwen",
+      "action": "propose",
+      "name": "Morning Square Gathering",
+      "snapshotStep": 3110
+    },
+    {
+      "id": "bed3ad98-25db-4416-973a-4546c7b501e6",
+      "npcId": "ada",
+      "status": "abstained",
+      "source": "local-qwen",
+      "action": "wait",
+      "name": null,
+      "snapshotStep": 3340
+    },
+    {
+      "id": "1ed0cb5f-49ba-4a27-81fe-eb6aef7a4fca",
+      "npcId": "wren",
+      "status": "abstained",
+      "source": "local-qwen",
+      "action": "wait",
+      "name": null,
+      "snapshotStep": 4788
+    },
+    {
+      "id": "cc5b0d21-1862-4f94-9d89-483d80d7e9c7",
+      "npcId": "ada",
+      "status": "abstained",
+      "source": "local-qwen",
+      "action": "wait",
+      "name": null,
+      "snapshotStep": 5099
+    }
+  ],
+  "actualLocalCalls": 4,
+  "actualMetaCalls": 0,
+  "proposal": {
+    "id": "proposal-1",
+    "kind": "cooperative-charter",
+    "capability": "shared-gathering",
+    "authorId": "wren",
+    "name": "Morning Square Gathering",
+    "purpose": "Share time with neighbors and check before committing to a shared plan.",
+    "charter": {
+      "venue": "square",
+      "grainTarget": 4,
+      "seedFloor": 1
+    },
+    "createdStep": 3289,
+    "revision": 1,
+    "status": "formed",
+    "deliveries": {
+      "wren": {
+        "step": 3289,
+        "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:12",
+        "sourceId": "wren",
+        "knownMemberIds": []
+      },
+      "ada": {
+        "step": 3398,
+        "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:14",
+        "sourceId": "wren",
+        "knownMemberIds": [
+          "wren"
+        ]
+      },
+      "mara": {
+        "step": 3488,
+        "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:18",
+        "sourceId": "wren",
+        "knownMemberIds": [
+          "ada",
+          "wren"
+        ]
+      }
+    },
+    "responses": {
+      "wren": {
+        "stance": "join",
+        "conditions": [],
+        "reason": "This fits my goals and available effort (commitment score 54); I choose to help.",
+        "evidenceIds": [
+          "674a6592-2a2b-4ece-9789-ff0422967f9e:12"
+        ],
+        "decidedStep": 3289,
+        "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:13",
+        "provenance": "deterministic-policy"
+      },
+      "ada": {
+        "stance": "join",
+        "conditions": [],
+        "reason": "This fits my goals and available effort (commitment score 52); I choose to help.",
+        "evidenceIds": [
+          "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+        ],
+        "decidedStep": 3398,
+        "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+        "provenance": "deterministic-policy"
+      },
+      "mara": {
+        "stance": "join",
+        "conditions": [],
+        "reason": "This fits my goals and available effort (commitment score 41); I choose to help.",
+        "evidenceIds": [
+          "674a6592-2a2b-4ece-9789-ff0422967f9e:18",
+          "674a6592-2a2b-4ece-9789-ff0422967f9e:63/m/mara"
+        ],
+        "decidedStep": 5100,
+        "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:66",
+        "provenance": "deterministic-policy"
+      }
+    },
+    "institutionId": "institution-2",
+    "provenance": {
+      "mode": "local-qwen",
+      "model": "qwen3.5:9b",
+      "proposalId": "ad0a9a18-42f3-4652-b225-2d31f62dcc1f"
+    },
+    "sourceIds": [
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:11"
+    ]
+  },
+  "institution": {
+    "id": "institution-2",
+    "proposalId": "proposal-1",
+    "name": "Morning Square Gathering",
+    "purpose": "Share time with neighbors and check before committing to a shared plan.",
+    "founderId": "wren",
+    "leaderId": "wren",
+    "members": [
+      "ada",
+      "wren",
+      "mara"
+    ],
+    "formedStep": 3398,
+    "status": "resting",
+    "permission": "approved",
+    "practices": [
+      {
+        "kind": "contribute-grain",
+        "resource": "grain",
+        "quantity": 4
+      },
+      {
+        "kind": "prepare-venue",
+        "resource": "timber",
+        "quantity": 1
+      },
+      {
+        "kind": "invite-neighbor",
+        "resource": null,
+        "quantity": 1
+      }
+    ],
+    "resourceAccount": {
+      "kind": "festival",
+      "festivalId": 1,
+      "venue": "square",
+      "grainTarget": 4,
+      "seedFloor": 1
+    },
+    "history": [
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:16",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:26",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:27",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:28",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:30",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:31",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:37",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:38",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:40",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:42",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:44",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:56",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:67",
+      "674a6592-2a2b-4ece-9789-ff0422967f9e:68"
+    ]
+  },
+  "festival": {
+    "announced": false,
+    "completedAt": 4652,
+    "food": 0,
+    "foodReserved": {},
+    "id": 1,
+    "invitations": {
+      "ada": {
+        "source": "wren",
+        "step": 4201
+      },
+      "wren": {
+        "source": "ada",
+        "step": 4388
+      }
+    },
+    "participants": [
+      "ada",
+      "wren"
+    ],
+    "phase": "complete",
+    "setupDone": true,
+    "setupOwner": null,
+    "startedAt": 4552,
+    "venue": "square"
+  },
+  "playerInventory": {
+    "bread": 0,
+    "grain": 7,
+    "timber": 1,
+    "water": 1
+  },
+  "ledger": {
+    "consumed": {
+      "bread": 0,
+      "grain": 5,
+      "timber": 1,
+      "water": 1
+    },
+    "environment": {
+      "bread": 0,
+      "grain": 0,
+      "timber": 0,
+      "water": 0
+    },
+    "initial": {
+      "bread": 2,
+      "grain": 11,
+      "timber": 6,
+      "water": 14
+    },
+    "produced": {
+      "bread": 0,
+      "grain": 4,
+      "timber": 0,
+      "water": 0
+    },
+    "waste": {
+      "bread": 0,
+      "grain": 0,
+      "timber": 0,
+      "water": 0
+    }
+  },
+  "contributions": [
+    {
+      "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:30",
+      "step": 4201,
+      "actorId": "wren",
+      "payload": {
+        "institutionId": "institution-2",
+        "kind": "invite",
+        "quantity": 1,
+        "festivalId": 1,
+        "physical": true
+      },
+      "sourceIds": []
+    },
+    {
+      "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:37",
+      "step": 4376,
+      "actorId": "ada",
+      "payload": {
+        "institutionId": "institution-2",
+        "kind": "food",
+        "quantity": 3,
+        "festivalId": 1,
+        "physical": true
+      },
+      "sourceIds": []
+    },
+    {
+      "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:40",
+      "step": 4388,
+      "actorId": "ada",
+      "payload": {
+        "institutionId": "institution-2",
+        "kind": "invite",
+        "quantity": 1,
+        "festivalId": 1,
+        "physical": true
+      },
+      "sourceIds": []
+    },
+    {
+      "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:42",
+      "step": 4396,
+      "actorId": "wren",
+      "payload": {
+        "institutionId": "institution-2",
+        "kind": "food",
+        "quantity": 1,
+        "festivalId": 1,
+        "physical": true
+      },
+      "sourceIds": []
+    },
+    {
+      "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:56",
+      "step": 4529,
+      "actorId": "ada",
+      "payload": {
+        "institutionId": "institution-2",
+        "kind": "setup",
+        "quantity": 1,
+        "festivalId": 1,
+        "physical": true
+      },
+      "sourceIds": []
+    }
+  ],
+  "maraResponses": [
+    {
+      "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:19",
+      "step": 3488,
+      "stance": "conditional",
+      "sourceIds": [
+        "674a6592-2a2b-4ece-9789-ff0422967f9e:18"
+      ]
+    },
+    {
+      "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:66",
+      "step": 5100,
+      "stance": "join",
+      "sourceIds": [
+        "674a6592-2a2b-4ece-9789-ff0422967f9e:18",
+        "674a6592-2a2b-4ece-9789-ff0422967f9e:63/m/mara"
+      ]
+    }
+  ],
+  "wrenPrivateState": {
+    "name": "Wren",
+    "traits": [
+      "Sociable courier",
+      "Shares good news"
+    ],
+    "needs": {
+      "energy": 91,
+      "hunger": 33,
+      "social": 7
+    },
+    "goals": [
+      {
+        "id": "help",
+        "label": "Make something useful",
+        "weight": 60
+      },
+      {
+        "id": "belong",
+        "label": "Share time with neighbors",
+        "weight": 95
+      },
+      {
+        "id": "understand",
+        "label": "Check before committing",
+        "weight": 40
+      }
+    ],
+    "trust": 51,
+    "affinity": 43,
+    "inventory": {
+      "bread": 0,
+      "grain": 0,
+      "timber": 0,
+      "water": 0
+    }
+  },
+  "notes": [
+    "One separate real local service call is documented in emergence-local-evaluation.json; this browser recording contains four additional real Qwen calls.",
+    "Founder proposal is model-authored. Responses and physical task allocation are deterministic resident policy.",
+    "Setup consumed one timber and the meal consumed four grain; no resource generation by model.",
+    "Original saved world and the v1 parent of this evolution fork were retained. Browser-closed evolution is not claimed."
+  ]
+}

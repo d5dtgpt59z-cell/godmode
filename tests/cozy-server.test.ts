@@ -11,7 +11,7 @@ import {Coordinator} from '../lib/server/coordinator';
 import {initializeCozyWorld,advanceCozyWorld,hashCozyWorld,verifyCozyWorld} from '../lib/cozy';
 import {RESERVATION_MICRO_USD} from '../lib/server/meta-adapter';
 import {requireLoopbackAuthoring,type CozyMetaOptions} from '../lib/server/cozy-meta';
-const migration=readFileSync(new URL('../drizzle/0004_boring_pestilence.sql',import.meta.url),'utf8');
+const migration=readFileSync(new URL('../drizzle/0004_boring_pestilence.sql',import.meta.url),'utf8')+'\n'+readFileSync(new URL('../drizzle/0005_orange_bushwacker.sql',import.meta.url),'utf8');
 async function setup(now:()=>number=Date.now){const local=localSqliteStore(':memory:');await local.store.db.exec(migration);const store=new CozyStore(local.store.db,now);return{local,store,service:new CozyService(store)};}
 const ruleOutput=(overrides:Record<string,unknown>={})=>({outcome:'proposal',summary:'Let villagers organize the gathering.',question:null,patch:{organizer:'villagers',venue:null,foodTarget:null,seedReserve:null,floodEnabled:null,floodDurationSteps:null},...overrides});
 function fixtureOptions(content:unknown=ruleOutput()):CozyMetaOptions&{requests:string[]}{const requests:string[]=[];return{apiKey:'synthetic-test-only',rulesEnabled:true,npcEnabled:true,projectBudgetMicroUsd:3_000_000,fixtureTransport:true,requests,fetcher:async(url)=>{requests.push(String(url));return Response.json(String(url).endsWith('/input_tokens')?{input_tokens:1500}:{id:'synthetic-cozy-response',model:'muse-spark-1.3',status:'completed',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(content)}]}],usage:{input_tokens:1500,output_tokens:150,output_tokens_details:{reasoning_tokens:20}}});}};}

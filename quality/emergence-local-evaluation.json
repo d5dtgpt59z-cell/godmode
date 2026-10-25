@@ -1,0 +1,38 @@
+{
+  "kind": "actual-local-Qwen-resident-initiative",
+  "createdAt": "2026-10-25T19:50:04.797Z",
+  "fixture": false,
+  "model": "qwen3.5:9b",
+  "preparation": "Fresh normal v1 save, owner advance200steps20simsec, explicit evolve to separate v2branch, unpause. No needs/stocks/memories edited.",
+  "originalId": "4adbd439-972a-43b5-9c5d-febb36c1d15a",
+  "saveId": "972164f5-8874-42bc-ae80-32fa870457f2",
+  "originalHash": "2332e4ee8aaef9fc8dae19e64cebc7b8d52e879d695b15b976d65ec552d2b472",
+  "originalPreserved": true,
+  "attempts": [
+    {
+      "requestId": "actual-initiative-1",
+      "durationMs": 21810,
+      "outcome": {
+        "ticketId": "1b5bc67e-af99-494a-9e7c-ea36a215d168",
+        "npcId": "wren",
+        "status": "applied",
+        "summary": "I want to propose a gathering at the square with Ada. I have no grain in inventory and cannot claim unseen stock, so I set a target of 4 units for us to gather together."
+      }
+    }
+  ],
+  "actualLocalCalls": 1,
+  "actualInitiativeCalls": 1,
+  "actualMetaCalls": 0,
+  "budget": {
+    "reservedMicroUsd": 0,
+    "spentMicroUsd": 0,
+    "limitMicroUsd": 3000000,
+    "generationAttempts": 0,
+    "httpRequests": 0
+  },
+  "replay": {
+    "verified": true,
+    "finalHash": "9a2a8526248dd082dd6d66dedafeb86bdc6e784d6098a8bcc2830242f04a2d26",
+    "modelCalls": 0
+  }
+}

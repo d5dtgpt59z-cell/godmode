@@ -1,0 +1,3814 @@
+{
+  "format": "godmode-cozy-save",
+  "version": 1,
+  "recording": {
+    "format": "godmode-cozy",
+    "version": 1,
+    "engineVersion": "cozy-engine-2",
+    "contentVersion": "cozy-cooperation-1",
+    "origin": {
+      "seed": 137,
+      "branchId": "674a6592-2a2b-4ece-9789-ff0422967f9e",
+      "parentBranchId": "a9c28da5-ee7a-4881-96c9-4005899d98fa",
+      "parentHash": "83600c5189b118bcd10345dbea128a7f52bfe0450b96be53b4f61b06ff89b4f6",
+      "migration": {
+        "fromEngine": "cozy-engine-1",
+        "fromContent": "cozy-wheat-1",
+        "parentHash": "83600c5189b118bcd10345dbea128a7f52bfe0450b96be53b4f61b06ff89b4f6"
+      },
+      "checkpointState": "{\"branchId\":\"674a6592-2a2b-4ece-9789-ff0422967f9e\",\"commandIds\":[\"269cfd67-8edd-41d8-8e5a-82dc3f6b0971\",\"7bd6fe9a-1a9b-40a1-bde3-926291465c6c\",\"5ddb3232-0613-4d60-a909-c78e9fe20200\",\"518b7194-4d98-4e49-8944-71be5bb990b2\",\"fa4e2e15-183c-4ae9-a58c-9394577053c1\"],\"contentVersion\":\"cozy-cooperation-1\",\"day\":1,\"emergence\":{\"actors\":{\"ada\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":2801},\"mara\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":2801},\"wren\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":2801}},\"history\":[],\"institutions\":[],\"proposals\":[],\"version\":1},\"engineVersion\":\"cozy-engine-2\",\"eventHead\":\"0e34c035bcb8da2565cfbd4628b3e3c4f8d678097a67d68a0abed64b6afd246f\",\"eventSeq\":10,\"events\":[{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"162b940330477c6a06b9a5479b5bb1bbc6347f6260d06b58a53646bb8c80ef82\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:1\",\"payload\":{\"command\":{\"id\":\"269cfd67-8edd-41d8-8e5a-82dc3f6b0971\",\"target\":{\"x\":11,\"y\":8},\"type\":\"move\"}},\"prevHash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"rulesRevision\":0,\"seq\":1,\"sourceIds\":[],\"step\":1981,\"tick\":198.1,\"type\":\"player_command\"},{\"actorId\":\"player\",\"audience\":[\"mara\",\"player\"],\"hash\":\"8f711204b797c2c0d73c06d0db08affcc8bd931ecb8f47446e4df716f3bc1f77\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:2\",\"payload\":{\"plotId\":\"plot-1\",\"seed\":1},\"prevHash\":\"162b940330477c6a06b9a5479b5bb1bbc6347f6260d06b58a53646bb8c80ef82\",\"rulesRevision\":0,\"seq\":2,\"sourceIds\":[],\"step\":2093,\"tick\":209.3,\"type\":\"crop_planted\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"e401f326c2e37fb95eded242be25955575e7385e31d0e1e9a4f002b463dd9d30\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:3\",\"payload\":{\"command\":{\"id\":\"7bd6fe9a-1a9b-40a1-bde3-926291465c6c\",\"plotId\":\"plot-1\",\"type\":\"plant\"}},\"prevHash\":\"8f711204b797c2c0d73c06d0db08affcc8bd931ecb8f47446e4df716f3bc1f77\",\"rulesRevision\":0,\"seq\":3,\"sourceIds\":[],\"step\":2093,\"tick\":209.3,\"type\":\"player_command\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"4e9e30400820b54168d0b87eda9cc5987fb1610559c94e692041600f8f301182\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:4\",\"payload\":{\"command\":{\"id\":\"5ddb3232-0613-4d60-a909-c78e9fe20200\",\"target\":{\"x\":13,\"y\":7},\"type\":\"move\"}},\"prevHash\":\"e401f326c2e37fb95eded242be25955575e7385e31d0e1e9a4f002b463dd9d30\",\"rulesRevision\":0,\"seq\":4,\"sourceIds\":[],\"step\":2310,\"tick\":231,\"type\":\"player_command\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"fe72eea7c97788641d99f6b5e9a5d081d20eee6edb3c300ab12973b8e4c5eb7a\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:5\",\"payload\":{\"command\":{\"id\":\"518b7194-4d98-4e49-8944-71be5bb990b2\",\"target\":{\"x\":12,\"y\":7},\"type\":\"move\"}},\"prevHash\":\"4e9e30400820b54168d0b87eda9cc5987fb1610559c94e692041600f8f301182\",\"rulesRevision\":0,\"seq\":5,\"sourceIds\":[],\"step\":2853,\"tick\":285.3,\"type\":\"player_command\"},{\"actorId\":\"player\",\"audience\":[\"mara\",\"player\"],\"hash\":\"c0874a63fa7888d2b2ea4f7ee2c978904dc4c0f84f753ee859b8640d7c6b3ca5\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:6\",\"payload\":{\"plotId\":\"plot-1\",\"readyAt\":3036,\"water\":1},\"prevHash\":\"fe72eea7c97788641d99f6b5e9a5d081d20eee6edb3c300ab12973b8e4c5eb7a\",\"rulesRevision\":0,\"seq\":6,\"sourceIds\":[],\"step\":2856,\"tick\":285.6,\"type\":\"crop_watered\"},{\"actorId\":\"player\",\"audience\":[\"player\"],\"hash\":\"ec2353c2f1f652067217ea70ea2b198873d1c74778a9b489f3863d2a7c553b28\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:7\",\"payload\":{\"command\":{\"id\":\"fa4e2e15-183c-4ae9-a58c-9394577053c1\",\"plotId\":\"plot-1\",\"type\":\"water\"}},\"prevHash\":\"c0874a63fa7888d2b2ea4f7ee2c978904dc4c0f84f753ee859b8640d7c6b3ca5\",\"rulesRevision\":0,\"seq\":7,\"sourceIds\":[],\"step\":2856,\"tick\":285.6,\"type\":\"player_command\"},{\"actorId\":null,\"audience\":[\"mara\",\"player\"],\"hash\":\"166c10130bafc053ccc942e427ab86275ef07fc37139b7b018fbd3e6ff60ad07\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:8\",\"payload\":{\"plotId\":\"plot-1\"},\"prevHash\":\"ec2353c2f1f652067217ea70ea2b198873d1c74778a9b489f3863d2a7c553b28\",\"rulesRevision\":0,\"seq\":8,\"sourceIds\":[],\"step\":3036,\"tick\":303.6,\"type\":\"crop_ripened\"},{\"actorId\":null,\"audience\":[],\"hash\":\"2ab551058f06f70cc091a52786adbba981d8e422b0ae021cfd954fa90605f3fe\",\"id\":\"674a6592-2a2b-4ece-9789-ff0422967f9e:9\",\"payload\":{\"atStep\":3101,\"parentBranchId\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa\",\"parentHash\":\"83600c5189b118bcd10345dbea128a7f52bfe0450b96be53b4f61b06ff89b4f6\"},\"prevHash\":\"166c10130bafc053ccc942e427ab86275ef07fc37139b7b018fbd3e6ff60ad07\",\"rulesRevision\":0,\"seq\":9,\"sourceIds\":[],\"step\":3101,\"tick\":310.1,\"type\":\"cozy_branch_forked\"},{\"actorId\":null,\"audience\":[],\"hash\":\"0e34c035bcb8da2565cfbd4628b3e3c4f8d678097a67d68a0abed64b6afd246f\",\"id\":\"674a6592-2a2b-4ece-9789-ff0422967f9e:10\",\"payload\":{\"explicit\":true,\"fromContent\":\"cozy-wheat-1\",\"fromEngine\":\"cozy-engine-1\",\"parentHash\":\"83600c5189b118bcd10345dbea128a7f52bfe0450b96be53b4f61b06ff89b4f6\",\"toContent\":\"cozy-cooperation-1\",\"toEngine\":\"cozy-engine-2\"},\"prevHash\":\"2ab551058f06f70cc091a52786adbba981d8e422b0ae021cfd954fa90605f3fe\",\"rulesRevision\":0,\"seq\":10,\"sourceIds\":[],\"step\":3101,\"tick\":310.1,\"type\":\"cozy_world_upgraded\"}],\"festival\":{\"announced\":false,\"completedAt\":null,\"food\":0,\"foodReserved\":{},\"id\":1,\"invitations\":{},\"participants\":[],\"phase\":\"planning\",\"setupDone\":false,\"setupOwner\":null,\"startedAt\":null,\"venue\":\"square\"},\"flood\":{\"active\":false,\"egress\":[],\"expiresAt\":null,\"ruleRevision\":0,\"startedAt\":null},\"ledger\":{\"consumed\":{\"bread\":0,\"grain\":1,\"timber\":0,\"water\":1},\"environment\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"initial\":{\"bread\":2,\"grain\":11,\"timber\":6,\"water\":14},\"produced\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"waste\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},\"nextId\":1,\"npcs\":[{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":90},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"ada-home\",\"id\":\"ada\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":3100,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Ada\",\"needs\":{\"energy\":80,\"hunger\":66,\"social\":61},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Practical baker\",\"Grateful for useful grain\"],\"trust\":50,\"x\":26,\"y\":6},{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":65},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":90}],\"harvestsSeen\":0,\"homeId\":\"mara-home\",\"id\":\"mara\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":3100,\"lastGiftStep\":-1000,\"memories\":[{\"actorId\":\"player\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:2/m/mara\",\"sourceIds\":[\"a9c28da5-ee7a-4881-96c9-4005899d98fa:2\"],\"step\":2093,\"text\":\"You planted one grain seed.\",\"type\":\"crop_planted\"},{\"actorId\":\"player\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:6/m/mara\",\"sourceIds\":[\"a9c28da5-ee7a-4881-96c9-4005899d98fa:6\"],\"step\":2856,\"text\":\"You watered the wheat.\",\"type\":\"crop_watered\"},{\"actorId\":null,\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:8/m/mara\",\"sourceIds\":[\"a9c28da5-ee7a-4881-96c9-4005899d98fa:8\"],\"step\":3036,\"text\":\"The watered wheat is ready to harvest.\",\"type\":\"crop_ripened\"}],\"name\":\"Mara\",\"needs\":{\"energy\":85,\"hunger\":51,\"social\":51},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Careful planner\",\"Checks preparations\"],\"trust\":50,\"x\":11,\"y\":8},{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"festivalObservation\":{\"food\":0,\"id\":1,\"phase\":\"planning\",\"setupDone\":false,\"step\":3101,\"venue\":\"square\"},\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":60},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":95},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"wren-home\",\"id\":\"wren\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":true,\"lastDecisionStep\":3100,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Wren\",\"needs\":{\"energy\":94,\"hunger\":46,\"social\":100},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Sociable courier\",\"Shares good news\"],\"trust\":50,\"x\":14,\"y\":16}],\"operations\":[],\"origin\":{\"branchId\":\"674a6592-2a2b-4ece-9789-ff0422967f9e\",\"migration\":{\"fromContent\":\"cozy-wheat-1\",\"fromEngine\":\"cozy-engine-1\",\"parentHash\":\"83600c5189b118bcd10345dbea128a7f52bfe0450b96be53b4f61b06ff89b4f6\"},\"parentBranchId\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa\",\"parentHash\":\"83600c5189b118bcd10345dbea128a7f52bfe0450b96be53b4f61b06ff89b4f6\",\"seed\":137},\"places\":[{\"id\":\"player-home\",\"kind\":\"home\",\"name\":\"Your cottage\",\"position\":{\"x\":4,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"mara-home\",\"kind\":\"home\",\"name\":\"Mara’s cottage\",\"position\":{\"x\":4,\"y\":6},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"bakery\",\"kind\":\"bakery\",\"name\":\"Ada’s bakery\",\"position\":{\"x\":26,\"y\":6},\"stock\":{\"bread\":2,\"grain\":7,\"timber\":0,\"water\":0}},{\"id\":\"ada-home\",\"kind\":\"home\",\"name\":\"Ada’s cottage\",\"position\":{\"x\":28,\"y\":11},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"wren-home\",\"kind\":\"home\",\"name\":\"Wren’s cottage\",\"position\":{\"x\":27,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"well\",\"kind\":\"well\",\"name\":\"Catchment well\",\"position\":{\"x\":8,\"y\":14},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":12}},{\"id\":\"woodpile\",\"kind\":\"woodpile\",\"name\":\"Shared woodpile\",\"position\":{\"x\":5,\"y\":12},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":5,\"water\":0}},{\"id\":\"square\",\"kind\":\"venue\",\"name\":\"Village square\",\"position\":{\"x\":14,\"y\":16},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"market\",\"kind\":\"venue\",\"name\":\"Market green\",\"position\":{\"x\":24,\"y\":15},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}}],\"player\":{\"action\":\"Walking\",\"gifts\":0,\"harvests\":0,\"id\":\"player\",\"inventory\":{\"bread\":0,\"grain\":3,\"timber\":1,\"water\":1},\"memories\":[{\"actorId\":\"player\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:2/m/player\",\"sourceIds\":[\"a9c28da5-ee7a-4881-96c9-4005899d98fa:2\"],\"step\":2093,\"text\":\"You planted one grain seed.\",\"type\":\"crop_planted\"},{\"actorId\":\"player\",\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:6/m/player\",\"sourceIds\":[\"a9c28da5-ee7a-4881-96c9-4005899d98fa:6\"],\"step\":2856,\"text\":\"You watered the wheat.\",\"type\":\"crop_watered\"},{\"actorId\":null,\"id\":\"a9c28da5-ee7a-4881-96c9-4005899d98fa:8/m/player\",\"sourceIds\":[\"a9c28da5-ee7a-4881-96c9-4005899d98fa:8\"],\"step\":3036,\"text\":\"The watered wheat is ready to harvest.\",\"type\":\"crop_ripened\"}],\"name\":\"You\",\"path\":[],\"task\":null,\"x\":12.25,\"y\":7},\"plots\":[{\"harvestCount\":0,\"id\":\"plot-1\",\"phase\":\"ripe\",\"plantedAt\":2093,\"plantedBy\":\"player\",\"position\":{\"x\":11,\"y\":7},\"readyAt\":3036,\"visualAnchor\":{\"x\":192,\"y\":124},\"wateredAt\":2856},{\"harvestCount\":0,\"id\":\"plot-2\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":13,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":216,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-3\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":14,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":240,\"y\":124},\"wateredAt\":null}],\"reservations\":[],\"ruleHistory\":[],\"rules\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"player\",\"seedReserve\":1,\"venue\":\"square\"},\"rulesRevision\":0,\"seed\":137,\"step\":3101,\"tick\":310.1,\"version\":1}"
+    },
+    "operations": [
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 6
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 6
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "social-initiative",
+        "id": "initiative:ad0a9a18-42f3-4652-b225-2d31f62dcc1f",
+        "decision": {
+          "npcId": "wren",
+          "triggerKey": "initiative:wren:a51dc356f7ad3ff94fa3fe88",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "action": "propose",
+          "proposalId": null,
+          "targetId": "ada",
+          "name": "Morning Square Gathering",
+          "purpose": "Share time with neighbors and check before committing to a shared plan.",
+          "charter": {
+            "venue": "square",
+            "grainTarget": 4,
+            "seedFloor": 1
+          },
+          "reason": "I want to propose a gathering at the square to share time with Ada and Mara, aiming for a moderate grain contribution.",
+          "evidenceIds": []
+        },
+        "provenance": {
+          "mode": "local-qwen",
+          "model": "qwen3.5:9b",
+          "proposalId": "ad0a9a18-42f3-4652-b225-2d31f62dcc1f"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 6
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 600
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "social-initiative",
+        "id": "initiative:bed3ad98-25db-4416-973a-4546c7b501e6",
+        "decision": {
+          "npcId": "ada",
+          "triggerKey": "initiative:ada:a51dc356f7ad3ff94fa3fe88",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "action": "wait",
+          "proposalId": null,
+          "targetId": null,
+          "name": null,
+          "purpose": null,
+          "charter": null,
+          "reason": "I have no grain in my inventory and cannot propose a gathering or share a proposal without stock. I must wait until I acquire resources.",
+          "evidenceIds": []
+        },
+        "provenance": {
+          "mode": "local-qwen",
+          "model": "qwen3.5:9b",
+          "proposalId": "bed3ad98-25db-4416-973a-4546c7b501e6"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "social-owner-decision",
+        "id": "a1944813-dcb8-4245-9dbf-dbe937822bd9",
+        "proposalId": "proposal-1",
+        "decision": "approve"
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "advance",
+        "steps": 600
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "social-initiative",
+        "id": "initiative:1ed0cb5f-49ba-4a27-81fe-eb6aef7a4fca",
+        "decision": {
+          "npcId": "wren",
+          "triggerKey": "initiative:wren:3821b20b9216cc737c0f01fd",
+          "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+          "action": "wait",
+          "proposalId": null,
+          "targetId": null,
+          "name": null,
+          "purpose": null,
+          "charter": null,
+          "reason": "Mara set a condition to inspect a real harvest before committing; I must wait for that evidence or her response.",
+          "evidenceIds": []
+        },
+        "provenance": {
+          "mode": "local-qwen",
+          "model": "qwen3.5:9b",
+          "proposalId": "1ed0cb5f-49ba-4a27-81fe-eb6aef7a4fca"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "harvest",
+          "plotId": "plot-1",
+          "id": "18992d2b-3439-4b37-8305-bf93afebec3b"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 6
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 12,
+            "y": 9
+          },
+          "id": "1efe171c-cb1a-4fe3-8e96-706a9c9baa05"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 12,
+            "y": 9
+          },
+          "id": "22e1fcd3-b6aa-4eb0-99ef-537510fffa70"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 12,
+            "y": 9
+          },
+          "id": "4ddbb0c6-d117-44fa-a23d-fb78dcf031b0"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 12,
+            "y": 9
+          },
+          "id": "d9c23113-cedc-4095-9a2c-9ee8a3f03feb"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 12,
+            "y": 9
+          },
+          "id": "c9c4cf0b-1c09-41cf-b719-5ebbcbfd541e"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 12,
+            "y": 9
+          },
+          "id": "2ab8c75e-69f9-4732-83a1-cb5be9ba9e8a"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "92564d7a-97e5-4876-ba32-8421392f20ea"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "social-initiative",
+        "id": "initiative:cc5b0d21-1862-4f94-9d89-483d80d7e9c7",
+        "decision": {
+          "npcId": "ada",
+          "triggerKey": "initiative:ada:d88f59cc80b13431d26acf32",
+          "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+          "action": "wait",
+          "proposalId": null,
+          "targetId": null,
+          "name": null,
+          "purpose": null,
+          "charter": null,
+          "reason": "The festival has completed and the institution is resting. I have no new proposals to share or places to inspect.",
+          "evidenceIds": []
+        },
+        "provenance": {
+          "mode": "local-qwen",
+          "model": "qwen3.5:9b",
+          "proposalId": "cc5b0d21-1862-4f94-9d89-483d80d7e9c7"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 8
+          },
+          "id": "547613e1-96ab-45a4-85e9-412a25812c7a"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 8
+          },
+          "id": "1ac7ba81-de6c-41b4-b774-2c3aec326fe7"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 8
+          },
+          "id": "49afe9c6-a0e5-43ad-b618-f68009028c75"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "d3c30a5f-904a-459d-9969-1a35d499cadc"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "0207092b-e222-4026-830a-4264aad42ad4"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "b58f1ddb-c94f-4da1-9cec-45468ae1586c"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "fa30d4c9-3cdc-45fa-8c2d-5aab5f33e978"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "286cef84-6091-4e32-b5d5-ca4d295c7380"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "e11c787d-b0fa-481a-b47a-e996bee266a8"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "79bbcc5c-e027-4bfc-9427-bef802f8ee42"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "dde1f45b-f8e0-41b9-b915-66476686246a"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "c445ef2e-77b3-4c9c-8b5e-ecfbecab4d4a"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "7d71282a-ce6c-485d-bce4-1e2152f8eeb2"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "1092eec0-2bff-4e40-8965-d2ab7e6a5cde"
+        }
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "5624e9ae-4180-45e0-93ff-b7fbd573e8a5"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "7afd8b02-d4cc-4c22-9957-2033e2f3b5e2"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "ceb41e33-a3d3-4dca-9653-725dfc850a4d"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "6d3a3116-313b-4e06-b292-8bc0908cac35"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "4056b8aa-0f9c-45c0-a928-07e47a72ad92"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 14,
+            "y": 9
+          },
+          "id": "67bc74cc-2d79-40e2-b000-e11bb363ddd5"
+        }
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "621d2645-5f1e-48ed-a142-fac1f1b9f137"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 9
+          },
+          "id": "5443abeb-f9f5-46d9-aabe-773a15976a2d"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 9
+          },
+          "id": "10f02046-a8ad-40a7-b47d-4390e7857bdd"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 9
+          },
+          "id": "b52c0df0-1dc7-4570-954c-9e710be901ca"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 9
+          },
+          "id": "31c1eb47-3e10-4faf-819d-3bbb1e74f0a2"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "f8c9111b-22c6-47f0-a8f4-30e7cfa0d2ea"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 12
+          },
+          "id": "875ad713-48a8-405b-9254-1fdf77d3ab2d"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 12
+          },
+          "id": "d439d5b1-f637-4305-ba8e-3cad97816f70"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "058af6dd-e98f-4e6b-a106-86005613afc5"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 13,
+            "y": 9
+          },
+          "id": "063fa9cd-9712-4481-ab59-4e0e10f1597d"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 13,
+            "y": 9
+          },
+          "id": "37ae9a18-ff28-4a4d-aab9-c767e3804019"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 13,
+            "y": 9
+          },
+          "id": "888191f2-6f03-49ad-9721-493a45861cfa"
+        }
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "stop",
+          "id": "724d1f86-9b0e-4ecf-a27f-05d11c6b69ef"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 12
+          },
+          "id": "fdf4f45b-412e-484b-8d1c-a404077f9d47"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 12
+          },
+          "id": "5ba303a4-8fa3-4c98-aada-96cbe06de613"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 12
+          },
+          "id": "8eef7132-6bb0-49f4-bc09-470a5504a593"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 13
+          },
+          "id": "4267f6ef-f003-4b7d-bf40-8bbfcafc8935"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 13
+          },
+          "id": "f63c3548-e45e-4e9e-9bb6-fdcfdbdd3bb1"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 14
+          },
+          "id": "a4ded3d1-9782-489d-ad2f-993be08887e8"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 14
+          },
+          "id": "de88335d-0f55-44f5-8f6a-92ecfa57ed85"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 11
+          },
+          "id": "f492d9cc-6c08-4620-b8b1-5361827d64ee"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "1520d493-005b-43a8-b3f5-542ac44f0e8a"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "05943af9-e29a-4992-a673-25801603f9b0"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "8be0c8f1-092e-4bee-8e5d-640801cbb648"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "aa64f509-75ed-4103-8358-ac69bf01cd04"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "7f4e86b5-246f-4033-8e8c-df1f3c777717"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "5c40bbd1-2fe0-477c-a6dd-d551827f7cc0"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "bf2a9f18-0df6-4f35-afd2-7d6acbc1a28b"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "03227c4a-dc66-487b-9513-0e973e3109a8"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 15,
+            "y": 12
+          },
+          "id": "e2d995b4-fee2-44ff-a2d3-ee3a805662d0"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 3
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 16,
+            "y": 15
+          },
+          "id": "97539a79-bb4c-4ac5-bf77-199aefd5120b"
+        }
+      },
+      {
+        "type": "command",
+        "command": {
+          "id": "83c9c4c5-26cc-4b8e-bcac-c2bfb27e7fa3",
+          "type": "stop"
+        }
+      }
+    ],
+    "finalStep": 5348,
+    "finalHash": "fbda78e37755f346589ec291584ae2fddddf947e9f7ceb3f72949689b12c7ebf",
+    "eventHead": "dff15d7b0819649dd59b06b5663e470a51b1dae5cb2ce535e4bf57fa1c083e45"
+  },
+  "clock": {
+    "paused": true,
+    "pace": 1
+  },
+  "initiativeTickets": [
+    {
+      "id": "ad0a9a18-42f3-4652-b225-2d31f62dcc1f",
+      "save_id": "674a6592-2a2b-4ece-9789-ff0422967f9e",
+      "request_id": "0c7c937d-ba58-4962-bb28-aeffaa6e8b74",
+      "trigger_key": "initiative:wren:a51dc356f7ad3ff94fa3fe88",
+      "npc_id": "wren",
+      "snapshot_step": 3110,
+      "rules_revision": 0,
+      "intent_hash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+      "context_hash": "4c40bdaef1e98cb25f602e6eb99fc6d661bdb6f2cf1d9a5972dd9ac6ba4e0a36",
+      "source": "local-qwen",
+      "status": "applied",
+      "job_id": "d27db1a5-2e36-4968-931c-92baf14868be",
+      "summary": "I want to propose a gathering at the square to share time with Ada and Mara, aiming for a moderate grain contribution.",
+      "error_code": null,
+      "created_at": 1792958195329,
+      "updated_at": 1792958213330,
+      "context": {
+        "version": 1,
+        "npcId": "wren",
+        "step": 3110,
+        "triggerKey": "initiative:wren:a51dc356f7ad3ff94fa3fe88",
+        "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+        "npc": {
+          "name": "Wren",
+          "traits": [
+            "Sociable courier",
+            "Shares good news"
+          ],
+          "needs": {
+            "hunger": 46,
+            "energy": 94,
+            "social": 100
+          },
+          "goals": [
+            {
+              "id": "help",
+              "label": "Make something useful",
+              "weight": 60
+            },
+            {
+              "id": "belong",
+              "label": "Share time with neighbors",
+              "weight": 95
+            },
+            {
+              "id": "understand",
+              "label": "Check before committing",
+              "weight": 40
+            }
+          ],
+          "trust": 50,
+          "affinity": 40,
+          "inventory": {
+            "grain": 0,
+            "water": 0,
+            "timber": 0,
+            "bread": 0
+          }
+        },
+        "observations": [],
+        "nearbyActors": [],
+        "neighbors": [
+          {
+            "id": "ada",
+            "name": "Ada",
+            "homeId": "ada-home"
+          },
+          {
+            "id": "mara",
+            "name": "Mara",
+            "homeId": "mara-home"
+          }
+        ],
+        "observedPlaces": [
+          {
+            "id": "player-home",
+            "position": {
+              "x": 4,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "mara-home",
+            "position": {
+              "x": 4,
+              "y": 6
+            },
+            "stock": null
+          },
+          {
+            "id": "bakery",
+            "position": {
+              "x": 26,
+              "y": 6
+            },
+            "stock": null
+          },
+          {
+            "id": "ada-home",
+            "position": {
+              "x": 28,
+              "y": 11
+            },
+            "stock": null
+          },
+          {
+            "id": "wren-home",
+            "position": {
+              "x": 27,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "well",
+            "position": {
+              "x": 8,
+              "y": 14
+            },
+            "stock": null
+          },
+          {
+            "id": "woodpile",
+            "position": {
+              "x": 5,
+              "y": 12
+            },
+            "stock": null
+          },
+          {
+            "id": "square",
+            "position": {
+              "x": 14,
+              "y": 16
+            },
+            "stock": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          },
+          {
+            "id": "market",
+            "position": {
+              "x": 24,
+              "y": 15
+            },
+            "stock": null
+          }
+        ],
+        "observedFestival": {
+          "id": 1,
+          "venue": "square",
+          "phase": "planning",
+          "food": 0,
+          "setupDone": false
+        },
+        "knownProposals": [],
+        "institutions": [],
+        "capability": {
+          "kind": "shared-gathering",
+          "venues": [
+            "square"
+          ],
+          "grainTarget": {
+            "min": 2,
+            "max": 6
+          },
+          "seedFloor": {
+            "min": 0,
+            "max": 3
+          }
+        },
+        "eligibility": {
+          "canPropose": true,
+          "canShare": false,
+          "nextEligibleStep": 3101
+        }
+      },
+      "decision": {
+        "npcId": "wren",
+        "triggerKey": "initiative:wren:a51dc356f7ad3ff94fa3fe88",
+        "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+        "action": "propose",
+        "proposalId": null,
+        "targetId": "ada",
+        "name": "Morning Square Gathering",
+        "purpose": "Share time with neighbors and check before committing to a shared plan.",
+        "charter": {
+          "venue": "square",
+          "grainTarget": 4,
+          "seedFloor": 1
+        },
+        "reason": "I want to propose a gathering at the square to share time with Ada and Mara, aiming for a moderate grain contribution.",
+        "evidenceIds": []
+      }
+    },
+    {
+      "id": "bed3ad98-25db-4416-973a-4546c7b501e6",
+      "save_id": "674a6592-2a2b-4ece-9789-ff0422967f9e",
+      "request_id": "6cbf4280-d1df-4fab-b955-65eae744e842",
+      "trigger_key": "initiative:ada:a51dc356f7ad3ff94fa3fe88",
+      "npc_id": "ada",
+      "snapshot_step": 3340,
+      "rules_revision": 0,
+      "intent_hash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+      "context_hash": "6ebf367ac48b2e4a2fb5c6069199550f82f44758a6aa3d077f673b464e03d923",
+      "source": "local-qwen",
+      "status": "abstained",
+      "job_id": "51f56ca4-fd17-4d4e-b78b-2de2f2af049d",
+      "summary": "I have no grain in my inventory and cannot propose a gathering or share a proposal without stock. I must wait until I acquire resources.",
+      "error_code": null,
+      "created_at": 1792958272829,
+      "updated_at": 1792958285037,
+      "context": {
+        "version": 1,
+        "npcId": "ada",
+        "step": 3340,
+        "triggerKey": "initiative:ada:a51dc356f7ad3ff94fa3fe88",
+        "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+        "npc": {
+          "name": "Ada",
+          "traits": [
+            "Practical baker",
+            "Grateful for useful grain"
+          ],
+          "needs": {
+            "hunger": 68,
+            "energy": 80,
+            "social": 63
+          },
+          "goals": [
+            {
+              "id": "help",
+              "label": "Make something useful",
+              "weight": 90
+            },
+            {
+              "id": "belong",
+              "label": "Share time with neighbors",
+              "weight": 50
+            },
+            {
+              "id": "understand",
+              "label": "Check before committing",
+              "weight": 40
+            }
+          ],
+          "trust": 50,
+          "affinity": 40,
+          "inventory": {
+            "grain": 0,
+            "water": 0,
+            "timber": 0,
+            "bread": 0
+          }
+        },
+        "observations": [],
+        "nearbyActors": [],
+        "neighbors": [
+          {
+            "id": "mara",
+            "name": "Mara",
+            "homeId": "mara-home"
+          },
+          {
+            "id": "wren",
+            "name": "Wren",
+            "homeId": "wren-home"
+          }
+        ],
+        "observedPlaces": [
+          {
+            "id": "player-home",
+            "position": {
+              "x": 4,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "mara-home",
+            "position": {
+              "x": 4,
+              "y": 6
+            },
+            "stock": null
+          },
+          {
+            "id": "bakery",
+            "position": {
+              "x": 26,
+              "y": 6
+            },
+            "stock": {
+              "grain": 7,
+              "water": 0,
+              "timber": 0,
+              "bread": 2
+            }
+          },
+          {
+            "id": "ada-home",
+            "position": {
+              "x": 28,
+              "y": 11
+            },
+            "stock": null
+          },
+          {
+            "id": "wren-home",
+            "position": {
+              "x": 27,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "well",
+            "position": {
+              "x": 8,
+              "y": 14
+            },
+            "stock": null
+          },
+          {
+            "id": "woodpile",
+            "position": {
+              "x": 5,
+              "y": 12
+            },
+            "stock": null
+          },
+          {
+            "id": "square",
+            "position": {
+              "x": 14,
+              "y": 16
+            },
+            "stock": null
+          },
+          {
+            "id": "market",
+            "position": {
+              "x": 24,
+              "y": 15
+            },
+            "stock": null
+          }
+        ],
+        "observedFestival": null,
+        "knownProposals": [],
+        "institutions": [],
+        "capability": {
+          "kind": "shared-gathering",
+          "venues": [],
+          "grainTarget": {
+            "min": 2,
+            "max": 6
+          },
+          "seedFloor": {
+            "min": 0,
+            "max": 3
+          }
+        },
+        "eligibility": {
+          "canPropose": false,
+          "canShare": false,
+          "nextEligibleStep": 3101
+        }
+      },
+      "decision": {
+        "npcId": "ada",
+        "triggerKey": "initiative:ada:a51dc356f7ad3ff94fa3fe88",
+        "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+        "action": "wait",
+        "proposalId": null,
+        "targetId": null,
+        "name": null,
+        "purpose": null,
+        "charter": null,
+        "reason": "I have no grain in my inventory and cannot propose a gathering or share a proposal without stock. I must wait until I acquire resources.",
+        "evidenceIds": []
+      }
+    },
+    {
+      "id": "1ed0cb5f-49ba-4a27-81fe-eb6aef7a4fca",
+      "save_id": "674a6592-2a2b-4ece-9789-ff0422967f9e",
+      "request_id": "fb825f50-3c76-48e8-8267-d8c1cabe92b3",
+      "trigger_key": "initiative:wren:3821b20b9216cc737c0f01fd",
+      "npc_id": "wren",
+      "snapshot_step": 4788,
+      "rules_revision": 1,
+      "intent_hash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+      "context_hash": "334b18099710c1497e87fb67dfba2281e383e76e171d13c97ef331019ac9cbd6",
+      "source": "local-qwen",
+      "status": "abstained",
+      "job_id": "f1f969d8-d9e4-4751-8596-4c13f9fa38ad",
+      "summary": "Mara set a condition to inspect a real harvest before committing; I must wait for that evidence or her response.",
+      "error_code": null,
+      "created_at": 1792958340331,
+      "updated_at": 1792958356000,
+      "context": {
+        "version": 1,
+        "npcId": "wren",
+        "step": 4788,
+        "triggerKey": "initiative:wren:3821b20b9216cc737c0f01fd",
+        "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+        "npc": {
+          "name": "Wren",
+          "traits": [
+            "Sociable courier",
+            "Shares good news"
+          ],
+          "needs": {
+            "hunger": 27,
+            "energy": 91,
+            "social": 1
+          },
+          "goals": [
+            {
+              "id": "help",
+              "label": "Make something useful",
+              "weight": 60
+            },
+            {
+              "id": "belong",
+              "label": "Share time with neighbors",
+              "weight": 95
+            },
+            {
+              "id": "understand",
+              "label": "Check before committing",
+              "weight": 40
+            }
+          ],
+          "trust": 51,
+          "affinity": 43,
+          "inventory": {
+            "grain": 0,
+            "water": 0,
+            "timber": 0,
+            "bread": 0
+          }
+        },
+        "observations": [
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:15/m/wren",
+            "step": 3398,
+            "type": "social_response",
+            "text": "Ada chose to join Morning Square Gathering: This fits my goals and available effort (commitment score 52); I choose to help.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+            ],
+            "actorId": "ada"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:16/m/wren",
+            "step": 3398,
+            "type": "institution_formed",
+            "text": "Morning Square Gathering formed because Ada and Wren independently agreed.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:16",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:13"
+            ],
+            "actorId": "wren",
+            "facts": {
+              "institutionId": "institution-2",
+              "memberIds": [
+                "ada",
+                "wren"
+              ]
+            }
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:18/m/wren",
+            "step": 3488,
+            "type": "social_proposal_delivered",
+            "text": "Mara received wren’s proposal “Morning Square Gathering”: Share time with neighbors and check before committing to a shared plan.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:18",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:11"
+            ],
+            "actorId": "wren"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:19/m/wren",
+            "step": 3488,
+            "type": "social_response",
+            "text": "Mara set conditions on Morning Square Gathering: I want to inspect or witness a real harvest before committing.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:19",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:18"
+            ],
+            "actorId": "mara"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:58/m/wren",
+            "step": 4552,
+            "type": "festival_arrival",
+            "text": "Wren arrived of their own accord.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:58"
+            ],
+            "actorId": "wren"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:59/m/wren",
+            "step": 4552,
+            "type": "festival_started",
+            "text": "The villagers gathered around food they really brought.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:59"
+            ],
+            "actorId": "wren"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:60/m/wren",
+            "step": 4652,
+            "type": "festival_completed",
+            "text": "A small festival became a shared memory.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:60"
+            ],
+            "actorId": "wren"
+          }
+        ],
+        "nearbyActors": [],
+        "neighbors": [
+          {
+            "id": "ada",
+            "name": "Ada",
+            "homeId": "ada-home"
+          },
+          {
+            "id": "mara",
+            "name": "Mara",
+            "homeId": "mara-home"
+          }
+        ],
+        "observedPlaces": [
+          {
+            "id": "player-home",
+            "position": {
+              "x": 4,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "mara-home",
+            "position": {
+              "x": 4,
+              "y": 6
+            },
+            "stock": null
+          },
+          {
+            "id": "bakery",
+            "position": {
+              "x": 26,
+              "y": 6
+            },
+            "stock": null
+          },
+          {
+            "id": "ada-home",
+            "position": {
+              "x": 28,
+              "y": 11
+            },
+            "stock": null
+          },
+          {
+            "id": "wren-home",
+            "position": {
+              "x": 27,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "well",
+            "position": {
+              "x": 8,
+              "y": 14
+            },
+            "stock": null
+          },
+          {
+            "id": "woodpile",
+            "position": {
+              "x": 5,
+              "y": 12
+            },
+            "stock": null
+          },
+          {
+            "id": "square",
+            "position": {
+              "x": 14,
+              "y": 16
+            },
+            "stock": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          },
+          {
+            "id": "market",
+            "position": {
+              "x": 24,
+              "y": 15
+            },
+            "stock": null
+          }
+        ],
+        "observedFestival": {
+          "id": 1,
+          "venue": "square",
+          "phase": "complete",
+          "food": 0,
+          "setupDone": true
+        },
+        "knownProposals": [
+          {
+            "id": "proposal-1",
+            "authorId": "wren",
+            "name": "Morning Square Gathering",
+            "purpose": "Share time with neighbors and check before committing to a shared plan.",
+            "charter": {
+              "venue": "square",
+              "grainTarget": 4,
+              "seedFloor": 1
+            },
+            "ownResponse": {
+              "stance": "join",
+              "conditions": [],
+              "reason": "This fits my goals and available effort (commitment score 54); I choose to help.",
+              "evidenceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:12"
+              ],
+              "decidedStep": 3289,
+              "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:13",
+              "provenance": "deterministic-policy"
+            },
+            "heardEventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:12"
+          }
+        ],
+        "institutions": [
+          {
+            "id": "institution-2",
+            "name": "Morning Square Gathering",
+            "members": [
+              "ada",
+              "wren"
+            ],
+            "permission": "approved",
+            "status": "resting"
+          }
+        ],
+        "capability": {
+          "kind": "shared-gathering",
+          "venues": [
+            "square"
+          ],
+          "grainTarget": {
+            "min": 2,
+            "max": 6
+          },
+          "seedFloor": {
+            "min": 0,
+            "max": 3
+          }
+        },
+        "eligibility": {
+          "canPropose": true,
+          "canShare": false,
+          "nextEligibleStep": 3589
+        }
+      },
+      "decision": {
+        "npcId": "wren",
+        "triggerKey": "initiative:wren:3821b20b9216cc737c0f01fd",
+        "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+        "action": "wait",
+        "proposalId": null,
+        "targetId": null,
+        "name": null,
+        "purpose": null,
+        "charter": null,
+        "reason": "Mara set a condition to inspect a real harvest before committing; I must wait for that evidence or her response.",
+        "evidenceIds": []
+      }
+    },
+    {
+      "id": "cc5b0d21-1862-4f94-9d89-483d80d7e9c7",
+      "save_id": "674a6592-2a2b-4ece-9789-ff0422967f9e",
+      "request_id": "1cd268e0-9701-41f5-a90a-2c89321f5304",
+      "trigger_key": "initiative:ada:d88f59cc80b13431d26acf32",
+      "npc_id": "ada",
+      "snapshot_step": 5099,
+      "rules_revision": 1,
+      "intent_hash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+      "context_hash": "bafbc953ead0fa9ca1d78319246f7f77abc256d72162f038e2d7f3bf8eb16509",
+      "source": "local-qwen",
+      "status": "abstained",
+      "job_id": "cede8e3d-f182-498e-ab1f-aaf1084da477",
+      "summary": "The festival has completed and the institution is resting. I have no new proposals to share or places to inspect.",
+      "error_code": null,
+      "created_at": 1792958415354,
+      "updated_at": 1792958467838,
+      "context": {
+        "version": 1,
+        "npcId": "ada",
+        "step": 5099,
+        "triggerKey": "initiative:ada:d88f59cc80b13431d26acf32",
+        "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+        "npc": {
+          "name": "Ada",
+          "traits": [
+            "Practical baker",
+            "Grateful for useful grain"
+          ],
+          "needs": {
+            "hunger": 50,
+            "energy": 76,
+            "social": 4
+          },
+          "goals": [
+            {
+              "id": "help",
+              "label": "Make something useful",
+              "weight": 90
+            },
+            {
+              "id": "belong",
+              "label": "Share time with neighbors",
+              "weight": 50
+            },
+            {
+              "id": "understand",
+              "label": "Check before committing",
+              "weight": 40
+            }
+          ],
+          "trust": 51,
+          "affinity": 43,
+          "inventory": {
+            "grain": 0,
+            "water": 0,
+            "timber": 0,
+            "bread": 0
+          }
+        },
+        "observations": [
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:14/m/ada",
+            "step": 3398,
+            "type": "social_proposal_delivered",
+            "text": "Ada received wren’s proposal “Morning Square Gathering”: Share time with neighbors and check before committing to a shared plan.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:14",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:11"
+            ],
+            "actorId": "wren"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:15/m/ada",
+            "step": 3398,
+            "type": "social_response",
+            "text": "Ada chose to join Morning Square Gathering: This fits my goals and available effort (commitment score 52); I choose to help.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+            ],
+            "actorId": "ada"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:16/m/ada",
+            "step": 3398,
+            "type": "institution_formed",
+            "text": "Morning Square Gathering formed because Ada and Wren independently agreed.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:16",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:13"
+            ],
+            "actorId": "wren",
+            "facts": {
+              "institutionId": "institution-2",
+              "memberIds": [
+                "ada",
+                "wren"
+              ]
+            }
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:58/m/ada",
+            "step": 4552,
+            "type": "festival_arrival",
+            "text": "Wren arrived of their own accord.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:58"
+            ],
+            "actorId": "wren"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:59/m/ada",
+            "step": 4552,
+            "type": "festival_started",
+            "text": "The villagers gathered around food they really brought.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:59"
+            ],
+            "actorId": "wren"
+          },
+          {
+            "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:60/m/ada",
+            "step": 4652,
+            "type": "festival_completed",
+            "text": "A small festival became a shared memory.",
+            "sourceIds": [
+              "674a6592-2a2b-4ece-9789-ff0422967f9e:60"
+            ],
+            "actorId": "wren"
+          }
+        ],
+        "nearbyActors": [],
+        "neighbors": [
+          {
+            "id": "mara",
+            "name": "Mara",
+            "homeId": "mara-home"
+          },
+          {
+            "id": "wren",
+            "name": "Wren",
+            "homeId": "wren-home"
+          }
+        ],
+        "observedPlaces": [
+          {
+            "id": "player-home",
+            "position": {
+              "x": 4,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "mara-home",
+            "position": {
+              "x": 4,
+              "y": 6
+            },
+            "stock": null
+          },
+          {
+            "id": "bakery",
+            "position": {
+              "x": 26,
+              "y": 6
+            },
+            "stock": {
+              "grain": 3,
+              "water": 0,
+              "timber": 0,
+              "bread": 2
+            }
+          },
+          {
+            "id": "ada-home",
+            "position": {
+              "x": 28,
+              "y": 11
+            },
+            "stock": null
+          },
+          {
+            "id": "wren-home",
+            "position": {
+              "x": 27,
+              "y": 21
+            },
+            "stock": null
+          },
+          {
+            "id": "well",
+            "position": {
+              "x": 8,
+              "y": 14
+            },
+            "stock": null
+          },
+          {
+            "id": "woodpile",
+            "position": {
+              "x": 5,
+              "y": 12
+            },
+            "stock": null
+          },
+          {
+            "id": "square",
+            "position": {
+              "x": 14,
+              "y": 16
+            },
+            "stock": null
+          },
+          {
+            "id": "market",
+            "position": {
+              "x": 24,
+              "y": 15
+            },
+            "stock": null
+          }
+        ],
+        "observedFestival": {
+          "id": 1,
+          "venue": "square",
+          "phase": "complete",
+          "food": 0,
+          "setupDone": true
+        },
+        "knownProposals": [
+          {
+            "id": "proposal-1",
+            "authorId": "wren",
+            "name": "Morning Square Gathering",
+            "purpose": "Share time with neighbors and check before committing to a shared plan.",
+            "charter": {
+              "venue": "square",
+              "grainTarget": 4,
+              "seedFloor": 1
+            },
+            "ownResponse": {
+              "stance": "join",
+              "conditions": [],
+              "reason": "This fits my goals and available effort (commitment score 52); I choose to help.",
+              "evidenceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+              ],
+              "decidedStep": 3398,
+              "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+              "provenance": "deterministic-policy"
+            },
+            "heardEventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+          }
+        ],
+        "institutions": [
+          {
+            "id": "institution-2",
+            "name": "Morning Square Gathering",
+            "members": [
+              "ada",
+              "wren"
+            ],
+            "permission": "approved",
+            "status": "resting"
+          }
+        ],
+        "capability": {
+          "kind": "shared-gathering",
+          "venues": [
+            "square"
+          ],
+          "grainTarget": {
+            "min": 2,
+            "max": 6
+          },
+          "seedFloor": {
+            "min": 0,
+            "max": 3
+          }
+        },
+        "eligibility": {
+          "canPropose": true,
+          "canShare": false,
+          "nextEligibleStep": 4360
+        }
+      },
+      "decision": {
+        "npcId": "ada",
+        "triggerKey": "initiative:ada:d88f59cc80b13431d26acf32",
+        "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+        "action": "wait",
+        "proposalId": null,
+        "targetId": null,
+        "name": null,
+        "purpose": null,
+        "charter": null,
+        "reason": "The festival has completed and the institution is resting. I have no new proposals to share or places to inspect.",
+        "evidenceIds": []
+      }
+    }
+  ],
+  "providerAudit": [
+    {
+      "attemptId": "d27db1a5-2e36-4968-931c-92baf14868be",
+      "purpose": "cozy-initiative-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "initiative",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T19:56:53.320889Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 1153,
+        "outputTokens": 238,
+        "durationMs": 17989,
+        "rawText": "{\n  \"npcId\": \"wren\",\n  \"triggerKey\": \"initiative:wren:a51dc356f7ad3ff94fa3fe88\",\n  \"intentHash\": \"5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1\",\n  \"action\": \"propose\",\n  \"proposalId\": null,\n  \"targetId\": \"ada\",\n  \"name\": \"Morning Square Gathering\",\n  \"purpose\": \"Share time with neighbors and check before committing to a shared plan.\",\n  \"charter\": {\n    \"venue\": \"square\",\n    \"grainTarget\": 4,\n    \"seedFloor\": 1\n  },\n  \"reason\": \"I want to propose a gathering at the square to share time with Ada and Mara, aiming for a moderate grain contribution.\",\n  \"evidenceIds\": []\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "version": 1,
+          "npcId": "wren",
+          "step": 3110,
+          "triggerKey": "initiative:wren:a51dc356f7ad3ff94fa3fe88",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "npc": {
+            "name": "Wren",
+            "traits": [
+              "Sociable courier",
+              "Shares good news"
+            ],
+            "needs": {
+              "hunger": 46,
+              "energy": 94,
+              "social": 100
+            },
+            "goals": [
+              {
+                "id": "help",
+                "label": "Make something useful",
+                "weight": 60
+              },
+              {
+                "id": "belong",
+                "label": "Share time with neighbors",
+                "weight": 95
+              },
+              {
+                "id": "understand",
+                "label": "Check before committing",
+                "weight": 40
+              }
+            ],
+            "trust": 50,
+            "affinity": 40,
+            "inventory": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          },
+          "observations": [],
+          "nearbyActors": [],
+          "neighbors": [
+            {
+              "id": "ada",
+              "name": "Ada",
+              "homeId": "ada-home"
+            },
+            {
+              "id": "mara",
+              "name": "Mara",
+              "homeId": "mara-home"
+            }
+          ],
+          "observedPlaces": [
+            {
+              "id": "player-home",
+              "position": {
+                "x": 4,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "mara-home",
+              "position": {
+                "x": 4,
+                "y": 6
+              },
+              "stock": null
+            },
+            {
+              "id": "bakery",
+              "position": {
+                "x": 26,
+                "y": 6
+              },
+              "stock": null
+            },
+            {
+              "id": "ada-home",
+              "position": {
+                "x": 28,
+                "y": 11
+              },
+              "stock": null
+            },
+            {
+              "id": "wren-home",
+              "position": {
+                "x": 27,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "well",
+              "position": {
+                "x": 8,
+                "y": 14
+              },
+              "stock": null
+            },
+            {
+              "id": "woodpile",
+              "position": {
+                "x": 5,
+                "y": 12
+              },
+              "stock": null
+            },
+            {
+              "id": "square",
+              "position": {
+                "x": 14,
+                "y": 16
+              },
+              "stock": {
+                "grain": 0,
+                "water": 0,
+                "timber": 0,
+                "bread": 0
+              }
+            },
+            {
+              "id": "market",
+              "position": {
+                "x": 24,
+                "y": 15
+              },
+              "stock": null
+            }
+          ],
+          "observedFestival": {
+            "id": 1,
+            "venue": "square",
+            "phase": "planning",
+            "food": 0,
+            "setupDone": false
+          },
+          "knownProposals": [],
+          "institutions": [],
+          "capability": {
+            "kind": "shared-gathering",
+            "venues": [
+              "square"
+            ],
+            "grainTarget": {
+              "min": 2,
+              "max": 6
+            },
+            "seedFloor": {
+              "min": 0,
+              "max": 3
+            }
+          },
+          "eligibility": {
+            "canPropose": true,
+            "canShare": false,
+            "nextEligibleStep": 3101
+          }
+        },
+        "value": {
+          "npcId": "wren",
+          "triggerKey": "initiative:wren:a51dc356f7ad3ff94fa3fe88",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "action": "propose",
+          "proposalId": null,
+          "targetId": "ada",
+          "name": "Morning Square Gathering",
+          "purpose": "Share time with neighbors and check before committing to a shared plan.",
+          "charter": {
+            "venue": "square",
+            "grainTarget": 4,
+            "seedFloor": 1
+          },
+          "reason": "I want to propose a gathering at the square to share time with Ada and Mara, aiming for a moderate grain contribution.",
+          "evidenceIds": []
+        }
+      }
+    },
+    {
+      "attemptId": "51f56ca4-fd17-4d4e-b78b-2de2f2af049d",
+      "purpose": "cozy-initiative-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "initiative",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T19:58:05.029034Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 1132,
+        "outputTokens": 195,
+        "durationMs": 12179,
+        "rawText": "{\n  \"npcId\": \"ada\",\n  \"triggerKey\": \"initiative:ada:a51dc356f7ad3ff94fa3fe88\",\n  \"intentHash\": \"5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1\",\n  \"action\": \"wait\",\n  \"proposalId\": null,\n  \"targetId\": null,\n  \"name\": null,\n  \"purpose\": null,\n  \"charter\": null,\n  \"reason\": \"I have no grain in my inventory and cannot propose a gathering or share a proposal without stock. I must wait until I acquire resources.\",\n  \"evidenceIds\": []\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "version": 1,
+          "npcId": "ada",
+          "step": 3340,
+          "triggerKey": "initiative:ada:a51dc356f7ad3ff94fa3fe88",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "npc": {
+            "name": "Ada",
+            "traits": [
+              "Practical baker",
+              "Grateful for useful grain"
+            ],
+            "needs": {
+              "hunger": 68,
+              "energy": 80,
+              "social": 63
+            },
+            "goals": [
+              {
+                "id": "help",
+                "label": "Make something useful",
+                "weight": 90
+              },
+              {
+                "id": "belong",
+                "label": "Share time with neighbors",
+                "weight": 50
+              },
+              {
+                "id": "understand",
+                "label": "Check before committing",
+                "weight": 40
+              }
+            ],
+            "trust": 50,
+            "affinity": 40,
+            "inventory": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          },
+          "observations": [],
+          "nearbyActors": [],
+          "neighbors": [
+            {
+              "id": "mara",
+              "name": "Mara",
+              "homeId": "mara-home"
+            },
+            {
+              "id": "wren",
+              "name": "Wren",
+              "homeId": "wren-home"
+            }
+          ],
+          "observedPlaces": [
+            {
+              "id": "player-home",
+              "position": {
+                "x": 4,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "mara-home",
+              "position": {
+                "x": 4,
+                "y": 6
+              },
+              "stock": null
+            },
+            {
+              "id": "bakery",
+              "position": {
+                "x": 26,
+                "y": 6
+              },
+              "stock": {
+                "grain": 7,
+                "water": 0,
+                "timber": 0,
+                "bread": 2
+              }
+            },
+            {
+              "id": "ada-home",
+              "position": {
+                "x": 28,
+                "y": 11
+              },
+              "stock": null
+            },
+            {
+              "id": "wren-home",
+              "position": {
+                "x": 27,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "well",
+              "position": {
+                "x": 8,
+                "y": 14
+              },
+              "stock": null
+            },
+            {
+              "id": "woodpile",
+              "position": {
+                "x": 5,
+                "y": 12
+              },
+              "stock": null
+            },
+            {
+              "id": "square",
+              "position": {
+                "x": 14,
+                "y": 16
+              },
+              "stock": null
+            },
+            {
+              "id": "market",
+              "position": {
+                "x": 24,
+                "y": 15
+              },
+              "stock": null
+            }
+          ],
+          "observedFestival": null,
+          "knownProposals": [],
+          "institutions": [],
+          "capability": {
+            "kind": "shared-gathering",
+            "venues": [],
+            "grainTarget": {
+              "min": 2,
+              "max": 6
+            },
+            "seedFloor": {
+              "min": 0,
+              "max": 3
+            }
+          },
+          "eligibility": {
+            "canPropose": false,
+            "canShare": false,
+            "nextEligibleStep": 3101
+          }
+        },
+        "value": {
+          "npcId": "ada",
+          "triggerKey": "initiative:ada:a51dc356f7ad3ff94fa3fe88",
+          "intentHash": "5b726c7450a8531cac984945d43af4d7d44e29ab8ab708153c2a48841eee78f1",
+          "action": "wait",
+          "proposalId": null,
+          "targetId": null,
+          "name": null,
+          "purpose": null,
+          "charter": null,
+          "reason": "I have no grain in my inventory and cannot propose a gathering or share a proposal without stock. I must wait until I acquire resources.",
+          "evidenceIds": []
+        }
+      }
+    },
+    {
+      "attemptId": "f1f969d8-d9e4-4751-8596-4c13f9fa38ad",
+      "purpose": "cozy-initiative-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "initiative",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T19:59:15.99128Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 2435,
+        "outputTokens": 194,
+        "durationMs": 15642,
+        "rawText": "{\n  \"npcId\": \"wren\",\n  \"triggerKey\": \"initiative:wren:3821b20b9216cc737c0f01fd\",\n  \"intentHash\": \"9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21\",\n  \"action\": \"wait\",\n  \"proposalId\": null,\n  \"targetId\": null,\n  \"name\": null,\n  \"purpose\": null,\n  \"charter\": null,\n  \"reason\": \"Mara set a condition to inspect a real harvest before committing; I must wait for that evidence or her response.\",\n  \"evidenceIds\": []\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "version": 1,
+          "npcId": "wren",
+          "step": 4788,
+          "triggerKey": "initiative:wren:3821b20b9216cc737c0f01fd",
+          "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+          "npc": {
+            "name": "Wren",
+            "traits": [
+              "Sociable courier",
+              "Shares good news"
+            ],
+            "needs": {
+              "hunger": 27,
+              "energy": 91,
+              "social": 1
+            },
+            "goals": [
+              {
+                "id": "help",
+                "label": "Make something useful",
+                "weight": 60
+              },
+              {
+                "id": "belong",
+                "label": "Share time with neighbors",
+                "weight": 95
+              },
+              {
+                "id": "understand",
+                "label": "Check before committing",
+                "weight": 40
+              }
+            ],
+            "trust": 51,
+            "affinity": 43,
+            "inventory": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          },
+          "observations": [
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:15/m/wren",
+              "step": 3398,
+              "type": "social_response",
+              "text": "Ada chose to join Morning Square Gathering: This fits my goals and available effort (commitment score 52); I choose to help.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+              ],
+              "actorId": "ada"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:16/m/wren",
+              "step": 3398,
+              "type": "institution_formed",
+              "text": "Morning Square Gathering formed because Ada and Wren independently agreed.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:16",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:13"
+              ],
+              "actorId": "wren",
+              "facts": {
+                "institutionId": "institution-2",
+                "memberIds": [
+                  "ada",
+                  "wren"
+                ]
+              }
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:18/m/wren",
+              "step": 3488,
+              "type": "social_proposal_delivered",
+              "text": "Mara received wren’s proposal “Morning Square Gathering”: Share time with neighbors and check before committing to a shared plan.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:18",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:11"
+              ],
+              "actorId": "wren"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:19/m/wren",
+              "step": 3488,
+              "type": "social_response",
+              "text": "Mara set conditions on Morning Square Gathering: I want to inspect or witness a real harvest before committing.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:19",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:18"
+              ],
+              "actorId": "mara"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:58/m/wren",
+              "step": 4552,
+              "type": "festival_arrival",
+              "text": "Wren arrived of their own accord.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:58"
+              ],
+              "actorId": "wren"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:59/m/wren",
+              "step": 4552,
+              "type": "festival_started",
+              "text": "The villagers gathered around food they really brought.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:59"
+              ],
+              "actorId": "wren"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:60/m/wren",
+              "step": 4652,
+              "type": "festival_completed",
+              "text": "A small festival became a shared memory.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:60"
+              ],
+              "actorId": "wren"
+            }
+          ],
+          "nearbyActors": [],
+          "neighbors": [
+            {
+              "id": "ada",
+              "name": "Ada",
+              "homeId": "ada-home"
+            },
+            {
+              "id": "mara",
+              "name": "Mara",
+              "homeId": "mara-home"
+            }
+          ],
+          "observedPlaces": [
+            {
+              "id": "player-home",
+              "position": {
+                "x": 4,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "mara-home",
+              "position": {
+                "x": 4,
+                "y": 6
+              },
+              "stock": null
+            },
+            {
+              "id": "bakery",
+              "position": {
+                "x": 26,
+                "y": 6
+              },
+              "stock": null
+            },
+            {
+              "id": "ada-home",
+              "position": {
+                "x": 28,
+                "y": 11
+              },
+              "stock": null
+            },
+            {
+              "id": "wren-home",
+              "position": {
+                "x": 27,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "well",
+              "position": {
+                "x": 8,
+                "y": 14
+              },
+              "stock": null
+            },
+            {
+              "id": "woodpile",
+              "position": {
+                "x": 5,
+                "y": 12
+              },
+              "stock": null
+            },
+            {
+              "id": "square",
+              "position": {
+                "x": 14,
+                "y": 16
+              },
+              "stock": {
+                "grain": 0,
+                "water": 0,
+                "timber": 0,
+                "bread": 0
+              }
+            },
+            {
+              "id": "market",
+              "position": {
+                "x": 24,
+                "y": 15
+              },
+              "stock": null
+            }
+          ],
+          "observedFestival": {
+            "id": 1,
+            "venue": "square",
+            "phase": "complete",
+            "food": 0,
+            "setupDone": true
+          },
+          "knownProposals": [
+            {
+              "id": "proposal-1",
+              "authorId": "wren",
+              "name": "Morning Square Gathering",
+              "purpose": "Share time with neighbors and check before committing to a shared plan.",
+              "charter": {
+                "venue": "square",
+                "grainTarget": 4,
+                "seedFloor": 1
+              },
+              "ownResponse": {
+                "stance": "join",
+                "conditions": [],
+                "reason": "This fits my goals and available effort (commitment score 54); I choose to help.",
+                "evidenceIds": [
+                  "674a6592-2a2b-4ece-9789-ff0422967f9e:12"
+                ],
+                "decidedStep": 3289,
+                "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:13",
+                "provenance": "deterministic-policy"
+              },
+              "heardEventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:12"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "institution-2",
+              "name": "Morning Square Gathering",
+              "members": [
+                "ada",
+                "wren"
+              ],
+              "permission": "approved",
+              "status": "resting"
+            }
+          ],
+          "capability": {
+            "kind": "shared-gathering",
+            "venues": [
+              "square"
+            ],
+            "grainTarget": {
+              "min": 2,
+              "max": 6
+            },
+            "seedFloor": {
+              "min": 0,
+              "max": 3
+            }
+          },
+          "eligibility": {
+            "canPropose": true,
+            "canShare": false,
+            "nextEligibleStep": 3589
+          }
+        },
+        "value": {
+          "npcId": "wren",
+          "triggerKey": "initiative:wren:3821b20b9216cc737c0f01fd",
+          "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+          "action": "wait",
+          "proposalId": null,
+          "targetId": null,
+          "name": null,
+          "purpose": null,
+          "charter": null,
+          "reason": "Mara set a condition to inspect a real harvest before committing; I must wait for that evidence or her response.",
+          "evidenceIds": []
+        }
+      }
+    },
+    {
+      "attemptId": "cede8e3d-f182-498e-ab1f-aaf1084da477",
+      "purpose": "cozy-initiative-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "initiative",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T20:00:30.181426Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 2272,
+        "outputTokens": 190,
+        "durationMs": 14818,
+        "rawText": "{\n  \"npcId\": \"ada\",\n  \"triggerKey\": \"initiative:ada:d88f59cc80b13431d26acf32\",\n  \"intentHash\": \"9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21\",\n  \"action\": \"wait\",\n  \"proposalId\": null,\n  \"targetId\": null,\n  \"name\": null,\n  \"purpose\": null,\n  \"charter\": null,\n  \"reason\": \"The festival has completed and the institution is resting. I have no new proposals to share or places to inspect.\",\n  \"evidenceIds\": []\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "version": 1,
+          "npcId": "ada",
+          "step": 5099,
+          "triggerKey": "initiative:ada:d88f59cc80b13431d26acf32",
+          "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+          "npc": {
+            "name": "Ada",
+            "traits": [
+              "Practical baker",
+              "Grateful for useful grain"
+            ],
+            "needs": {
+              "hunger": 50,
+              "energy": 76,
+              "social": 4
+            },
+            "goals": [
+              {
+                "id": "help",
+                "label": "Make something useful",
+                "weight": 90
+              },
+              {
+                "id": "belong",
+                "label": "Share time with neighbors",
+                "weight": 50
+              },
+              {
+                "id": "understand",
+                "label": "Check before committing",
+                "weight": 40
+              }
+            ],
+            "trust": 51,
+            "affinity": 43,
+            "inventory": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          },
+          "observations": [
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:14/m/ada",
+              "step": 3398,
+              "type": "social_proposal_delivered",
+              "text": "Ada received wren’s proposal “Morning Square Gathering”: Share time with neighbors and check before committing to a shared plan.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:14",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:11"
+              ],
+              "actorId": "wren"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:15/m/ada",
+              "step": 3398,
+              "type": "social_response",
+              "text": "Ada chose to join Morning Square Gathering: This fits my goals and available effort (commitment score 52); I choose to help.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+              ],
+              "actorId": "ada"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:16/m/ada",
+              "step": 3398,
+              "type": "institution_formed",
+              "text": "Morning Square Gathering formed because Ada and Wren independently agreed.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:16",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:13"
+              ],
+              "actorId": "wren",
+              "facts": {
+                "institutionId": "institution-2",
+                "memberIds": [
+                  "ada",
+                  "wren"
+                ]
+              }
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:58/m/ada",
+              "step": 4552,
+              "type": "festival_arrival",
+              "text": "Wren arrived of their own accord.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:58"
+              ],
+              "actorId": "wren"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:59/m/ada",
+              "step": 4552,
+              "type": "festival_started",
+              "text": "The villagers gathered around food they really brought.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:59"
+              ],
+              "actorId": "wren"
+            },
+            {
+              "id": "674a6592-2a2b-4ece-9789-ff0422967f9e:60/m/ada",
+              "step": 4652,
+              "type": "festival_completed",
+              "text": "A small festival became a shared memory.",
+              "sourceIds": [
+                "674a6592-2a2b-4ece-9789-ff0422967f9e:60"
+              ],
+              "actorId": "wren"
+            }
+          ],
+          "nearbyActors": [],
+          "neighbors": [
+            {
+              "id": "mara",
+              "name": "Mara",
+              "homeId": "mara-home"
+            },
+            {
+              "id": "wren",
+              "name": "Wren",
+              "homeId": "wren-home"
+            }
+          ],
+          "observedPlaces": [
+            {
+              "id": "player-home",
+              "position": {
+                "x": 4,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "mara-home",
+              "position": {
+                "x": 4,
+                "y": 6
+              },
+              "stock": null
+            },
+            {
+              "id": "bakery",
+              "position": {
+                "x": 26,
+                "y": 6
+              },
+              "stock": {
+                "grain": 3,
+                "water": 0,
+                "timber": 0,
+                "bread": 2
+              }
+            },
+            {
+              "id": "ada-home",
+              "position": {
+                "x": 28,
+                "y": 11
+              },
+              "stock": null
+            },
+            {
+              "id": "wren-home",
+              "position": {
+                "x": 27,
+                "y": 21
+              },
+              "stock": null
+            },
+            {
+              "id": "well",
+              "position": {
+                "x": 8,
+                "y": 14
+              },
+              "stock": null
+            },
+            {
+              "id": "woodpile",
+              "position": {
+                "x": 5,
+                "y": 12
+              },
+              "stock": null
+            },
+            {
+              "id": "square",
+              "position": {
+                "x": 14,
+                "y": 16
+              },
+              "stock": null
+            },
+            {
+              "id": "market",
+              "position": {
+                "x": 24,
+                "y": 15
+              },
+              "stock": null
+            }
+          ],
+          "observedFestival": {
+            "id": 1,
+            "venue": "square",
+            "phase": "complete",
+            "food": 0,
+            "setupDone": true
+          },
+          "knownProposals": [
+            {
+              "id": "proposal-1",
+              "authorId": "wren",
+              "name": "Morning Square Gathering",
+              "purpose": "Share time with neighbors and check before committing to a shared plan.",
+              "charter": {
+                "venue": "square",
+                "grainTarget": 4,
+                "seedFloor": 1
+              },
+              "ownResponse": {
+                "stance": "join",
+                "conditions": [],
+                "reason": "This fits my goals and available effort (commitment score 52); I choose to help.",
+                "evidenceIds": [
+                  "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+                ],
+                "decidedStep": 3398,
+                "eventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:15",
+                "provenance": "deterministic-policy"
+              },
+              "heardEventId": "674a6592-2a2b-4ece-9789-ff0422967f9e:14"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "institution-2",
+              "name": "Morning Square Gathering",
+              "members": [
+                "ada",
+                "wren"
+              ],
+              "permission": "approved",
+              "status": "resting"
+            }
+          ],
+          "capability": {
+            "kind": "shared-gathering",
+            "venues": [
+              "square"
+            ],
+            "grainTarget": {
+              "min": 2,
+              "max": 6
+            },
+            "seedFloor": {
+              "min": 0,
+              "max": 3
+            }
+          },
+          "eligibility": {
+            "canPropose": true,
+            "canShare": false,
+            "nextEligibleStep": 4360
+          }
+        },
+        "value": {
+          "npcId": "ada",
+          "triggerKey": "initiative:ada:d88f59cc80b13431d26acf32",
+          "intentHash": "9870b0e3374d51b5013bda9b2ca7b7cd4081c0be0d111456ddbd90afadc35e21",
+          "action": "wait",
+          "proposalId": null,
+          "targetId": null,
+          "name": null,
+          "purpose": null,
+          "charter": null,
+          "reason": "The festival has completed and the institution is resting. I have no new proposals to share or places to inspect.",
+          "evidenceIds": []
+        }
+      }
+    }
+  ],
+  "importedProviderAudit": {
+    "provenance": "unverified-import",
+    "records": []
+  },
+  "archiveIndex": [],
+  "notice": "Local prototype started October25. Rule-policy simulation; imported provider claims are unverified. No final submission."
+}

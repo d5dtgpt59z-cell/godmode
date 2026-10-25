@@ -1,0 +1,24 @@
+✔ foreground initiative never dispatches for paused, hidden, recorded, legacy, disabled or exhausted worlds (2.186459ms)
+✔ one slow model request coalesces repeated polls without occupying a physical command queue (0.130834ms)
+✔ busy and lost responses retain the same request ID, including a page coordinator restart (0.835792ms)
+✔ pause retains a pending receipt and resume recovers it without a new generation ID (0.121542ms)
+✔ empty-storage pending ticket uses one stable recovery-only probe despite admission limits (0.148959ms)
+✔ fresh tab leaves a paused ready ticket alone, then resumes it through a recovery-only probe (0.102208ms)
+✔ terminal unknown outcome observes provider quarantine and never retries the previous generation ID (0.10775ms)
+✔ a completed response carries its original save ID for caller stale-save guards (0.24725ms)
+✔ idle polling backs off and allocates a fresh opportunity ID (0.07875ms)
+✔ private social observations do not become player notices (0.449083ms)
+✔ causal notebook follows cited receipts, not adjacent unrelated events, and reports missing references (0.165125ms)
+✔ doing labels reflect accepted physical tasks rather than generated reason text (0.1065ms)
+✔ idea provenance keeps fixtures, manual input and actual provider modes distinct (0.032917ms)
+✔ legacy notebook explicitly offers an independent paused living branch without inventing a proposal (2.990042ms)
+✔ empty living branch renders honest quiet state, zero captured calls and paused guidance (3.128958ms)
+✔ permission controls require the actual exact preview and preserve independent refusal (6.676417ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 284.012333

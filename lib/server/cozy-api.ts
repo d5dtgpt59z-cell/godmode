@@ -19,6 +19,24 @@
  * POST /:id/advance {expectedRevision,commandId,steps:1..600} is owner manual playback.
  * POST /:id/tick {maxSeconds?:0.1..60(default1),requestId?} consumes only owed100ms steps.
  *   State, clock debit and tick receipt commit atomically; repeated requestId never steps twice.
+ * POST /:id/evolve {expectedRevision} creates a NEW paused cozy-engine-2 branch, original untouched.
+ * POST /:id/initiative/pump {requestId,recoveryOnly?:false} admits/drives at most one actual local resident decision.
+ *   Engine selects a grounded opportunity; no player prompt is accepted. Immutable actor context,
+ *   trigger/intent/evidence hashes and model receipts persist in0005 tickets. No world lease spans
+ *   inference. Completion checks current intent/physical preconditions against latest head, so
+ *   unrelated physics revisions need not stale every model reply. Duplicate IDs never redispatch.
+ *   Fresh-tab recovery uses recoveryOnly:true; a probe can recover existing work but cannot admit
+ *   a new generation if the original ticket completes between a status read and the probe.
+ *   Returns {save,initiative:{ticketId,npcId,status,summary?,errorCode?}}. idle/pending/rate-limited
+ *   are quiet200 outcomes; disabled503. Only foreground visible/unpaused UI pumps are established.
+ *   Feature requires GODMODE_LOCAL_INITIATIVE_ENABLED=true plus existing DEV/local Qwen gates.
+ *   Per actor30simsec cooldown,12dispatches/save/rolling wallhour,100total attempts shared with
+ *   local rule authoring, one global local generation and125s unknown quarantine. Meta untouched.
+ * POST /:id/social/decision {expectedRevision,proposalId,decision:'approve'|'decline',commandId}
+ *   performs only the bounded engine-owned player permission operation; no arbitrary rule code.
+ * status adds initiativeAvailable/initiativeFalseReason/initiativeProvider/actualInitiativeCalls;
+ *   save.initiative reports enabled/eligible/pending,lastOutcome/lastAt,actualCalls,remainingTotal,
+ *   hourCalls/hourLimit. actualLocalCalls includes real rules+initiative dispatches; fixtures0.
  * GET /:id/rules returns {save,capabilities}; GET /:id/rules/proposals returns {save} with recent
  *   proposals/change history. Manual label is 'exact rule editor', never natural-language AI.
  * POST /:id/rules/preview {requestId,patch} stores a validated manual preview; no state mutation.

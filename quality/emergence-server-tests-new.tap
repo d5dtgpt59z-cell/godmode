@@ -1,0 +1,33 @@
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+Error [TransformError]: Transform failed with 1 error:
+/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/lib/cozy/engine.ts:148:139: ERROR: Cannot use a declaration in a single-statement context
+    at failureErrorWithLog (/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/node_modules/tsx/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/node_modules/tsx/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/node_modules/tsx/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/node_modules/tsx/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/node_modules/tsx/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+
+Node.js v24.15.0
+✖ tests/emergence-server.test.ts (131.718542ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 135.762
+
+✖ failing tests:
+
+test at tests/emergence-server.test.ts:1:1
+✖ tests/emergence-server.test.ts (131.718542ms)
+  'test failed'
