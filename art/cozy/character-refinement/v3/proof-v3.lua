@@ -1,0 +1,7 @@
+local R=dofile('/Users/ryanmorrison/Documents/Codex/2026-10-25/visit-https-cerebralvalley-ai-e-meta/outputs/godmode/art/cozy/character-refinement/v3/portraits-v3.lua')
+local P,OUT=R.P,R.OUT
+local proof=P.image(280,416);P.rect(proof,0,0,280,416,R.rgb('efe0bb'))
+for i,v in ipairs(R.people)do local y=(i-1)*104;proof:drawImage(R.portrait(v,'neutral'),Point(0,y+4));proof:drawImage(R.portrait(v,'warm'),Point(96,y+4));proof:drawImage(R.actor(v,'idle','s',0),Point(196,y+64));proof:drawImage(R.actor(v,'idle','e',0),Point(224,y+64));proof:drawImage(R.actor(v,'idle','n',0),Point(252,y+64))end
+P.saveImage(proof,OUT..'/cast-and-portraits-proof-native.png');P.saveSprite(proof,OUT..'/cast-and-portraits-proof.aseprite','Original neutral/warm portraits + south/east/north adult sprites')
+local s=Sprite(280,416);s.cels[1].image=proof;app.command.SpriteSize{ui=false,width=840,height=1248,method='nearest'};s:saveAs(OUT..'/cast-and-portraits-proof-3x.png')
+local lineup=P.image(160,56);P.rect(lineup,0,0,160,56,R.rgb('efe0bb'));for i,v in ipairs(R.people)do lineup:drawImage(R.actor(v,'idle','s',0),Point(8+(i-1)*38,12))end;P.saveImage(lineup,OUT..'/adult-cast-lineup-native.png');local s=Sprite(160,56);s.cels[1].image=lineup;app.command.SpriteSize{ui=false,width=960,height=336,method='nearest'};s:saveAs(OUT..'/adult-cast-lineup-6x.png');print('Original v3 portrait/cast proof ready; no runtime assets changed.')

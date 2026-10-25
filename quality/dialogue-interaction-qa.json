@@ -1,0 +1,29 @@
+{
+  "saveId": "e24438eb-09ac-4230-8d59-fd9a80ff3f7a",
+  "playerBefore": {
+    "x": 10,
+    "y": 8,
+    "path": []
+  },
+  "dialogueText": "Show me your growing wheat. I like a plan with evidence.",
+  "actualLocalCalls": 2,
+  "actualMetaCalls": 0,
+  "playerAfterHeldMovementKey": {
+    "x": 10,
+    "y": 8,
+    "path": []
+  },
+  "movementLockedWhileDialogue": true,
+  "enterContinuesDialogue": true,
+  "hotbarHiddenWhileDialogue": true,
+  "textMatchesRecordedEvent": true,
+  "portraitAssets": "v3 integrated; actual96px Mara and Wren portraits visually verified",
+  "testWorldPreservesEarlierSaves": true,
+  "desktopProof": "portrait-dialogue-desktop.jpg",
+  "responsiveProof": "portrait-dialogue-responsive.jpg",
+  "savedReloadDoesNotReplayHistory": true,
+  "originalPlayerWorldRestored": true,
+  "originalPlayerWorldId": "49915440-c13a-4d30-b84d-cf73cd0d2654",
+  "originalPlayerWorldRunning": true,
+  "stopBarrier": "save-bound serial retry; independent of subsequent dialogue intent tokens"
+}

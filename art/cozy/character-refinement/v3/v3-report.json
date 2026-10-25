@@ -1,0 +1,325 @@
+{
+  "version": 3,
+  "frozenAt": "2026-10-25T18:39:47.372386+00:00",
+  "status": "Root-approved adult sprite proportions, portrait style and individualized face anatomy; copy-ready",
+  "poses": 288,
+  "clips": 96,
+  "spriteCell": [
+    24,
+    32
+  ],
+  "feet": [
+    12,
+    31
+  ],
+  "cargo": [
+    12,
+    24
+  ],
+  "bakedShadow": false,
+  "spriteColors": 62,
+  "spriteOpaqueTopRange": [
+    1,
+    3
+  ],
+  "idleOpenBlinkMs": [
+    2200,
+    140
+  ],
+  "idleOnlyEyePixelsChange": true,
+  "portraits": 8,
+  "portraitSize": [
+    96,
+    96
+  ],
+  "portraitColors": 69,
+  "expressions": [
+    "neutral",
+    "warm"
+  ],
+  "runtimePortraitPattern": "/assets/cozy/portraits/{id}-{expression}.png",
+  "v2ManifestFilesUnchanged": 14,
+  "externalCharacterPixelsImported": 0,
+  "remoteMediaGenerationCalls": 0,
+  "paidProviderCalls": 0,
+  "purchases": 0,
+  "franchiseCharacterAssetsUsed": false,
+  "runtimeFilesWrittenByThisTask": false,
+  "files": [
+    {
+      "path": "actions-contact-5x.png",
+      "bytes": 9909,
+      "sha256": "8395b466a2d7cd6cc8d9a3a93ed569fb5b61dec40495d6da110a788ba0a060a6",
+      "size": {
+        "width": 720,
+        "height": 640
+      }
+    },
+    {
+      "path": "actions-contact-native.png",
+      "bytes": 4661,
+      "sha256": "a4854b005c6dac2d6b5f5b49a6817a7663f257c787c05885a3410cc6ae3718a2",
+      "size": {
+        "width": 144,
+        "height": 128
+      }
+    },
+    {
+      "path": "actions-contact.aseprite",
+      "bytes": 2802,
+      "sha256": "97ad41d5d56fcc317d10dceaac274c7eb166e04d5f0c84c25404d5c02b8cb45c"
+    },
+    {
+      "path": "adult-cast-lineup-6x.png",
+      "bytes": 5250,
+      "sha256": "cfb4abb2ed2e2e4391d3f6fe8ff4645fac2c1ec8ef75847aa71d41c9251a7285",
+      "size": {
+        "width": 960,
+        "height": 336
+      }
+    },
+    {
+      "path": "adult-cast-lineup-native.png",
+      "bytes": 2434,
+      "sha256": "a1ac473893b58539a8b0abe4d4a6a7c69b3836c032e8998117cdd439c5531540",
+      "size": {
+        "width": 160,
+        "height": 56
+      }
+    },
+    {
+      "path": "all-cast-walk.aseprite",
+      "bytes": 5614,
+      "sha256": "580e92580b37cee26284fda79ea84453170af5a0f11074ef7ef01727436afa79"
+    },
+    {
+      "path": "build-characters-v3.lua",
+      "bytes": 8055,
+      "sha256": "1326be2e2ddbd2adb54f36eb1f12eae1d5ea3eda82807b0d1c8b075d9a315d4f"
+    },
+    {
+      "path": "build-portraits-v3.lua",
+      "bytes": 4049,
+      "sha256": "7c446d6fbfd60e85e6dd8ce73d94de33c05da3537883f1d371fe61dfd2c7c80e"
+    },
+    {
+      "path": "cast-and-portraits-proof-3x.png",
+      "bytes": 26109,
+      "sha256": "6e417c8fadc741e695247a12db1199a81beb1c09ce8be43e4bf6a05c130e08a6",
+      "size": {
+        "width": 840,
+        "height": 1248
+      }
+    },
+    {
+      "path": "cast-and-portraits-proof-native.png",
+      "bytes": 15773,
+      "sha256": "eb6afcbb76f6223d17d639b8abb52f58b3dc144422419877c1203730b166e722",
+      "size": {
+        "width": 280,
+        "height": 416
+      }
+    },
+    {
+      "path": "cast-and-portraits-proof.aseprite",
+      "bytes": 9820,
+      "sha256": "82d7c0ca322c38e6cf7531d93642a391333da830e189c67a546c24cffe1f7fcc"
+    },
+    {
+      "path": "cast-v3.lua",
+      "bytes": 9158,
+      "sha256": "7a8c0ce5ec976e0c6387b64fbcdb5b779b7f36b680482714578259eaf05ff363"
+    },
+    {
+      "path": "characters-v3-timeline.aseprite",
+      "bytes": 97616,
+      "sha256": "71d764a21e6058ba85c0db45b562715991f05647172db2fd4e83e16cf96bd1c9"
+    },
+    {
+      "path": "characters-v3.aseprite",
+      "bytes": 23459,
+      "sha256": "b3f1d23438c68f31f232dc6652509bd634dbf5c6d56e1b422b0a82d69174c336"
+    },
+    {
+      "path": "characters-v3.json",
+      "bytes": 110935,
+      "sha256": "8477202672c43cc22b7d0d603134772b9e4c69ec65c1697488de1c6ed4425cec"
+    },
+    {
+      "path": "characters-v3.png",
+      "bytes": 40123,
+      "sha256": "68a6fb0b918dad04c3a7eae3223b4d6b836e1c0f0bb87984d7b32cb0f789bcf9",
+      "size": {
+        "width": 512,
+        "height": 576
+      }
+    },
+    {
+      "path": "idle-qa.json",
+      "bytes": 139,
+      "sha256": "8efea5c9f7a806ce9c5db96fb6cd941438e289f7f224c134e1272333572ab771"
+    },
+    {
+      "path": "native-qa.json",
+      "bytes": 26658,
+      "sha256": "31a91933fc762c5387a85801a871ac26f9186a6baa6203d9181810ba78519609"
+    },
+    {
+      "path": "new-cast-lineup-6x.png",
+      "bytes": 5255,
+      "sha256": "5d0ffb45ee86faf965ebedf1596b0d59441f33e9190cfe8ca55985e56ab94eb8",
+      "size": {
+        "width": 960,
+        "height": 336
+      }
+    },
+    {
+      "path": "new-cast-lineup-native.png",
+      "bytes": 2427,
+      "sha256": "e64c68e21d0a1626a06c4b357981093f1b92cd5d61d467bbc2c68358c27b1976",
+      "size": {
+        "width": 160,
+        "height": 56
+      }
+    },
+    {
+      "path": "new-cast-lineup.aseprite",
+      "bytes": 1684,
+      "sha256": "2f7673d3be0eae329c44de1e5cc70c57c385d8b848a95d018547146b8bb7c773"
+    },
+    {
+      "path": "portrait-qa.json",
+      "bytes": 1866,
+      "sha256": "84855ae40693cc5e095bc30b639f291bc0f1a1cd0fce0e860a5c3318ec823921"
+    },
+    {
+      "path": "portraits/ada-neutral.png",
+      "bytes": 2343,
+      "sha256": "04daaa067b52883a46c8b2719ce99e84109055190c713aa2a80b70fb8ab5561b",
+      "size": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    {
+      "path": "portraits/ada-warm.png",
+      "bytes": 2365,
+      "sha256": "1c7841bf19237afeba30c365973d286930de08123dabd03e24a00ff5799cb266",
+      "size": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    {
+      "path": "portraits/mara-neutral.png",
+      "bytes": 2648,
+      "sha256": "ef49fe53d2f0b0f27859b8b046fa68c9ff763535a5aa3e70205497dc875bcd01",
+      "size": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    {
+      "path": "portraits/mara-warm.png",
+      "bytes": 2660,
+      "sha256": "ebdc328e9f3a20ba85f9ec6ad80b9e630764b48dd27ca3e84635de375b739e63",
+      "size": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    {
+      "path": "portraits/player-neutral.png",
+      "bytes": 2209,
+      "sha256": "0f006bc0114da52ae5dc1becd884b9995baca0c42e47aa0670936e26d694900f",
+      "size": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    {
+      "path": "portraits/player-warm.png",
+      "bytes": 2225,
+      "sha256": "fc47da11b936e189bfb4a51ab98dfb1625f76be98a5d43bb585b50eb6aa858bf",
+      "size": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    {
+      "path": "portraits/wren-neutral.png",
+      "bytes": 2490,
+      "sha256": "7f9b8beb9b5ac011d60cda13e6583f428cf6a7721f2d0cf182ce5033bc2ca4a4",
+      "size": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    {
+      "path": "portraits/wren-warm.png",
+      "bytes": 2484,
+      "sha256": "b08d9ea48065e9b461f4bbc36f9bc4abd0af4e9973aded9ad2ebd1724bd66070",
+      "size": {
+        "width": 96,
+        "height": 96
+      }
+    },
+    {
+      "path": "portraits-v3-master.aseprite",
+      "bytes": 12047,
+      "sha256": "18a4af46022e5a3640f3c842f3862471d9b99668308712c2e87b72199b083430"
+    },
+    {
+      "path": "portraits-v3.aseprite",
+      "bytes": 12030,
+      "sha256": "5d2928d4904a127874cee64294420414973e530188ce3ea765ec8476f40f910d"
+    },
+    {
+      "path": "portraits-v3.json",
+      "bytes": 3981,
+      "sha256": "899587fb2b51393609d37cc2bd848b4ee26bbad5417dcfe7e2c05fa07cb1e123"
+    },
+    {
+      "path": "portraits-v3.lua",
+      "bytes": 11670,
+      "sha256": "339948aca6ca9f87a3c72c5f06a426c0c77eef4c35d89f134994d33567ed5d5e"
+    },
+    {
+      "path": "portraits-v3.png",
+      "bytes": 18690,
+      "sha256": "4994ae04d36cac15facaa83c5f16fdfe8ab93dc6d8b5b4d53d368b6d8d9402f7",
+      "size": {
+        "width": 400,
+        "height": 200
+      }
+    },
+    {
+      "path": "proof-v3.lua",
+      "bytes": 1408,
+      "sha256": "b5301d70a76ef408425fd24df3b34262ae21338820b5b24d651244467d2115b0"
+    },
+    {
+      "path": "walk-contact-4x.png",
+      "bytes": 17686,
+      "sha256": "10f4c1d5b940e3995db816f7cbe2df703fce6d1c6784b844ea39599efaf7d869",
+      "size": {
+        "width": 1536,
+        "height": 512
+      }
+    },
+    {
+      "path": "walk-contact-native.png",
+      "bytes": 10715,
+      "sha256": "13cc790392cc853defdc681d3790674736333e83ba8786c5171659516e9ca9a5",
+      "size": {
+        "width": 384,
+        "height": 128
+      }
+    },
+    {
+      "path": "walk-contact.aseprite",
+      "bytes": 6612,
+      "sha256": "5466be2b039759bb8280a5e05273fcc9caac865423c91c122573857160614886"
+    }
+  ]
+}

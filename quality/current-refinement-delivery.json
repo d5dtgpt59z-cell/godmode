@@ -1,0 +1,38 @@
+{
+  "createdAt": "2026-10-25T18:54:33.737814+00:00",
+  "scope": "v3 cast, portrait dialogue, temporary local Qwen interpreter; GitHub destination pending user choice",
+  "files": [
+    {
+      "path": "art/cozy/godmode-cast-and-portraits-v3.zip",
+      "bytes": 332354,
+      "sha256": "b1cc8b3ab806688d1ad84ca038176518f894ef97f961a6ae53ec012df1494687"
+    },
+    {
+      "path": "public/assets/cozy/characters.png",
+      "bytes": 40123,
+      "sha256": "68a6fb0b918dad04c3a7eae3223b4d6b836e1c0f0bb87984d7b32cb0f789bcf9"
+    },
+    {
+      "path": "public/assets/cozy/characters.json",
+      "bytes": 96392,
+      "sha256": "d17130618262ccab01f00796882a76c76aa9cf6192e118e46873fce515cb35a7"
+    },
+    {
+      "path": "quality/portrait-dialogue-desktop.jpg",
+      "bytes": 278584,
+      "sha256": "9b34d72d00faaf3e6a6452c8da4895e996171ebf479d1fa70d4a783c05d312f5"
+    },
+    {
+      "path": "quality/portrait-dialogue-responsive.jpg",
+      "bytes": 215501,
+      "sha256": "0ecce3008f221351439e4da4aa5949670dcb172e20a2342abc2fb7b6fbdb3a8e"
+    }
+  ],
+  "zipCrc": "passed",
+  "tests": 104,
+  "typecheck": "passed",
+  "scopedLint": "passed",
+  "build": "passed",
+  "hosting": "local only",
+  "finalHackathonSubmission": "on hold"
+}

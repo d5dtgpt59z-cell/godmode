@@ -8,7 +8,8 @@
  * GET /api/cozy -> {save:null|DTO}; POST {seed?,fresh?:false} creates/reuses a paused main cozy save.
  *   fresh:true creates a new independent slot-null paused save; no existing/main data is changed.
  * GET /api/cozy/status -> naturalLanguageAvailable,npcPlansAvailable,falseReason,actualMetaCalls,
- *   capabilities,capsHash,defaultMode:'rule-policy',backgroundWriterEnabled.
+ *   ruleProvider:'local-qwen'|'meta'|'none',ruleModel:string|null,localQwenAvailable,metaRulesAvailable,
+ *   actualLocalCalls,capabilities,capsHash,defaultMode:'rule-policy',backgroundWriterEnabled.
  * GET /api/cozy/:id -> {save}; PATCH {expectedRevision,paused?,pace?:0.01..1,commandId?}.
  * POST /:id/command {expectedRevision,commandId,command} accepts engine's exact command union.
  *   While unpaused it first consumes owed100ms steps under the OLD intent, then records the new
@@ -21,8 +22,15 @@
  * GET /:id/rules returns {save,capabilities}; GET /:id/rules/proposals returns {save} with recent
  *   proposals/change history. Manual label is 'exact rule editor', never natural-language AI.
  * POST /:id/rules/preview {requestId,patch} stores a validated manual preview; no state mutation.
- * POST /:id/rules/proposals {requestId,prompt:3..1000chars} is REAL Meta interpretation only.
- *   Missing gates returns503 COZY_META_NOT_CONNECTED; no keyword/template fallback exists.
+ * POST /:id/rules/proposals {requestId,prompt:3..1000chars} uses the selected real interpreter.
+ *   Local development may explicitly select existing Ollama Qwen via GODMODE_LOCAL_QWEN_ENABLED=true
+ *   and GODMODE_LOCAL_QWEN_MODEL=qwen3.5:9b; production builds cannot enable this adapter. Fixed
+ *   server-only 127.0.0.1:11434, installed-tag check, 4096context/768output, think:false,90s deadline,
+ *   one local generation globally,100attempts/save. No download/cloud/tool/remote fallback.
+ *   Proposal source/provenance is local-qwen (fixtures stay fixture); actualLocalCalls counts only
+ *   real local dispatches. Meta counters/global budget remain untouched. Durable request receipts
+ *   prevent repeat sends, including unknown timeout outcomes. Local requests remain previews.
+ *   Otherwise original Meta gates apply. No keyword/template fallback exists.
  * POST /:id/rules/apply {expectedRevision,proposalId,commandId} explicitly applies a ready preview.
  * POST /:id/rules/revert {expectedRevision,expectedRulesRevision,commandId} restores prior rules
  *   prospectively; earned/consumed goods, memories and historical events remain intact.

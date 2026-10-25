@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "candidateFiles": 596,
+  "textFilesScanned": 369,
+  "privateRuntimePathsExcluded": true,
+  "credentialPatternMatches": 0,
+  "allBlobsUnder100MB": true,
+  "largestFiles": [
+    {
+      "path": "art/cozy/cozy-art-source.zip",
+      "bytes": 17163888
+    },
+    {
+      "path": "demo/godmode-demo-source.zip",
+      "bytes": 12180827
+    },
+    {
+      "path": "demo/cozy/godmode-cozy-demo-source.zip",
+      "bytes": 12006595
+    },
+    {
+      "path": "demo/film/assets/recording-data.js",
+      "bytes": 9081172
+    },
+    {
+      "path": "demo/film/assets/snapshots.json",
+      "bytes": 9081147
+    }
+  ],
+  "excludedLocalFiles": [
+    ".dev.vars*",
+    ".env* except .env.example",
+    ".wrangler",
+    ".sites-runtime",
+    "quality/*.sqlite*",
+    "generated MP4/cache exports"
+  ],
+  "historicalTextBlobsScanned": 323,
+  "legacyGeneratedCacheRemovedFromExportHeadButPreservedOnDisk": true
+}

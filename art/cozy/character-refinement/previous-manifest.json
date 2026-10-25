@@ -1,0 +1,59 @@
+{
+  "preservedAt": "2026-10-25T17:51:03.407048+00:00",
+  "files": [
+    {
+      "original": "outputs/godmode/art/cozy/build-sprites.lua",
+      "preserved": "previous/build-sprites.lua",
+      "sha256": "1cbf5f768bb6acd238b9b716705e25c6b8aa95f9ccb970f50c9261667698add1",
+      "bytes": 16457
+    },
+    {
+      "original": "outputs/godmode/art/cozy/characters.aseprite",
+      "preserved": "previous/characters.aseprite",
+      "sha256": "5925ee1b9cb2262132ee44bda38606ed82a13102993903adfa0d6e0f30105101",
+      "bytes": 24873
+    },
+    {
+      "original": "outputs/godmode/art/cozy/characters-timeline.aseprite",
+      "preserved": "previous/characters-timeline.aseprite",
+      "sha256": "7117bf2ad51f0a6e1b27e3b6eb470bcd6a0e757c92b4e5a25f32805bf903385f",
+      "bytes": 97694
+    },
+    {
+      "original": "outputs/godmode/art/cozy/walk-contact.png",
+      "preserved": "previous/walk-contact.png",
+      "sha256": "bcffeb889a01f1acc84851701699a838cdb8bceb38e0b7c726c5159be61869c2",
+      "bytes": 10098
+    },
+    {
+      "original": "outputs/godmode/art/cozy/walk-contact-3x.png",
+      "preserved": "previous/walk-contact-3x.png",
+      "sha256": "c5d91439efe9378ddfcf097675af9535fef64b39c273eab11359457dfee75b24",
+      "bytes": 14950
+    },
+    {
+      "original": "outputs/godmode/art/cozy/walk-contact.aseprite",
+      "preserved": "previous/walk-contact.aseprite",
+      "sha256": "0a00be7d23d5bf67cc893b2184482aa95ef50756f6177773076cf04dfcaeab3d",
+      "bytes": 6571
+    },
+    {
+      "original": "outputs/godmode/art/cozy/player-south-walk-3x.gif",
+      "preserved": "previous/player-south-walk-3x.gif",
+      "sha256": "9cfc240dffa88d35383f7176bd0c2416e74963c8ddcf2e4a21160c80a6bd4a4c",
+      "bytes": 53420
+    },
+    {
+      "original": "outputs/godmode/public/assets/cozy/characters.png",
+      "preserved": "previous/characters.png",
+      "sha256": "7e992b8f838c636126e339f14f128d87846bb07264a43e11d229b54d0bf85f49",
+      "bytes": 41847
+    },
+    {
+      "original": "outputs/godmode/public/assets/cozy/characters.json",
+      "preserved": "previous/characters.json",
+      "sha256": "914efddb19253423392c5ae786bae106af17628e3acef380f6fa7e68d404751e",
+      "bytes": 96712
+    }
+  ]
+}

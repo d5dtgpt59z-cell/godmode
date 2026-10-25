@@ -20,7 +20,7 @@ The current local slice has one controllable player and three neighbors, fixed 1
 
 Separate D1/SQLite saves, wall-clock debt, idempotent commands/ticks, import/export, exact replay, archived segments and equal-time comparisons are implemented. New neighborhoods do not overwrite older ones. The original 24-resident Bellwether engine/saves are preserved separately.
 
-**All demonstrated decisions currently use the labeled rule policy.** The exact rule editor is functional. Natural-language rules and optional NPC-plan adapters are implemented but disconnected; there is no fake language interpretation or template fallback. Real Meta behavior, latency and costs remain unverified. The new cozy build is local only by the user’s explicit request, “Keep it local for now.” No source sync/push, new deployment, schedule or credentials are authorized; the prior private release remains unchanged.
+**All demonstrated decisions currently use the labeled rule policy.** The exact rule editor is functional. Local Qwen now interprets bounded rule requests into validated previews requiring explicit Apply. Five actual held-out service requests passed; this is temporary local behavior, not Meta eligibility evidence. Meta rules and optional NPC-plan adapters remain disconnected; there is no fake language interpretation or template fallback. Real Meta behavior, latency and costs remain unverified. The new cozy build is local only by the user’s explicit request, “Keep it local for now.” GitHub source delivery has since been requested for inspection; its exact destination is being confirmed. No new hosted deployment, schedule or credentials are authorized; the prior private release remains unchanged.
 
 ## Intended Meta role — not yet demonstrated
 
@@ -28,7 +28,7 @@ The hosted adapter is designed to use Spark to translate a request into a suppor
 
 An optional event planner can propose intentions for Ada, Mara and Wren using each person's own context and received evidence. Actual paths, reservations, work, spending and festival attendance remain engine-owned. Model calls are bounded and audited; there is no continuous inference inside the physics loop. Imported receipts remain explicitly unverified claims.
 
-A local Llama 3.2 path was researched because the event lists Meta open weights. It has not been downloaded or used; separate license acceptance including the identified indemnity provision is pending. It is an alternative investigation, not a working feature or a solution to hosted-provider access. The local-only instruction does not grant model-license consent.
+A local Llama 3.2 path was researched because the event lists Meta open weights. It has not been downloaded or used; the user chose existing Qwen instead and no Llama agreement was accepted. It is an alternative investigation, not a working feature or a solution to hosted-provider access. The local-only instruction does not grant model-license consent.
 
 Do not describe this draft as a finished Meta-powered entry until an authorized real model path has been integrated, tested and retained with actual receipts/results. No API key, billing plan or purchases have been added.
 
@@ -38,7 +38,7 @@ Show one complete, understandable play loop: grow wheat, meet/gift the neighbors
 
 The completed [72-second cozy prototype film](./demo/cozy/godmode-cozy-prototype-72s.mp4) uses actual recorded rule-policy states with editorial camera/time compression. Its [source ZIP](./demo/cozy/godmode-cozy-demo-source.zip), source/recording audits and encoded-contact-sheet visual review are complete. It is not live Meta output or footage of the UI being operated. The earlier 56-second film remains preserved as a superseded prototype. Neither duration is an established official requirement.
 
-If real Meta access is later cleared, capture the real interpretation, explicit preview/apply, three bounded NPC plans, actual usage/failures and a held-out request/behavior check. Keep manual, model, fixture, imported and edited footage labels accurate. The full suite passed 95/95 and typecheck passed. The local production build completed with exit 0 ([build log](./quality/cozy-build-results.log)). Browser QA passed exact replay, paired branch/comparison at 1497.3 seconds, prospective rule restore and historical Undo; saved reload, camera fit, well interaction and keyboard movement also passed.
+If real Meta access is later cleared, capture the real interpretation, explicit preview/apply, three bounded NPC plans, actual usage/failures and a held-out request/behavior check. Keep manual, model, fixture, imported and edited footage labels accurate. The current Qwen full suite passed 104/104 and typecheck passed ([actual Qwen report](./quality/local-qwen-verification.md)). The [current integrated production build](./quality/current-refinement-build.log), typecheck and scoped lint passed. The current full suite passed 104/104; real browser Qwen and portrait dialogue checks passed. Browser QA passed exact replay, paired branch/comparison at 1497.3 seconds, prospective rule restore and historical Undo; saved reload, camera fit, well interaction and keyboard movement also passed.
 
 ## Provenance, package and stop
 

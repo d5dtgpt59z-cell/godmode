@@ -1,0 +1,38 @@
+[
+  {
+    "path": "outputs/godmode/public/assets/cozy/map.png",
+    "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937"
+  },
+  {
+    "path": "outputs/godmode/public/assets/cozy/map.json",
+    "sha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474"
+  },
+  {
+    "path": "outputs/godmode/public/assets/cozy/foreground.png",
+    "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643"
+  },
+  {
+    "path": "outputs/godmode/public/assets/cozy/foreground.json",
+    "sha256": "7ad49d045e663291fc7886b9652d32a7bdb8998c1cbcba6012acaa9e5218db9d"
+  },
+  {
+    "path": "outputs/godmode/public/assets/cozy/characters.png",
+    "sha256": "7e992b8f838c636126e339f14f128d87846bb07264a43e11d229b54d0bf85f49"
+  },
+  {
+    "path": "outputs/godmode/public/assets/cozy/characters.json",
+    "sha256": "914efddb19253423392c5ae786bae106af17628e3acef380f6fa7e68d404751e"
+  },
+  {
+    "path": "outputs/godmode/public/assets/cozy/provenance.json",
+    "sha256": "2929dc3db6a11d9e3ea3e324bfa09be5f711bb719406a8a9b3273e25317a66a2"
+  },
+  {
+    "path": "outputs/godmode/public/assets/cozy/viewer.html",
+    "sha256": "6eae912ee6f0e233ee6d48003d6a34e46f4944d7864d075d2d4d72a1786c0057"
+  },
+  {
+    "path": "outputs/godmode/art/cozy/cozy-art-source.zip",
+    "sha256": "09fa9cc2ee5cb6f96bbe2a0c50344aa9e585a34222f0109231394fbbf6f3ab39"
+  }
+]

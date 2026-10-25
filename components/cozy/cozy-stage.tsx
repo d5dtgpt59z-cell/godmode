@@ -2,9 +2,10 @@
 import {useEffect,useRef} from "react";
 import type {Actor,CozyWorldState,Point} from "@/lib/cozy/contracts";
 import {COZY_MAP} from "@/lib/cozy/world";
+import {sampleSpriteFrame,type SpriteClip} from "./sprite-animation";
 
 type Props={state:CozyWorldState;paused:boolean;tool:string;zoom:number;selected:string|null;inputLocked:boolean;onGround:(point:Point)=>void;onActor:(id:string)=>void;onPlot:(id:string)=>void;onPlace:(id:string)=>void;onReady:()=>void};
-type Atlas={frames:Record<string,{frame:{x:number;y:number;w:number;h:number};pixelAnchor?:Point;anchor?:Point;duration?:number}>;animations?:Record<string,{frames:string[];duration:number}>};
+type Atlas={frames:Record<string,{frame:{x:number;y:number;w:number;h:number};pixelAnchor?:Point;anchor?:Point;duration?:number}>;animations?:Record<string,SpriteClip>;meta?:{cargoPixelAnchor?:Point}};
 const TILE=16;
 const foot=(p:Point)=>({x:p.x*TILE+8,y:p.y*TILE+12});
 export default function CozyStage(props:Props){
@@ -14,16 +15,16 @@ export default function CozyStage(props:Props){
   void import("phaser").then(({default:Phaser})=>{
    if(disposed||!host.current)return;
    class Neighborhood extends Phaser.Scene{
-    actors=new Map<string,{sprite:import("phaser").GameObjects.Sprite;name:import("phaser").GameObjects.Text;shadow:import("phaser").GameObjects.Ellipse;cargo:import("phaser").GameObjects.Image;from:Point;to:Point;changed:number;physical:Actor;facing:string}>();
+    actors=new Map<string,{sprite:import("phaser").GameObjects.Sprite;name:import("phaser").GameObjects.Text;shadow:import("phaser").GameObjects.Ellipse;cargo:import("phaser").GameObjects.Image;from:Point;to:Point;changed:number;physical:Actor;facing:string;animation:string;animationStarted:number}>();
     crops=new Map<string,import("phaser").GameObjects.Image>();
     plotZones=new Map<string,import("phaser").GameObjects.Zone>();
     flood!:import("phaser").GameObjects.Graphics;selection!:import("phaser").GameObjects.Graphics;tone!:import("phaser").GameObjects.Rectangle;table!:import("phaser").GameObjects.Image;bunting!:import("phaser").GameObjects.Image;
-    last:CozyWorldState|null=null;lastZoom=0;ready=false;dragged=false;lastEffect=0;panUntil=0;speech=new Map<string,{text:import("phaser").GameObjects.Text;until:number}>();
+    last:CozyWorldState|null=null;lastZoom=0;ready=false;dragged=false;lastEffect=0;panUntil=0;
     constructor(){super("cozy-neighborhood");}
     preload(){
      this.load.image("cozy-map","/assets/cozy/map.png");
-     this.load.atlas("cozy-people","/assets/cozy/characters.png","/assets/cozy/characters.json");
-     this.load.json("cozy-people-meta","/assets/cozy/characters.json");
+     this.load.atlas("cozy-people","/assets/cozy/characters.png?v=cast-3","/assets/cozy/characters.json?v=cast-3");
+     this.load.json("cozy-people-meta","/assets/cozy/characters.json?v=cast-3");
      this.load.atlas("cozy-foreground","/assets/cozy/foreground.png","/assets/cozy/foreground.json");
      this.load.json("cozy-foreground-meta","/assets/cozy/foreground.json");
      this.load.atlas("fallback-people","/assets/characters.png","/assets/characters.json");
@@ -76,14 +77,14 @@ export default function CozyStage(props:Props){
        sprite.on("pointerup",(pointer:import("phaser").Input.Pointer)=>{if(pointer.event?.target===this.game.canvas&&!this.dragged&&!latest.current.inputLocked)latest.current.onActor(actor.id);});
        const name=this.add.text(p.x,p.y-36,actor.name,{fontFamily:"Georgia",fontSize:"8px",color:"#fff4d7",stroke:"#2d483e",strokeThickness:2}).setOrigin(.5).setDepth(2200);
        const cargo=this.add.image(p.x,p.y-13,this.textures.exists("cozy-foreground")?"cozy-foreground":texture,this.textures.exists("cozy-foreground")?this.frame("cozy-foreground",["carry.grain"]):key).setVisible(false);
-       body={sprite,name,shadow,cargo,from:p,to:p,changed:this.time.now,physical:actor,facing:"s"};this.actors.set(actor.id,body);
+       body={sprite,name,shadow,cargo,from:p,to:p,changed:this.time.now,physical:actor,facing:"s",animation:"",animationStarted:this.time.now};this.actors.set(actor.id,body);
       }
       if(discontinuity){body.from=p;body.to=p;body.changed=this.time.now;}else if(actor.x!==body.physical.x||actor.y!==body.physical.y){body.from={x:body.sprite.x,y:body.sprite.y};body.to=p;body.changed=this.time.now;}
       body.physical=actor;
      }
      for(const plot of state.plots){const sprite=this.crops.get(plot.id);if(sprite){const key=this.frame("cozy-foreground",["crop."+plot.phase,"crop.empty"]);this.anchored(sprite.setFrame(key),"cozy-foreground",key);}this.plotZones.get(plot.id)?.setDepth(["plant","water","harvest"].includes(latest.current.tool)?1100:-.5);}
      if(this.table){const p=COZY_MAP.festivalVisualAnchors[state.festival.venue];const ready=state.festival.phase==="celebrating";const key=this.frame("cozy-foreground",[ready?"festival.ready":"festival.empty"]);this.anchored(this.table.setFrame(key),"cozy-foreground",key).setPosition(p.x,p.y).setDepth(p.y-4).setVisible(state.festival.venue==="square"||ready);this.bunting.setPosition(p.x,p.y-22).setDepth(p.y-5).setVisible(state.festival.setupDone);}
-     if(this.last)for(const event of state.events.filter(e=>e.seq>this.lastEffect&&e.audience.includes("player"))){if(event.type==="npc_dialogue"&&event.actorId&&typeof event.payload.text==="string"){this.speech.get(event.actorId)?.text.destroy();const text=this.add.text(0,0,event.payload.text,{fontFamily:"Georgia",fontSize:"8px",color:"#2b453b",backgroundColor:"#fff0d1",padding:{x:5,y:4},wordWrap:{width:88},align:"center"}).setOrigin(.5,1).setDepth(2300);this.speech.set(event.actorId,{text,until:this.time.now+5000});}if(event.type==="crop_watered"||event.type==="crop_harvested"){const plot=COZY_MAP.plots.find(p=>p.id===event.payload.plotId);const animation="cozy-fx."+(event.type==="crop_watered"?"water":"harvest");if(plot&&this.anims.exists(animation)){const effect=this.add.sprite(plot.visualAnchor.x,plot.visualAnchor.y,"cozy-foreground").setDepth(1600);effect.play(animation);effect.once("animationcomplete",()=>effect.destroy());}}}
+     if(this.last)for(const event of state.events.filter(e=>e.seq>this.lastEffect&&e.audience.includes("player"))){if(event.type==="crop_watered"||event.type==="crop_harvested"){const plot=COZY_MAP.plots.find(p=>p.id===event.payload.plotId);const animation="cozy-fx."+(event.type==="crop_watered"?"water":"harvest");if(plot&&this.anims.exists(animation)){const effect=this.add.sprite(plot.visualAnchor.x,plot.visualAnchor.y,"cozy-foreground").setDepth(1600);effect.play(animation);effect.once("animationcomplete",()=>effect.destroy());}}}
      this.lastEffect=state.eventSeq;this.last=state;
     }
     update(time:number){
@@ -91,20 +92,27 @@ export default function CozyStage(props:Props){
      this.selection.clear();this.flood.clear();
      if(state.flood.active){for(const p of COZY_MAP.floodZone.cells){this.flood.fillStyle(0x6eb3b7,.7);this.flood.fillRect(p.x*TILE,p.y*TILE,TILE,TILE);this.flood.lineStyle(1,0xc1e3d1,.55);this.flood.lineBetween(p.x*TILE+2,p.y*TILE+8+(Math.floor(time/300)%2),p.x*TILE+11,p.y*TILE+8+(Math.floor(time/300)%2));}}
      for(const [id,body]of this.actors){
-      const a=body.physical,t=Math.min(1,(time-body.changed)/450);const old={x:body.sprite.x,y:body.sprite.y};
+      const a=body.physical,t=Math.min(1,(time-body.changed)/450);
       let x=body.from.x+(body.to.x-body.from.x)*t,y=body.from.y+(body.to.y-body.from.y)*t;
       // Bounded visual anticipation follows an already accepted route. It never changes physical state or inventory.
       if(id==="player"&&t===1&&a.path.length&&!latest.current.inputLocked&&!latest.current.paused){const next=foot(a.path[0]);const d=Math.abs(next.x-x)+Math.abs(next.y-y);if(d>0){const ahead=Math.min(1,Math.max(0,(time-body.changed-450)/500));x+=(next.x-x)*ahead;y+=(next.y-y)*ahead;}}
-      const dx=x-old.x,dy=y-old.y;const walking=!latest.current.paused&&(Math.abs(dx)+Math.abs(dy)>.05||a.path.length>0);
+      // Rounded render positions can reverse tiny deltas. Face the accepted trajectory instead.
+      const next=t>=1&&a.path.length?foot(a.path[0]):body.to;
+      const dx=next.x-(t>=1?body.to.x:body.from.x),dy=next.y-(t>=1?body.to.y:body.from.y);
+      const walking=!latest.current.paused&&(t<1&&Math.abs(dx)+Math.abs(dy)>.05||a.path.length>0);
       if(Math.abs(dx)>Math.abs(dy)&&Math.abs(dx)>.02)body.facing=dx>0?"e":"w";else if(Math.abs(dy)>.02)body.facing=dy>0?"s":"n";
-      const carrying=Object.values(a.inventory).some(n=>n>0);const action=latest.current.paused?"idle":walking?(carrying?"carry":"walk"):/baking|setting|prepar|working|watering|plant|harvest/i.test(a.action)?"work":/talk|greet|inviting/i.test(a.action)?"talk":/rest|sleep/i.test(a.action)?"rest":"idle";
+      const good=a.task?.kind==="food"&&a.task.phase==="deliver"&&a.inventory.grain>0?"grain":a.task?.kind==="setup"&&a.task.phase!=="fetch"&&a.inventory.timber>0?"timber":null;
+      const action=latest.current.paused?"idle":walking?(good?"carry":"walk"):/baking|setting|prepar|working|watering|plant|harvest/i.test(a.action)?"work":/talk|greet|inviting/i.test(a.action)?"talk":/rest|sleep/i.test(a.action)?"rest":"idle";
       const texture=body.sprite.texture.key;const aid=texture==="fallback-people"?(id==="player"?"kitt":id):id;
-      const meta=this.cache.json.get(texture+"-meta") as Atlas|undefined;const anim=meta?.animations?.[aid+"."+action+"."+body.facing];const index=anim?Math.floor(time/anim.duration)%anim.frames.length:Math.floor(time/(walking?150:650))%(walking?4:2);
-      const key=this.frame(texture,[anim?.frames[index]??"",aid+"."+action+"."+body.facing+"."+index,aid+".walk."+body.facing+"."+index,aid+".idle.s.0"]);
+      const clipKey=aid+"."+action+"."+body.facing;
+      if(body.animation!==clipKey){body.animation=clipKey;body.animationStarted=time-(action==="idle"?({player:0,ada:310,mara:710,wren:1130}[a.id]??0):0);}
+      const elapsed=time-body.animationStarted,meta=this.cache.json.get(texture+"-meta") as Atlas|undefined;
+      const index=Math.floor(elapsed/(walking?150:650))%(walking?4:2);
+      const key=this.frame(texture,[sampleSpriteFrame(meta?.animations?.[clipKey],elapsed)??"",clipKey+"."+index,aid+".walk."+body.facing+"."+index,aid+".idle.s.0"]);
       if(key!=="__BASE")this.anchored(body.sprite.setFrame(key),texture,key);
-      body.sprite.setPosition(Math.round(x),Math.round(y)).setDepth(y+(id==="player"?.5:0));body.shadow.setPosition(x,y+1).setDepth(y-1);const speech=this.speech.get(id);if(speech){speech.text.setPosition(x,y-37);if(time>speech.until){speech.text.destroy();this.speech.delete(id);}}body.name.setPosition(x,y-35).setVisible(!speech&&(id!=="player"||selected===id));
-      const good=Object.entries(a.inventory).find(([,n])=>n>0)?.[0];const cargoKey=good?this.frame("cozy-foreground",["carry."+good]):"__BASE";
-      body.cargo.setVisible(walking&&carrying&&cargoKey!=="__BASE"&&this.textures.exists("cozy-foreground"));if(body.cargo.visible)this.anchored(body.cargo.setTexture("cozy-foreground",cargoKey),"cozy-foreground",cargoKey).setPosition(x,y-9).setDepth(y+.1);
+      body.sprite.setPosition(Math.round(x),Math.round(y)).setDepth(y+(id==="player"?.5:0));body.shadow.setPosition(x,y+1).setDepth(y-1);body.name.setPosition(x,y-35).setVisible(id!=="player"||selected===id);
+      const cargoKey=good?this.frame("cozy-foreground",["carry."+good]):"__BASE";
+      body.cargo.setVisible(walking&&good!==null&&cargoKey!=="__BASE"&&this.textures.exists("cozy-foreground"));if(body.cargo.visible){const hand=meta?.meta?.cargoPixelAnchor??{x:12,y:22},pivot=meta?.frames[key]?.pixelAnchor??{x:12,y:31};this.anchored(body.cargo.setTexture("cozy-foreground",cargoKey),"cozy-foreground",cargoKey).setPosition(x+hand.x-pivot.x,y+hand.y-pivot.y).setDepth(body.sprite.depth+(body.facing==="n"?-.1:.1));}
       if(id===selected){this.selection.lineStyle(1,0xffe3a1,.9);this.selection.strokeEllipse(x,y+1,16,6);}
      }
      const playerBody=this.actors.get("player");if(playerBody&&(state.player.path.length>0||time>this.panUntil)){const c=this.cameras.main;c.scrollX=Phaser.Math.Linear(c.scrollX,playerBody.sprite.x-c.width/2,.12);c.scrollY=Phaser.Math.Linear(c.scrollY,playerBody.sprite.y-c.height/2,.12);}

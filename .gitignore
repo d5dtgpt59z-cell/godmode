@@ -53,3 +53,6 @@ yarn-error.log*
 /demo/**/.thumbnails/
 
 /demo/cozy/film/snapshots-*/
+
+# Local inference audit databases remain private working artifacts.
+/quality/*.sqlite*

@@ -1,0 +1,61 @@
+{
+  "verifiedAt": "2026-10-25T18:54:33.737539+00:00",
+  "passed": true,
+  "frames": 288,
+  "clips": 96,
+  "cell": [
+    24,
+    32
+  ],
+  "feet": [
+    12,
+    31
+  ],
+  "cargo": {
+    "x": 12,
+    "y": 24
+  },
+  "idlePoseHoldsMs": [
+    2200,
+    140
+  ],
+  "originalKeyParity": true,
+  "allAuthoredPoseDurationsPassed": true,
+  "rendererStartAndLoopBoundaryChecksPassed": true,
+  "preservedFiles": [
+    "public/assets/cozy/map.png",
+    "public/assets/cozy/map.json",
+    "public/assets/cozy/foreground.png",
+    "public/assets/cozy/foreground.json",
+    "art/cozy/cozy-art-source.zip"
+  ],
+  "rendererFixes": [
+    "trajectory-derived facing",
+    "per-actor/action animation clock",
+    "metadata-driven cargo anchor",
+    "relative cargo depth",
+    "actual hauling determines carry pose"
+  ],
+  "regressionLog": "current-refinement-tests.tap",
+  "regressionCount": 104,
+  "artVersion": 3,
+  "portraits": 8,
+  "portraitCell": [
+    96,
+    96
+  ],
+  "portraitExpressions": [
+    "neutral",
+    "warm"
+  ],
+  "nativeCharacterAudit": "../art/cozy/character-refinement/v3/native-qa.json",
+  "nativePortraitAudit": "../art/cozy/character-refinement/v3/portrait-qa.json",
+  "buildLog": "current-refinement-build.log",
+  "typecheckLog": "current-refinement-typecheck.log",
+  "lintLog": "current-refinement-lint.log",
+  "desktopProof": "portrait-dialogue-desktop.jpg",
+  "responsiveProof": "portrait-dialogue-responsive.jpg",
+  "dialogue": "actual new spoken events, literal text, movement lock, Continue, no historical load replay",
+  "review": "independent narrow stop-barrier review cleared",
+  "localQwenBrowser": "market+seedReserve2 preview/apply; cows/milk unsupported; two actual local calls, zero Meta calls; exact replay without more inference"
+}

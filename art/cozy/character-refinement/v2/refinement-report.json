@@ -1,0 +1,157 @@
+{
+  "version": 2,
+  "frozenAt": "2026-10-25T18:12:46.080897+00:00",
+  "status": "Root-approved full cast; integrated by root",
+  "characters": 4,
+  "poses": 288,
+  "clips": 96,
+  "opaqueColors": 62,
+  "pixelAnchor": {
+    "x": 12,
+    "y": 31
+  },
+  "cargoPixelAnchor": {
+    "x": 12,
+    "y": 24
+  },
+  "bakedShadow": false,
+  "idleDurationsMs": [
+    2200,
+    140
+  ],
+  "idleBodyMotionPixels": 0,
+  "alphaValues": [
+    0,
+    255
+  ],
+  "exactOriginalKeysPreserved": true,
+  "nativeAuditPassed": true,
+  "idleAuditPassed": true,
+  "previousFilesPreserved": 9,
+  "protectedOutputs": [
+    {
+      "path": "outputs/godmode/public/assets/cozy/map.png",
+      "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/godmode/public/assets/cozy/map.json",
+      "sha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/godmode/public/assets/cozy/foreground.png",
+      "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/godmode/public/assets/cozy/foreground.json",
+      "sha256": "7ad49d045e663291fc7886b9652d32a7bdb8998c1cbcba6012acaa9e5218db9d",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/godmode/art/cozy/cozy-art-source.zip",
+      "sha256": "09fa9cc2ee5cb6f96bbe2a0c50344aa9e585a34222f0109231394fbbf6f3ab39",
+      "unchanged": true
+    }
+  ],
+  "runtimePairMatchesApprovedCandidate": true,
+  "runtimeIntegrationBy": "Parent agent; JSON meta.image aliases characters.png",
+  "remoteGenerationCalls": 0,
+  "paidProviderCalls": 0,
+  "purchases": 0,
+  "referenceCharacterPixelsImported": 0,
+  "oldBuilderUnmodified": true,
+  "files": [
+    {
+      "path": "characters-refined-v2.png",
+      "bytes": 43864,
+      "sha256": "95fa24a67e1102b16469236a029a7620008afdeb22f5af733018eb1f6af90ba9",
+      "dimensions": {
+        "width": 512,
+        "height": 576
+      }
+    },
+    {
+      "path": "characters-refined-v2.json",
+      "bytes": 110940,
+      "sha256": "57a675903a18421ca1c97a1954623adfdbbd8fa266e0d02bff82037115112b4d"
+    },
+    {
+      "path": "characters-refined-v2.aseprite",
+      "bytes": 24167,
+      "sha256": "b070ca91178b87564bbb2e7733372b08aaf88b6625e726ff1d9b8132bf4a05f6"
+    },
+    {
+      "path": "characters-refined-v2-timeline.aseprite",
+      "bytes": 104634,
+      "sha256": "5bf2945e2dcc139ad63b0d4320fc73e737bfccdf341b9736cee4501e180ee674"
+    },
+    {
+      "path": "refine-characters.lua",
+      "bytes": 12866,
+      "sha256": "0a4a093cf5e6536a93dba240eb4d4ef5ccbba575001af6476642b72099d5da9e"
+    },
+    {
+      "path": "build-refined-characters.lua",
+      "bytes": 8092,
+      "sha256": "4ace46fe8ccf1a7661404cae8755c48ef0342e2941d9dd40d09dc6b4599c6faa"
+    },
+    {
+      "path": "first-proof-6x.png",
+      "bytes": 25029,
+      "sha256": "de90d038cbffcb9fc05af64bee2f7c9ce09fdabc032a8856da4fec0645cd2c41",
+      "dimensions": {
+        "width": 1344,
+        "height": 960
+      }
+    },
+    {
+      "path": "new-cast-lineup-6x.png",
+      "bytes": 5441,
+      "sha256": "7d78168eaddd93aa8e010303c9b1ff879cc29609e9ae1dc71a6b72070803ad3d",
+      "dimensions": {
+        "width": 960,
+        "height": 336
+      }
+    },
+    {
+      "path": "walk-contact-4x.png",
+      "bytes": 19070,
+      "sha256": "6967eedbc9aa442678fbfa581180827691e168ca5e91acbb6df418158065c6f7",
+      "dimensions": {
+        "width": 1536,
+        "height": 512
+      }
+    },
+    {
+      "path": "actions-contact-5x.png",
+      "bytes": 10146,
+      "sha256": "760bb75a2d34518cd7f2b1659cf1aecd05069e0944505ab1428c274ae3aa0aef",
+      "dimensions": {
+        "width": 720,
+        "height": 640
+      }
+    },
+    {
+      "path": "all-cast-south-walk-4x.gif",
+      "bytes": 21331,
+      "sha256": "f9e4a8ad36789e3b43b4d2cdef56737158319f40f46a633deb415f93f377e585"
+    },
+    {
+      "path": "all-cast-idle-brief-blink-4x.gif",
+      "bytes": 10950,
+      "sha256": "6aa41de71392bf839b0bcbddfeb7d58edde9bf2c61c1b46b492d5f56b65f99d4"
+    },
+    {
+      "path": "native-qa.json",
+      "bytes": 26658,
+      "sha256": "7c3177eb95bfbb7636e82c23a397a13221b097180998bbc88850d20a3bdd4bfa"
+    },
+    {
+      "path": "idle-qa.json",
+      "bytes": 146,
+      "sha256": "fafa24000d1eb95b5b560e499a1d7687522108f4da3b81d38e6ea65b0ecf0ecb"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "format": "godmode-cozy-save",
+  "version": 1,
+  "recording": {
+    "format": "godmode-cozy",
+    "version": 1,
+    "engineVersion": "cozy-engine-1",
+    "contentVersion": "cozy-wheat-1",
+    "origin": {
+      "seed": 137,
+      "branchId": "fdad2ea1-33db-4050-a307-25fb17634036"
+    },
+    "operations": [
+      {
+        "type": "rules",
+        "id": "actual-local-qwen-apply",
+        "patch": {
+          "organizer": "villagers"
+        },
+        "expectedRulesRevision": 0,
+        "provenance": {
+          "mode": "local-qwen",
+          "proposalId": "2303daf1-4a5b-429a-a9dd-054c995539ff",
+          "model": "qwen3.5:9b",
+          "sourceText": "Let the villagers handle organizing the festival, instead of me."
+        }
+      }
+    ],
+    "finalStep": 0,
+    "finalHash": "b016b9cc47469a43f3a8f3cb1efed30dc30bb0f12fd862ebde4869684d8eb322",
+    "eventHead": "fc8fb3b1d3b749201c957a4d6b5ad337272fc417f789acdbeb5571c4fbd393f3"
+  },
+  "clock": {
+    "paused": true,
+    "pace": 1
+  },
+  "providerAudit": [
+    {
+      "attemptId": "26e69b6c-1759-4cad-aa58-4267c473d577",
+      "purpose": "cozy-rules-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "rules",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T18:12:29.8241Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 630,
+        "outputTokens": 117,
+        "durationMs": 5923,
+        "rawText": "{\n  \"outcome\": \"proposal\",\n  \"summary\": \"Villagers will now organize the festival. The venue, food target, seed reserve, and flood settings remain unchanged.\",\n  \"question\": null,\n  \"patch\": {\n    \"organizer\": \"villagers\",\n    \"venue\": \"square\",\n    \"foodTarget\": 3,\n    \"seedReserve\": 1,\n    \"floodEnabled\": false,\n    \"floodDurationSteps\": 300\n  }\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "rules": {
+            "organizer": "player",
+            "venue": "square",
+            "foodTarget": 3,
+            "seedReserve": 1,
+            "flood": {
+              "enabled": false,
+              "zone": "low-path",
+              "durationSteps": 300
+            }
+          },
+          "rulesRevision": 0,
+          "semantics": {
+            "seedReserve": "Keeps this many grain in the shared bakery from NPC festival collection, and in the player bag from gifts/donations. Planting may use player seeds; NPC-owned gifts remain usable.",
+            "venue": "A prepared or announced festival keeps its venue; a changed venue applies to the next festival.",
+            "revert": "Prospective rule restoration. Historical undo requires rewind and fork.",
+            "flood": "Blocks movement in the authored low-path zone; existing occupants get safe egress. Fixed-step TTL."
+          }
+        },
+        "value": {
+          "outcome": "proposal",
+          "summary": "Villagers will now organize the festival. The venue, food target, seed reserve, and flood settings remain unchanged.",
+          "question": null,
+          "patch": {
+            "organizer": "villagers",
+            "venue": "square",
+            "foodTarget": 3,
+            "seedReserve": 1,
+            "flood": {
+              "enabled": false,
+              "durationSteps": 300
+            }
+          }
+        }
+      }
+    },
+    {
+      "attemptId": "9a2ad869-8ea4-4380-b474-df9b58d8a1fd",
+      "purpose": "cozy-rules-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "rules",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T18:12:37.074125Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 635,
+        "outputTokens": 113,
+        "durationMs": 7240,
+        "rawText": "{\n  \"outcome\": \"proposal\",\n  \"summary\": \"Updated festival food goal to 5 and seed reserve to 2; all other rules remain unchanged.\",\n  \"question\": null,\n  \"patch\": {\n    \"organizer\": \"villagers\",\n    \"venue\": \"square\",\n    \"foodTarget\": 5,\n    \"seedReserve\": 2,\n    \"floodEnabled\": false,\n    \"floodDurationSteps\": 300\n  }\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "rules": {
+            "organizer": "villagers",
+            "venue": "square",
+            "foodTarget": 3,
+            "seedReserve": 1,
+            "flood": {
+              "enabled": false,
+              "zone": "low-path",
+              "durationSteps": 300
+            }
+          },
+          "rulesRevision": 1,
+          "semantics": {
+            "seedReserve": "Keeps this many grain in the shared bakery from NPC festival collection, and in the player bag from gifts/donations. Planting may use player seeds; NPC-owned gifts remain usable.",
+            "venue": "A prepared or announced festival keeps its venue; a changed venue applies to the next festival.",
+            "revert": "Prospective rule restoration. Historical undo requires rewind and fork.",
+            "flood": "Blocks movement in the authored low-path zone; existing occupants get safe egress. Fixed-step TTL."
+          }
+        },
+        "value": {
+          "outcome": "proposal",
+          "summary": "Updated festival food goal to 5 and seed reserve to 2; all other rules remain unchanged.",
+          "question": null,
+          "patch": {
+            "organizer": "villagers",
+            "venue": "square",
+            "foodTarget": 5,
+            "seedReserve": 2,
+            "flood": {
+              "enabled": false,
+              "durationSteps": 300
+            }
+          }
+        }
+      }
+    },
+    {
+      "attemptId": "8c75a4af-808a-4011-8599-c40c70e4d1f4",
+      "purpose": "cozy-rules-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "rules",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T18:12:44.322476Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 630,
+        "outputTokens": 116,
+        "durationMs": 7240,
+        "rawText": "{\n  \"outcome\": \"proposal\",\n  \"summary\": \"Flood enabled for the low-path zone with a duration of 300 steps (30 seconds).\",\n  \"question\": null,\n  \"patch\": {\n    \"organizer\": \"villagers\",\n    \"venue\": \"square\",\n    \"foodTarget\": 3,\n    \"seedReserve\": 1,\n    \"floodEnabled\": true,\n    \"floodDurationSteps\": 300\n  }\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "rules": {
+            "organizer": "villagers",
+            "venue": "square",
+            "foodTarget": 3,
+            "seedReserve": 1,
+            "flood": {
+              "enabled": false,
+              "zone": "low-path",
+              "durationSteps": 300
+            }
+          },
+          "rulesRevision": 1,
+          "semantics": {
+            "seedReserve": "Keeps this many grain in the shared bakery from NPC festival collection, and in the player bag from gifts/donations. Planting may use player seeds; NPC-owned gifts remain usable.",
+            "venue": "A prepared or announced festival keeps its venue; a changed venue applies to the next festival.",
+            "revert": "Prospective rule restoration. Historical undo requires rewind and fork.",
+            "flood": "Blocks movement in the authored low-path zone; existing occupants get safe egress. Fixed-step TTL."
+          }
+        },
+        "value": {
+          "outcome": "proposal",
+          "summary": "Flood enabled for the low-path zone with a duration of 300 steps (30 seconds).",
+          "question": null,
+          "patch": {
+            "organizer": "villagers",
+            "venue": "square",
+            "foodTarget": 3,
+            "seedReserve": 1,
+            "flood": {
+              "enabled": true,
+              "durationSteps": 300
+            }
+          }
+        }
+      }
+    },
+    {
+      "attemptId": "d0d6ffb1-7ccf-4623-b38c-603b7d62db44",
+      "purpose": "cozy-rules-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "rules",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T18:12:51.157275Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 628,
+        "outputTokens": 103,
+        "durationMs": 6824,
+        "rawText": "{\n  \"outcome\": \"unsupported\",\n  \"summary\": \"Adding cows and milk production is an unsupported mechanic; no new animals or resources can be introduced.\",\n  \"question\": null,\n  \"patch\": {\n    \"organizer\": null,\n    \"venue\": null,\n    \"foodTarget\": null,\n    \"seedReserve\": null,\n    \"floodEnabled\": null,\n    \"floodDurationSteps\": null\n  }\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "rules": {
+            "organizer": "villagers",
+            "venue": "square",
+            "foodTarget": 3,
+            "seedReserve": 1,
+            "flood": {
+              "enabled": false,
+              "zone": "low-path",
+              "durationSteps": 300
+            }
+          },
+          "rulesRevision": 1,
+          "semantics": {
+            "seedReserve": "Keeps this many grain in the shared bakery from NPC festival collection, and in the player bag from gifts/donations. Planting may use player seeds; NPC-owned gifts remain usable.",
+            "venue": "A prepared or announced festival keeps its venue; a changed venue applies to the next festival.",
+            "revert": "Prospective rule restoration. Historical undo requires rewind and fork.",
+            "flood": "Blocks movement in the authored low-path zone; existing occupants get safe egress. Fixed-step TTL."
+          }
+        },
+        "value": {
+          "outcome": "unsupported",
+          "summary": "Adding cows and milk production is an unsupported mechanic; no new animals or resources can be introduced.",
+          "question": null,
+          "patch": null
+        }
+      }
+    },
+    {
+      "attemptId": "bdea9c45-8be1-4451-83bf-46b3bcaddfad",
+      "purpose": "cozy-rules-local",
+      "status": "completed",
+      "errorCode": null,
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "rules",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T18:12:57.752959Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 634,
+        "outputTokens": 102,
+        "durationMs": 6576,
+        "rawText": "{\n  \"outcome\": \"unsupported\",\n  \"summary\": \"Jetpacks and flying over buildings are unsupported mechanics; no patch fields can be applied.\",\n  \"question\": null,\n  \"patch\": {\n    \"organizer\": null,\n    \"venue\": null,\n    \"foodTarget\": null,\n    \"seedReserve\": null,\n    \"floodEnabled\": null,\n    \"floodDurationSteps\": null\n  }\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "rules": {
+            "organizer": "villagers",
+            "venue": "square",
+            "foodTarget": 3,
+            "seedReserve": 1,
+            "flood": {
+              "enabled": false,
+              "zone": "low-path",
+              "durationSteps": 300
+            }
+          },
+          "rulesRevision": 1,
+          "semantics": {
+            "seedReserve": "Keeps this many grain in the shared bakery from NPC festival collection, and in the player bag from gifts/donations. Planting may use player seeds; NPC-owned gifts remain usable.",
+            "venue": "A prepared or announced festival keeps its venue; a changed venue applies to the next festival.",
+            "revert": "Prospective rule restoration. Historical undo requires rewind and fork.",
+            "flood": "Blocks movement in the authored low-path zone; existing occupants get safe egress. Fixed-step TTL."
+          }
+        },
+        "value": {
+          "outcome": "unsupported",
+          "summary": "Jetpacks and flying over buildings are unsupported mechanics; no patch fields can be applied.",
+          "question": null,
+          "patch": null
+        }
+      }
+    }
+  ],
+  "importedProviderAudit": {
+    "provenance": "unverified-import",
+    "records": []
+  },
+  "archiveIndex": [],
+  "notice": "Local prototype started October25. Rule-policy simulation; imported provider claims are unverified. No final submission."
+}

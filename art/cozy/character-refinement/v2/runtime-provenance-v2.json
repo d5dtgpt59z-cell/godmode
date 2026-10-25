@@ -1,0 +1,121 @@
+{
+  "version": 2,
+  "createdAt": "2026-10-25T16:50:10.905262+00:00",
+  "purpose": "Original cozy life-sim production art. Not a gameplay or AI-inference assertion.",
+  "scope": "Only art/cozy and public/assets/cozy. Legacy art is preserved.",
+  "background": {
+    "source": "Earlier original project concept; exact reference and prompt preserved in source package.",
+    "currentBuiltInImageEditCalls": 2,
+    "earlierConceptImageGenerationCalls": 1,
+    "method": "Built-in edits, local Aseprite nearest resize, optimal palette quantization, original scene-material path clearance.",
+    "nativePixels": [
+      512,
+      384
+    ],
+    "opaqueColors": 254,
+    "containsBakedPeopleAnimalsFoodCropsFestivalTableBunting": false,
+    "modularity": "Fixed environment raster with separate semantic overlays; not a modular building tile atlas."
+  },
+  "characters": {
+    "method": "Original native Aseprite character refinement; rounded directional silhouettes, individual tailoring, grounded walk poses",
+    "remoteGenerationCalls": 0,
+    "residents": 4,
+    "poses": 288,
+    "clips": 96,
+    "cell": [
+      24,
+      32
+    ],
+    "footAnchor": [
+      12,
+      31
+    ],
+    "cargoAnchor": [
+      12,
+      24
+    ],
+    "refinementVersion": 2,
+    "paletteColors": 62,
+    "groundShadowBaked": false,
+    "idlePoseHoldsMs": [
+      2200,
+      140
+    ],
+    "nativeSource": "art/cozy/character-refinement/v2",
+    "previousSources": "art/cozy/character-refinement/previous"
+  },
+  "foreground": {
+    "method": "Original native Aseprite construction from included Lua",
+    "remoteGenerationCalls": 0,
+    "sourceCells": 21,
+    "namedFrames": 24,
+    "clips": 2,
+    "intentionalTransparentFrames": [
+      "crop.empty"
+    ]
+  },
+  "thirdPartyReferencePixelsImported": 0,
+  "paidProviderCalls": 0,
+  "purchases": 0,
+  "metaCallsInArtWorkflow": 0,
+  "checks": {
+    "nativeAuditPassed": true,
+    "connectedGroundCells": 154,
+    "reachablePlaces": 9,
+    "reachablePlots": 3,
+    "noGroundInsideSceneryOrBuildingBlocks": true,
+    "nativeContactSheetVisuallyInspected": true,
+    "integrationPreviewIsStagedArt": true,
+    "browserIntegrationQa": "Root inspected refined sprites in local saved village; art staging is separate from gameplay proof."
+  },
+  "runtimeFiles": [
+    {
+      "path": "characters.json",
+      "bytes": 96386,
+      "sha256": "1e93bad03b152a3b3e81adb44bf77acb1d90396af580299d03f4ad9362e43996"
+    },
+    {
+      "path": "characters.png",
+      "bytes": 43864,
+      "sha256": "95fa24a67e1102b16469236a029a7620008afdeb22f5af733018eb1f6af90ba9",
+      "dimensions": {
+        "width": 512,
+        "height": 576
+      }
+    },
+    {
+      "path": "foreground.json",
+      "bytes": 8520,
+      "sha256": "7ad49d045e663291fc7886b9652d32a7bdb8998c1cbcba6012acaa9e5218db9d"
+    },
+    {
+      "path": "foreground.png",
+      "bytes": 3875,
+      "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643",
+      "dimensions": {
+        "width": 512,
+        "height": 256
+      }
+    },
+    {
+      "path": "map.json",
+      "bytes": 16940,
+      "sha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474"
+    },
+    {
+      "path": "map.png",
+      "bytes": 545656,
+      "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937",
+      "dimensions": {
+        "width": 512,
+        "height": 384
+      }
+    },
+    {
+      "path": "viewer.html",
+      "bytes": 119552,
+      "sha256": "2b56c36f070d539210050380a7e403dd3425f9ceba4d23429f49471c1fba1c24"
+    }
+  ],
+  "updatedAt": "2026-10-25T18:09:34.571013+00:00"
+}
