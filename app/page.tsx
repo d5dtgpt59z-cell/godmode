@@ -19,8 +19,8 @@ const goods = (items: Record<string, number>) => Object.entries(items).filter(([
 
 async function request<T>(url: string, body?: unknown, method:"POST"|"PATCH"="POST"): Promise<T> {
   const response = await fetch(url, body === undefined ? { cache: "no-store" } : { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
-  const data = await response.json() as { error?: string | { message?: string }; message?: string };
-  if (!response.ok) throw new Error(typeof data.error === "string" ? data.error : data.error?.message || data.message || "The town could not finish that operation.");
+  const data = await response.json() as { error?: string | { message?: string }; message?: string; code?:string };
+  if (!response.ok) {const failure=new Error(typeof data.error === "string" ? data.error : data.error?.message || data.message || "The town could not finish that operation.");Object.assign(failure,{status:response.status,code:data.code});throw failure;}
   return data as T;
 }
 
@@ -80,6 +80,7 @@ export default function Home() {
   const firstPlay = useRef(true);
   const busyRef = useRef(false);
   const inFlight = useRef(false);
+  const tickRetry=useRef({failures:0,after:0});
   useEffect(()=>{busyRef.current=busy;},[busy]);
 
   const remember = useCallback((next: Run) => {
@@ -141,12 +142,21 @@ export default function Home() {
     if (!playing || playback) return;
     const timer = setInterval(async () => {
       const head = current.current;
-      if (!head || inFlight.current || busyRef.current || clockBusy.current || head.state.ended) { if (head?.state.ended) setPlaying(false); return; }
+      if (!head || inFlight.current || busyRef.current || clockBusy.current || Date.now()<tickRetry.current.after || head.state.ended) { if (head?.state.ended) setPlaying(false); return; }
       inFlight.current = true;
       const tick=async()=>{try {
         if(head.id===saved.current?.run.id){const result=await request<WorldResponse>("/api/world/tick",{maxSeconds:60});if(result.world)receiveWorld(result.world);}
         else remember(await request<Run>(`${ROOT}/${head.id}/advance`, { expectedRevision: head.revision, seconds: 12 * speed }));
-      }catch(e){setPlaying(false);setError((e as Error).message);}
+        tickRetry.current={failures:0,after:0};
+      }catch(e){
+        const failure=e as Error&{status?:number;code?:string};
+        if(failure.status===409&&['WORLD_BUSY','RUN_BUSY','REVISION_CONFLICT','DECISION_PENDING'].includes(failure.code??'')){
+          const count=tickRetry.current.failures+1;tickRetry.current={failures:count,after:Date.now()+Math.min(10000,1000*2**Math.min(count,4))};
+          if(count===3)setNotice('The world is finishing another update. Retrying shortly.');
+          if(head.id===saved.current?.run.id){const result=await request<WorldResponse>('/api/world').catch(()=>null);if(result?.world)receiveWorld(result.world);}
+          else{const latest=await request<Run>(`${ROOT}/${head.id}`).catch(()=>null);if(latest)remember(latest);}
+        }else{setPlaying(false);setError(failure.message);}
+      }
       finally{inFlight.current=false;currentTick.current=null;}};
       currentTick.current=tick();
     }, 1000);
