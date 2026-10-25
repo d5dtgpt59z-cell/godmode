@@ -1,0 +1,32 @@
+[
+  {
+    "file": "02-playfield-mobile.jpg",
+    "title": "Final art QA \u2014 polished village and physical rain catcher",
+    "sha256": "99f5e218323fb9a5242e723875dc316f1af774c02df0968e18a154e3e688da47",
+    "bytes": 217444
+  },
+  {
+    "file": "01-resident.jpg",
+    "title": "Final art QA \u2014 Wren portrait and physical needs",
+    "sha256": "ae0caf3b902f810fd95737d8e69aa1ca2a5ae3d903c526408c76639b4f24aa0c",
+    "bytes": 57482
+  },
+  {
+    "file": "00-world-entry.jpg",
+    "title": "Final QA \u2014 black command line with saved-world recovery",
+    "sha256": "ef0cf6607fda30f7d7a6ee0c20abdb02d3fefec357d033fd920310a23157d8b5",
+    "bytes": 35477
+  },
+  {
+    "file": "04-finite-object.jpg",
+    "title": "Final QA \u2014 physical object after finite collection",
+    "sha256": "b6f74bd3a686db06c916261d06afb91bdd9bf8bb2a9314cbdb11b5a19fc8575c",
+    "bytes": 42490
+  },
+  {
+    "file": "03-playfield-desktop.jpg",
+    "title": "Final QA \u2014 desktop village playfield",
+    "sha256": "f70ee81fe60419ef57d957ef5b4c1836430a8f3a9f0d325fb00fc487f01e979e",
+    "bytes": 349453
+  }
+]

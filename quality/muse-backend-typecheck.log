@@ -1,0 +1,7 @@
+components/cozy/world-forge.tsx(14,48): error TS18046: 'data' is of type 'unknown'.
+components/cozy/world-forge.tsx(14,70): error TS18046: 'data' is of type 'unknown'.
+components/cozy/world-forge.tsx(14,81): error TS18046: 'data' is of type 'unknown'.
+components/cozy/world-forge.tsx(14,102): error TS18046: 'data' is of type 'unknown'.
+components/cozy/world-forge.tsx(14,182): error TS18046: 'data' is of type 'unknown'.
+components/cozy/world-forge.tsx(47,30): error TS2322: Type '{ onCreateWorld: () => void; }' is not assignable to type 'IntrinsicAttributes'.
+  Property 'onCreateWorld' does not exist on type 'IntrinsicAttributes'.

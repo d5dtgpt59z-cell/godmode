@@ -1,8 +1,13 @@
+import {observeWorldObjects,worldObjectGoods,verifyWorldObjects,applyWorldObjectCommand,worldObjectPosition} from './world-objects';
+import {beforeActivityStep,executeActivityTask,applyActivityProposalInternal,verifyActivities,type ActivityRuntime} from './activities';
+import * as v2 from './v2';
+import type {CozyWorldState as V2State,CozyCommand as V2Command} from './v2/contracts';
+import {beforePersonalStep,afterPersonalStep,choosePersonalFallback,executePersonalTask,applyPersonalDecisionInternal,verifyPersonalMind,type PersonalRuntime} from './personal';
 import * as v1 from './v1';
 import type {CozyWorldState as V1State} from './v1/contracts';
 import {hashValue,canonicalStringify} from '../sim/canonical';
 import {COZY_MAP,distance,emptyGoods,festivalAttendanceSpot,inFlood,initializeCozyWorld,isCozyWalkable,newFestival} from './world';
-import {COZY_ENGINE_VERSION,COZY_STEP_MS,MAX_ADVANCE_STEPS,NPC_IDS,CozyError,type Actor,type ActorId,type CozyCommand,type CozyEvent,type CozyWorldState,type CozyViolation,type Good,type Npc,type NpcContext,type NpcPlan,type PlaceId,type Point,type RulePatch,type RulePreview,type RuleProvenance,type RuleSet,type SocialProposal,type SocialResponse,type Institution,type InitiativeContext,type InitiativeOpportunity,type SocialInitiativeDecision,COZY_V2_ENGINE_VERSION,COZY_V2_CONTENT_VERSION} from './contracts';
+import {COZY_ENGINE_VERSION,COZY_STEP_MS,MAX_ADVANCE_STEPS,NPC_IDS,CozyError,type Actor,type ActorId,type CozyCommand,type CozyEvent,type CozyWorldState,type CozyViolation,type Good,type Npc,type NpcContext,type NpcPlan,type PlaceId,type Point,type RulePatch,type RulePreview,type RuleProvenance,type RuleSet,type SocialProposal,type SocialResponse,type Institution,type InitiativeContext,type InitiativeOpportunity,type SocialInitiativeDecision,COZY_V2_ENGINE_VERSION,COZY_V3_ENGINE_VERSION,COZY_V3_CONTENT_VERSION,type PersonalDecision,type ActivityBlueprint} from './contracts';
 
 const legacy=(s:CozyWorldState)=>s as unknown as V1State;
 const GOODS:Good[]=['grain','water','timber','bread'];
@@ -39,6 +44,8 @@ export function validateCozyCommand(value:unknown):CozyCommand{
   const base=['id','type'];
   switch(value.type){
     case'move':exactKeys(value,[...base,'target']);if(!record(value.target)||!integer(value.target.x,0,31)||!integer(value.target.y,0,23)||Object.keys(value.target).some(k=>!['x','y'].includes(k)))fail('INVALID_COMMAND','Choose an integer tile target.');break;
+    case'object-interact':exactKeys(value,[...base,'objectId','action','item','quantity']);if(typeof value.objectId!=='string'||!value.objectId||value.objectId.length>120||!['inspect','collect'].includes(value.action as string)||value.action==='inspect'&&(value.item!==null||value.quantity!==0)||value.action==='collect'&&(value.item!=='water'||!integer(value.quantity,1,12)))fail('INVALID_COMMAND','Choose an exact supported object interaction.');break;
+    case'share-idea':exactKeys(value,[...base,'npcId','text']);if(value.npcId!=='wren'||typeof value.text!=='string'||value.text.trim().length<3||value.text.length>500)fail('INVALID_COMMAND','Share a nearby idea with Wren in3..500 characters.');break;
     case'stop':case'festival-reset':exactKeys(value,base);break;
     case'plant':case'water':case'harvest':exactKeys(value,[...base,'plotId']);if(!COZY_MAP.plots.some(p=>p.id===value.plotId))fail('INVALID_COMMAND','Unknown crop plot.');break;
     case'collect':exactKeys(value,[...base,'placeId','item','quantity']);if(!COZY_MAP.places.some(p=>p.id===value.placeId)||!GOODS.includes(value.item as Good)||!integer(value.quantity,1,6))fail('INVALID_COMMAND','Invalid collection target, item or quantity.');break;
@@ -74,9 +81,13 @@ function requireClose(a:Point,b:Point){if(!close(a,b))fail('TOO_FAR','Walk next 
 function spendableGrain(s:CozyWorldState){return Math.max(0,s.player.inventory.grain-s.rules.seedReserve);}
 
 export function dispatchCozyCommand(state:CozyWorldState,input:CozyCommand):CozyWorldState{
-  if(state.engineVersion===COZY_ENGINE_VERSION)return v1.dispatchCozyCommand(legacy(state),input);
+  if(state.engineVersion===COZY_ENGINE_VERSION)return v1.dispatchCozyCommand(legacy(state),input as unknown as Parameters<typeof v1.dispatchCozyCommand>[1]);
+  if(state.engineVersion===COZY_V2_ENGINE_VERSION)return v2.dispatchCozyCommand(state as unknown as V2State,input as unknown as V2Command);
+  if(input.type==='share-idea'&&!state.mind)fail('PERSONAL_UPGRADE_REQUIRED','Use a separate personal-world branch to share ideas.');
   const command=validateCozyCommand(input);if(seenId(state,command.id))return state;const s=copy(state),p=s.player;
-  if(command.type==='move'){if(!route(s,p,command.target))fail('PATH_BLOCKED','That tile cannot be reached.');if(p.task){release(s,p);p.task=null;}p.action=p.path.length?'Walking':'Here we are';}
+  if(command.type==='object-interact'){if(!worldObjectPosition(s,command.objectId))fail('UNKNOWN_WORLD_OBJECT','That world object does not exist.');cancel(s,p);applyWorldObjectCommand(s,command,personalRuntime());}
+  else if(command.type==='share-idea'){const wren=npc(s,'wren')!;requireClose(p,wren);const event=emit(s,'player_idea_shared','player',{text:command.text,npcId:'wren',attributed:true},['player','wren']);remember(s,event,`You told Wren: ${command.text}`);}
+  else if(command.type==='move'){if(!route(s,p,command.target))fail('PATH_BLOCKED','That tile cannot be reached.');if(p.task){release(s,p);p.task=null;}p.action=p.path.length?'Walking':'Here we are';}
   else if(command.type==='stop')cancel(s,p);
   else{
     if(p.task)fail('PLAYER_BUSY','Finish or cancel the current task first.');if(s.flood.egress.includes('player')&&inFlood(p))fail('ESCAPING_FLOOD','Reach dry ground before interacting.');p.path=[];
@@ -100,7 +111,7 @@ export function dispatchCozyCommand(state:CozyWorldState,input:CozyCommand):Cozy
       else{if(s.festival.setupDone||s.festival.setupOwner)fail('SETUP_TAKEN','The setup is complete or someone is already working on it.');if(p.inventory.timber<1)fail('NO_TIMBER','One timber is needed to prepare the gathering.');s.festival.setupOwner='player';p.task={kind:'setup',targetId:s.festival.venue,remainingSteps:30,reason:'Preparing a welcoming place to gather.',ruleRevision:s.rulesRevision,phase:'work'};p.action='Setting up the festival';emit(s,'setup_started','player',{durationSteps:30},nearby(s,p));}
     }else if(command.type==='festival-reset'){if(s.festival.phase!=='complete')fail('FESTIVAL_NOT_COMPLETE','Finish this gathering before planning another.');s.festival=newFestival(s.festival.id+1,s.rules.venue);for(const n of s.npcs){n.festivalAccepted=false;n.knownFestival=false;delete n.festivalObservation;finish(s,n);}emit(s,'festival_planned','player',{festivalId:s.festival.id,venue:s.festival.venue},['player']);}
   }
-  markId(s,command.id);s.operations.push({type:'command',command});emit(s,'player_command','player',{command},['player']);return s;
+  markId(s,command.id);s.operations.push({type:'command',command});emit(s,'player_command','player',{command},['player']);if(s.mind)afterPersonalStep(s,personalRuntime());return s;
 }
 
 function invite(s:CozyWorldState,source:ActorId,n:Npc){if(s.festival.invitations[n.id])return;s.festival.invitations[n.id]={source,step:s.step};observedFestival(s,n);const e=emit(s,'festival_invitation',source,{npcId:n.id,festivalId:s.festival.id,venue:s.festival.venue},[source,n.id]);remember(s,e,`${source==='player'?'You':source} invited ${n.name} to the gathering.`);}
@@ -121,7 +132,7 @@ function assignAttendance(s:CozyWorldState,n:Npc,reason:string){
   if(!target||!route(s,n,target))n.action='Waiting for a safe gathering route';
 }
 function chooseNpc(s:CozyWorldState,n:Npc){
-  n.lastDecisionStep=s.step;if(n.overrideUntil&&n.overrideUntil>s.step)return;
+  n.lastDecisionStep=s.step;if(n.task?.kind==='activity')return;if(s.mind&&n.id==='wren'){choosePersonalFallback(s,n,personalRuntime());return;}if(n.overrideUntil&&n.overrideUntil>s.step)return;
   if(!n.task&&!n.path.length&&(n.needs.energy<25||n.resting&&n.needs.energy<55)){n.resting=true;n.reason='I need a short rest before taking on more work.';n.action='Resting at home';route(s,n,place(s,n.homeId)!.position);return;}
   if(n.resting&&n.needs.energy>=55)delete n.resting;
   if(!n.task&&!n.path.length&&n.needs.hunger>=85){const item=n.inventory.bread>0?'bread':n.inventory.grain>0?'grain':null;if(item){n.inventory[item]--;s.ledger.consumed[item]++;n.needs.hunger=Math.max(0,n.needs.hunger-65);const e=emit(s,'npc_meal_eaten',n.id,{item,quantity:1},nearby(s,n));remember(s,e,`${n.name} ate a real meal before helping again.`);}else if(distance(n,place(s,'bakery')!.position)<=1&&available(s,'bakery','bread')>0){pickup(s,n,'bakery','bread',1);}else if(distance(n,place(s,'bakery')!.position)<=1&&available(s,'bakery','grain')>s.rules.seedReserve){pickup(s,n,'bakery','grain',1);}else{n.reason='I need food before I can help.';n.action='Looking for a meal';route(s,n,place(s,'bakery')!.position);}return;}
@@ -139,7 +150,7 @@ function chooseNpc(s:CozyWorldState,n:Npc){
   n.action=hour>=20||hour<6?'Heading home':'Enjoying a familiar walk';route(s,n,target);
 }
 function executeTask(s:CozyWorldState,a:Actor){
-  const task=a.task;if(!task)return;
+  const task=a.task;if(!task)return;if(task.kind==='activity'){executeActivityTask(s,a,activityRuntime());return;}if(task.kind==='personal'){executePersonalTask(s,a,personalRuntime());return;}
   if(a.id!=='player'&&s.rules.organizer==='player'&&['food','setup','invite'].includes(task.kind)){finish(s,a);return;}
   if(s.flood.egress.includes(a.id))return;
   if(task.kind==='communicate'){executeCommunication(s,a,task);return;}
@@ -185,14 +196,18 @@ function singleStep(s:CozyWorldState){
   if(!s.emergence&&s.rules.organizer==='villagers'&&!s.festival.announced&&s.festival.phase==='planning')announce(s);
   if(s.emergence&&s.step%20===0)updateCooperation(s);
   for(const n of s.npcs)if(n.overrideUntil!==undefined&&s.step>=n.overrideUntil){delete n.overrideUntil;finish(s,n);emit(s,'npc_plan_expired',n.id,{provenance:'deterministic fallback',reason:'The bounded external plan duration elapsed.'},[n.id]);}
+  if(s.mind)beforePersonalStep(s,personalRuntime());
+  if(s.activities)beforeActivityStep(s,activityRuntime());
   for(const a of actors(s))advanceMovement(s,a);
+  if(s.worldObjects?.length)observeWorldObjects(s,personalRuntime());
   witnessPreparations(s);
   for(const a of actors(s))executeTask(s,a);
   if(s.step%20===0)for(const n of s.npcs)chooseNpc(s,n);
   if(['planning','gathering'].includes(s.festival.phase)&&s.festival.food>=s.rules.foodTarget&&s.festival.setupDone){s.festival.phase='gathering';if(s.festival.participants.length>=2){s.festival.phase='celebrating';s.festival.startedAt=s.step;const quantity=s.festival.food;s.festival.food=0;s.ledger.consumed.grain+=quantity;eventAtVenue(s,'festival_started','wren',{quantity,participants:[...s.festival.participants],text:'The villagers gathered around food they really brought.'});}}
   if(s.festival.phase==='celebrating'&&s.festival.startedAt!==null&&s.step-s.festival.startedAt>=100){s.festival.phase='complete';s.festival.completedAt=s.step;eventAtVenue(s,'festival_completed','wren',{participants:[...s.festival.participants],text:'A small festival became a shared memory.'});for(const n of s.npcs)if(s.festival.participants.includes(n.id)){n.affinity=clamp(n.affinity+3);n.trust=clamp(n.trust+1);n.needs.social=0;n.needs.hunger=Math.max(0,n.needs.hunger-35);finish(s,n);}}
+  if(s.mind)afterPersonalStep(s,personalRuntime());
 }
-export function advanceCozyWorld(state:CozyWorldState,steps:number):CozyWorldState{if(state.engineVersion===COZY_ENGINE_VERSION)return v1.advanceCozyWorld(legacy(state),steps);if(!integer(steps,0,MAX_ADVANCE_STEPS))fail('INVALID_ADVANCE',`Advance0..${MAX_ADVANCE_STEPS} fixed100ms steps.`);const s=copy(state);for(let i=0;i<steps;i++)singleStep(s);s.operations.push({type:'advance',steps});return s;}
+export function advanceCozyWorld(state:CozyWorldState,steps:number):CozyWorldState{if(state.engineVersion===COZY_ENGINE_VERSION)return v1.advanceCozyWorld(legacy(state),steps);if(state.engineVersion===COZY_V2_ENGINE_VERSION)return v2.advanceCozyWorld(state as unknown as V2State,steps);if(!integer(steps,0,MAX_ADVANCE_STEPS))fail('INVALID_ADVANCE',`Advance0..${MAX_ADVANCE_STEPS} fixed100ms steps.`);const s=copy(state);for(let i=0;i<steps;i++)singleStep(s);s.operations.push({type:'advance',steps});return s;}
 
 export function getRuleCapabilities(){return{schemaVersion:1,fields:{organizer:{type:'enum',values:['player','villagers']},venue:{type:'enum',values:['square','market']},foodTarget:{type:'integer',minimum:2,maximum:6},seedReserve:{type:'integer',minimum:0,maximum:3},flood:{enabled:{type:'boolean'},zone:{type:'enum',values:['low-path']},durationSteps:{type:'integer',minimum:100,maximum:1200}}},semantics:{seedReserve:'Keeps this many grain in the shared bakery from NPC festival collection, and in the player bag from gifts/donations. Planting may use player seeds; NPC-owned gifts remain usable.',venue:'A prepared or announced festival keeps its venue; a changed venue applies to the next festival.',revert:'Prospective rule restoration. Historical undo requires rewind and fork.',flood:'Blocks movement in the authored low-path zone; existing occupants get safe egress. Fixed-step TTL.'}};}
 export const cozyCapsHash=()=>hashValue(getRuleCapabilities());
@@ -219,15 +234,18 @@ function setRules(s:CozyWorldState,next:RuleSet,patch:RulePatch,kind:'apply'|'re
 }
 export function applyRulePatch(state:CozyWorldState,input:RulePatch,expectedRulesRevision:number,source:RuleProvenance={mode:'manual'},id=`rule-${state.rulesRevision+1}`):CozyWorldState{
   if(state.engineVersion===COZY_ENGINE_VERSION)return v1.applyRulePatch(legacy(state),input,expectedRulesRevision,source,id);
+  if(state.engineVersion===COZY_V2_ENGINE_VERSION)return v2.applyRulePatch(state as unknown as V2State,input,expectedRulesRevision,source,id);
   stableId(id);if(seenId(state,id))return state;if(expectedRulesRevision!==state.rulesRevision)fail('STALE_RULES','The world rules changed. Preview the proposal again.');const patch=validateRulePatch(input),preview=previewRulePatch(state,patch);if(!preview.valid)fail('INVALID_RULE',preview.errors.join(' '));const s=copy(state),prov=provenance(source);setRules(s,preview.next,patch,'apply',prov);markId(s,id);s.operations.push({type:'rules',id,patch,expectedRulesRevision,provenance:prov});return s;
 }
 export function revertRulePatch(state:CozyWorldState,expectedRulesRevision:number,source:RuleProvenance={mode:'manual'},id=`revert-${state.rulesRevision+1}`):CozyWorldState{
   if(state.engineVersion===COZY_ENGINE_VERSION)return v1.revertRulePatch(legacy(state),expectedRulesRevision,source,id);
+  if(state.engineVersion===COZY_V2_ENGINE_VERSION)return v2.revertRulePatch(state as unknown as V2State,expectedRulesRevision,source,id);
   stableId(id);if(seenId(state,id))return state;if(expectedRulesRevision!==state.rulesRevision)fail('STALE_RULES','The world rules changed. Refresh before reverting.');const previous=state.ruleHistory.at(-1)?.previous;if(!previous)fail('NO_PREVIOUS_RULE','There is no earlier rule version to restore.');const s=copy(state),prov=provenance(source);setRules(s,previous,previous,'revert',prov);markId(s,id);s.operations.push({type:'revert',id,expectedRulesRevision,provenance:prov});return s;
 }
 
 export function projectNpcContext(s:CozyWorldState,id:typeof NPC_IDS[number]):NpcContext{
   if(s.engineVersion===COZY_ENGINE_VERSION)return v1.projectNpcContext(legacy(s),id);
+  if(s.engineVersion===COZY_V2_ENGINE_VERSION)return v2.projectNpcContext(s as unknown as V2State,id);
   const n=npc(s,id);if(!n)fail('UNKNOWN_NPC','Unknown villager.');const observation=n.festivalObservation;
   return{step:s.step,npc:{id:n.id,name:n.name,traits:[...n.traits],inventory:copy(n.inventory),trust:n.trust,affinity:n.affinity,position:{x:n.x,y:n.y},needs:copy(n.needs),goals:copy(n.goals)},memories:copy(n.memories.slice(-12)),nearbyActors:actors(s).filter(a=>a.id!==id&&distance(a,n)<=5).map(a=>({id:a.id,position:{x:a.x,y:a.y}})),places:s.places.map(p=>({id:p.id,name:p.name,position:{...p.position},stock:distance(n,p.position)<=2?copy(p.stock):null})),festival:observation?{id:observation.id,venue:observation.venue,phase:observation.phase,food:observation.food,setupDone:observation.setupDone}:null,rules:copy(s.rules),rulesRevision:s.rulesRevision};
 }
@@ -242,6 +260,7 @@ export function validateNpcPlan(value:unknown,context:NpcContext):NpcPlan{
 }
 export function applyNpcPlan(state:CozyWorldState,input:NpcPlan,source:RuleProvenance,id=`npc-plan-${state.nextId}`):CozyWorldState{
   if(state.engineVersion===COZY_ENGINE_VERSION)return v1.applyNpcPlan(legacy(state),input,source,id);
+  if(state.engineVersion===COZY_V2_ENGINE_VERSION)return v2.applyNpcPlan(state as unknown as V2State,input,source,id);
   stableId(id);if(seenId(state,id))return state;const plan=validateNpcPlan(input,projectNpcContext(state,input.npcId)),s=copy(state),n=npc(s,plan.npcId)!,prov=provenance(source);cancel(s,n);n.overrideUntil=s.step+plan.durationSteps;n.lastDecisionStep=s.step;n.reason=plan.reason;
   if(plan.action==='bring-food'){if(!assignFood(s,n,plan.quantity,prov))fail('NO_USEFUL_TASK','No available grain contribution is needed.');}
   else if(plan.action==='set-up'){if(!assignSetup(s,n,prov))fail('NO_USEFUL_TASK','The setup is already assigned or lacks materials.');}
@@ -252,30 +271,32 @@ export function applyNpcPlan(state:CozyWorldState,input:NpcPlan,source:RuleProve
   n.reason=plan.reason;if(n.task)n.task.reason=plan.reason;n.action=plan.action.replaceAll('-',' ');if(plan.speech)say(s,n,plan.speech,plan.evidenceIds);emit(s,'npc_plan_applied',n.id,{plan,provenance:prov},[n.id],plan.evidenceIds);markId(s,id);s.nextId++;s.operations.push({type:'npc-plan',id,plan,provenance:prov});return s;
 }
 
-export function hashCozyWorld(s:CozyWorldState):string{if(s.engineVersion===COZY_ENGINE_VERSION)return v1.hashCozyWorld(legacy(s));const value={...s} as Partial<CozyWorldState>;delete value.operations;delete value.origin;delete value.events;return hashValue(value);}
+export function hashCozyWorld(s:CozyWorldState):string{if(s.engineVersion===COZY_ENGINE_VERSION)return v1.hashCozyWorld(legacy(s));if(s.engineVersion===COZY_V2_ENGINE_VERSION)return v2.hashCozyWorld(s as unknown as V2State);const value={...s} as Partial<CozyWorldState>;delete value.operations;delete value.origin;delete value.events;return hashValue(value);}
 export const projectCozyWorld=(s:CozyWorldState)=>copy(s);
 export function verifyCozyWorld(s:CozyWorldState):CozyViolation[]{
   if(s.engineVersion===COZY_ENGINE_VERSION)return v1.verifyCozyWorld(legacy(s));
-  const errors:CozyViolation[]=[],bad=(code:string,message:string)=>errors.push({code,message});if(s.engineVersion!==COZY_V2_ENGINE_VERSION||s.contentVersion!==COZY_V2_CONTENT_VERSION||!s.emergence||s.version!==1)bad('version','Unsupported cozy version');if(!integer(s.step,0,Number.MAX_SAFE_INTEGER)||s.tick!==s.step/10)bad('clock','Invalid fixed-step clock');if(s.npcs.length!==3||NPC_IDS.some(id=>!npc(s,id))||new Set(s.npcs.map(n=>n.id)).size!==3)bad('census','Three stable cozy villagers are required');
-  for(const item of GOODS){let actual=actors(s).reduce((n,a)=>n+a.inventory[item],0)+s.places.reduce((n,p)=>n+p.stock[item],0);if(item==='grain')actual+=s.festival.food;const expected=s.ledger.initial[item]+s.ledger.environment[item]+s.ledger.produced[item]-s.ledger.consumed[item]-s.ledger.waste[item];if(actual!==expected)bad('conservation',`${item}: expected${expected}, held${actual}`);}
+  if(s.engineVersion===COZY_V2_ENGINE_VERSION)return v2.verifyCozyWorld(s as unknown as V2State);
+  const errors:CozyViolation[]=[],bad=(code:string,message:string)=>errors.push({code,message});if(s.engineVersion!==COZY_V3_ENGINE_VERSION||s.contentVersion!==COZY_V3_CONTENT_VERSION||!s.emergence||!s.mind||s.version!==1)bad('version','Unsupported cozy version');if(!integer(s.step,0,Number.MAX_SAFE_INTEGER)||s.tick!==s.step/10)bad('clock','Invalid fixed-step clock');if(s.npcs.length!==3||NPC_IDS.some(id=>!npc(s,id))||new Set(s.npcs.map(n=>n.id)).size!==3)bad('census','Three stable cozy villagers are required');
+  for(const item of GOODS){let actual=actors(s).reduce((n,a)=>n+a.inventory[item],0)+s.places.reduce((n,p)=>n+p.stock[item],0)+worldObjectGoods(s)[item];if(item==='grain')actual+=s.festival.food;const expected=s.ledger.initial[item]+s.ledger.environment[item]+s.ledger.produced[item]-s.ledger.consumed[item]-s.ledger.waste[item];if(actual!==expected)bad('conservation',`${item}: expected${expected}, held${actual}`);}
   for(const a of actors(s)){if(!Number.isInteger(a.x*4)||!Number.isInteger(a.y*4)||!isCozyWalkable(s,Math.round(a.x),Math.round(a.y),true))bad('position',`${a.id} left solid walkable geometry`);if(GOODS.some(g=>!integer(a.inventory[g],0,10000)))bad('inventory',`${a.id} has an invalid inventory`);if(a.memories.length>32||a.memories.some(m=>!m.id.endsWith(`/m/${a.id}`)||m.step>s.step))bad('memory','Invalid private memory');}
   for(const n of s.npcs)if(Object.values(n.needs).some(v=>!integer(v,0,100))||n.goals.length!==3||n.goals.some(g=>!integer(g.weight,0,100)))bad('needs','Invalid bounded villager needs or goals');
   for(const p of s.places)if(GOODS.some(g=>!integer(p.stock[g],0,10000)))bad('stock','Invalid place stock');for(const p of s.plots){if(p.harvestCount<0||p.phase==='growing'&&(p.readyAt===null||p.wateredAt===null))bad('crop','Invalid crop phase');}
   if(s.ledger.produced.grain!==s.plots.reduce((n,p)=>n+p.harvestCount*4,0))bad('harvest','Harvest output does not match completed crops');
   for(const p of s.places)for(const g of GOODS)if(s.reservations.filter(r=>r.placeId===p.id&&r.item===g).reduce((n,r)=>n+r.quantity,0)>p.stock[g])bad('reservation','A source is over-reserved');
   for(let i=0;i<s.events.length;i++){const event=s.events[i],body={...event} as Partial<CozyEvent>;delete body.hash;if(hashValue(body)!==event.hash||i>0&&event.prevHash!==s.events[i-1].hash)bad('event_hash','Invalid retained event chain');}if(s.events.length&&s.events.at(-1)!.hash!==s.eventHead)bad('event_head','Event head mismatch');
-  if(!previewRulePatch(s,s.rules).valid)bad('rules','Invalid active rule set');if(s.festival.food<0||s.festival.food>6||new Set(s.festival.participants).size!==s.festival.participants.length)bad('festival','Invalid festival accounting');if(s.emergence)verifyEmergence(s,bad);return errors;
+  if(!previewRulePatch(s,s.rules).valid)bad('rules','Invalid active rule set');if(s.festival.food<0||s.festival.food>6||new Set(s.festival.participants).size!==s.festival.participants.length)bad('festival','Invalid festival accounting');if(s.emergence)verifyEmergence(s,bad);if(s.mind)verifyPersonalMind(s,bad);if(s.activities)verifyActivities(s,bad);if(s.worldObjects)verifyWorldObjects(s,bad);return errors;
 }
 
 export {initializeCozyWorld,emptyGoods,canonicalStringify};
 
 /** Social state exists only after the explicit version-two upgrade. No model runs in ticks. */
-const social=(s:CozyWorldState)=>{if(s.engineVersion!==COZY_V2_ENGINE_VERSION||!s.emergence)fail('UPGRADE_REQUIRED','Create an explicit cooperative-world fork first.');return s.emergence;};
+const social=(s:CozyWorldState)=>{if(![COZY_V2_ENGINE_VERSION,COZY_V3_ENGINE_VERSION].includes(s.engineVersion as typeof COZY_V2_ENGINE_VERSION)||!s.emergence)fail('UPGRADE_REQUIRED','Create an explicit cooperative-world fork first.');return s.emergence;};
 const goal=(n:Npc,id:'help'|'belong'|'understand')=>n.goals.find(g=>g.id===id)?.weight??0;
 const socialHistory=(s:CozyWorldState,event:CozyEvent,g?:Institution)=>{const h=social(s).history;h.push(event.id);if(h.length>64)h.shift();if(g){g.history.push(event.id);if(g.history.length>32)g.history.shift();}};
 function socialIntent(s:CozyWorldState,n:Npc){return hashValue({revision:social(s).actors[n.id].intentRevision,task:n.task?{kind:n.task.kind,targetId:n.task.targetId,phase:n.task.phase??null,proposalId:n.task.proposalId??null,institutionId:n.task.institutionId??null}:null,overrideUntil:n.overrideUntil??null});}
 function relevantEvidence(n:Npc){const rows=n.memories.filter(m=>['crop_harvested','field_inspected','gift_accepted','social_proposal_delivered','social_proposal_created','social_response','institution_formed','institution_member_joined'].includes(m.type));return [...new Map([...rows.slice(-5),...n.memories.slice(-3)].map(m=>[m.id,m])).values()].slice(-8);}
 export function projectInitiativeContext(s:CozyWorldState,id:typeof NPC_IDS[number]):InitiativeContext{
+ if(s.engineVersion===COZY_V2_ENGINE_VERSION)return v2.projectInitiativeContext(s as unknown as V2State,id);
  const e=social(s),n=npc(s,id);if(!n)fail('UNKNOWN_NPC','Unknown villager.');const actor=e.actors[id],intentHash=socialIntent(s,n),known=e.proposals.filter(p=>!!p.deliveries[id]).slice(-3);
  const observed=n.festivalObservation?{id:n.festivalObservation.id,venue:n.festivalObservation.venue,phase:n.festivalObservation.phase,food:n.festivalObservation.food,setupDone:n.festivalObservation.setupDone}:null;
  const observations=relevantEvidence(n).map(m=>({...copy(m),text:m.text.slice(0,220)}));
@@ -286,6 +307,7 @@ export function projectInitiativeContext(s:CozyWorldState,id:typeof NPC_IDS[numb
  if(new TextEncoder().encode(JSON.stringify(context)).length>8000)fail('CONTEXT_LIMIT','This initiative context exceeded its bounded projection.');return copy(context);
 }
 export function selectInitiativeOpportunity(s:CozyWorldState,options:{excludeNpcIds?:typeof NPC_IDS[number][]}={}):InitiativeOpportunity|null{
+ if(s.engineVersion===COZY_V2_ENGINE_VERSION)return v2.selectInitiativeOpportunity(s as unknown as V2State,options);
  if(!s.emergence)return null;const candidates=s.npcs.filter(n=>!options.excludeNpcIds?.includes(n.id)&&s.step>=s.emergence!.actors[n.id].lastInitiativeStep+300&&!n.task&&!(n.overrideUntil&&n.overrideUntil>s.step)).sort((a,b)=>s.emergence!.actors[a.id].lastInitiativeStep-s.emergence!.actors[b.id].lastInitiativeStep||NPC_IDS.indexOf(a.id)-NPC_IDS.indexOf(b.id));
  const opportunities=candidates.map(n=>{const context=projectInitiativeContext(s,n.id);return{npcId:n.id,triggerKey:context.triggerKey,intentHash:context.intentHash,context};});opportunities.sort((a,b)=>Number(b.context.eligibility.canShare)*3+Number(b.context.eligibility.canPropose)*2-(Number(a.context.eligibility.canShare)*3+Number(a.context.eligibility.canPropose)*2)||s.emergence!.actors[a.npcId].lastInitiativeStep-s.emergence!.actors[b.npcId].lastInitiativeStep||NPC_IDS.indexOf(a.npcId)-NPC_IDS.indexOf(b.npcId));return opportunities[0]??null;
 }
@@ -339,7 +361,7 @@ function seekPerson(s:CozyWorldState,a:Actor,task:NonNullable<Actor['task']>,tar
 function executeCommunication(s:CozyWorldState,a:Actor,task:NonNullable<Actor['task']>){
  const p=social(s).proposals.find(p=>p.id===task.proposalId),target=npc(s,task.targetId);if(!p||!target||a.id!==p.authorId||p.deliveries[target.id]){finish(s,a);return;}
  if(task.expiresAt!==undefined&&s.step>=task.expiresAt){const event=emit(s,'social_delivery_unfinished',a.id,{proposalId:p.id,targetId:target.id,reason:'The bounded search ended without a conversation.'},[a.id]);socialHistory(s,event);finish(s,a);return;}
- if(close(a,target)){deliverProposal(s,p,a.id,target);formation(s,p);say(s,target,p.responses[target.id]!.reason,[p.responses[target.id]!.eventId]);finish(s,a);return;}seekPerson(s,a,task,target);
+ if(close(a,target)){deliverProposal(s,p,a.id,target);formation(s,p);const response=p.responses[target.id]!;say(s,target,s.mind&&response.stance==='join'?'I can help with that.':s.mind&&response.stance==='decline'?'I am not ready to take that on.':response.reason,[response.eventId]);finish(s,a);return;}seekPerson(s,a,task,target);
 }
 function knownPeers(s:CozyWorldState,g:Institution,n:Npc):typeof NPC_IDS[number][]{const p=social(s).proposals.find(p=>p.id===g.proposalId),ids=new Set<typeof NPC_IDS[number]>([n.id,...(p?.deliveries[n.id]?.knownMemberIds??[])]);for(const m of n.memories){if(m.facts?.institutionId===g.id)for(const id of m.facts.memberIds??[])ids.add(id);if(m.type==='social_response'&&m.actorId!=='player'&&m.actorId&&m.text.includes('chose to join'))ids.add(m.actorId);}return NPC_IDS.filter(id=>ids.has(id)&&g.members.includes(id));}
 function commitInstitutionTask(s:CozyWorldState,n:Npc,g:Institution){if(!n.task)return;n.task.institutionId=g.id;const event=emit(s,'institution_task_committed',n.id,{institutionId:g.id,proposalId:g.proposalId,kind:n.task.kind,quantity:n.task.quantity??1,reason:n.task.reason},[n.id],[social(s).proposals.find(p=>p.id===g.proposalId)!.responses[n.id]!.eventId]);remember(s,event,`${n.name} chose ${n.task.kind} work for ${g.name}.`);socialHistory(s,event,g);}
@@ -368,6 +390,7 @@ function updateCooperation(s:CozyWorldState){
  }
 }
 export function applySocialInitiative(state:CozyWorldState,input:SocialInitiativeDecision,source:RuleProvenance,id:string):CozyWorldState{
+ if(state.engineVersion===COZY_V2_ENGINE_VERSION)return v2.applySocialInitiative(state as unknown as V2State,input,source,id);
  social(state);stableId(id);if(seenId(state,id))return state;const n=npc(state,input?.npcId);if(!n)fail('UNKNOWN_NPC','Unknown initiative author.');if(input.intentHash!==socialIntent(state,n))fail('INITIATIVE_STALE','This actor has accepted a different intent; the frozen initiative cannot replace it.');
  const context=projectInitiativeContext(state,n.id);context.triggerKey=input.triggerKey;context.intentHash=input.intentHash;context.observations=copy(n.memories);const decision=validateSocialInitiative(input,context);if(state.step<context.eligibility.nextEligibleStep)fail('INITIATIVE_COOLDOWN','This villager needs time before another initiative.');const s=copy(state),actor=npc(s,n.id)!,e=social(s),meta=e.actors[n.id],prov=provenance(source);meta.lastInitiativeStep=s.step;meta.initiativeCount++;meta.intentRevision++;
  if(decision.action==='propose'){
@@ -381,6 +404,7 @@ export function previewSocialProposalPermission(s:CozyWorldState,proposalId:stri
  const e=social(s),p=e.proposals.find(p=>p.id===proposalId);if(!p||!p.institutionId)fail('NO_INSTITUTION','At least two independent members must agree before owner permission is requested.');return previewRulePatch(s,{organizer:'villagers',venue:p.charter.venue,foodTarget:p.charter.grainTarget,seedReserve:p.charter.seedFloor});
 }
 export function decideSocialProposal(state:CozyWorldState,proposalId:string,decision:'approve'|'decline',id:string):CozyWorldState{
+ if(state.engineVersion===COZY_V2_ENGINE_VERSION)return v2.decideSocialProposal(state as unknown as V2State,proposalId,decision,id);
  social(state);stableId(id);if(seenId(state,id))return state;if(!['approve','decline'].includes(decision))fail('INVALID_PERMISSION','Choose approve or decline.');const preview=previewSocialProposalPermission(state,proposalId);if(!preview.valid)fail('INVALID_PERMISSION',preview.errors.join(' '));const s=copy(state),p=social(s).proposals.find(p=>p.id===proposalId)!,g=social(s).institutions.find(g=>g.id===p.institutionId)!;
  if(decision==='approve'){setRules(s,preview.next,{organizer:'villagers',venue:p.charter.venue,foodTarget:p.charter.grainTarget,seedReserve:p.charter.seedFloor},'apply',{mode:'manual',sourceText:`Owner approved the finite practices of ${g.name}.`});g.permission='approved';g.status='active';}
  else{g.permission='declined';g.status='waiting-permission';}
@@ -392,3 +416,8 @@ function verifyEmergence(s:CozyWorldState,bad:(code:string,message:string)=>void
  for(const p of e.proposals){if(p.kind!=='cooperative-charter'||p.capability!=='shared-gathering'||!NPC_IDS.includes(p.authorId)||!integer(p.charter.grainTarget,2,6)||!integer(p.charter.seedFloor,0,3)||!['square','market'].includes(p.charter.venue)||p.createdStep>s.step||p.name.length>48||p.purpose.length>180||p.institutionId&&!groups.has(p.institutionId))bad('social_proposal','Invalid cooperative charter');for(const id of NPC_IDS){const delivery=p.deliveries[id],response=p.responses[id];if(response&&!delivery||delivery&&delivery.step>s.step||response&&(response.decidedStep<delivery!.step||response.decidedStep>s.step||response.evidenceIds.length>6||!response.evidenceIds.includes(delivery!.eventId)))bad('social_knowledge','A response must follow actual received evidence');}}
  for(const g of e.institutions){const p=e.proposals.find(p=>p.id===g.proposalId);if(!p||g.members.length<2||new Set(g.members).size!==g.members.length||g.members.some(id=>!NPC_IDS.includes(id)||p.responses[id]?.stance!=='join')||!g.members.includes(g.leaderId)||g.resourceAccount.kind!=='festival'||g.history.length>32||g.formedStep>s.step)bad('institution','Invalid persisted association');}
 }
+
+function personalRuntime():PersonalRuntime{return{emit,remember,route,cancel,pickup,chooseCooperativeNpc};}
+export function applyPersonalDecision(state:CozyWorldState,decision:PersonalDecision,source:RuleProvenance,id:string):CozyWorldState{const result=applyPersonalDecisionInternal(state,decision,source,id,personalRuntime());return decision.action==='compose'&&decision.program?applyActivityProposalInternal(result,decision.program,source,id+':activity',activityRuntime(),false):result;}
+function activityRuntime():ActivityRuntime{return{emit,remember,route,cancel,pickup};}
+export function applyActivityProposal(state:CozyWorldState,program:ActivityBlueprint,source:RuleProvenance,id:string):CozyWorldState{return applyActivityProposalInternal(state,program,source,id,activityRuntime());}

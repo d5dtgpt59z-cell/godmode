@@ -1,0 +1,641 @@
+{
+  "saveId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e",
+  "paused": true,
+  "engineVersion": "cozy-engine-3",
+  "step": 600,
+  "programs": [
+    {
+      "id": "activity-1",
+      "name": "An afternoon of affection",
+      "status": "completed",
+      "responses": {
+        "wren": {
+          "status": "accepted",
+          "reason": "I would like to come, and decide about each interaction myself.",
+          "step": 0,
+          "eventId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:5",
+          "provenance": "deterministic-policy"
+        },
+        "ada": {
+          "status": "accepted",
+          "reason": "I would like to come, and decide about each interaction myself.",
+          "step": 107,
+          "eventId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:9",
+          "provenance": "deterministic-policy"
+        },
+        "mara": {
+          "status": "accepted",
+          "reason": "I would like to come, and decide about each interaction myself.",
+          "step": 191,
+          "eventId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:14",
+          "provenance": "deterministic-policy"
+        }
+      },
+      "outcomes": [
+        {
+          "stepIndex": 0,
+          "actorId": "ada",
+          "targetId": "mara",
+          "outcome": "declined",
+          "reason": "Mara: I do not feel comfortable with that gesture right now.",
+          "eventId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:24"
+        },
+        {
+          "stepIndex": 0,
+          "actorId": "ada",
+          "targetId": "wren",
+          "outcome": "completed",
+          "reason": "Both independently consented and completed the timed physical gesture.",
+          "eventId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:29"
+        },
+        {
+          "stepIndex": 0,
+          "actorId": "mara",
+          "targetId": "wren",
+          "outcome": "declined",
+          "reason": "Mara: I do not feel comfortable with that gesture right now.",
+          "eventId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:34"
+        }
+      ],
+      "provenance": {
+        "mode": "manual",
+        "proposalId": "115f13df-9991-492e-a682-25589615e00a"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:4",
+      "seq": 4,
+      "step": 0,
+      "tick": 0,
+      "type": "activity_program_proposed",
+      "actorId": "wren",
+      "audience": [
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "blueprint": {
+          "name": "An afternoon of affection",
+          "purpose": "Invite neighbors to meet and choose their own social interactions.",
+          "organizerId": "wren",
+          "participants": [
+            "ada",
+            "mara",
+            "wren"
+          ],
+          "venue": "square",
+          "steps": [
+            {
+              "action": "gesture",
+              "actorId": null,
+              "targetId": null,
+              "item": null,
+              "quantity": null,
+              "gesture": "kiss",
+              "text": null,
+              "durationSteps": 100
+            }
+          ]
+        },
+        "provenance": {
+          "mode": "manual",
+          "proposalId": "115f13df-9991-492e-a682-25589615e00a"
+        },
+        "text": "A request for An afternoon of affection was proposed; participation has not been assumed."
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "a33ef6847d87afa5095200a8accedc90ce1db9303a5ac146e948e9c61728dade",
+      "hash": "950cc7d49a22bfe111ab15cac5c108f9f49f6c8339103f3cbb1ac2e98f665f8f"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:5",
+      "seq": 5,
+      "step": 0,
+      "tick": 0,
+      "type": "activity_response",
+      "actorId": "wren",
+      "audience": [
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "status": "accepted",
+        "reason": "I would like to come, and decide about each interaction myself.",
+        "host": true,
+        "policy": "deterministic-policy",
+        "text": "I would like to come, and decide about each interaction myself."
+      },
+      "sourceIds": [
+        "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:4"
+      ],
+      "rulesRevision": 0,
+      "prevHash": "950cc7d49a22bfe111ab15cac5c108f9f49f6c8339103f3cbb1ac2e98f665f8f",
+      "hash": "ec4056a827b7ea4ebdecd3a7bbdc03d9e81c80ef55f81edb1d8ef15d36dbabf9"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:8",
+      "seq": 8,
+      "step": 107,
+      "tick": 10.7,
+      "type": "activity_invitation_delivered",
+      "actorId": "wren",
+      "audience": [
+        "ada",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "npcId": "ada",
+        "positionHost": {
+          "x": 24.75,
+          "y": 6
+        },
+        "positionRecipient": {
+          "x": 26,
+          "y": 6
+        },
+        "venue": "square",
+        "steps": [
+          {
+            "action": "gesture",
+            "actorId": null,
+            "targetId": null,
+            "item": null,
+            "quantity": null,
+            "gesture": "kiss",
+            "text": null,
+            "durationSteps": 100
+          }
+        ],
+        "knownTargets": [],
+        "text": "An invitation to An afternoon of affection, with individual choice about each activity."
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "9070ba60acbc5246fc185fb0a51755dd836a2ca2b8bf6768acb1d67b847b4062",
+      "hash": "d32ed4966f234c1d3d14c2b375259ed01c5f3c40585886ad5609ea4315759602"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:9",
+      "seq": 9,
+      "step": 107,
+      "tick": 10.7,
+      "type": "activity_response",
+      "actorId": "ada",
+      "audience": [
+        "ada",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "status": "accepted",
+        "reason": "I would like to come, and decide about each interaction myself.",
+        "policy": "deterministic-policy",
+        "text": "I would like to come, and decide about each interaction myself."
+      },
+      "sourceIds": [
+        "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:8"
+      ],
+      "rulesRevision": 0,
+      "prevHash": "d32ed4966f234c1d3d14c2b375259ed01c5f3c40585886ad5609ea4315759602",
+      "hash": "236ce258f22a7293827cdcc4dca9d9741c9eda1c94c3c041e0e4dea39a65d947"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:13",
+      "seq": 13,
+      "step": 191,
+      "tick": 19.1,
+      "type": "activity_invitation_delivered",
+      "actorId": "wren",
+      "audience": [
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "npcId": "mara",
+        "positionHost": {
+          "x": 12.25,
+          "y": 8
+        },
+        "positionRecipient": {
+          "x": 11,
+          "y": 8
+        },
+        "venue": "square",
+        "steps": [
+          {
+            "action": "gesture",
+            "actorId": null,
+            "targetId": null,
+            "item": null,
+            "quantity": null,
+            "gesture": "kiss",
+            "text": null,
+            "durationSteps": 100
+          }
+        ],
+        "knownTargets": [],
+        "text": "An invitation to An afternoon of affection, with individual choice about each activity."
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "033676faa2aa95978a0ae904a42450f1dd242a7c2843052b19db256e30f2b78a",
+      "hash": "736532ba601ac5ba59906635c1e7d63b3ae1b4436099e90aae822c811afcf423"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:14",
+      "seq": 14,
+      "step": 191,
+      "tick": 19.1,
+      "type": "activity_response",
+      "actorId": "mara",
+      "audience": [
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "status": "accepted",
+        "reason": "I would like to come, and decide about each interaction myself.",
+        "policy": "deterministic-policy",
+        "text": "I would like to come, and decide about each interaction myself."
+      },
+      "sourceIds": [
+        "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:13"
+      ],
+      "rulesRevision": 0,
+      "prevHash": "736532ba601ac5ba59906635c1e7d63b3ae1b4436099e90aae822c811afcf423",
+      "hash": "26e6cbf16de7e3a472a426b01a443f6a909ce453dd194a228d1c965602ffc03f"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:21",
+      "seq": 21,
+      "step": 248,
+      "tick": 24.8,
+      "type": "activity_meeting_started",
+      "actorId": "wren",
+      "audience": [
+        "ada",
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "participants": [
+          "ada",
+          "mara",
+          "wren"
+        ],
+        "venue": "square",
+        "text": "The people who chose to come have actually arrived."
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "361f3b4a17196ba0fd607c44614ab066c5dfa4bf6dc488c5b9e6721648c6e5fa",
+      "hash": "bb1416988f57c742b42b831edda6e8363e8048617e2243352e52b10da6dbaf40"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:22",
+      "seq": 22,
+      "step": 250,
+      "tick": 25,
+      "type": "activity_gesture_consent",
+      "actorId": "ada",
+      "audience": [
+        "ada",
+        "mara"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "gesture": "kiss",
+        "otherId": "mara",
+        "accepted": true,
+        "reason": "I feel comfortable choosing this gesture with this person.",
+        "policy": "deterministic-policy",
+        "stepIndex": 0
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "bb1416988f57c742b42b831edda6e8363e8048617e2243352e52b10da6dbaf40",
+      "hash": "449f3263f502119bbfc562e02f5c74f8faa2391d90ee48b488c5341ea241017c"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:23",
+      "seq": 23,
+      "step": 250,
+      "tick": 25,
+      "type": "activity_gesture_consent",
+      "actorId": "mara",
+      "audience": [
+        "ada",
+        "mara"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "gesture": "kiss",
+        "otherId": "ada",
+        "accepted": false,
+        "reason": "I do not feel comfortable with that gesture right now.",
+        "policy": "deterministic-policy",
+        "stepIndex": 0
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "449f3263f502119bbfc562e02f5c74f8faa2391d90ee48b488c5341ea241017c",
+      "hash": "e46398ad2fb01225071a57e73cd0f2cccecc4b0fb77f7bf921caf86413951923"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:24",
+      "seq": 24,
+      "step": 250,
+      "tick": 25,
+      "type": "activity_step_outcome",
+      "actorId": "ada",
+      "audience": [
+        "ada",
+        "mara"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "stepIndex": 0,
+        "action": "gesture",
+        "outcome": "declined",
+        "targetId": "mara",
+        "reason": "Mara: I do not feel comfortable with that gesture right now.",
+        "text": "Mara: I do not feel comfortable with that gesture right now."
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "e46398ad2fb01225071a57e73cd0f2cccecc4b0fb77f7bf921caf86413951923",
+      "hash": "14cf8ebc15c8d2474fec210d2b345583edee035d3b780f1124b85f246ea494bf"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:26",
+      "seq": 26,
+      "step": 251,
+      "tick": 25.1,
+      "type": "activity_gesture_consent",
+      "actorId": "ada",
+      "audience": [
+        "ada",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "gesture": "kiss",
+        "otherId": "wren",
+        "accepted": true,
+        "reason": "I feel comfortable choosing this gesture with this person.",
+        "policy": "deterministic-policy",
+        "stepIndex": 0
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "d72bd8dc346cb8a002870d60b4f79b544bcc03b273d9156e42751c5ab3cc5677",
+      "hash": "c2a5cc90116bd362d7ccdec8d914ff018ca71610ed3923a559d6e5efdd92d862"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:27",
+      "seq": 27,
+      "step": 251,
+      "tick": 25.1,
+      "type": "activity_gesture_consent",
+      "actorId": "wren",
+      "audience": [
+        "ada",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "gesture": "kiss",
+        "otherId": "ada",
+        "accepted": true,
+        "reason": "I feel comfortable choosing this gesture with this person.",
+        "policy": "deterministic-policy",
+        "stepIndex": 0
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "c2a5cc90116bd362d7ccdec8d914ff018ca71610ed3923a559d6e5efdd92d862",
+      "hash": "3a9068c4b93908e25ff205d2c6736df5581555a811840302285f8546b510d619"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:28",
+      "seq": 28,
+      "step": 262,
+      "tick": 26.2,
+      "type": "activity_gesture_started",
+      "actorId": "ada",
+      "audience": [
+        "ada",
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "gesture": "kiss",
+        "leftId": "ada",
+        "rightId": "wren",
+        "positionLeft": {
+          "x": 12,
+          "y": 17
+        },
+        "positionRight": {
+          "x": 13,
+          "y": 17
+        },
+        "durationSteps": 100,
+        "consented": true
+      },
+      "sourceIds": [
+        "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:26",
+        "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:27"
+      ],
+      "rulesRevision": 0,
+      "prevHash": "3a9068c4b93908e25ff205d2c6736df5581555a811840302285f8546b510d619",
+      "hash": "565ae731785ae7313305ea61570bbeb9effe9039b343fcca527ab84478e02085"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:29",
+      "seq": 29,
+      "step": 361,
+      "tick": 36.1,
+      "type": "activity_gesture_completed",
+      "actorId": "ada",
+      "audience": [
+        "ada",
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "gesture": "kiss",
+        "leftId": "ada",
+        "rightId": "wren",
+        "positionLeft": {
+          "x": 12,
+          "y": 17
+        },
+        "positionRight": {
+          "x": 13,
+          "y": 17
+        },
+        "consented": true,
+        "durationSteps": 100,
+        "stepIndex": 0,
+        "text": "Ada and Wren chose to kiss."
+      },
+      "sourceIds": [
+        "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:26",
+        "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:27"
+      ],
+      "rulesRevision": 0,
+      "prevHash": "565ae731785ae7313305ea61570bbeb9effe9039b343fcca527ab84478e02085",
+      "hash": "9237695b7fdb727d3e092577b25cca002d075df75c1e41167abab3d6d2dedfac"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:32",
+      "seq": 32,
+      "step": 362,
+      "tick": 36.2,
+      "type": "activity_gesture_consent",
+      "actorId": "mara",
+      "audience": [
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "gesture": "kiss",
+        "otherId": "wren",
+        "accepted": false,
+        "reason": "I do not feel comfortable with that gesture right now.",
+        "policy": "deterministic-policy",
+        "stepIndex": 0
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "fd66aeeee0ddd076408e8b5e628131434bd9be081bd017c09f55429f56953980",
+      "hash": "d04e6b48004181dbccecff86a482f730f43de993abc29786ebfdbd7c21d5c050"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:33",
+      "seq": 33,
+      "step": 362,
+      "tick": 36.2,
+      "type": "activity_gesture_consent",
+      "actorId": "wren",
+      "audience": [
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "gesture": "kiss",
+        "otherId": "mara",
+        "accepted": true,
+        "reason": "I feel comfortable choosing this gesture with this person.",
+        "policy": "deterministic-policy",
+        "stepIndex": 0
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "d04e6b48004181dbccecff86a482f730f43de993abc29786ebfdbd7c21d5c050",
+      "hash": "978f49526685bc68c868c87a4f9de7b664e7180d549325fea96ad68cd6544906"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:34",
+      "seq": 34,
+      "step": 362,
+      "tick": 36.2,
+      "type": "activity_step_outcome",
+      "actorId": "mara",
+      "audience": [
+        "ada",
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "stepIndex": 0,
+        "action": "gesture",
+        "outcome": "declined",
+        "targetId": "wren",
+        "reason": "Mara: I do not feel comfortable with that gesture right now.",
+        "text": "Mara: I do not feel comfortable with that gesture right now."
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "978f49526685bc68c868c87a4f9de7b664e7180d549325fea96ad68cd6544906",
+      "hash": "3daaa8efc5ece18cab1b8799dbb259f9e4e4d70b1607248c768abc76d8a72097"
+    },
+    {
+      "id": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:39",
+      "seq": 39,
+      "step": 364,
+      "tick": 36.4,
+      "type": "activity_program_completed",
+      "actorId": "wren",
+      "audience": [
+        "ada",
+        "mara",
+        "wren"
+      ],
+      "payload": {
+        "programId": "activity-1",
+        "name": "An afternoon of affection",
+        "outcomes": [
+          {
+            "stepIndex": 0,
+            "actorId": "ada",
+            "targetId": "mara",
+            "outcome": "declined"
+          },
+          {
+            "stepIndex": 0,
+            "actorId": "ada",
+            "targetId": "wren",
+            "outcome": "completed"
+          },
+          {
+            "stepIndex": 0,
+            "actorId": "mara",
+            "targetId": "wren",
+            "outcome": "declined"
+          }
+        ],
+        "text": "The activity agenda finished. Refused interactions remain refused."
+      },
+      "sourceIds": [],
+      "rulesRevision": 0,
+      "prevHash": "34eac2610da1d4aebfa20a28bbcb021e5f8469be752df4dee8edd51e61110a5a",
+      "hash": "d6ebadbb57620b2d0dcf03445f13107051b1cadbc003c550e14e80b444ee1fc2"
+    }
+  ],
+  "replay": {
+    "verified": true,
+    "finalHash": "949d6164e3c6336c4bf4c7eee6b0e72525f149c5e163183076a76603d3fb16fd",
+    "modelCalls": 0
+  }
+}

@@ -1,0 +1,9 @@
+Use case: identity-preserve.
+Asset type: corrective NORTH/BACK-FACING game-animation sheet, genuine transparent alpha.
+Image1 is the approved cast turnaround, Image2 is Kitt's currentfullsheet, Image3 is Mara's currentfullsheet. Keep these SAME original characters and approved cozy anime pixel-art identity, palette and costume. Correct only the missing back-facing actions.
+ONE exact6-COLUMN by6-ROW sheet,36 complete full-body frames, transparent gutters. TOP3ROWS show only KITT/player in tealcap andtealjacket. BOTTOM3ROWS show only MARA inlavendersilverbraid/sagecardigan/plumtrousers. EVERY SINGLE FIGURE FACES NORTH WITH BACK TO CAMERA: only backs of heads/caps/hair/vests visible. ZERO eyes, noses, mouths, frontfacing cheeks, front blouse, chest or beltbuckles anywhere. Do not turn toward the viewer during work, talking or resting.
+For EACH character3-row group use exactrow-major18poses:
+row1:idle0, idle1,walk0,walk1,walk2,walk3
+row2:carry0,carry1,carry2,carry3,work0,work1
+row3:work2,work3,talk0,talk1,rest0,rest1.
+Idle2quietbackposes;walk4genuinelyalternatefeet;carry4holdEMPTYhands forward at frontwaist, mostlyhidden bytorso fromthisbackview (not folded behindback);work4gentlehandwork facingaway;talk2small armgesturestillbackfacing;rest2relaxed grounded backs. No objects, tools, scenery, labels, gridlines or groundshadows. Same scale/palette/silhouette family andbottomcenter footbaseline; wholebody/hair/hand/boot within eachslot. Productiongame sprites, crisp deliberatepixelclusters, softwarmoutlines, no paintedbackground.

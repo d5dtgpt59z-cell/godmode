@@ -1,2 +1,2 @@
-import CozyGame from "@/components/cozy/cozy-game";
-export default function PlayNeighborhood(){return <CozyGame/>;}
+import WorldForge from "@/components/cozy/world-forge";
+export default function PlayNeighborhood(){return <WorldForge/>;}

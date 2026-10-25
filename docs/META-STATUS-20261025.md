@@ -30,3 +30,20 @@ The following are planning options checked against current primary documentation
 | Muse Spark Open | [Model documentation](https://dev.meta.ai/docs/muse-spark-open): 816B total / 42B active; approximately 537GB NVFP4 or 1.65TB BF16 checkpoints, with the full weights loaded for serving. | Current Mac reports 16GiB memory. The documented checkpoints cannot reside in that memory, so self-hosting is not a practical current-laptop path (inference). A hosted provider would have separate access, terms and budget gates. |
 
 A specific older Llama variant's acceptance for this event is still not verified. General Meta-open-weights language is not proof of a particular model/version's final eligibility. Spark/Glimmer documentation does not clear the pre-work, pivot, participant-admission or final-submission unknowns above.
+
+
+## Muse implementation/readiness update — October25, 21:01UTC
+
+Root independently inspected the authenticated native account: application remains **Pending**; the interface says organizer notices arrive October26 at09:00ET/07:00Boise. Root observed zero API keys/requests, no visible hackathon credit and no payment method. The pay-as-you-go screen requires a payment method. This is an account observation reported by the parent agent, not organizer admission or spending permission. No key, payment method, paid plan, provider flag or credit authorization was created/enabled.
+
+The source now implements an explicitly selected Muse Spark standard-mode path for v3 personal decisions, typed rule/activity/catalog-object previews and a starting-world blueprint preview followed by explicit Create. Strict schema decoding, engine validation, current-world checks, immutable context tickets, durable response/usage receipts, pause/resume recovery and exact replay remain separate from model prose. Synthetic transports verify these contracts; **no real Meta request or Muse-created world has been verified**. Qwen remains a distinct temporary local provider.
+
+The [official structured-output documentation](https://dev.meta.ai/docs/structured-output) confirms strict Responses schemas require every object property in `required` and reject extra properties. [Standard Muse Spark pricing](https://dev.meta.ai/models/muse-spark) remains $1.25/M input and $4.25/M output tokens. New v3 paths have a6000input-token admission cap,768totaloutput cap and token preflight; maximum reservation13994microUSD includes30%. Legacy2000token paths and dollar caps are preserved. Configuration is a gate, not spend authorization.
+
+The [Muse Image documentation](https://dev.meta.ai/docs/image-generation) specifies `muse-image-1.0`, one-off image generation and $0.01 per returned image. A separately gated adapter now validates a single PNG and its hash; it disables search/shell tools. No runtime HTTP image-generation route, automatic asset registration, real authentication test or generated image delivery is established. Current in-game object art remains the recorded production image-generation catalog, not Muse output.
+
+Pre-event eligibility, application pivot, final participant rules and final submission fields remain unresolved. Final submission remains **ON HOLD**; the new build remains local, with no new publication or provider/billing activation.
+
+## Local provider selection verified after preview restart
+
+Root selected `GODMODE_COZY_PROVIDER=meta` locally with `GODMODE_META_CREDIT_AUTHORIZED=false`; credentials were unchanged. Runtime `/api/cozy/status` reports ruleProvider meta, naturalLanguageAvailable false, personalAgentAvailable false, worldForgeAvailable false and actualMetaCalls0. The database retains21 historical local Qwen calls; they are not Muse evidence. `quality/personal-agent/provider-readiness.json` records the sanitized status. No alternate provider fallback, API key, credit authorization or new paid request was activated.

@@ -1,216 +1,266 @@
 {
-  "version": 3,
-  "createdAt": "2026-10-25T16:50:10.905262+00:00",
-  "purpose": "Original cozy life-sim production art. Not a gameplay or AI-inference assertion.",
-  "scope": "Only art/cozy and public/assets/cozy. Legacy art is preserved.",
-  "background": {
-    "source": "Earlier original project concept; exact reference and prompt preserved in source package.",
-    "currentBuiltInImageEditCalls": 2,
-    "earlierConceptImageGenerationCalls": 1,
-    "method": "Built-in edits, local Aseprite nearest resize, optimal palette quantization, original scene-material path clearance.",
-    "nativePixels": [
-      512,
-      384
-    ],
-    "opaqueColors": 254,
-    "containsBakedPeopleAnimalsFoodCropsFestivalTableBunting": false,
-    "modularity": "Fixed environment raster with separate semantic overlays; not a modular building tile atlas."
-  },
-  "characters": {
-    "method": "Original native Aseprite adult life-sim cast; shaped directional silhouettes, individual tailoring and grounded poses",
-    "remoteGenerationCalls": 0,
-    "residents": 4,
-    "poses": 288,
-    "clips": 96,
-    "cell": [
-      24,
-      32
-    ],
-    "footAnchor": [
-      12,
-      31
-    ],
-    "cargoAnchor": [
-      12,
-      24
-    ],
-    "refinementVersion": 3,
-    "paletteColors": 62,
-    "groundShadowBaked": false,
-    "idlePoseHoldsMs": [
-      2200,
-      140
-    ],
-    "nativeSource": "art/cozy/character-refinement/v3",
-    "previousSources": "art/cozy/character-refinement/previous and v2"
-  },
-  "foreground": {
-    "method": "Original native Aseprite construction from included Lua",
-    "remoteGenerationCalls": 0,
-    "sourceCells": 21,
-    "namedFrames": 24,
-    "clips": 2,
-    "intentionalTransparentFrames": [
-      "crop.empty"
-    ]
-  },
-  "thirdPartyReferencePixelsImported": 0,
-  "paidProviderCalls": 0,
-  "purchases": 0,
-  "metaCallsInArtWorkflow": 0,
   "checks": {
-    "nativeAuditPassed": true,
-    "connectedGroundCells": 154,
-    "reachablePlaces": 9,
-    "reachablePlots": 3,
-    "noGroundInsideSceneryOrBuildingBlocks": true,
-    "nativeContactSheetVisuallyInspected": true,
-    "integrationPreviewIsStagedArt": true,
-    "browserIntegrationQa": "Root verified v3 sprites and actual portrait conversations in desktop and narrow local game views; movement lock, Continue and saved reload checked."
+    "cargoPivot": [
+      16,
+      30
+    ],
+    "characterClips": 96,
+    "characterFrames": 288,
+    "footPivot": [
+      16,
+      39
+    ],
+    "mapGeometryUnchanged": true,
+    "originalSourceFilesPreserved": true,
+    "portraitFrames": 8,
+    "runtimeBrowserQa": "Pending root integration review",
+    "worldAssetEntitySprites": 3
   },
+  "generatorManifest": "art/cozy/imagegen-v4/raw/GENERATION-MANIFEST.json",
+  "method": "No hand-painted visual pixels. Alpha subject extraction, nearest-neighbor scaling, transparent padding and atlas packing only.",
+  "previousAssets": "art/cozy/imagegen-v4/previous/public-assets-cozy",
+  "reproduce": "python3 art/cozy/imagegen-v4/pack.py",
   "runtimeFiles": [
     {
-      "path": "characters.json",
-      "bytes": 96392,
-      "sha256": "d17130618262ccab01f00796882a76c76aa9cf6192e118e46873fce515cb35a7"
+      "bytes": 188755,
+      "path": "public/assets/cozy/characters.json",
+      "sha256": "d27dda787e034eaa494b99579fa0486fd5c84ad403faaf22b56a7cef01a78f52"
     },
     {
-      "path": "characters.png",
-      "bytes": 40123,
-      "sha256": "68a6fb0b918dad04c3a7eae3223b4d6b836e1c0f0bb87984d7b32cb0f789bcf9",
-      "dimensions": {
-        "width": 512,
-        "height": 576
-      }
+      "bytes": 651780,
+      "path": "public/assets/cozy/characters.png",
+      "sha256": "ce1115e054ed1a052ec26e599eec521a72d7dd9f8e3a1b23bca48240485250c4",
+      "size": [
+        1024,
+        512
+      ]
     },
     {
-      "path": "foreground.json",
-      "bytes": 8520,
-      "sha256": "7ad49d045e663291fc7886b9652d32a7bdb8998c1cbcba6012acaa9e5218db9d"
+      "bytes": 23956,
+      "path": "public/assets/cozy/foreground.json",
+      "sha256": "b33761575373bc0aa4db2e460c6ee47adf2f21f69858789141df19023d3b58d0"
     },
     {
-      "path": "foreground.png",
-      "bytes": 3875,
-      "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643",
-      "dimensions": {
-        "width": 512,
-        "height": 256
-      }
+      "bytes": 42371,
+      "path": "public/assets/cozy/foreground.png",
+      "sha256": "de22f68ecccca5f67b13852077b1d8b4b94e2c9680dc627eebae740eb65778ef",
+      "size": [
+        512,
+        512
+      ]
     },
     {
-      "path": "map.json",
       "bytes": 16940,
+      "path": "public/assets/cozy/map.json",
       "sha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474"
     },
     {
-      "path": "map.png",
-      "bytes": 545656,
-      "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937",
-      "dimensions": {
-        "width": 512,
-        "height": 384
-      }
+      "bytes": 519686,
+      "path": "public/assets/cozy/map.png",
+      "sha256": "7047d9f04aefb18d907676912c0ad63ecbe883d8b2587b82173814e9f1027dba",
+      "size": [
+        512,
+        384
+      ]
     },
     {
-      "path": "viewer.html",
-      "bytes": 119558,
-      "sha256": "ac868beb8a95eda1fb2f0f7efda0602e9fd86d74d3b1214eb56c325508616e7a"
+      "bytes": 3286,
+      "path": "public/assets/cozy/objects/garden-bench.png",
+      "sha256": "239772523cbf7e6b78ff59a00e8bfe68d9cd51d729c570a37f0f7fab7890a566",
+      "size": [
+        48,
+        32
+      ]
     },
     {
-      "path": "portraits/ada-neutral.png",
-      "bytes": 2343,
-      "sha256": "04daaa067b52883a46c8b2719ce99e84109055190c713aa2a80b70fb8ab5561b",
-      "dimensions": {
-        "width": 96,
-        "height": 96
-      }
+      "bytes": 1104,
+      "path": "public/assets/cozy/objects/luminous-mushroom.png",
+      "sha256": "183288be5a9db41d168be712d2af62a1b9cef492f96afaf31be6318839e58267",
+      "size": [
+        24,
+        32
+      ]
     },
     {
-      "path": "portraits/ada-warm.png",
-      "bytes": 2365,
-      "sha256": "1c7841bf19237afeba30c365973d286930de08123dabd03e24a00ff5799cb266",
-      "dimensions": {
-        "width": 96,
-        "height": 96
-      }
+      "bytes": 3496,
+      "path": "public/assets/cozy/objects/rain-catcher.png",
+      "sha256": "f2ac888934d114b8ff340b74a9ea6ec7655695597f6b038fc1ddf73aa07a7e08",
+      "size": [
+        32,
+        40
+      ]
     },
     {
-      "path": "portraits/mara-neutral.png",
-      "bytes": 2648,
-      "sha256": "ef49fe53d2f0b0f27859b8b046fa68c9ff763535a5aa3e70205497dc875bcd01",
-      "dimensions": {
-        "width": 96,
-        "height": 96
-      }
+      "bytes": 60597,
+      "path": "public/assets/cozy/portraits/ada-neutral.png",
+      "sha256": "37763d2ecac8d7ef43e60a6053fc9d7b8718d05e3cdead3f020cfc238dda1fba",
+      "size": [
+        192,
+        192
+      ]
     },
     {
-      "path": "portraits/mara-warm.png",
-      "bytes": 2660,
-      "sha256": "ebdc328e9f3a20ba85f9ec6ad80b9e630764b48dd27ca3e84635de375b739e63",
-      "dimensions": {
-        "width": 96,
-        "height": 96
-      }
+      "bytes": 61300,
+      "path": "public/assets/cozy/portraits/ada-warm.png",
+      "sha256": "cd612095f777837e39a3966b7d493c779306848bd15eb09e5f534f1b39c45ccb",
+      "size": [
+        192,
+        192
+      ]
     },
     {
-      "path": "portraits/player-neutral.png",
-      "bytes": 2209,
-      "sha256": "0f006bc0114da52ae5dc1becd884b9995baca0c42e47aa0670936e26d694900f",
-      "dimensions": {
-        "width": 96,
-        "height": 96
-      }
+      "bytes": 65388,
+      "path": "public/assets/cozy/portraits/mara-neutral.png",
+      "sha256": "ea57390f4fa51bf34d332452ccacd0d4a71a793f8d1ce1dd93637f5fe7cc7597",
+      "size": [
+        192,
+        192
+      ]
     },
     {
-      "path": "portraits/player-warm.png",
-      "bytes": 2225,
-      "sha256": "fc47da11b936e189bfb4a51ab98dfb1625f76be98a5d43bb585b50eb6aa858bf",
-      "dimensions": {
-        "width": 96,
-        "height": 96
-      }
+      "bytes": 65287,
+      "path": "public/assets/cozy/portraits/mara-warm.png",
+      "sha256": "c8c4295250859755158f2e295ebcbcef939380b6a70c7b504a9eb52a5d8bdd87",
+      "size": [
+        192,
+        192
+      ]
     },
     {
-      "path": "portraits/wren-neutral.png",
-      "bytes": 2490,
-      "sha256": "7f9b8beb9b5ac011d60cda13e6583f428cf6a7721f2d0cf182ce5033bc2ca4a4",
-      "dimensions": {
-        "width": 96,
-        "height": 96
-      }
+      "bytes": 58480,
+      "path": "public/assets/cozy/portraits/player-neutral.png",
+      "sha256": "069557172810ad8f0767aa60af2a78021d5bf26fbb7932b88094bf665df5937a",
+      "size": [
+        192,
+        192
+      ]
     },
     {
-      "path": "portraits/wren-warm.png",
-      "bytes": 2484,
-      "sha256": "b08d9ea48065e9b461f4bbc36f9bc4abd0af4e9973aded9ad2ebd1724bd66070",
-      "dimensions": {
-        "width": 96,
-        "height": 96
-      }
+      "bytes": 58083,
+      "path": "public/assets/cozy/portraits/player-warm.png",
+      "sha256": "fd973c13ea5ccee40ff9be04602e255ec4f642f945a8895680449e3a7210c14e",
+      "size": [
+        192,
+        192
+      ]
+    },
+    {
+      "bytes": 61433,
+      "path": "public/assets/cozy/portraits/wren-neutral.png",
+      "sha256": "32179336243ded786cbb22b5b3d8957a5d1ccd6c6a4f00e57390cf13be083710",
+      "size": [
+        192,
+        192
+      ]
+    },
+    {
+      "bytes": 62507,
+      "path": "public/assets/cozy/portraits/wren-warm.png",
+      "sha256": "aa2a8e6c9ce1f146cebb44d18e8ae3b18264bc17c5e5f08a316d4a371ca7341c",
+      "size": [
+        192,
+        192
+      ]
     }
   ],
-  "updatedAt": "2026-10-25T18:47:01.658652+00:00",
-  "portraits": {
-    "method": "Original native Aseprite faces, hair, clothing and shoulders; not enlarged sprites",
-    "characters": [
-      "player",
-      "ada",
-      "mara",
-      "wren"
-    ],
-    "count": 8,
-    "cell": [
-      96,
-      96
-    ],
-    "expressions": [
-      "neutral",
-      "warm"
-    ],
-    "paletteColors": 69,
-    "remoteGenerationCalls": 0,
-    "thirdPartyReferencePixelsImported": 0,
-    "nativeSource": "art/cozy/character-refinement/v3",
-    "display": "Literal spoken event inside portrait dialogue; current NPC dialogue is rule-policy behavior"
-  }
+  "scope": "Runtime visual replacement from original built-in image_gen outputs. Gameplay, intelligence and provider access are separate.",
+  "sources": [
+    {
+      "path": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289",
+      "size": [
+        887,
+        1774
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/cast-turnaround-v4.png",
+      "sha256": "2f3284dc57f7cc9d11a49d05c4b792eb529a67d3cdc01272dce39dd297e82a9b",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676",
+      "size": [
+        1296,
+        1214
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/isolated-wheat-v4-sheet.png",
+      "sha256": "23c19cdbc89ba289231ecd6b449d1d50fbecfe1a30b356cfb2251998477cd567",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/map-v4-style-edit.png",
+      "sha256": "94e07b5894d3a9d79bbebf9684790aab738f5eb101faead9dca855d140954a3a",
+      "size": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37",
+      "size": [
+        887,
+        1774
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321",
+      "size": [
+        1230,
+        1278
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d",
+      "size": [
+        887,
+        1774
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+      "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+      "size": [
+        1774,
+        887
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df",
+      "size": [
+        1774,
+        887
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb",
+      "size": [
+        887,
+        1774
+      ]
+    },
+    {
+      "path": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd",
+      "size": [
+        1774,
+        887
+      ]
+    }
+  ],
+  "version": 4
 }

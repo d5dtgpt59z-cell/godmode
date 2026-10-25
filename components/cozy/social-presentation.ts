@@ -1,7 +1,18 @@
-import type {ActorTask,CozyEvent,CozyWorldState,Npc,RuleProvenance,SocialResponse} from "../../lib/cozy/contracts";
+import type {ActorTask,CozyEvent,CozyWorldState,Memory,Npc,RuleProvenance,SocialResponse} from "../../lib/cozy/contracts";
 
 const conditionCopy:Record<SocialResponse["conditions"][number],string>={"witness-harvest":"Wants to see a harvest","needs-rest":"Needs a rest","needs-food":"Needs a meal",trust:"Not ready to trust the plan","protect-seeds":"Wants seeds protected"};
 export const conditionLabel=(condition:SocialResponse["conditions"][number])=>conditionCopy[condition];
+/** Player copy comes from typed outcomes; the raw policy calculation stays in inspection. */
+export function responseSummary(response:SocialResponse){return response.stance==="join"?"Chose to lend a hand.":response.stance==="conditional"?response.conditions.map(conditionLabel).join(". ")+".":response.conditions.includes("trust")?"Is not ready to make this commitment.":"Chose to sit this plan out.";}
+export function needsSummary(npc:Npc){return[npc.needs.energy<30?"Needs a rest":npc.needs.energy>=70?"Well rested":"Taking it steadily",npc.needs.hunger>=70?"Ready for a meal":npc.needs.hunger>=45?"Getting hungry":"Not hungry",npc.needs.social>=65?"Looking for company":npc.needs.social>=35?"Open to company":"Enjoying some quiet"];}
+export function relationshipLabel(npc:Pick<Npc,"trust">){return npc.trust>=75?"A trusted neighbor":npc.trust>=50?"Getting to know you":npc.trust>=25?"Still a little cautious":"Keeping some distance";}
+export function memorySummary(state:CozyWorldState,memory:Memory){
+ const response=state.emergence?.proposals.flatMap(proposal=>Object.values(proposal.responses)).find(value=>value&&memory.sourceIds.includes(value.eventId));
+ if((memory.type==="social_response"||memory.type==="npc_dialogue")&&response)return responseSummary(response);
+ if(memory.type==="initiative_waited")return"Chose to wait before taking on another plan.";
+ if(memory.type.startsWith("institution_")){const event=state.events.find(value=>memory.sourceIds.includes(value.id)&&value.type===memory.type);if(event)return event.type==="institution_task_completed"?contributionLabel(event):eventLabel(event);}
+ return memory.text;
+}
 export const personName=(state:CozyWorldState,id:string)=>id==="player"?"You":state.npcs.find(n=>n.id===id)?.name??"A neighbor";
 export const venueName=(id:string)=>id==="square"?"Village square":id==="market"?"Market green":id;
 export function provenanceLabel(value:RuleProvenance){return value.mode==="local-qwen"?"Local Qwen idea":value.mode==="meta"?"Meta-assisted idea":value.mode==="fixture"?"Recorded fixture idea":"Manually recorded idea";}
@@ -9,6 +20,7 @@ function targetName(state:CozyWorldState,id:string){return state.places.find(p=>
 export function taskLabel(state:CozyWorldState,npc:Pick<Npc,"task"|"action"|"path"|"inventory">){
  const task:ActorTask=npc.task;if(!task)return npc.path.length?"Taking a familiar walk":/rest/i.test(npc.action)?"Resting":"Taking a quiet moment";
  const target=targetName(state,task.targetId);
+ if(task.kind==="personal")return task.personalAction==="rest"?(npc.path.length?"Heading home to rest":"Taking a needed rest"):task.personalAction==="eat"?"Eating owned food":task.personalAction==="seek-meal"?"Looking for a real meal":task.personalAction==="inspect"?"Looking for evidence":task.personalAction==="talk"?(npc.path.length?"Walking over for a conversation":"Having a word with "+target):task.personalAction==="approach"?"Walking over to "+target:task.personalAction==="cooperate"?"Considering a shared contribution":"Taking a deliberate pause";
  if(task.kind==="communicate")return"Taking a proposal to "+target;
  if(task.kind==="food")return task.phase==="fetch"?"Checking wheat supplies":"Bringing "+(task.quantity??0)+" wheat to "+target;
  if(task.kind==="setup")return task.phase==="fetch"?"Collecting timber":npc.path.length?"Taking timber to "+target:"Preparing "+target;

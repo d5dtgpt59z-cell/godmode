@@ -1,0 +1,8 @@
+Use case: precise-object-edit. Asset type: actual crop-stage transparent overlays for originalcozyfarmgame.
+Referenceimage1 shows our approved worldmaterials; generate ONLY ISOLATED WHEAT PLANTS in samewarmcharmingpixel-art style. Not soilbeds.
+ONE SHEET exactlyTHREEequallyspaced columns byONErow ontransparentalpha, eachstage fullycontainedwithgenerousgutters.
+LEFT plantedstage: fiveTINY delicate two-leaf greenshoots, justemerging, maximumonequarter of matureplantheight.
+MIDDLE growingstage: sameclumpfootprint, healthygreenwheatstems/leaves, abouttwo-thirds matureheight, no gold/grainheads yet.
+RIGHT ripestage: sameclumpfootprint withbeautifulgoldenwheatstems andfullgoldenears, readytoharvest.
+Allthree share exactsame BOTTOMCENTER soil-contactbaseline andsamecamera/scale. Youngstagesactuallysmaller thanmaturestage, not resizedtoequalheight. Tightlygroupednarrowplants compatiblewith24x32nativecroptile. Slightobliquetopdown,upper-leftlighting,softcoloredoutlines,crispreadablepixelclusters.
+CRITICAL:NOsoil,NOdirtpatch,NOwoodenframe,NOraisedbed,NOfence,NOrocks,NOcontainers,NOgrassbackground,NOgroundshadow,NOlabels/text/grid. Onlywheatleaves/stems/ears; emptyspaceactuallytransparent. No extrafourthstage. Productiongameassets notillustration.

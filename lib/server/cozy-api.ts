@@ -5,6 +5,34 @@
  * existing owner-private Sites service boundary. GET never advances a clock. No route enables
  * keys, billing, inference flags, hosting or a background schedule.
  *
+ * Muse extension (October25, no actual Meta access verified):
+ *   GODMODE_COZY_PROVIDER=meta explicitly selects Muse; never falls back to local Qwen.
+ *   MODEL_API_KEY + GODMODE_META_CREDIT_AUTHORIZED=true + an explicit project budget are required.
+ *   GODMODE_RULE_AUTHORING_ENABLED=true gates rule/activity/world-object authoring and Forge;
+ *   GODMODE_RESIDENT_REASONING_ENABLED=true gates personal/social autonomous reasoning.
+ *   All new flags remain absent/off. Account still Pending; no free credits/key/paid activation.
+ *   Spark standard model muse-spark-1.3 uses minimal reasoning, strict JSON, token-count preflight,
+ *   768 TOTAL output tokens and raw response/usage receipts. V3 personal/authoring/Forge have a
+ *   6000input-token cap with13994microUSD upper-bound reservation incl30%; old paths stay2000.
+ *   Dollar caps remain $3/save plus explicit shared project cap;500generations/1000HTTP/save.
+ *   Resident decisions retain foreground admission, pause/cache/resume and recoveryOnly behavior.
+ *   /tick performs zero model inference. Selected Meta access/config failure never invokes Qwen.
+ * POST /api/cozy/forge/proposals {requestId,prompt:3..1000} -> {draftId,proposal}.
+ *   A deterministic paused internal draft stores budget/receipt only; current playable save unchanged.
+ *   Blueprint preview shows actual map generated:false, all3merged resident profiles, real values,
+ *   rules and unsupported requests. No pretend generated terrain or ten dynamic people.
+ * POST /api/cozy/forge/create {draftId,proposalId,commandId} -> {save:newPausedV3World}.
+ *   Explicit Create only; deterministic child ID recovers interruption without duplicate or overwrite.
+ *   Export creationAudit binds blueprint/prompt/raw model receipt. Imported evidence is unverified.
+ *   status adds worldForgeAvailable/worldForgeFalseReason; disabled returns503 without a draft/call.
+ *   V3 /rules/proposals may return kind activity or world-object, each with its own engine preview;
+ *   /rules/apply remains explicit and checks capabilities/current physical preconditions.
+ *   World-object assets are actual pre-generated catalog art, not runtime Muse Image outputs.
+ *   Muse Image has a separately gated adapter only (no public route/automatic asset registration).
+ *   It requests one PNG, disables web/image search+shell, reserves13000microUSD including30%,
+ *   verifies returned bytes/dimensions/hash and records flat10000microUSD actual returned-image cost.
+ *   Real image/auth/storage/asset-delivery integration remains unverified; no image was requested.
+ *
  * GET /api/cozy -> {save:null|DTO}; POST {seed?,fresh?:false} creates/reuses a paused main cozy save.
  *   fresh:true creates a new independent slot-null paused save; no existing/main data is changed.
  * GET /api/cozy/status -> naturalLanguageAvailable,npcPlansAvailable,falseReason,actualMetaCalls,
@@ -20,6 +48,20 @@
  * POST /:id/tick {maxSeconds?:0.1..60(default1),requestId?} consumes only owed100ms steps.
  *   State, clock debit and tick receipt commit atomically; repeated requestId never steps twice.
  * POST /:id/evolve {expectedRevision} creates a NEW paused cozy-engine-2 branch, original untouched.
+ * POST /:id/personal-evolve {expectedRevision} creates a NEW paused cozy-engine-3 Wren branch.
+ *   V1/V2 saves, actual recordings, and existing entrypoints remain unchanged. state.mind contains
+ *   Wren-only bounded values/relationships/beliefs/aspirations/capability requests and plan state.
+ *   Normal command union adds physically-adjacent share-idea {npcId:'wren',text:3..500chars}; this
+ *   is attributed untrusted player testimony, never automatic adoption or executable mechanics.
+ *   The same pump detects frozen context.kind='personal', selects only Wren, validates a personal
+ *   decision, and records personal-decision with local-qwen/fixture provenance. Every old async
+ *   receipt, stale-intent, pause/cache/resume and recoveryOnly guarantee remains in force.
+ *   New purpose cozy-personal-local shares100/save with rules+social and12/hour with social,
+ *   plus the same global single local slot/125s quarantine. No new migration or feature flag.
+ *   Model dreams or beliefs may be unusual; unsupported effects persist as capability requests,
+ *   never resources/actions/rules. Beliefs remain attributed inference, not observed world facts.
+ *   personalAgentAvailable/FalseReason/actualPersonalCalls are additional status fields;
+ *   save.initiative.kind distinguishes social/personal. ActualMetaCalls remains separate.
  * POST /:id/initiative/pump {requestId,recoveryOnly?:false} admits/drives at most one actual local resident decision.
  *   Engine selects a grounded opportunity; no player prompt is accepted. Immutable actor context,
  *   trigger/intent/evidence hashes and model receipts persist in0005 tickets. No world lease spans
@@ -40,6 +82,9 @@
  * GET /:id/rules returns {save,capabilities}; GET /:id/rules/proposals returns {save} with recent
  *   proposals/change history. Manual label is 'exact rule editor', never natural-language AI.
  * POST /:id/rules/preview {requestId,patch} stores a validated manual preview; no state mutation.
+ *   patch remains an ordinary RulePatch, or exact {kind:'activity',program:ActivityBlueprint} /
+ *   {kind:'world-object',object:WorldObjectProposal}. Source is manual, never fake natural language;
+ *   real engine preview/capsHash and the same explicit Apply/current-precondition checks apply.
  * POST /:id/rules/proposals {requestId,prompt:3..1000chars} uses the selected real interpreter.
  *   Local development may explicitly select existing Ollama Qwen via GODMODE_LOCAL_QWEN_ENABLED=true
  *   and GODMODE_LOCAL_QWEN_MODEL=qwen3.5:9b; production builds cannot enable this adapter. Fixed

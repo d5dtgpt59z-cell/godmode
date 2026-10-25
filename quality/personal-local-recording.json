@@ -1,0 +1,538 @@
+{
+  "format": "godmode-cozy-save",
+  "version": 1,
+  "recording": {
+    "format": "godmode-cozy",
+    "version": 1,
+    "engineVersion": "cozy-engine-3",
+    "contentVersion": "cozy-personal-wren-1",
+    "origin": {
+      "seed": 137,
+      "branchId": "134bef3d-9b7f-4746-a35f-1d13d546ae08",
+      "parentBranchId": "5f8de9c4-0404-47d6-b834-735c4a27f019",
+      "parentHash": "d67ecc3ec7edfe2d1048a8f0576164778d9f1029d9f022673a48420dd3cd62bc",
+      "migration": {
+        "fromEngine": "cozy-engine-1",
+        "fromContent": "cozy-wheat-1",
+        "parentHash": "d67ecc3ec7edfe2d1048a8f0576164778d9f1029d9f022673a48420dd3cd62bc"
+      },
+      "checkpointState": "{\"branchId\":\"134bef3d-9b7f-4746-a35f-1d13d546ae08\",\"commandIds\":[],\"contentVersion\":\"cozy-personal-wren-1\",\"day\":1,\"emergence\":{\"actors\":{\"ada\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-100},\"mara\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-100},\"wren\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-100}},\"history\":[],\"institutions\":[],\"proposals\":[],\"version\":1},\"engineVersion\":\"cozy-engine-3\",\"eventHead\":\"e58f12e9938e42f00fd5e1b7230ed9bd236114778305e48baad340854873d201\",\"eventSeq\":3,\"events\":[{\"actorId\":null,\"audience\":[],\"hash\":\"dc247a92a76884f3256ae2c23438bb523d5ba5020b47079a7c600ed672a0e3c4\",\"id\":\"134bef3d-9b7f-4746-a35f-1d13d546ae08:1\",\"payload\":{\"atStep\":200,\"parentBranchId\":\"5f8de9c4-0404-47d6-b834-735c4a27f019\",\"parentHash\":\"d67ecc3ec7edfe2d1048a8f0576164778d9f1029d9f022673a48420dd3cd62bc\"},\"prevHash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"rulesRevision\":0,\"seq\":1,\"sourceIds\":[],\"step\":200,\"tick\":20,\"type\":\"cozy_branch_forked\"},{\"actorId\":null,\"audience\":[],\"hash\":\"381c756850469e88844739ed17bee0a8003c169c95936723e4acfaacb2cd5de9\",\"id\":\"134bef3d-9b7f-4746-a35f-1d13d546ae08:2\",\"payload\":{\"explicit\":true,\"fromContent\":\"cozy-wheat-1\",\"fromEngine\":\"cozy-engine-1\",\"parentHash\":\"d67ecc3ec7edfe2d1048a8f0576164778d9f1029d9f022673a48420dd3cd62bc\",\"toContent\":\"cozy-cooperation-1\",\"toEngine\":\"cozy-engine-2\"},\"prevHash\":\"dc247a92a76884f3256ae2c23438bb523d5ba5020b47079a7c600ed672a0e3c4\",\"rulesRevision\":0,\"seq\":2,\"sourceIds\":[],\"step\":200,\"tick\":20,\"type\":\"cozy_world_upgraded\"},{\"actorId\":null,\"audience\":[],\"hash\":\"e58f12e9938e42f00fd5e1b7230ed9bd236114778305e48baad340854873d201\",\"id\":\"134bef3d-9b7f-4746-a35f-1d13d546ae08:3\",\"payload\":{\"explicit\":true,\"fromEngine\":\"cozy-engine-1\",\"npcId\":\"wren\",\"parentHash\":\"d67ecc3ec7edfe2d1048a8f0576164778d9f1029d9f022673a48420dd3cd62bc\",\"toEngine\":\"cozy-engine-3\"},\"prevHash\":\"381c756850469e88844739ed17bee0a8003c169c95936723e4acfaacb2cd5de9\",\"rulesRevision\":0,\"seq\":3,\"sourceIds\":[],\"step\":200,\"tick\":20,\"type\":\"cozy_personal_world_upgraded\"}],\"festival\":{\"announced\":false,\"completedAt\":null,\"food\":0,\"foodReserved\":{},\"id\":1,\"invitations\":{},\"participants\":[],\"phase\":\"planning\",\"setupDone\":false,\"setupOwner\":null,\"startedAt\":null,\"venue\":\"square\"},\"flood\":{\"active\":false,\"egress\":[],\"expiresAt\":null,\"ruleRevision\":0,\"startedAt\":null},\"ledger\":{\"consumed\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"environment\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"initial\":{\"bread\":2,\"grain\":11,\"timber\":6,\"water\":14},\"produced\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"waste\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},\"mind\":{\"aspirations\":[],\"beliefs\":[],\"capabilityRequests\":[],\"foodSearchBackoffUntil\":0,\"history\":[],\"intentRevision\":0,\"lastConsideredTrigger\":null,\"lastDecisionStep\":-100,\"nextReconsiderStep\":200,\"npcId\":\"wren\",\"observationCursor\":2,\"pastPlans\":[],\"plan\":null,\"preferences\":{\"food\":\"bread\",\"restPlaceId\":\"wren-home\"},\"regulation\":null,\"relationships\":{\"ada\":{\"actorId\":\"ada\",\"affinity\":25,\"basis\":\"seeded\",\"evidenceIds\":[],\"helpfulness\":0,\"lastInteractionStep\":null,\"trust\":50},\"mara\":{\"actorId\":\"mara\",\"affinity\":25,\"basis\":\"seeded\",\"evidenceIds\":[],\"helpfulness\":0,\"lastInteractionStep\":null,\"trust\":50},\"player\":{\"actorId\":\"player\",\"affinity\":40,\"basis\":\"seeded\",\"evidenceIds\":[],\"helpfulness\":0,\"lastInteractionStep\":null,\"trust\":50},\"wren\":{\"actorId\":\"wren\",\"affinity\":25,\"basis\":\"seeded\",\"evidenceIds\":[],\"helpfulness\":0,\"lastInteractionStep\":null,\"trust\":50}},\"values\":{\"autonomy\":60,\"belonging\":95,\"care\":60,\"curiosity\":40},\"version\":1},\"nextId\":1,\"npcs\":[{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":90},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"ada-home\",\"id\":\"ada\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":200,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Ada\",\"needs\":{\"energy\":80,\"hunger\":37,\"social\":32},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Practical baker\",\"Grateful for useful grain\"],\"trust\":50,\"x\":26,\"y\":6},{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":65},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":90}],\"harvestsSeen\":0,\"homeId\":\"mara-home\",\"id\":\"mara\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":200,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Mara\",\"needs\":{\"energy\":85,\"hunger\":22,\"social\":22},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Careful planner\",\"Checks preparations\"],\"trust\":50,\"x\":11,\"y\":8},{\"action\":\"Enjoying a familiar walk\",\"affinity\":40,\"festivalAccepted\":false,\"festivalObservation\":{\"food\":0,\"id\":1,\"phase\":\"planning\",\"setupDone\":false,\"step\":200,\"venue\":\"square\"},\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":60},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":95},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"wren-home\",\"id\":\"wren\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":true,\"lastDecisionStep\":200,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Wren\",\"needs\":{\"energy\":94,\"hunger\":17,\"social\":77},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Sociable courier\",\"Shares good news\"],\"trust\":50,\"x\":14,\"y\":16}],\"operations\":[],\"origin\":{\"branchId\":\"134bef3d-9b7f-4746-a35f-1d13d546ae08\",\"migration\":{\"fromContent\":\"cozy-wheat-1\",\"fromEngine\":\"cozy-engine-1\",\"parentHash\":\"d67ecc3ec7edfe2d1048a8f0576164778d9f1029d9f022673a48420dd3cd62bc\"},\"parentBranchId\":\"5f8de9c4-0404-47d6-b834-735c4a27f019\",\"parentHash\":\"d67ecc3ec7edfe2d1048a8f0576164778d9f1029d9f022673a48420dd3cd62bc\",\"seed\":137},\"places\":[{\"id\":\"player-home\",\"kind\":\"home\",\"name\":\"Your cottage\",\"position\":{\"x\":4,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"mara-home\",\"kind\":\"home\",\"name\":\"Mara’s cottage\",\"position\":{\"x\":4,\"y\":6},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"bakery\",\"kind\":\"bakery\",\"name\":\"Ada’s bakery\",\"position\":{\"x\":26,\"y\":6},\"stock\":{\"bread\":2,\"grain\":7,\"timber\":0,\"water\":0}},{\"id\":\"ada-home\",\"kind\":\"home\",\"name\":\"Ada’s cottage\",\"position\":{\"x\":28,\"y\":11},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"wren-home\",\"kind\":\"home\",\"name\":\"Wren’s cottage\",\"position\":{\"x\":27,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"well\",\"kind\":\"well\",\"name\":\"Catchment well\",\"position\":{\"x\":8,\"y\":14},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":12}},{\"id\":\"woodpile\",\"kind\":\"woodpile\",\"name\":\"Shared woodpile\",\"position\":{\"x\":5,\"y\":12},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":5,\"water\":0}},{\"id\":\"square\",\"kind\":\"venue\",\"name\":\"Village square\",\"position\":{\"x\":14,\"y\":16},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"market\",\"kind\":\"venue\",\"name\":\"Market green\",\"position\":{\"x\":24,\"y\":15},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}}],\"player\":{\"action\":\"Taking in the day\",\"gifts\":0,\"harvests\":0,\"id\":\"player\",\"inventory\":{\"bread\":0,\"grain\":4,\"timber\":1,\"water\":2},\"memories\":[],\"name\":\"You\",\"path\":[],\"task\":null,\"x\":4,\"y\":21},\"plots\":[{\"harvestCount\":0,\"id\":\"plot-1\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":11,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":192,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-2\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":13,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":216,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-3\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":14,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":240,\"y\":124},\"wateredAt\":null}],\"reservations\":[],\"ruleHistory\":[],\"rules\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"player\",\"seedReserve\":1,\"venue\":\"square\"},\"rulesRevision\":0,\"seed\":137,\"step\":200,\"tick\":20,\"version\":1}"
+    },
+    "operations": [],
+    "finalStep": 200,
+    "finalHash": "8050b67339adc658fa4069a60f676c86d1094f8ecc375094c72ad895e76eeb91",
+    "eventHead": "e58f12e9938e42f00fd5e1b7230ed9bd236114778305e48baad340854873d201"
+  },
+  "clock": {
+    "paused": false,
+    "pace": 1
+  },
+  "initiativeTickets": [
+    {
+      "id": "944585f1-859c-4649-a2a8-ac02520c1878",
+      "save_id": "134bef3d-9b7f-4746-a35f-1d13d546ae08",
+      "request_id": "actual-personal-1",
+      "trigger_key": "personal:wren:f93a7b766ffd374a091f7953",
+      "npc_id": "wren",
+      "snapshot_step": 200,
+      "rules_revision": 0,
+      "intent_hash": "40e170a5030708edb947430698ee296c9fb366ce05d5d9c3bb15438a6a04518a",
+      "context_hash": "37b856bf7c34cd77f0c3f9d71b020b9e90ae3ede45b97f6ed5d58defc82da66b",
+      "source": "local-qwen",
+      "status": "failed",
+      "job_id": "66499965-f96a-482e-b9c4-a808c4b761a1",
+      "summary": "No resident action was applied.",
+      "error_code": "COZY_LOCAL_QWEN_OUTPUT",
+      "created_at": 1792960404981,
+      "updated_at": 1792960439005,
+      "context": {
+        "kind": "personal",
+        "version": 1,
+        "npcId": "wren",
+        "step": 200,
+        "triggerKey": "personal:wren:f93a7b766ffd374a091f7953",
+        "intentHash": "40e170a5030708edb947430698ee296c9fb366ce05d5d9c3bb15438a6a04518a",
+        "self": {
+          "name": "Wren",
+          "position": {
+            "x": 14,
+            "y": 16
+          },
+          "needs": {
+            "hunger": 17,
+            "energy": 94,
+            "social": 77
+          },
+          "inventory": {
+            "grain": 0,
+            "water": 0,
+            "timber": 0,
+            "bread": 0
+          },
+          "values": {
+            "care": 60,
+            "curiosity": 40,
+            "belonging": 95,
+            "autonomy": 60
+          },
+          "preferences": {
+            "food": "bread",
+            "restPlaceId": "wren-home"
+          }
+        },
+        "relationships": [
+          {
+            "actorId": "player",
+            "trust": 50,
+            "affinity": 40,
+            "helpfulness": 0,
+            "basis": "seeded",
+            "lastInteractionStep": null,
+            "evidenceIds": []
+          },
+          {
+            "actorId": "ada",
+            "trust": 50,
+            "affinity": 25,
+            "helpfulness": 0,
+            "basis": "seeded",
+            "lastInteractionStep": null,
+            "evidenceIds": []
+          },
+          {
+            "actorId": "mara",
+            "trust": 50,
+            "affinity": 25,
+            "helpfulness": 0,
+            "basis": "seeded",
+            "lastInteractionStep": null,
+            "evidenceIds": []
+          }
+        ],
+        "beliefs": [],
+        "aspirations": [],
+        "capabilityRequests": [],
+        "plan": null,
+        "observations": [],
+        "nearbyActors": [],
+        "contacts": [
+          {
+            "id": "player",
+            "name": "You",
+            "homeId": "player-home"
+          },
+          {
+            "id": "ada",
+            "name": "Ada",
+            "homeId": "ada-home"
+          },
+          {
+            "id": "mara",
+            "name": "Mara",
+            "homeId": "mara-home"
+          }
+        ],
+        "observedPlaces": [
+          {
+            "id": "square",
+            "stock": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            }
+          }
+        ],
+        "knownPlaces": [
+          {
+            "id": "player-home",
+            "position": {
+              "x": 4,
+              "y": 21
+            }
+          },
+          {
+            "id": "mara-home",
+            "position": {
+              "x": 4,
+              "y": 6
+            }
+          },
+          {
+            "id": "bakery",
+            "position": {
+              "x": 26,
+              "y": 6
+            }
+          },
+          {
+            "id": "ada-home",
+            "position": {
+              "x": 28,
+              "y": 11
+            }
+          },
+          {
+            "id": "wren-home",
+            "position": {
+              "x": 27,
+              "y": 21
+            }
+          },
+          {
+            "id": "well",
+            "position": {
+              "x": 8,
+              "y": 14
+            }
+          },
+          {
+            "id": "woodpile",
+            "position": {
+              "x": 5,
+              "y": 12
+            }
+          },
+          {
+            "id": "square",
+            "position": {
+              "x": 14,
+              "y": 16
+            }
+          },
+          {
+            "id": "market",
+            "position": {
+              "x": 24,
+              "y": 15
+            }
+          },
+          {
+            "id": "plot-1",
+            "position": {
+              "x": 11,
+              "y": 7
+            }
+          },
+          {
+            "id": "plot-2",
+            "position": {
+              "x": 13,
+              "y": 7
+            }
+          },
+          {
+            "id": "plot-3",
+            "position": {
+              "x": 14,
+              "y": 7
+            }
+          }
+        ],
+        "cooperation": [],
+        "affordances": [
+          {
+            "action": "inspect",
+            "constraints": "Travel to a known place/plot and observe it; no remote stock."
+          },
+          {
+            "action": "rest",
+            "constraints": "Travel to your own home; recovery takes real steps."
+          },
+          {
+            "action": "eat",
+            "constraints": "Consume one owned bread or grain after eating time."
+          },
+          {
+            "action": "seek-meal",
+            "constraints": "Visit bakery; finite public stock and seed floor enforced at arrival."
+          },
+          {
+            "action": "approach",
+            "constraints": "Find a known person physically; unseen positions are unavailable."
+          },
+          {
+            "action": "talk",
+            "constraints": "Actually reach recipient; speech is attributed testimony, not fact."
+          },
+          {
+            "action": "cooperate",
+            "constraints": "Only one real contribution to an existing permitted association; never a school or new mechanic."
+          },
+          {
+            "action": "wait",
+            "constraints": "Time passes; needs still change."
+          }
+        ],
+        "eligibility": {
+          "canImagine": true,
+          "aspirationSlotsRemaining": 8,
+          "nextEligibleStep": 200
+        },
+        "triggers": [
+          "company-matters",
+          "an-open-future"
+        ]
+      },
+      "decision": null
+    }
+  ],
+  "providerAudit": [
+    {
+      "attemptId": "66499965-f96a-482e-b9c4-a808c4b761a1",
+      "purpose": "cozy-personal-local",
+      "status": "failed",
+      "errorCode": "COZY_LOCAL_QWEN_OUTPUT",
+      "actualMicroUsd": 0,
+      "result": {
+        "purpose": "personal",
+        "provider": "ollama",
+        "transport": "local",
+        "responseId": null,
+        "responseCreatedAt": "2026-10-25T20:33:58.998205Z",
+        "model": "qwen3.5:9b",
+        "modelDigest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "inputTokens": 1248,
+        "outputTokens": 365,
+        "durationMs": 33984,
+        "rawText": "{\n  \"npcId\": \"wren\",\n  \"triggerKey\": \"personal:wren:f93a7b766ffd374a091f7953\",\n  \"intentHash\": \"40e170a5030708edb947430698ee296c9fb366ce05d5d9c3bb15438a6a04518a\",\n  \"action\": \"seek-meal\",\n  \"aspirationId\": null,\n  \"aspiration\": null,\n  \"plan\": {\n    \"summary\": \"Walk to bakery to get bread for hunger.\",\n    \"steps\": [\n      {\n        \"action\": \"approach\",\n        \"targetId\": \"bakery\",\n        \"durationSteps\": 120,\n        \"speech\": null\n      },\n      {\n        \"action\": \"talk\",\n        \"targetId\": \"player\",\n        \"durationSteps\": 60,\n        \"speech\": \"I'm feeling hungry. Do you have any bread to share?\"\n      },\n      {\n        \"action\": \"eat\",\n        \"targetId\": \"bread\",\n        \"durationSteps\": 30,\n        \"speech\": null\n      }\n    ]\n  },\n  \"targetId\": \"bakery\",\n  \"speech\": null,\n  \"belief\": null,\n  \"reason\": \"Hunger is at 17; bakery is a known place with potential bread stock.\",\n  \"evidenceIds\": []\n}",
+        "actualMicroUsd": 0,
+        "inputSnapshot": {
+          "kind": "personal",
+          "version": 1,
+          "npcId": "wren",
+          "step": 200,
+          "triggerKey": "personal:wren:f93a7b766ffd374a091f7953",
+          "intentHash": "40e170a5030708edb947430698ee296c9fb366ce05d5d9c3bb15438a6a04518a",
+          "self": {
+            "name": "Wren",
+            "position": {
+              "x": 14,
+              "y": 16
+            },
+            "needs": {
+              "hunger": 17,
+              "energy": 94,
+              "social": 77
+            },
+            "inventory": {
+              "grain": 0,
+              "water": 0,
+              "timber": 0,
+              "bread": 0
+            },
+            "values": {
+              "care": 60,
+              "curiosity": 40,
+              "belonging": 95,
+              "autonomy": 60
+            },
+            "preferences": {
+              "food": "bread",
+              "restPlaceId": "wren-home"
+            }
+          },
+          "relationships": [
+            {
+              "actorId": "player",
+              "trust": 50,
+              "affinity": 40,
+              "helpfulness": 0,
+              "basis": "seeded",
+              "lastInteractionStep": null,
+              "evidenceIds": []
+            },
+            {
+              "actorId": "ada",
+              "trust": 50,
+              "affinity": 25,
+              "helpfulness": 0,
+              "basis": "seeded",
+              "lastInteractionStep": null,
+              "evidenceIds": []
+            },
+            {
+              "actorId": "mara",
+              "trust": 50,
+              "affinity": 25,
+              "helpfulness": 0,
+              "basis": "seeded",
+              "lastInteractionStep": null,
+              "evidenceIds": []
+            }
+          ],
+          "beliefs": [],
+          "aspirations": [],
+          "capabilityRequests": [],
+          "plan": null,
+          "observations": [],
+          "nearbyActors": [],
+          "contacts": [
+            {
+              "id": "player",
+              "name": "You",
+              "homeId": "player-home"
+            },
+            {
+              "id": "ada",
+              "name": "Ada",
+              "homeId": "ada-home"
+            },
+            {
+              "id": "mara",
+              "name": "Mara",
+              "homeId": "mara-home"
+            }
+          ],
+          "observedPlaces": [
+            {
+              "id": "square",
+              "stock": {
+                "grain": 0,
+                "water": 0,
+                "timber": 0,
+                "bread": 0
+              }
+            }
+          ],
+          "knownPlaces": [
+            {
+              "id": "player-home",
+              "position": {
+                "x": 4,
+                "y": 21
+              }
+            },
+            {
+              "id": "mara-home",
+              "position": {
+                "x": 4,
+                "y": 6
+              }
+            },
+            {
+              "id": "bakery",
+              "position": {
+                "x": 26,
+                "y": 6
+              }
+            },
+            {
+              "id": "ada-home",
+              "position": {
+                "x": 28,
+                "y": 11
+              }
+            },
+            {
+              "id": "wren-home",
+              "position": {
+                "x": 27,
+                "y": 21
+              }
+            },
+            {
+              "id": "well",
+              "position": {
+                "x": 8,
+                "y": 14
+              }
+            },
+            {
+              "id": "woodpile",
+              "position": {
+                "x": 5,
+                "y": 12
+              }
+            },
+            {
+              "id": "square",
+              "position": {
+                "x": 14,
+                "y": 16
+              }
+            },
+            {
+              "id": "market",
+              "position": {
+                "x": 24,
+                "y": 15
+              }
+            },
+            {
+              "id": "plot-1",
+              "position": {
+                "x": 11,
+                "y": 7
+              }
+            },
+            {
+              "id": "plot-2",
+              "position": {
+                "x": 13,
+                "y": 7
+              }
+            },
+            {
+              "id": "plot-3",
+              "position": {
+                "x": 14,
+                "y": 7
+              }
+            }
+          ],
+          "cooperation": [],
+          "affordances": [
+            {
+              "action": "inspect",
+              "constraints": "Travel to a known place/plot and observe it; no remote stock."
+            },
+            {
+              "action": "rest",
+              "constraints": "Travel to your own home; recovery takes real steps."
+            },
+            {
+              "action": "eat",
+              "constraints": "Consume one owned bread or grain after eating time."
+            },
+            {
+              "action": "seek-meal",
+              "constraints": "Visit bakery; finite public stock and seed floor enforced at arrival."
+            },
+            {
+              "action": "approach",
+              "constraints": "Find a known person physically; unseen positions are unavailable."
+            },
+            {
+              "action": "talk",
+              "constraints": "Actually reach recipient; speech is attributed testimony, not fact."
+            },
+            {
+              "action": "cooperate",
+              "constraints": "Only one real contribution to an existing permitted association; never a school or new mechanic."
+            },
+            {
+              "action": "wait",
+              "constraints": "Time passes; needs still change."
+            }
+          ],
+          "eligibility": {
+            "canImagine": true,
+            "aspirationSlotsRemaining": 8,
+            "nextEligibleStep": 200
+          },
+          "triggers": [
+            "company-matters",
+            "an-open-future"
+          ]
+        }
+      }
+    }
+  ],
+  "importedProviderAudit": {
+    "provenance": "unverified-import",
+    "records": []
+  },
+  "archiveIndex": [],
+  "notice": "Local prototype started October25. Rule-policy simulation; imported provider claims are unverified. No final submission."
+}

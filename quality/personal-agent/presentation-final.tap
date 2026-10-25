@@ -1,0 +1,34 @@
+✔ foreground initiative never dispatches for paused, hidden, recorded, legacy, disabled or exhausted worlds (0.801666ms)
+✔ one slow model request coalesces repeated polls without occupying a physical command queue (0.10175ms)
+✔ busy and lost responses retain the same request ID, including a page coordinator restart (0.863917ms)
+✔ pause retains a pending receipt and resume recovers it without a new generation ID (0.090916ms)
+✔ empty-storage pending ticket uses one stable recovery-only probe despite admission limits (0.142291ms)
+✔ fresh tab leaves a paused ready ticket alone, then resumes it through a recovery-only probe (0.058958ms)
+✔ terminal unknown outcome observes provider quarantine and never retries the previous generation ID (0.076208ms)
+✔ a completed response carries its original save ID for caller stale-save guards (0.047ms)
+✔ idle polling backs off and allocates a fresh opportunity ID (0.07675ms)
+✔ private social observations do not become player notices (0.484959ms)
+✔ causal notebook follows cited receipts, not adjacent unrelated events, and reports missing references (0.193166ms)
+✔ doing labels reflect accepted physical tasks rather than generated reason text (0.112041ms)
+✔ idea provenance keeps fixtures, manual input and actual provider modes distinct (0.031875ms)
+✔ legacy notebook explicitly offers an independent paused living branch without inventing a proposal (3.0145ms)
+✔ empty living branch renders honest quiet state and paused guidance without diagnostic counters (3.464584ms)
+✔ permission controls require the actual exact preview and preserve independent refusal (5.101667ms)
+✔ resident page leads with original portrait, needs and social actions; raw policy stays in inspection (3.312792ms)
+✔ personal notes separate an unfinished wish from a completed supported plan and mark uncertain beliefs (3.2005ms)
+✔ normal memory wording uses recorded stance instead of policy formula (0.840333ms)
+✔ moving-neighbor approach uses current position and throttles meaningful reroutes (0.137584ms)
+✔ neighbor interaction delivers only in current physical range and remains bounded (0.051542ms)
+✔ world preview retries preserve the request ID; editing the description is a new explicit attempt (0.444417ms)
+✔ forge request state round-trips after a lost response and rejects malformed browser data (0.626208ms)
+✔ a mismatched proposal cannot replace the current world preview (0.206833ms)
+✔ explicit world creation retains one command ID through retries (0.067875ms)
+✔ creation requires an actual ready valid unexpired blueprint, not text or an unavailable placeholder (0.066459ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 245.378041

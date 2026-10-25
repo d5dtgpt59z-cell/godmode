@@ -18,7 +18,7 @@ export type CozyDialogueProps={
 function Portrait({speakerId,speakerName,expression}:{speakerId:ActorId;speakerName:string;expression:string}){
  const [attempt,setAttempt]=useState(expression==="neutral"?1:0);
  const initials=speakerName.trim().split(/\s+/).map(part=>part[0]).slice(0,2).join("");
- const source=`/assets/cozy/portraits/${speakerId}-${attempt===0?expression:"neutral"}.png?v=cast-3`;
+ const source=`/assets/cozy/portraits/${speakerId}-${attempt===0?expression:"neutral"}.png?v=cast-4`;
  return <div className="cozy-speech-portrait" aria-hidden="true">
   {attempt<2
    // Native pixel portraits use nearest-neighbor scaling; no responsive image resampling.

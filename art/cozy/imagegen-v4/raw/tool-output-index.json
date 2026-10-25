@@ -1,0 +1,77 @@
+{
+  "provider": "built-in image_gen",
+  "calls": [
+    {
+      "id": "portraits",
+      "raw": "portraits-v4-sheet.png",
+      "prompt": "portraits-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-211abfb6-31f7-4d07-8d42-5dffd2ac3e00.png"
+    },
+    {
+      "id": "turnaround",
+      "raw": "cast-turnaround-v4.png",
+      "prompt": "cast-turnaround-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-7701a66f-ba83-4858-af37-2b571c29f632.png"
+    },
+    {
+      "id": "player",
+      "raw": "player-72-frames-v4.png",
+      "prompt": "player-72-frames-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-46cda62b-f47e-407e-828e-91c5986edecc.png"
+    },
+    {
+      "id": "ada",
+      "raw": "ada-72-frames-v4.png",
+      "prompt": "ada-72-frames-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-f6b72928-dbca-4ba4-aeea-56d038cbf756.png"
+    },
+    {
+      "id": "mara",
+      "raw": "mara-72-frames-v4.png",
+      "prompt": "mara-72-frames-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-19b9f881-34a9-45f1-acd7-85cf5a9720c6.png"
+    },
+    {
+      "id": "wren",
+      "raw": "wren-72-frames-v4.png",
+      "prompt": "wren-72-frames-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-e96c7654-83a6-4a9f-a261-33b2e6329fdf.png"
+    },
+    {
+      "id": "north-correction",
+      "raw": "north-correction-player-mara-v4.png",
+      "prompt": "north-correction-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-6a11aec2-ec15-4ee6-8824-393301721909.png"
+    },
+    {
+      "id": "foreground",
+      "raw": "foreground-v4-sheet.png",
+      "prompt": "foreground-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-6a76e2e5-3657-4577-bcb5-303932154ded.png"
+    },
+    {
+      "id": "map",
+      "raw": "map-v4-style-edit.png",
+      "prompt": "map-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-f5b3d92f-6e49-4daa-94a3-c61f75447763.png"
+    },
+    {
+      "id": "social-fx",
+      "raw": "social-fx-v4-sheet.png",
+      "prompt": "social-fx-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-27db8fb8-f22a-4cc2-b3df-f6c7fbb30d0d.png"
+    },
+    {
+      "id": "wren-north",
+      "raw": "wren-north-correction-v4.png",
+      "prompt": "wren-north-correction-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-9c1f0295-7530-4f4b-b53d-7fce76e2ae9a.png"
+    },
+    {
+      "id": "isolated-wheat",
+      "raw": "isolated-wheat-v4-sheet.png",
+      "prompt": "isolated-wheat-v4.txt",
+      "originalGeneratedPath": "/Users/ryanmorrison/.codex/generated_images/01a1732a-4613-76e1-b44d-c93937d831f2/exec-3695eb83-b530-400a-bea9-53c56ad0559c.png"
+    }
+  ]
+}

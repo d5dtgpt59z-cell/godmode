@@ -1,0 +1,9222 @@
+{
+  "frames": [
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        143
+      ],
+      "atlas": [
+        1,
+        1,
+        32,
+        40
+      ],
+      "key": "player.idle.s.0",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        44,
+        10,
+        132,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        141
+      ],
+      "atlas": [
+        35,
+        1,
+        32,
+        40
+      ],
+      "key": "player.idle.s.1",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        184,
+        11,
+        273,
+        152
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        142
+      ],
+      "atlas": [
+        69,
+        1,
+        32,
+        40
+      ],
+      "key": "player.walk.s.0",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        328,
+        11,
+        415,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        142
+      ],
+      "atlas": [
+        103,
+        1,
+        32,
+        40
+      ],
+      "key": "player.walk.s.1",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        471,
+        11,
+        557,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        142
+      ],
+      "atlas": [
+        137,
+        1,
+        32,
+        40
+      ],
+      "key": "player.walk.s.2",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        613,
+        11,
+        701,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        142
+      ],
+      "atlas": [
+        171,
+        1,
+        32,
+        40
+      ],
+      "key": "player.walk.s.3",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        757,
+        11,
+        845,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        147
+      ],
+      "atlas": [
+        205,
+        1,
+        32,
+        40
+      ],
+      "key": "player.carry.s.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        44,
+        153,
+        133,
+        300
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        147
+      ],
+      "atlas": [
+        239,
+        1,
+        32,
+        40
+      ],
+      "key": "player.carry.s.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        184,
+        153,
+        273,
+        300
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        147
+      ],
+      "atlas": [
+        273,
+        1,
+        32,
+        40
+      ],
+      "key": "player.carry.s.2",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        328,
+        154,
+        415,
+        301
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        144
+      ],
+      "atlas": [
+        307,
+        1,
+        32,
+        40
+      ],
+      "key": "player.carry.s.3",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        469,
+        155,
+        556,
+        299
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        147
+      ],
+      "atlas": [
+        341,
+        1,
+        32,
+        40
+      ],
+      "key": "player.work.s.0",
+      "packedSize": [
+        24,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        154,
+        704,
+        301
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        98,
+        144
+      ],
+      "atlas": [
+        375,
+        1,
+        32,
+        40
+      ],
+      "key": "player.work.s.1",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        755,
+        156,
+        853,
+        300
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        99,
+        145
+      ],
+      "atlas": [
+        409,
+        1,
+        32,
+        40
+      ],
+      "key": "player.work.s.2",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        40,
+        301,
+        139,
+        446
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        145
+      ],
+      "atlas": [
+        443,
+        1,
+        32,
+        40
+      ],
+      "key": "player.work.s.3",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        184,
+        301,
+        275,
+        446
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        100,
+        145
+      ],
+      "atlas": [
+        477,
+        1,
+        32,
+        40
+      ],
+      "key": "player.talk.s.0",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        324,
+        302,
+        424,
+        447
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        98,
+        145
+      ],
+      "atlas": [
+        511,
+        1,
+        32,
+        40
+      ],
+      "key": "player.talk.s.1",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        460,
+        301,
+        558,
+        446
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        146
+      ],
+      "atlas": [
+        545,
+        1,
+        32,
+        40
+      ],
+      "key": "player.rest.s.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        612,
+        301,
+        702,
+        447
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        146
+      ],
+      "atlas": [
+        579,
+        1,
+        32,
+        40
+      ],
+      "key": "player.rest.s.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        757,
+        301,
+        847,
+        447
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        137,
+        209
+      ],
+      "atlas": [
+        613,
+        1,
+        32,
+        40
+      ],
+      "key": "player.idle.n.0",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        55,
+        29,
+        192,
+        238
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        136,
+        209
+      ],
+      "atlas": [
+        647,
+        1,
+        32,
+        40
+      ],
+      "key": "player.idle.n.1",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        255,
+        29,
+        391,
+        238
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        135,
+        212
+      ],
+      "atlas": [
+        681,
+        1,
+        32,
+        40
+      ],
+      "key": "player.walk.n.0",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        460,
+        28,
+        595,
+        240
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        136,
+        211
+      ],
+      "atlas": [
+        715,
+        1,
+        32,
+        40
+      ],
+      "key": "player.walk.n.1",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        658,
+        29,
+        794,
+        240
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        135,
+        212
+      ],
+      "atlas": [
+        749,
+        1,
+        32,
+        40
+      ],
+      "key": "player.walk.n.2",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        855,
+        28,
+        990,
+        240
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        129,
+        212
+      ],
+      "atlas": [
+        783,
+        1,
+        32,
+        40
+      ],
+      "key": "player.walk.n.3",
+      "packedSize": [
+        24,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        1057,
+        29,
+        1186,
+        241
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        137,
+        197
+      ],
+      "atlas": [
+        817,
+        1,
+        32,
+        40
+      ],
+      "key": "player.carry.n.0",
+      "packedSize": [
+        25,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        53,
+        244,
+        190,
+        441
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        135,
+        197
+      ],
+      "atlas": [
+        851,
+        1,
+        32,
+        40
+      ],
+      "key": "player.carry.n.1",
+      "packedSize": [
+        25,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        254,
+        243,
+        389,
+        440
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        136,
+        198
+      ],
+      "atlas": [
+        885,
+        1,
+        32,
+        40
+      ],
+      "key": "player.carry.n.2",
+      "packedSize": [
+        25,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        452,
+        244,
+        588,
+        442
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        135,
+        200
+      ],
+      "atlas": [
+        919,
+        1,
+        32,
+        40
+      ],
+      "key": "player.carry.n.3",
+      "packedSize": [
+        25,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        651,
+        244,
+        786,
+        444
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        136,
+        199
+      ],
+      "atlas": [
+        953,
+        1,
+        32,
+        40
+      ],
+      "key": "player.work.n.0",
+      "packedSize": [
+        25,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        854,
+        244,
+        990,
+        443
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        133,
+        196
+      ],
+      "atlas": [
+        987,
+        1,
+        32,
+        40
+      ],
+      "key": "player.work.n.1",
+      "packedSize": [
+        24,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        1054,
+        245,
+        1187,
+        441
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        138,
+        191
+      ],
+      "atlas": [
+        1,
+        43,
+        32,
+        40
+      ],
+      "key": "player.work.n.2",
+      "packedSize": [
+        25,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        54,
+        449,
+        192,
+        640
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        136,
+        192
+      ],
+      "atlas": [
+        35,
+        43,
+        32,
+        40
+      ],
+      "key": "player.work.n.3",
+      "packedSize": [
+        25,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        251,
+        449,
+        387,
+        641
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        145,
+        191
+      ],
+      "atlas": [
+        69,
+        43,
+        32,
+        40
+      ],
+      "key": "player.talk.n.0",
+      "packedSize": [
+        27,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        451,
+        450,
+        596,
+        641
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        135,
+        190
+      ],
+      "atlas": [
+        103,
+        43,
+        32,
+        40
+      ],
+      "key": "player.talk.n.1",
+      "packedSize": [
+        25,
+        33
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        653,
+        451,
+        788,
+        641
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        137,
+        189
+      ],
+      "atlas": [
+        137,
+        43,
+        32,
+        40
+      ],
+      "key": "player.rest.n.0",
+      "packedSize": [
+        25,
+        33
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        853,
+        452,
+        990,
+        641
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        129,
+        195
+      ],
+      "atlas": [
+        171,
+        43,
+        32,
+        40
+      ],
+      "key": "player.rest.n.1",
+      "packedSize": [
+        24,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        1057,
+        449,
+        1186,
+        644
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        146
+      ],
+      "atlas": [
+        205,
+        43,
+        32,
+        40
+      ],
+      "key": "player.idle.e.0",
+      "packedSize": [
+        24,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        37,
+        894,
+        130,
+        1040
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        145
+      ],
+      "atlas": [
+        239,
+        43,
+        32,
+        40
+      ],
+      "key": "player.idle.e.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        183,
+        895,
+        275,
+        1040
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        94,
+        145
+      ],
+      "atlas": [
+        273,
+        43,
+        32,
+        40
+      ],
+      "key": "player.walk.e.0",
+      "packedSize": [
+        24,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        327,
+        894,
+        421,
+        1039
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        100,
+        144
+      ],
+      "atlas": [
+        307,
+        43,
+        32,
+        40
+      ],
+      "key": "player.walk.e.1",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        466,
+        895,
+        566,
+        1039
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        146
+      ],
+      "atlas": [
+        341,
+        43,
+        32,
+        40
+      ],
+      "key": "player.walk.e.2",
+      "packedSize": [
+        24,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        617,
+        895,
+        710,
+        1041
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        146
+      ],
+      "atlas": [
+        375,
+        43,
+        32,
+        40
+      ],
+      "key": "player.walk.e.3",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        763,
+        895,
+        853,
+        1041
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        150
+      ],
+      "atlas": [
+        409,
+        43,
+        32,
+        40
+      ],
+      "key": "player.carry.e.0",
+      "packedSize": [
+        24,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        37,
+        1041,
+        130,
+        1191
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        149
+      ],
+      "atlas": [
+        443,
+        43,
+        32,
+        40
+      ],
+      "key": "player.carry.e.1",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        181,
+        1042,
+        273,
+        1191
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        150
+      ],
+      "atlas": [
+        477,
+        43,
+        32,
+        40
+      ],
+      "key": "player.carry.e.2",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        324,
+        1041,
+        416,
+        1191
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        150
+      ],
+      "atlas": [
+        511,
+        43,
+        32,
+        40
+      ],
+      "key": "player.carry.e.3",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        469,
+        1041,
+        561,
+        1191
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        99,
+        150
+      ],
+      "atlas": [
+        545,
+        43,
+        32,
+        40
+      ],
+      "key": "player.work.e.0",
+      "packedSize": [
+        25,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        1041,
+        710,
+        1191
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        96,
+        150
+      ],
+      "atlas": [
+        579,
+        43,
+        32,
+        40
+      ],
+      "key": "player.work.e.1",
+      "packedSize": [
+        24,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        757,
+        1041,
+        853,
+        1191
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        149
+      ],
+      "atlas": [
+        613,
+        43,
+        32,
+        40
+      ],
+      "key": "player.work.e.2",
+      "packedSize": [
+        24,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        38,
+        1191,
+        131,
+        1340
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        149
+      ],
+      "atlas": [
+        647,
+        43,
+        32,
+        40
+      ],
+      "key": "player.work.e.3",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        183,
+        1191,
+        275,
+        1340
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        148
+      ],
+      "atlas": [
+        681,
+        43,
+        32,
+        40
+      ],
+      "key": "player.talk.e.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        324,
+        1191,
+        416,
+        1339
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        100,
+        148
+      ],
+      "atlas": [
+        715,
+        43,
+        32,
+        40
+      ],
+      "key": "player.talk.e.1",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        463,
+        1191,
+        563,
+        1339
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        148
+      ],
+      "atlas": [
+        749,
+        43,
+        32,
+        40
+      ],
+      "key": "player.rest.e.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        1191,
+        702,
+        1339
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        148
+      ],
+      "atlas": [
+        783,
+        43,
+        32,
+        40
+      ],
+      "key": "player.rest.e.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        756,
+        1191,
+        847,
+        1339
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        144
+      ],
+      "atlas": [
+        817,
+        43,
+        32,
+        40
+      ],
+      "key": "player.idle.w.0",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        39,
+        1343,
+        131,
+        1487
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        144
+      ],
+      "atlas": [
+        851,
+        43,
+        32,
+        40
+      ],
+      "key": "player.idle.w.1",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        182,
+        1343,
+        274,
+        1487
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        143
+      ],
+      "atlas": [
+        885,
+        43,
+        32,
+        40
+      ],
+      "key": "player.walk.w.0",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        326,
+        1343,
+        417,
+        1486
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        144
+      ],
+      "atlas": [
+        919,
+        43,
+        32,
+        40
+      ],
+      "key": "player.walk.w.1",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        470,
+        1343,
+        561,
+        1487
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        145
+      ],
+      "atlas": [
+        953,
+        43,
+        32,
+        40
+      ],
+      "key": "player.walk.w.2",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        1341,
+        702,
+        1486
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        144
+      ],
+      "atlas": [
+        987,
+        43,
+        32,
+        40
+      ],
+      "key": "player.walk.w.3",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        755,
+        1342,
+        847,
+        1486
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        144
+      ],
+      "atlas": [
+        1,
+        85,
+        32,
+        40
+      ],
+      "key": "player.carry.w.0",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        39,
+        1489,
+        131,
+        1633
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        144
+      ],
+      "atlas": [
+        35,
+        85,
+        32,
+        40
+      ],
+      "key": "player.carry.w.1",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        182,
+        1489,
+        274,
+        1633
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        145
+      ],
+      "atlas": [
+        69,
+        85,
+        32,
+        40
+      ],
+      "key": "player.carry.w.2",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        325,
+        1488,
+        416,
+        1633
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        144
+      ],
+      "atlas": [
+        103,
+        85,
+        32,
+        40
+      ],
+      "key": "player.carry.w.3",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        468,
+        1489,
+        560,
+        1633
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        101,
+        146
+      ],
+      "atlas": [
+        137,
+        85,
+        32,
+        40
+      ],
+      "key": "player.work.w.0",
+      "packedSize": [
+        26,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        609,
+        1488,
+        710,
+        1634
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        98,
+        146
+      ],
+      "atlas": [
+        171,
+        85,
+        32,
+        40
+      ],
+      "key": "player.work.w.1",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        754,
+        1488,
+        852,
+        1634
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        140
+      ],
+      "atlas": [
+        205,
+        85,
+        32,
+        40
+      ],
+      "key": "player.work.w.2",
+      "packedSize": [
+        24,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        38,
+        1634,
+        131,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        140
+      ],
+      "atlas": [
+        239,
+        85,
+        32,
+        40
+      ],
+      "key": "player.work.w.3",
+      "packedSize": [
+        23,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        183,
+        1634,
+        274,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        141
+      ],
+      "atlas": [
+        273,
+        85,
+        32,
+        40
+      ],
+      "key": "player.talk.w.0",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        324,
+        1633,
+        416,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        141
+      ],
+      "atlas": [
+        307,
+        85,
+        32,
+        40
+      ],
+      "key": "player.talk.w.1",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        462,
+        1633,
+        559,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        141
+      ],
+      "atlas": [
+        341,
+        85,
+        32,
+        40
+      ],
+      "key": "player.rest.w.0",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        610,
+        1633,
+        700,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        141
+      ],
+      "atlas": [
+        375,
+        85,
+        32,
+        40
+      ],
+      "key": "player.rest.w.1",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25333333333333335,
+      "source": "art/cozy/imagegen-v4/raw/player-72-frames-v4.png",
+      "sourceCell": [
+        752,
+        1633,
+        842,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        75,
+        148
+      ],
+      "atlas": [
+        409,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.idle.s.0",
+      "packedSize": [
+        19,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        61,
+        14,
+        136,
+        162
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        76,
+        148
+      ],
+      "atlas": [
+        443,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.idle.s.1",
+      "packedSize": [
+        19,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        198,
+        14,
+        274,
+        162
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        82,
+        150
+      ],
+      "atlas": [
+        477,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.walk.s.0",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        332,
+        12,
+        414,
+        162
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        152
+      ],
+      "atlas": [
+        511,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.walk.s.1",
+      "packedSize": [
+        21,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        471,
+        11,
+        557,
+        163
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        85,
+        152
+      ],
+      "atlas": [
+        545,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.walk.s.2",
+      "packedSize": [
+        21,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        608,
+        11,
+        693,
+        163
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        85,
+        151
+      ],
+      "atlas": [
+        579,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.walk.s.3",
+      "packedSize": [
+        21,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        747,
+        11,
+        832,
+        162
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        79,
+        150
+      ],
+      "atlas": [
+        613,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.carry.s.0",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        56,
+        166,
+        135,
+        316
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        80,
+        151
+      ],
+      "atlas": [
+        647,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.carry.s.1",
+      "packedSize": [
+        20,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        194,
+        165,
+        274,
+        316
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        79,
+        150
+      ],
+      "atlas": [
+        681,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.carry.s.2",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        336,
+        166,
+        415,
+        316
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        79,
+        151
+      ],
+      "atlas": [
+        715,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.carry.s.3",
+      "packedSize": [
+        20,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        471,
+        165,
+        550,
+        316
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        85,
+        150
+      ],
+      "atlas": [
+        749,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.work.s.0",
+      "packedSize": [
+        21,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        613,
+        166,
+        698,
+        316
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        79,
+        150
+      ],
+      "atlas": [
+        783,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.work.s.1",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        752,
+        166,
+        831,
+        316
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        80,
+        150
+      ],
+      "atlas": [
+        817,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.work.s.2",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        57,
+        319,
+        137,
+        469
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        79,
+        150
+      ],
+      "atlas": [
+        851,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.work.s.3",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        197,
+        319,
+        276,
+        469
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        83,
+        150
+      ],
+      "atlas": [
+        885,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.talk.s.0",
+      "packedSize": [
+        21,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        335,
+        319,
+        418,
+        469
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        94,
+        150
+      ],
+      "atlas": [
+        919,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.talk.s.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        469,
+        319,
+        563,
+        469
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        80,
+        150
+      ],
+      "atlas": [
+        953,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.rest.s.0",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        615,
+        319,
+        695,
+        469
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        78,
+        150
+      ],
+      "atlas": [
+        987,
+        85,
+        32,
+        40
+      ],
+      "key": "ada.rest.s.1",
+      "packedSize": [
+        19,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        752,
+        319,
+        830,
+        469
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        79,
+        151
+      ],
+      "atlas": [
+        1,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.idle.n.0",
+      "packedSize": [
+        20,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        56,
+        473,
+        135,
+        624
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        80,
+        151
+      ],
+      "atlas": [
+        35,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.idle.n.1",
+      "packedSize": [
+        20,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        194,
+        473,
+        274,
+        624
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        80,
+        152
+      ],
+      "atlas": [
+        69,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.walk.n.0",
+      "packedSize": [
+        20,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        333,
+        473,
+        413,
+        625
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        80,
+        152
+      ],
+      "atlas": [
+        103,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.walk.n.1",
+      "packedSize": [
+        20,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        470,
+        473,
+        550,
+        625
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        152
+      ],
+      "atlas": [
+        137,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.walk.n.2",
+      "packedSize": [
+        21,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        473,
+        697,
+        625
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        80,
+        152
+      ],
+      "atlas": [
+        171,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.walk.n.3",
+      "packedSize": [
+        20,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        749,
+        473,
+        829,
+        625
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        79,
+        150
+      ],
+      "atlas": [
+        205,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.carry.n.0",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        56,
+        628,
+        135,
+        778
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        81,
+        150
+      ],
+      "atlas": [
+        239,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.carry.n.1",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        193,
+        628,
+        274,
+        778
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        79,
+        150
+      ],
+      "atlas": [
+        273,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.carry.n.2",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        335,
+        628,
+        414,
+        778
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        78,
+        150
+      ],
+      "atlas": [
+        307,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.carry.n.3",
+      "packedSize": [
+        19,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        473,
+        628,
+        551,
+        778
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        150
+      ],
+      "atlas": [
+        341,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.work.n.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        614,
+        628,
+        707,
+        778
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        149
+      ],
+      "atlas": [
+        375,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.work.n.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        753,
+        629,
+        844,
+        778
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        150
+      ],
+      "atlas": [
+        409,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.work.n.2",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        57,
+        781,
+        149,
+        931
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        81,
+        150
+      ],
+      "atlas": [
+        443,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.work.n.3",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        192,
+        781,
+        273,
+        931
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        150
+      ],
+      "atlas": [
+        477,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.talk.n.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        332,
+        781,
+        420,
+        931
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        95,
+        150
+      ],
+      "atlas": [
+        511,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.talk.n.1",
+      "packedSize": [
+        24,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        469,
+        781,
+        564,
+        931
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        80,
+        150
+      ],
+      "atlas": [
+        545,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.rest.n.0",
+      "packedSize": [
+        20,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        614,
+        781,
+        694,
+        931
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        78,
+        149
+      ],
+      "atlas": [
+        579,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.rest.n.1",
+      "packedSize": [
+        19,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        755,
+        781,
+        833,
+        930
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        148
+      ],
+      "atlas": [
+        613,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.idle.e.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        51,
+        934,
+        142,
+        1082
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        148
+      ],
+      "atlas": [
+        647,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.idle.e.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        192,
+        934,
+        284,
+        1082
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        148
+      ],
+      "atlas": [
+        681,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.walk.e.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        332,
+        934,
+        421,
+        1082
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        146
+      ],
+      "atlas": [
+        715,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.walk.e.1",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        468,
+        936,
+        557,
+        1082
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        147
+      ],
+      "atlas": [
+        749,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.walk.e.2",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        935,
+        698,
+        1082
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        148
+      ],
+      "atlas": [
+        783,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.walk.e.3",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        751,
+        934,
+        840,
+        1082
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        152
+      ],
+      "atlas": [
+        817,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.carry.e.0",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        53,
+        1083,
+        145,
+        1235
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        153
+      ],
+      "atlas": [
+        851,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.carry.e.1",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        193,
+        1083,
+        285,
+        1236
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        151
+      ],
+      "atlas": [
+        885,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.carry.e.2",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        332,
+        1084,
+        422,
+        1235
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        148
+      ],
+      "atlas": [
+        919,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.carry.e.3",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        468,
+        1087,
+        558,
+        1235
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        149
+      ],
+      "atlas": [
+        953,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.work.e.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        1086,
+        698,
+        1235
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        148
+      ],
+      "atlas": [
+        987,
+        127,
+        32,
+        40
+      ],
+      "key": "ada.work.e.1",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        750,
+        1087,
+        839,
+        1235
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        149
+      ],
+      "atlas": [
+        1,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.work.e.2",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        55,
+        1237,
+        147,
+        1386
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        149
+      ],
+      "atlas": [
+        35,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.work.e.3",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        192,
+        1237,
+        284,
+        1386
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        149
+      ],
+      "atlas": [
+        69,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.talk.e.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        331,
+        1237,
+        421,
+        1386
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        96,
+        145
+      ],
+      "atlas": [
+        103,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.talk.e.1",
+      "packedSize": [
+        24,
+        36
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        466,
+        1240,
+        562,
+        1385
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        149
+      ],
+      "atlas": [
+        137,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.rest.e.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        1237,
+        699,
+        1386
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        147
+      ],
+      "atlas": [
+        171,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.rest.e.1",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        751,
+        1238,
+        839,
+        1385
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        133
+      ],
+      "atlas": [
+        205,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.idle.w.0",
+      "packedSize": [
+        22,
+        33
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        50,
+        1389,
+        139,
+        1522
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        133
+      ],
+      "atlas": [
+        239,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.idle.w.1",
+      "packedSize": [
+        22,
+        33
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        189,
+        1389,
+        278,
+        1522
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        135
+      ],
+      "atlas": [
+        273,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.walk.w.0",
+      "packedSize": [
+        22,
+        34
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        328,
+        1389,
+        417,
+        1524
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        136
+      ],
+      "atlas": [
+        307,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.walk.w.1",
+      "packedSize": [
+        22,
+        34
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        466,
+        1389,
+        555,
+        1525
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        137
+      ],
+      "atlas": [
+        341,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.walk.w.2",
+      "packedSize": [
+        22,
+        34
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        606,
+        1388,
+        694,
+        1525
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        133
+      ],
+      "atlas": [
+        375,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.walk.w.3",
+      "packedSize": [
+        22,
+        33
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        746,
+        1389,
+        834,
+        1522
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        129
+      ],
+      "atlas": [
+        409,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.carry.w.0",
+      "packedSize": [
+        22,
+        32
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        50,
+        1525,
+        139,
+        1654
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        129
+      ],
+      "atlas": [
+        443,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.carry.w.1",
+      "packedSize": [
+        22,
+        32
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        189,
+        1525,
+        277,
+        1654
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        129
+      ],
+      "atlas": [
+        477,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.carry.w.2",
+      "packedSize": [
+        22,
+        32
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        329,
+        1525,
+        418,
+        1654
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        130
+      ],
+      "atlas": [
+        511,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.carry.w.3",
+      "packedSize": [
+        22,
+        32
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        465,
+        1524,
+        555,
+        1654
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        129
+      ],
+      "atlas": [
+        545,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.work.w.0",
+      "packedSize": [
+        22,
+        32
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        606,
+        1525,
+        695,
+        1654
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        129
+      ],
+      "atlas": [
+        579,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.work.w.1",
+      "packedSize": [
+        22,
+        32
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        747,
+        1525,
+        836,
+        1654
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        121
+      ],
+      "atlas": [
+        613,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.work.w.2",
+      "packedSize": [
+        22,
+        30
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        52,
+        1653,
+        139,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        121
+      ],
+      "atlas": [
+        647,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.work.w.3",
+      "packedSize": [
+        22,
+        30
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        189,
+        1653,
+        278,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        121
+      ],
+      "atlas": [
+        681,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.talk.w.0",
+      "packedSize": [
+        22,
+        30
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        328,
+        1653,
+        417,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        94,
+        122
+      ],
+      "atlas": [
+        715,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.talk.w.1",
+      "packedSize": [
+        23,
+        30
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        463,
+        1652,
+        557,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        84,
+        121
+      ],
+      "atlas": [
+        749,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.rest.w.0",
+      "packedSize": [
+        21,
+        30
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        612,
+        1653,
+        696,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        120
+      ],
+      "atlas": [
+        783,
+        169,
+        32,
+        40
+      ],
+      "key": "ada.rest.w.1",
+      "packedSize": [
+        21,
+        30
+      ],
+      "sharedCharacterFitScale": 0.24836601307189543,
+      "source": "art/cozy/imagegen-v4/raw/ada-72-frames-v4.png",
+      "sourceCell": [
+        751,
+        1654,
+        837,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        83,
+        144
+      ],
+      "atlas": [
+        817,
+        169,
+        32,
+        40
+      ],
+      "key": "mara.idle.s.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        49,
+        9,
+        132,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        83,
+        145
+      ],
+      "atlas": [
+        851,
+        169,
+        32,
+        40
+      ],
+      "key": "mara.idle.s.1",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        188,
+        8,
+        271,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        82,
+        144
+      ],
+      "atlas": [
+        885,
+        169,
+        32,
+        40
+      ],
+      "key": "mara.walk.s.0",
+      "packedSize": [
+        21,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        330,
+        9,
+        412,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        144
+      ],
+      "atlas": [
+        919,
+        169,
+        32,
+        40
+      ],
+      "key": "mara.walk.s.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        467,
+        9,
+        554,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        84,
+        145
+      ],
+      "atlas": [
+        953,
+        169,
+        32,
+        40
+      ],
+      "key": "mara.walk.s.2",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        612,
+        8,
+        696,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        144
+      ],
+      "atlas": [
+        987,
+        169,
+        32,
+        40
+      ],
+      "key": "mara.walk.s.3",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        753,
+        9,
+        840,
+        153
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        84,
+        144
+      ],
+      "atlas": [
+        1,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.carry.s.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        47,
+        154,
+        131,
+        298
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        83,
+        144
+      ],
+      "atlas": [
+        35,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.carry.s.1",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        189,
+        154,
+        272,
+        298
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        82,
+        144
+      ],
+      "atlas": [
+        69,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.carry.s.2",
+      "packedSize": [
+        21,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        330,
+        154,
+        412,
+        298
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        83,
+        144
+      ],
+      "atlas": [
+        103,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.carry.s.3",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        470,
+        154,
+        553,
+        298
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        98,
+        144
+      ],
+      "atlas": [
+        137,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.work.s.0",
+      "packedSize": [
+        26,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        612,
+        154,
+        710,
+        298
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        144
+      ],
+      "atlas": [
+        171,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.work.s.1",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        751,
+        154,
+        848,
+        298
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        112,
+        145
+      ],
+      "atlas": [
+        205,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.work.s.2",
+      "packedSize": [
+        29,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        34,
+        299,
+        146,
+        444
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        145
+      ],
+      "atlas": [
+        239,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.work.s.3",
+      "packedSize": [
+        25,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        189,
+        299,
+        286,
+        444
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        145
+      ],
+      "atlas": [
+        273,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.talk.s.0",
+      "packedSize": [
+        24,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        331,
+        299,
+        424,
+        444
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        96,
+        145
+      ],
+      "atlas": [
+        307,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.talk.s.1",
+      "packedSize": [
+        25,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        469,
+        299,
+        565,
+        444
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        144
+      ],
+      "atlas": [
+        341,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.rest.s.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        612,
+        300,
+        698,
+        444
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        84,
+        144
+      ],
+      "atlas": [
+        375,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.rest.s.1",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        757,
+        300,
+        841,
+        444
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        132,
+        204
+      ],
+      "atlas": [
+        409,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.idle.n.0",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        52,
+        650,
+        184,
+        854
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        133,
+        202
+      ],
+      "atlas": [
+        443,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.idle.n.1",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        252,
+        652,
+        385,
+        854
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        133,
+        204
+      ],
+      "atlas": [
+        477,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.walk.n.0",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        452,
+        650,
+        585,
+        854
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        129,
+        202
+      ],
+      "atlas": [
+        511,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.walk.n.1",
+      "packedSize": [
+        24,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        652,
+        651,
+        781,
+        853
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        132,
+        205
+      ],
+      "atlas": [
+        545,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.walk.n.2",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        850,
+        651,
+        982,
+        856
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        132,
+        203
+      ],
+      "atlas": [
+        579,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.walk.n.3",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        1052,
+        651,
+        1184,
+        854
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        132,
+        195
+      ],
+      "atlas": [
+        613,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.carry.n.0",
+      "packedSize": [
+        25,
+        35
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        52,
+        856,
+        184,
+        1051
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        133,
+        194
+      ],
+      "atlas": [
+        647,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.carry.n.1",
+      "packedSize": [
+        25,
+        35
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        252,
+        857,
+        385,
+        1051
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        131,
+        193
+      ],
+      "atlas": [
+        681,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.carry.n.2",
+      "packedSize": [
+        24,
+        35
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        451,
+        856,
+        582,
+        1049
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        132,
+        199
+      ],
+      "atlas": [
+        715,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.carry.n.3",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        649,
+        855,
+        781,
+        1054
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        143,
+        196
+      ],
+      "atlas": [
+        749,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.work.n.0",
+      "packedSize": [
+        27,
+        35
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        852,
+        856,
+        995,
+        1052
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        133,
+        194
+      ],
+      "atlas": [
+        783,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.work.n.1",
+      "packedSize": [
+        25,
+        35
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        1055,
+        857,
+        1188,
+        1051
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        133,
+        198
+      ],
+      "atlas": [
+        817,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.work.n.2",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        51,
+        1055,
+        184,
+        1253
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        132,
+        197
+      ],
+      "atlas": [
+        851,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.work.n.3",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        250,
+        1055,
+        382,
+        1252
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        147,
+        198
+      ],
+      "atlas": [
+        885,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.talk.n.0",
+      "packedSize": [
+        28,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        453,
+        1055,
+        600,
+        1253
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        132,
+        197
+      ],
+      "atlas": [
+        919,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.talk.n.1",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        648,
+        1056,
+        780,
+        1253
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        134,
+        199
+      ],
+      "atlas": [
+        953,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.rest.n.0",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        852,
+        1054,
+        986,
+        1253
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        133,
+        198
+      ],
+      "atlas": [
+        987,
+        211,
+        32,
+        40
+      ],
+      "key": "mara.rest.n.1",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/north-correction-player-mara-v4.png",
+      "sourceCell": [
+        1058,
+        1055,
+        1191,
+        1253
+      ],
+      "sourceCoordinateConversion": [
+        0.7211382113821139,
+        0.6940532081377152
+      ],
+      "sourceSha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        146
+      ],
+      "atlas": [
+        1,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.idle.e.0",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        47,
+        890,
+        135,
+        1036
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        146
+      ],
+      "atlas": [
+        35,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.idle.e.1",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        186,
+        890,
+        274,
+        1036
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        100,
+        145
+      ],
+      "atlas": [
+        69,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.walk.e.0",
+      "packedSize": [
+        26,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        317,
+        890,
+        417,
+        1035
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        101,
+        145
+      ],
+      "atlas": [
+        103,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.walk.e.1",
+      "packedSize": [
+        26,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        461,
+        891,
+        562,
+        1036
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        146
+      ],
+      "atlas": [
+        137,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.walk.e.2",
+      "packedSize": [
+        25,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        606,
+        890,
+        703,
+        1036
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        98,
+        145
+      ],
+      "atlas": [
+        171,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.walk.e.3",
+      "packedSize": [
+        26,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        748,
+        891,
+        846,
+        1036
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        145
+      ],
+      "atlas": [
+        205,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.carry.e.0",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        47,
+        1040,
+        134,
+        1185
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        145
+      ],
+      "atlas": [
+        239,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.carry.e.1",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        187,
+        1040,
+        273,
+        1185
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        145
+      ],
+      "atlas": [
+        273,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.carry.e.2",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        329,
+        1040,
+        415,
+        1185
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        145
+      ],
+      "atlas": [
+        307,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.carry.e.3",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        470,
+        1040,
+        556,
+        1185
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        103,
+        145
+      ],
+      "atlas": [
+        341,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.work.e.0",
+      "packedSize": [
+        27,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        609,
+        1040,
+        712,
+        1185
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        102,
+        145
+      ],
+      "atlas": [
+        375,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.work.e.1",
+      "packedSize": [
+        27,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        749,
+        1040,
+        851,
+        1185
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        101,
+        145
+      ],
+      "atlas": [
+        409,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.work.e.2",
+      "packedSize": [
+        26,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        42,
+        1188,
+        143,
+        1333
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        144
+      ],
+      "atlas": [
+        443,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.work.e.3",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        188,
+        1188,
+        276,
+        1332
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        145
+      ],
+      "atlas": [
+        477,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.talk.e.0",
+      "packedSize": [
+        25,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        331,
+        1188,
+        428,
+        1333
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        103,
+        143
+      ],
+      "atlas": [
+        511,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.talk.e.1",
+      "packedSize": [
+        27,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        465,
+        1189,
+        568,
+        1332
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        144
+      ],
+      "atlas": [
+        545,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.rest.e.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        611,
+        1189,
+        699,
+        1333
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        144
+      ],
+      "atlas": [
+        579,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.rest.e.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        756,
+        1189,
+        843,
+        1333
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        145
+      ],
+      "atlas": [
+        613,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.idle.w.0",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        45,
+        1336,
+        133,
+        1481
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        145
+      ],
+      "atlas": [
+        647,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.idle.w.1",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        184,
+        1336,
+        272,
+        1481
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        98,
+        144
+      ],
+      "atlas": [
+        681,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.walk.w.0",
+      "packedSize": [
+        26,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        325,
+        1336,
+        423,
+        1480
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        96,
+        144
+      ],
+      "atlas": [
+        715,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.walk.w.1",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        471,
+        1337,
+        567,
+        1481
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        96,
+        145
+      ],
+      "atlas": [
+        749,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.walk.w.2",
+      "packedSize": [
+        25,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        610,
+        1336,
+        706,
+        1481
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        94,
+        145
+      ],
+      "atlas": [
+        783,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.walk.w.3",
+      "packedSize": [
+        24,
+        38
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        752,
+        1336,
+        846,
+        1481
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        143
+      ],
+      "atlas": [
+        817,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.carry.w.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        45,
+        1485,
+        133,
+        1628
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        143
+      ],
+      "atlas": [
+        851,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.carry.w.1",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        184,
+        1485,
+        272,
+        1628
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        143
+      ],
+      "atlas": [
+        885,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.carry.w.2",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        325,
+        1485,
+        413,
+        1628
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        143
+      ],
+      "atlas": [
+        919,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.carry.w.3",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        468,
+        1485,
+        556,
+        1628
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        99,
+        143
+      ],
+      "atlas": [
+        953,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.work.w.0",
+      "packedSize": [
+        26,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        601,
+        1485,
+        700,
+        1628
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        99,
+        143
+      ],
+      "atlas": [
+        987,
+        253,
+        32,
+        40
+      ],
+      "key": "mara.work.w.1",
+      "packedSize": [
+        26,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        745,
+        1485,
+        844,
+        1628
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        99,
+        143
+      ],
+      "atlas": [
+        1,
+        295,
+        32,
+        40
+      ],
+      "key": "mara.work.w.2",
+      "packedSize": [
+        26,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        35,
+        1631,
+        134,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        142
+      ],
+      "atlas": [
+        35,
+        295,
+        32,
+        40
+      ],
+      "key": "mara.work.w.3",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        182,
+        1631,
+        269,
+        1773
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        143
+      ],
+      "atlas": [
+        69,
+        295,
+        32,
+        40
+      ],
+      "key": "mara.talk.w.0",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        324,
+        1631,
+        421,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        142
+      ],
+      "atlas": [
+        103,
+        295,
+        32,
+        40
+      ],
+      "key": "mara.talk.w.1",
+      "packedSize": [
+        25,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        464,
+        1631,
+        561,
+        1773
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        143
+      ],
+      "atlas": [
+        137,
+        295,
+        32,
+        40
+      ],
+      "key": "mara.rest.w.0",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        610,
+        1631,
+        698,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        85,
+        143
+      ],
+      "atlas": [
+        171,
+        295,
+        32,
+        40
+      ],
+      "key": "mara.rest.w.1",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.2602739726027397,
+      "source": "art/cozy/imagegen-v4/raw/mara-72-frames-v4.png",
+      "sourceCell": [
+        755,
+        1631,
+        840,
+        1774
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        148
+      ],
+      "atlas": [
+        205,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.idle.s.0",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        48,
+        11,
+        138,
+        159
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        148
+      ],
+      "atlas": [
+        239,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.idle.s.1",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        187,
+        10,
+        277,
+        158
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        151
+      ],
+      "atlas": [
+        273,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.walk.s.0",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        329,
+        10,
+        418,
+        161
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        151
+      ],
+      "atlas": [
+        307,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.walk.s.1",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        465,
+        10,
+        552,
+        161
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        151
+      ],
+      "atlas": [
+        341,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.walk.s.2",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        605,
+        10,
+        693,
+        161
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        152
+      ],
+      "atlas": [
+        375,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.walk.s.3",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        747,
+        9,
+        837,
+        161
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        145
+      ],
+      "atlas": [
+        409,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.carry.s.0",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        48,
+        161,
+        136,
+        306
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        147
+      ],
+      "atlas": [
+        443,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.carry.s.1",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        187,
+        160,
+        274,
+        307
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        146
+      ],
+      "atlas": [
+        477,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.carry.s.2",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        329,
+        160,
+        415,
+        306
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        86,
+        145
+      ],
+      "atlas": [
+        511,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.carry.s.3",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        466,
+        161,
+        552,
+        306
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        146
+      ],
+      "atlas": [
+        545,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.work.s.0",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        607,
+        161,
+        694,
+        307
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        100,
+        146
+      ],
+      "atlas": [
+        579,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.work.s.1",
+      "packedSize": [
+        25,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        736,
+        161,
+        836,
+        307
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        144
+      ],
+      "atlas": [
+        613,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.work.s.2",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        48,
+        310,
+        136,
+        454
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        87,
+        144
+      ],
+      "atlas": [
+        647,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.work.s.3",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        187,
+        310,
+        274,
+        454
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        98,
+        146
+      ],
+      "atlas": [
+        681,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.talk.s.0",
+      "packedSize": [
+        24,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        328,
+        309,
+        426,
+        455
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        94,
+        146
+      ],
+      "atlas": [
+        715,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.talk.s.1",
+      "packedSize": [
+        24,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        458,
+        309,
+        552,
+        455
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        146
+      ],
+      "atlas": [
+        749,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.rest.s.0",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        602,
+        309,
+        692,
+        455
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        146
+      ],
+      "atlas": [
+        783,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.rest.s.1",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        745,
+        309,
+        834,
+        455
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        154,
+        277
+      ],
+      "atlas": [
+        817,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.idle.n.0",
+      "packedSize": [
+        19,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        122,
+        15,
+        276,
+        292
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        155,
+        273
+      ],
+      "atlas": [
+        851,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.idle.n.1",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        387,
+        15,
+        542,
+        288
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        157,
+        277
+      ],
+      "atlas": [
+        885,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.walk.n.0",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        661,
+        15,
+        818,
+        292
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        158,
+        277
+      ],
+      "atlas": [
+        919,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.walk.n.1",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        935,
+        15,
+        1093,
+        292
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        161,
+        276
+      ],
+      "atlas": [
+        953,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.walk.n.2",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        1215,
+        15,
+        1376,
+        291
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        161,
+        277
+      ],
+      "atlas": [
+        987,
+        295,
+        32,
+        40
+      ],
+      "key": "wren.walk.n.3",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        1493,
+        15,
+        1654,
+        292
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        156,
+        269
+      ],
+      "atlas": [
+        1,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.carry.n.0",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        117,
+        303,
+        273,
+        572
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        157,
+        271
+      ],
+      "atlas": [
+        35,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.carry.n.1",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        386,
+        302,
+        543,
+        573
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        156,
+        275
+      ],
+      "atlas": [
+        69,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.carry.n.2",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        662,
+        298,
+        818,
+        573
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        160,
+        269
+      ],
+      "atlas": [
+        103,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.carry.n.3",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        934,
+        303,
+        1094,
+        572
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        157,
+        274
+      ],
+      "atlas": [
+        137,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.work.n.0",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        1218,
+        299,
+        1375,
+        573
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        157,
+        270
+      ],
+      "atlas": [
+        171,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.work.n.1",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        1497,
+        302,
+        1654,
+        572
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        156,
+        270
+      ],
+      "atlas": [
+        205,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.work.n.2",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        117,
+        585,
+        273,
+        855
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        155,
+        276
+      ],
+      "atlas": [
+        239,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.work.n.3",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        389,
+        583,
+        544,
+        859
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        176,
+        272
+      ],
+      "atlas": [
+        273,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.talk.n.0",
+      "packedSize": [
+        22,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        662,
+        582,
+        838,
+        854
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        178,
+        271
+      ],
+      "atlas": [
+        307,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.talk.n.1",
+      "packedSize": [
+        22,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        936,
+        584,
+        1114,
+        855
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        157,
+        270
+      ],
+      "atlas": [
+        341,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.rest.n.0",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        1219,
+        583,
+        1376,
+        853
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        164,
+        270
+      ],
+      "atlas": [
+        375,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.rest.n.1",
+      "packedSize": [
+        20,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-north-correction-v4.png",
+      "sourceCell": [
+        1498,
+        583,
+        1662,
+        853
+      ],
+      "sourceCoordinateConversion": [
+        0.5,
+        0.5
+      ],
+      "sourceSha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        150
+      ],
+      "atlas": [
+        409,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.idle.e.0",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        48,
+        907,
+        137,
+        1057
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        149
+      ],
+      "atlas": [
+        443,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.idle.e.1",
+      "packedSize": [
+        22,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        186,
+        907,
+        276,
+        1056
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        151
+      ],
+      "atlas": [
+        477,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.walk.e.0",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        331,
+        905,
+        420,
+        1056
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        150
+      ],
+      "atlas": [
+        511,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.walk.e.1",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        468,
+        906,
+        557,
+        1056
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        150
+      ],
+      "atlas": [
+        545,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.walk.e.2",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        604,
+        906,
+        696,
+        1056
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        151
+      ],
+      "atlas": [
+        579,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.walk.e.3",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        750,
+        905,
+        838,
+        1056
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        151
+      ],
+      "atlas": [
+        613,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.carry.e.0",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        48,
+        1061,
+        138,
+        1212
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        151
+      ],
+      "atlas": [
+        647,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.carry.e.1",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        187,
+        1061,
+        276,
+        1212
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        151
+      ],
+      "atlas": [
+        681,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.carry.e.2",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        327,
+        1061,
+        418,
+        1212
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        151
+      ],
+      "atlas": [
+        715,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.carry.e.3",
+      "packedSize": [
+        22,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        464,
+        1061,
+        553,
+        1212
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        151
+      ],
+      "atlas": [
+        749,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.work.e.0",
+      "packedSize": [
+        24,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        606,
+        1061,
+        703,
+        1212
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        150
+      ],
+      "atlas": [
+        783,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.work.e.1",
+      "packedSize": [
+        23,
+        38
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        747,
+        1061,
+        840,
+        1211
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        147
+      ],
+      "atlas": [
+        817,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.work.e.2",
+      "packedSize": [
+        23,
+        37
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        48,
+        1213,
+        139,
+        1360
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        146
+      ],
+      "atlas": [
+        851,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.work.e.3",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        188,
+        1213,
+        278,
+        1359
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        97,
+        146
+      ],
+      "atlas": [
+        885,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.talk.e.0",
+      "packedSize": [
+        24,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        327,
+        1213,
+        424,
+        1359
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        145
+      ],
+      "atlas": [
+        919,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.talk.e.1",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        465,
+        1214,
+        556,
+        1359
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        145
+      ],
+      "atlas": [
+        953,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.rest.e.0",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        605,
+        1213,
+        696,
+        1358
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        145
+      ],
+      "atlas": [
+        987,
+        337,
+        32,
+        40
+      ],
+      "key": "wren.rest.e.1",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        745,
+        1213,
+        836,
+        1358
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        141
+      ],
+      "atlas": [
+        1,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.idle.w.0",
+      "packedSize": [
+        22,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        46,
+        1359,
+        136,
+        1500
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        140
+      ],
+      "atlas": [
+        35,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.idle.w.1",
+      "packedSize": [
+        22,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        188,
+        1360,
+        277,
+        1500
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        142
+      ],
+      "atlas": [
+        69,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.walk.w.0",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        331,
+        1360,
+        422,
+        1502
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        142
+      ],
+      "atlas": [
+        103,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.walk.w.1",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        467,
+        1360,
+        558,
+        1502
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        142
+      ],
+      "atlas": [
+        137,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.walk.w.2",
+      "packedSize": [
+        22,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        608,
+        1361,
+        698,
+        1503
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        143
+      ],
+      "atlas": [
+        171,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.walk.w.3",
+      "packedSize": [
+        23,
+        36
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        747,
+        1360,
+        838,
+        1503
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        90,
+        139
+      ],
+      "atlas": [
+        205,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.carry.w.0",
+      "packedSize": [
+        22,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        48,
+        1502,
+        138,
+        1641
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        138
+      ],
+      "atlas": [
+        239,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.carry.w.1",
+      "packedSize": [
+        22,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        189,
+        1502,
+        277,
+        1640
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        89,
+        139
+      ],
+      "atlas": [
+        273,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.carry.w.2",
+      "packedSize": [
+        22,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        329,
+        1502,
+        418,
+        1641
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        138
+      ],
+      "atlas": [
+        307,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.carry.w.3",
+      "packedSize": [
+        22,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        466,
+        1503,
+        554,
+        1641
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        88,
+        138
+      ],
+      "atlas": [
+        341,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.work.w.0",
+      "packedSize": [
+        22,
+        34
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        608,
+        1503,
+        696,
+        1641
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        96,
+        139
+      ],
+      "atlas": [
+        375,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.work.w.1",
+      "packedSize": [
+        24,
+        35
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        742,
+        1502,
+        838,
+        1641
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        133
+      ],
+      "atlas": [
+        409,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.work.w.2",
+      "packedSize": [
+        23,
+        33
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        48,
+        1639,
+        139,
+        1772
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        92,
+        133
+      ],
+      "atlas": [
+        443,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.work.w.3",
+      "packedSize": [
+        23,
+        33
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        185,
+        1639,
+        277,
+        1772
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        100,
+        132
+      ],
+      "atlas": [
+        477,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.talk.w.0",
+      "packedSize": [
+        25,
+        33
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        325,
+        1640,
+        425,
+        1772
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        96,
+        133
+      ],
+      "atlas": [
+        511,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.talk.w.1",
+      "packedSize": [
+        24,
+        33
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        458,
+        1639,
+        554,
+        1772
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        91,
+        131
+      ],
+      "atlas": [
+        545,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.rest.w.0",
+      "packedSize": [
+        23,
+        33
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        606,
+        1641,
+        697,
+        1772
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        93,
+        133
+      ],
+      "atlas": [
+        579,
+        379,
+        32,
+        40
+      ],
+      "key": "wren.rest.w.1",
+      "packedSize": [
+        23,
+        33
+      ],
+      "sharedCharacterFitScale": 0.25,
+      "source": "art/cozy/imagegen-v4/raw/wren-72-frames-v4.png",
+      "sourceCell": [
+        744,
+        1639,
+        837,
+        1772
+      ],
+      "sourceCoordinateConversion": [
+        1,
+        1
+      ],
+      "sourceSha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb"
+    }
+  ],
+  "sourceCorrections": "All18 north slots use actual generated back-view corrections for player, Mara and Wren. No mirrored or substitute poses.",
+  "warnings": []
+}

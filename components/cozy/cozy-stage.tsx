@@ -3,8 +3,9 @@ import {useEffect,useRef} from "react";
 import type {Actor,CozyWorldState,Point} from "@/lib/cozy/contracts";
 import {COZY_MAP} from "@/lib/cozy/world";
 import {sampleSpriteFrame,type SpriteClip} from "./sprite-animation";
+import {WORLD_ASSETS} from "@/lib/cozy/world-objects";
 
-type Props={state:CozyWorldState;paused:boolean;tool:string;zoom:number;selected:string|null;inputLocked:boolean;onGround:(point:Point)=>void;onActor:(id:string)=>void;onPlot:(id:string)=>void;onPlace:(id:string)=>void;onReady:()=>void};
+type Props={state:CozyWorldState;paused:boolean;tool:string;zoom:number;selected:string|null;inputLocked:boolean;onGround:(point:Point)=>void;onActor:(id:string)=>void;onPlot:(id:string)=>void;onPlace:(id:string)=>void;onObject?:(id:string)=>void;onReady:()=>void};
 type Atlas={frames:Record<string,{frame:{x:number;y:number;w:number;h:number};pixelAnchor?:Point;anchor?:Point;duration?:number}>;animations?:Record<string,SpriteClip>;meta?:{cargoPixelAnchor?:Point}};
 const TILE=16;
 const foot=(p:Point)=>({x:p.x*TILE+8,y:p.y*TILE+12});
@@ -15,18 +16,19 @@ export default function CozyStage(props:Props){
   void import("phaser").then(({default:Phaser})=>{
    if(disposed||!host.current)return;
    class Neighborhood extends Phaser.Scene{
-    actors=new Map<string,{sprite:import("phaser").GameObjects.Sprite;name:import("phaser").GameObjects.Text;shadow:import("phaser").GameObjects.Ellipse;cargo:import("phaser").GameObjects.Image;from:Point;to:Point;changed:number;physical:Actor;facing:string;animation:string;animationStarted:number}>();
+    actors=new Map<string,{sprite:import("phaser").GameObjects.Sprite;name:import("phaser").GameObjects.Text;shadow:import("phaser").GameObjects.Ellipse;cargo:import("phaser").GameObjects.Image;socialFx:import("phaser").GameObjects.Image;from:Point;to:Point;changed:number;physical:Actor;facing:string;animation:string;animationStarted:number}>();
     crops=new Map<string,import("phaser").GameObjects.Image>();
     plotZones=new Map<string,import("phaser").GameObjects.Zone>();
+    worldObjects=new Map<string,import("phaser").GameObjects.Image>();
     flood!:import("phaser").GameObjects.Graphics;selection!:import("phaser").GameObjects.Graphics;tone!:import("phaser").GameObjects.Rectangle;table!:import("phaser").GameObjects.Image;bunting!:import("phaser").GameObjects.Image;
     last:CozyWorldState|null=null;lastZoom=0;ready=false;dragged=false;lastEffect=0;panUntil=0;
     constructor(){super("cozy-neighborhood");}
     preload(){
-     this.load.image("cozy-map","/assets/cozy/map.png");
-     this.load.atlas("cozy-people","/assets/cozy/characters.png?v=cast-3","/assets/cozy/characters.json?v=cast-3");
-     this.load.json("cozy-people-meta","/assets/cozy/characters.json?v=cast-3");
-     this.load.atlas("cozy-foreground","/assets/cozy/foreground.png","/assets/cozy/foreground.json");
-     this.load.json("cozy-foreground-meta","/assets/cozy/foreground.json");
+     this.load.image("cozy-map","/assets/cozy/map.png?v=cast-4");
+     this.load.atlas("cozy-people","/assets/cozy/characters.png?v=cast-4","/assets/cozy/characters.json?v=cast-4");
+     this.load.json("cozy-people-meta","/assets/cozy/characters.json?v=cast-4");
+     this.load.atlas("cozy-foreground","/assets/cozy/foreground.png?v=cast-4","/assets/cozy/foreground.json?v=cast-4");
+     this.load.json("cozy-foreground-meta","/assets/cozy/foreground.json?v=cast-4");
      this.load.atlas("fallback-people","/assets/characters.png","/assets/characters.json");
     }
     has(texture:string,frame:string){return this.textures.exists(texture)&&this.textures.get(texture).has(frame);}
@@ -63,26 +65,33 @@ export default function CozyStage(props:Props){
     }
     sync(){
      if(!this.ready)return;const {state,zoom}=latest.current;
-     this.cameras.main.setViewport(0,0,this.scale.width,Math.max(200,this.scale.height-155));
+     // Share the designer's HUD budget so a compact toolbelt gives space back to the world.
+     const configuredInset=host.current?Number.parseFloat(getComputedStyle(host.current).getPropertyValue("--cozy-playfield-inset")):NaN;
+     const bottomInset=Number.isFinite(configuredInset)?Math.min(240,Math.max(0,configuredInset)):155;
+     this.cameras.main.setViewport(0,0,this.scale.width,Math.max(200,this.scale.height-bottomInset));
      const effectiveZoom=Math.max(zoom,this.scale.width/(COZY_MAP.width*TILE),this.cameras.main.height/(COZY_MAP.height*TILE));
      if(effectiveZoom!==this.lastZoom){this.lastZoom=effectiveZoom;this.cameras.main.setZoom(effectiveZoom);const p=foot(state.player);this.cameras.main.centerOn(p.x,p.y);}
      const discontinuity=this.last&&(state.branchId!==this.last.branchId||state.step<this.last.step);
      const all=[state.player,...state.npcs],ids=new Set(all.map(a=>a.id));
-     for(const [id,body]of this.actors)if(!ids.has(id as typeof state.player.id)){body.sprite.destroy();body.name.destroy();body.shadow.destroy();body.cargo.destroy();this.actors.delete(id);}
+     for(const [id,body]of this.actors)if(!ids.has(id as typeof state.player.id)){body.sprite.destroy();body.name.destroy();body.shadow.destroy();body.cargo.destroy();body.socialFx.destroy();this.actors.delete(id);}
      for(const actor of all){
       const p=foot(actor);let body=this.actors.get(actor.id);
       if(!body){const texture=this.textures.exists("cozy-people")?"cozy-people":"fallback-people";const id=actor.id==="player"?"kitt":actor.id;
        const key=texture==="cozy-people"?this.frame(texture,[actor.id+".idle.s.0",actor.id+".walk.s.0"]):id+".idle.s.0";
-       const shadow=this.add.ellipse(p.x,p.y+1,11,4,0x273c37,.24);const sprite=this.anchored(this.add.sprite(p.x,p.y,texture,key),texture,key);if(actor.id!=="player")sprite.setInteractive({useHandCursor:true});
+       const shadow=this.add.ellipse(p.x,p.y+1,11,4,0x273c37,.24);const sprite=this.anchored(this.add.sprite(p.x,p.y,texture,key),texture,key);if(actor.id!=="player")sprite.setInteractive({useHandCursor:true,pixelPerfect:true,alphaTolerance:64});
        sprite.on("pointerup",(pointer:import("phaser").Input.Pointer)=>{if(pointer.event?.target===this.game.canvas&&!this.dragged&&!latest.current.inputLocked)latest.current.onActor(actor.id);});
        const name=this.add.text(p.x,p.y-36,actor.name,{fontFamily:"Georgia",fontSize:"8px",color:"#fff4d7",stroke:"#2d483e",strokeThickness:2}).setOrigin(.5).setDepth(2200);
        const cargo=this.add.image(p.x,p.y-13,this.textures.exists("cozy-foreground")?"cozy-foreground":texture,this.textures.exists("cozy-foreground")?this.frame("cozy-foreground",["carry.grain"]):key).setVisible(false);
-       body={sprite,name,shadow,cargo,from:p,to:p,changed:this.time.now,physical:actor,facing:"s",animation:"",animationStarted:this.time.now};this.actors.set(actor.id,body);
+       const socialFx=this.add.image(p.x,p.y-35,texture,key).setVisible(false).setOrigin(.5).setDepth(2250);
+       body={sprite,name,shadow,cargo,socialFx,from:p,to:p,changed:this.time.now,physical:actor,facing:"s",animation:"",animationStarted:this.time.now};this.actors.set(actor.id,body);
       }
       if(discontinuity){body.from=p;body.to=p;body.changed=this.time.now;}else if(actor.x!==body.physical.x||actor.y!==body.physical.y){body.from={x:body.sprite.x,y:body.sprite.y};body.to=p;body.changed=this.time.now;}
       body.physical=actor;
      }
      for(const plot of state.plots){const sprite=this.crops.get(plot.id);if(sprite){const key=this.frame("cozy-foreground",["crop."+plot.phase,"crop.empty"]);this.anchored(sprite.setFrame(key),"cozy-foreground",key);}this.plotZones.get(plot.id)?.setDepth(["plant","water","harvest"].includes(latest.current.tool)?1100:-.5);}
+     const introduced=state.worldObjects??[],objectIds=new Set(introduced.map(object=>object.id));
+     for(const [id,sprite]of this.worldObjects)if(!objectIds.has(id)){sprite.destroy();this.worldObjects.delete(id);}
+     for(const object of introduced){const key=WORLD_ASSETS[object.assetId]?.frame;if(!key||!this.has("cozy-foreground",key))continue;let sprite=this.worldObjects.get(object.id);if(!sprite){sprite=this.anchored(this.add.image(0,0,"cozy-foreground",key),"cozy-foreground",key).setInteractive({useHandCursor:true,pixelPerfect:true,alphaTolerance:64});sprite.on("pointerup",(pointer:import("phaser").Input.Pointer)=>{if(pointer.event?.target===this.game.canvas&&!this.dragged&&!latest.current.inputLocked)latest.current.onObject?.(object.id);});this.worldObjects.set(object.id,sprite);}const p=foot(object.position);sprite.setPosition(p.x,p.y).setDepth(p.y-.25);}
      if(this.table){const p=COZY_MAP.festivalVisualAnchors[state.festival.venue];const ready=state.festival.phase==="celebrating";const key=this.frame("cozy-foreground",[ready?"festival.ready":"festival.empty"]);this.anchored(this.table.setFrame(key),"cozy-foreground",key).setPosition(p.x,p.y).setDepth(p.y-4).setVisible(state.festival.venue==="square"||ready);this.bunting.setPosition(p.x,p.y-22).setDepth(p.y-5).setVisible(state.festival.setupDone);}
      if(this.last)for(const event of state.events.filter(e=>e.seq>this.lastEffect&&e.audience.includes("player"))){if(event.type==="crop_watered"||event.type==="crop_harvested"){const plot=COZY_MAP.plots.find(p=>p.id===event.payload.plotId);const animation="cozy-fx."+(event.type==="crop_watered"?"water":"harvest");if(plot&&this.anims.exists(animation)){const effect=this.add.sprite(plot.visualAnchor.x,plot.visualAnchor.y,"cozy-foreground").setDepth(1600);effect.play(animation);effect.once("animationcomplete",()=>effect.destroy());}}}
      this.lastEffect=state.eventSeq;this.last=state;
@@ -101,8 +110,11 @@ export default function CozyStage(props:Props){
       const dx=next.x-(t>=1?body.to.x:body.from.x),dy=next.y-(t>=1?body.to.y:body.from.y);
       const walking=!latest.current.paused&&(t<1&&Math.abs(dx)+Math.abs(dy)>.05||a.path.length>0);
       if(Math.abs(dx)>Math.abs(dy)&&Math.abs(dx)>.02)body.facing=dx>0?"e":"w";else if(Math.abs(dy)>.02)body.facing=dy>0?"s":"n";
+      const pair=state.activities?.programs.map(program=>program.activePair).find(pair=>pair?.started&&(pair.left===id||pair.right===id));
+      const other=pair?state.npcs.find(npc=>npc.id===(pair.left===id?pair.right:pair.left)):null;
+      if(pair&&other){const towardX=other.x-a.x,towardY=other.y-a.y;if(Math.abs(towardX)>Math.abs(towardY))body.facing=towardX>0?"e":"w";else if(Math.abs(towardY)>.01)body.facing=towardY>0?"s":"n";if(!latest.current.paused){const lean=pair.gesture==="dance"?Math.sin(time/150)*.8:1.5;x+=Math.sign(towardX)*lean;y+=Math.sign(towardY)*lean;}}
       const good=a.task?.kind==="food"&&a.task.phase==="deliver"&&a.inventory.grain>0?"grain":a.task?.kind==="setup"&&a.task.phase!=="fetch"&&a.inventory.timber>0?"timber":null;
-      const action=latest.current.paused?"idle":walking?(good?"carry":"walk"):/baking|setting|prepar|working|watering|plant|harvest/i.test(a.action)?"work":/talk|greet|inviting/i.test(a.action)?"talk":/rest|sleep/i.test(a.action)?"rest":"idle";
+      const action=latest.current.paused?"idle":walking?(good?"carry":"walk"):pair?(pair.gesture==="dance"?"walk":"talk"):/baking|setting|prepar|working|watering|plant|harvest|eating/i.test(a.action)?"work":/talk|greet|inviting/i.test(a.action)?"talk":/rest|sleep/i.test(a.action)?"rest":"idle";
       const texture=body.sprite.texture.key;const aid=texture==="fallback-people"?(id==="player"?"kitt":id):id;
       const clipKey=aid+"."+action+"."+body.facing;
       if(body.animation!==clipKey){body.animation=clipKey;body.animationStarted=time-(action==="idle"?({player:0,ada:310,mara:710,wren:1130}[a.id]??0):0);}
@@ -110,7 +122,9 @@ export default function CozyStage(props:Props){
       const index=Math.floor(elapsed/(walking?150:650))%(walking?4:2);
       const key=this.frame(texture,[sampleSpriteFrame(meta?.animations?.[clipKey],elapsed)??"",clipKey+"."+index,aid+".walk."+body.facing+"."+index,aid+".idle.s.0"]);
       if(key!=="__BASE")this.anchored(body.sprite.setFrame(key),texture,key);
-      body.sprite.setPosition(Math.round(x),Math.round(y)).setDepth(y+(id==="player"?.5:0));body.shadow.setPosition(x,y+1).setDepth(y-1);body.name.setPosition(x,y-35).setVisible(id!=="player"||selected===id);
+      body.sprite.setPosition(Math.round(x),Math.round(y)).setDepth(y+(id==="player"?.5:0));body.shadow.setPosition(x,y+1).setDepth(y-1);body.name.setPosition(x,y-35).setVisible(!pair&&(id!=="player"||selected===id));
+      const effectKey=pair?`social.${pair.gesture==="dance"?"dance":"heart"}.${latest.current.paused?0:Math.floor(time/180)%4}`:null;
+      body.socialFx.setVisible(!!pair&&pair.left===id&&!!other&&!!effectKey&&this.has("cozy-foreground",effectKey));if(body.socialFx.visible&&other&&effectKey)body.socialFx.setTexture("cozy-foreground",effectKey).setPosition((a.x+other.x)/2*TILE+8,(a.y+other.y)/2*TILE-24);
       const cargoKey=good?this.frame("cozy-foreground",["carry."+good]):"__BASE";
       body.cargo.setVisible(walking&&good!==null&&cargoKey!=="__BASE"&&this.textures.exists("cozy-foreground"));if(body.cargo.visible){const hand=meta?.meta?.cargoPixelAnchor??{x:12,y:22},pivot=meta?.frames[key]?.pixelAnchor??{x:12,y:31};this.anchored(body.cargo.setTexture("cozy-foreground",cargoKey),"cozy-foreground",cargoKey).setPosition(x+hand.x-pivot.x,y+hand.y-pivot.y).setDepth(body.sprite.depth+(body.facing==="n"?-.1:.1));}
       if(id===selected){this.selection.lineStyle(1,0xffe3a1,.9);this.selection.strokeEllipse(x,y+1,16,6);}

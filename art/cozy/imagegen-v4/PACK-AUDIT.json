@@ -1,0 +1,36 @@
+{
+  "allSourceAndOutputHashesMatch": true,
+  "atlasChecks": {
+    "characters": {
+      "allFrameBoundsValid": true,
+      "distinctNormalizedPixelFrames": 288,
+      "namedFrames": 288,
+      "size": [
+        1024,
+        512
+      ]
+    },
+    "foreground": {
+      "allFrameBoundsValid": true,
+      "distinctNormalizedPixelFrames": 31,
+      "namedFrames": 45,
+      "size": [
+        512,
+        512
+      ]
+    }
+  },
+  "intentionalTransparentStates": [
+    "crop.empty",
+    "soil.wet"
+  ],
+  "mapGeometryByteIdentical": true,
+  "method": "All visual pixels originate in imagegen raw files. No hand-painted additions. Duplicate normalized idle/back frames are reported honestly, never replaced by invented poses.",
+  "portraits": 8,
+  "preservedAnimationsAndTiming": 96,
+  "runtimeBrowserQA": "Root owns browser integration verification",
+  "socialFrames": 8,
+  "status": "PASS",
+  "visualProof": "proof/*.png",
+  "worldObjectSprites": 3
+}

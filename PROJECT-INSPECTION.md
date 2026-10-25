@@ -1,27 +1,43 @@
 # GODMODE — inspection entry point
 
-Public source mirror: [d5dtgpt59z-cell/godmode](https://github.com/d5dtgpt59z-cell/godmode). This repository contains the project source and editable art; local saves, credentials, model weights and generated video exports remain on the author’s machine.
+Public source mirror: [d5dtgpt59z-cell/godmode](https://github.com/d5dtgpt59z-cell/godmode). Local preview: `http://127.0.0.1:4318/play`. Local saves, credentials, model weights and generated video exports are excluded from Git. Current work is on `codex/wren-inner-life`; the preserved baseline is `ffd02eecddc3998dbee7e36f122306511064ebec`.
 
-Original cozy life sim: deterministic physical simulation, validated natural-language world-rule proposals, persistent evidence and reversible comparisons. Local Qwen now also generates bounded resident-origin cooperative charters in an optional living branch. Neighbors must hear them physically before choosing independent policy responses; associations persist and can carry out finite gathering work. Meta adapters remain disconnected and unverified.
+## Current implementation
 
-## Run and verify
+- Black command-line opening → natural-language description → Muse-only blueprint preview → explicit independent paused creation. Stable preview/create receipts survive retries. The current blueprint customizes three resident slots and existing rules on the fixed32×24 neighborhood; new terrain/mechanics are not pretended. **The live creation path is blocked by Meta access.** Continue saved world remains functional.
+- Engine3 personal agent: persistent values/preferences, relationships, evidence-backed beliefs, aspirations, missing-capability requests and at most one unfinished three-step plan. Hunger/fatigue can interrupt it. The player can deliver an idea in person; it is remembered as testimony rather than forced adoption. Ada and Mara keep their independent bounded policies.
+- Composable social programs: up to six validated steps using travel, meetings, communication, collection, transfer, consumption, rest, observation and timed dance/embrace/kiss gestures. Individuals can decline or withdraw. No food-festival reskin or guaranteed-party sequence. Actual effects are recorded, conserved and replayable.
+- Semantic generated props: a luminous mushroom, finite-water rain catcher and usable garden bench. Introduction creates a physical entity and explicit resource allocation. Discovery is proximity-bound and private; no automatic global knowledge. This is a registered image-generated asset catalog, not unlimited runtime content generation.
+- Quieter playfield, portrait-led residents, readable needs and personal notes. Technical formulas, raw receipts and exact JSON authoring are behind Developer inspection. Old gardening, social charters, festivals, timeline branching, export/replay and Bellwether remain.
+- Original image-generated replacement art, with source images, prompts, crop/normalization audits and previous assets retained under `art/cozy/imagegen-v4/`.
 
-Follow README local setup for dependencies and fresh local migrations. Use `npm run dev` for Qwen; its transport hard-requires development mode, explicit local flags and the already-installed pinned Ollama tag. No weights, credentials or local databases are in Git. No automatic model downloads or remote fallback occur. `npm start` uses the production build and keeps local Qwen disabled.
+## Verification and evidence
 
-`npm test` passes147 tests. `npm run typecheck`, scoped ESLint and `npm run build` pass. Current evidence: `quality/emergence-*`. Earlier evidence is preserved in `quality/current-refinement-*`, `quality/local-qwen-verification.md` and `quality/dialogue-interaction-qa.json`.
+The integrated suite passes **220/220** tests. Typecheck, scoped ESLint and local production build pass; final logs are in `quality/personal-agent/`. Tests cover needs interrupting/resuming plans, private knowledge, unsupported dreams, physical resource use, differing social choices, idempotent commands, persistence, exact replay and provider gates. Automated model transports are explicitly synthetic fixtures.
 
-Start with [architecture audit and migration plan](./docs/EMERGENCE-PLAN.md). In actual native gameplay Wren proposed a four-grain gathering, Ada joined, Mara withheld consent until witnessing a real harvest, and the group used real grain, timber, travel and labor. [Browser report](./quality/emergence-browser-qa.json) and [recording with frozen inputs/raw receipts](./quality/emergence-browser-recording.json) retain the evidence. Exact replay at534.8s produced `fbda78e37755f346589ec291584ae2fddddf947e9f7ceb3f72949689b12c7ebf`; reload retained the completed meal and three-member association. One separate actual-model service run plus four browser calls used Qwen; Meta calls remain zero.
+Native gameplay on a separate V3 timeline applied a manual rain-catcher proposal with six finite water and a manual social program. Wren declined because he needed food; the journal retained that actual cause. Exact replay after physical collection at3371.4s verified hash `a53fa1c4a471279b5f381c833e242414da13d75e7a03ced7210de61d69c7b9c7` with no new model calls. The player gained one water and the container fell from6 to5. A fresh separate world completed Ada/Wren’s timed gesture while Mara declined; `browser-qa-party*` retains its actual choices and exact replay. Both programs were authored manually, without a model. The paused QA save, recording and replay receipt are recorded in `quality/personal-agent/browser-qa*`. This is physical-engine/UI evidence, **not a claim of a Muse-generated decision**.
+
+One actual local Qwen personal-agent evaluation was made before the user's Muse selection. Its malformed structured plan was rejected before application. Raw input/output/receipt are retained in `quality/personal-local-evaluation.json`; no successful personal-model behavior is claimed from that attempt. Earlier genuine Qwen social-charter evidence remains in `quality/emergence-browser-*`; its frozen V2 final hash remains `fbda78e37755f346589ec291584ae2fddddf947e9f7ceb3f72949689b12c7ebf` at534.8s.
 
 ## Source map
 
-- `lib/cozy/`: fixed 100ms movement/crops/resources, rules, goals/memories, physical festival tasks, flood routing, conservation, exact replay/forks. `lib/cozy/v1/` freezes the old engine; three captured pre-change recordings reproduce exact hashes. Explicit `upgradeCozyWorld` forks into engine2 without changing the parent. `lib/sim/` preserves the earlier24-resident engine unchanged.
-- `lib/server/cozy-*`: SQL lease/CAS, command/clock receipts, archived recordings, validated proposals and explicit Apply. Qwen generation receipts are separate from Meta use/budget. Five real service heldouts and two real browser requests passed; fixtures are labeled separately.
-- `components/cozy/`: Phaser stage, game HUD, portrait dialogue and authored pose timing. Dialogue queues only new player-audible spoken events, locks player input and uses a save-bound stop barrier; it never substitutes NPC reasons or old memories for spoken text.
-- `public/assets/cozy/`: current runtime background/state pieces, v3 sprites and eight portraits. `art/cozy/character-refinement/v3/` contains original editable Aseprite masters, Lua sources, proofs and audits. Earlier art is preserved. Native art helpers have explicit author-workspace ROOT paths; adjust ROOT when reproducing them in another checkout.
-- `tests/cozy-{engine,server,emergence,presentation}.test.ts`, `tests/emergence-server.test.ts`: old functionality plus private knowledge, differentiated consent, resources/time, multiple work rounds, persistence/replay, asynchronous receipts, recovery, pause, limits and presentation tests. Model transports in automated tests are labeled fixtures; real local receipts are separate evidence.
+| Area | Purpose |
+|---|---|
+| `lib/cozy/engine.ts`, `personal.ts` | Deterministic physics, bounded personal state/plans/needs |
+| `lib/cozy/activities.ts` | Validated composed social actions, consent and timed effects |
+| `lib/cozy/world-blueprint.ts`, `world-objects.ts` | Independent world genesis and semantic objects |
+| `lib/cozy/v1/`, `lib/cozy/v2/` | Frozen legacy replay implementations |
+| `lib/sim/` | Original Bellwether24-resident simulation |
+| `lib/server/cozy-*`, `app/api/cozy/` | SQL leases/CAS, receipts, provider quotas, proposals and explicit Apply |
+| `components/cozy/world-forge*` | Black entry, honest readiness and recoverable creation |
+| `components/cozy/cozy-stage.tsx` | Phaser sprites, physical positions, effects and object interaction |
+| `components/cozy/cozy-{resident,world-changes,developer}.tsx` | Human-readable inhabitants, changes and explicit inspection |
+| `public/assets/cozy/`, `art/cozy/imagegen-v4/` | Runtime art and retained image-generation provenance |
 
-## Boundaries
+## Model and contest boundaries
 
-The map is an original fixed raster with separate semantic pieces, not a fully modular tileset. Supported rules are organizer, venue, food target, seed reserve and bounded low-path flooding. Unsupported mechanics return unsupported/clarify and cannot be applied. The sole executable institution capability is shared gathering: immutable charters, no member-leave operation, one shared festival account. General beliefs, rich pairwise relationships, new professions, death and broad terrain transformations remain future work. Qwen does not establish Meta technology compliance. No unattended browser-closed evolution is verified. See [fresh official-rules and Meta options research](./docs/META-STATUS-20261025.md).
+Muse Spark1.3 adapters support bounded personal reasoning, rules, activities, objects and world blueprints. Meta calls require explicit provider selection, API key, credit authorization, enabled purpose and positive project budget. Local configuration now selects Meta with credit authorization **false**; credentials remain unchanged and no fallback to Qwen is allowed. Muse Image's separate adapter is fixture-tested but game delivery remains unimplemented. **Actual Muse calls remain zero.**
 
-The 72-second film’s editable source and exact recordings are included; generated MP4 exports stay local and the film uses first-pass sprites. Current screenshots show the v3 runtime. Hosted deployment is unchanged and final hackathon submission remains ON HOLD. Code/art dates are preserved, including work before the event; admission, pivot and prior-work eligibility remain unconfirmed.
+The application still showed Pending on October25. Today is the application deadline (21:59 Boise); completed projects are due November4 at19:00 Boise. Admission notices are due October26 at07:00 Boise. [Official schedule](https://cerebralvalley.ai/e/meta-ai-developer-hackathon). No payment method, API key, credit activation, hosted deployment, unattended schedule or final submission was created in this milestone.
+
+This build is a foundation, not arbitrary executable world modification or simulated human-level intelligence. Broader occupations, institutions, mortality, dynamic terrain and unlimited mechanics remain unimplemented. The application proposed Worldlift; project pivot, pre-event work and final selected-participant rules still need clarification. Dates and originals are preserved. Final hackathon submission remains **ON HOLD**.

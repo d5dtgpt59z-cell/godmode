@@ -1,0 +1,8 @@
+Use case: identity-preserve. Asset type: corrective full NORTH/BACK-facing18frame gameanimation strip for original WREN.
+Image1 isWren's currentfullsheetidentityreference; Image2 isapprovedcastturnaround. DrawONLYWren, samewarmbrownskin,darkbrowncurlyhair,russetscarf,creamshirt/olivevest,darkolivetrousers,brownboots. Samecharmingcozyanimepixelart, threehead adultproportions,softcoloredoutlines.
+ExactlySIXCOLUMNS byTHREEROWS,18equaltransparentcells, fullbodywithguttersandstablefootbaseline.
+EVERYONEOF18SPRITESMUSTSHOWWREN'SBACK, facingNORTHAWAYFROMVIEWER. Onlybackofcurlyhead/scarf/vestvisible. NOeyes,nose,mouth,frontcheek,chestorfrontshirtinANYframe, especiallytalking/resting. Neverturntoviewer.
+Row1 idle0,idle1,walk0,walk1,walk2,walk3.
+Row2 carry0,carry1,carry2,carry3,work0,work1.
+Row3 work2,work3,talk0,talk1,rest0,rest1.
+Walkgenuinelyalternatesfeet;carryEMPTYhandsheldaheadbodymostlyhiddenbytorso(backview);workgentlearmsatfrontstillbackfacing;talksmallbackfacinghandgesture;restrelaxedbackposes. Samecharacter/palette/silhouette/scale/outfitall18. Noobjects,scenery,labels,grid,frames,groundshadow. Genuinealpha. Productiongamepixelart,noconceptposter,wholebodyfullyinsideeachcell.

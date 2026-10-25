@@ -1,0 +1,15 @@
+Use case: identity-preserve.
+Asset type: COMPLETE transparent animation sheet for ONE original pixel-game character.
+Image1 is the approved4-person portrait identity reference. Image2 is the approved4-person directional full-body turnaround reference. Draw ONLY MARA, the lavender-silver braided planner in sage cardigan, plum blouse and tapered plum-brown trousers with cream/brown boots; use the same person from their column in both references. No other character may appear.
+Create exactly72 FULL-BODY FRAMES on ONE SHEET, a strict SIX-column by TWELVE-row equal-slot grid. Ideal canvas1536x3072, six256px columns, twelve256px rows. Each slot has one complete sprite, equal scale, all hair/hands/boots inside cell, generous genuine-transparent gutters. No text, gridlines, labels, scenery, vignette, or baked ground shadows.
+Crisp charming cozy anime pixel-art game sprites matching the reference, warm colored outlines, soft readable faces, three-head adult proportions, clean pixel clusters, rounded hands/shoulders and tapered legs/boots. This is a production game sheet, not a concept poster or painted portrait. Native runtime target24x32; keep costume shapes and eyes simple/readable. Same character, identity, hair, outfit, proportions, palette and lighting across every frame.
+There are FOUR directional groups, each spanning THREE consecutive rows:
+ROWS1–3 SOUTH: facing down/toward viewer.
+ROWS4–6 NORTH: back-facing away, no face visible.
+ROWS7–9 EAST: facing RIGHT.
+ROWS10–12 WEST: facing LEFT.
+Within EACH3-row directional group, use this EXACT18-pose order reading left-to-right:
+First row six slots: idle0(open eyes, grounded), idle1(brief blink, no hop), walk0(left contact), walk1(passing), walk2(right contact), walk3(passing).
+Second row six slots: carry0,carry1,carry2,carry3 (same gait but both forearms forward at waist, EMPTY hands for runtime cargo overlay), work0,work1 (gently reach/work with hands).
+Third row six slots: work2,work3 (finish gentle hand-work cycle), talk0,talk1 (small friendly speaking gesture, no words), rest0,rest1 (quiet relaxed resting posture, no furniture).
+Walks must genuinely alternate feet and counter-swing arms; feet share a stable bottom-center baseline. Carry hands remain consistently at front waist for live item overlay, no baked crates/food/tools. Work poses are context-neutral hand work; no invented weapons/props. Keep lighting top-left. Preserve genuine alpha; no fake checkerboard. DO NOT omit, merge or add slots; exactly6x12 single-character full-body frames.

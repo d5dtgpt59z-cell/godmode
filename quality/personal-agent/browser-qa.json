@@ -1,0 +1,99 @@
+{
+  "saveId": "51e47f27-03ed-4c39-a2c6-5bb309dafe79",
+  "paused": true,
+  "engineVersion": "cozy-engine-3",
+  "step": 33714,
+  "playerWater": 2,
+  "worldObjects": [
+    {
+      "id": "world-object-7",
+      "assetId": "rain-catcher",
+      "name": "A new rain catcher",
+      "description": "A finite water container introduced into this timeline.",
+      "position": {
+        "x": 25,
+        "y": 6
+      },
+      "stock": {
+        "grain": 0,
+        "water": 5,
+        "timber": 0,
+        "bread": 0
+      },
+      "introducedStep": 32086,
+      "sourceEventId": "51e47f27-03ed-4c39-a2c6-5bb309dafe79:318",
+      "provenance": {
+        "mode": "manual",
+        "proposalId": "94831061-df0b-4965-8115-f47f8df9e228"
+      },
+      "noticedBy": {
+        "player": {
+          "step": 33647,
+          "eventId": "51e47f27-03ed-4c39-a2c6-5bb309dafe79:344",
+          "stock": {
+            "grain": 0,
+            "water": 5,
+            "timber": 0,
+            "bread": 0
+          }
+        },
+        "ada": {
+          "step": 32086,
+          "eventId": "51e47f27-03ed-4c39-a2c6-5bb309dafe79:320",
+          "stock": {
+            "grain": 0,
+            "water": 6,
+            "timber": 0,
+            "bread": 0
+          }
+        },
+        "mara": {
+          "step": 32086,
+          "eventId": "51e47f27-03ed-4c39-a2c6-5bb309dafe79:321",
+          "stock": {
+            "grain": 0,
+            "water": 6,
+            "timber": 0,
+            "bread": 0
+          }
+        },
+        "wren": {
+          "step": 32086,
+          "eventId": "51e47f27-03ed-4c39-a2c6-5bb309dafe79:322",
+          "stock": {
+            "grain": 0,
+            "water": 6,
+            "timber": 0,
+            "bread": 0
+          }
+        }
+      }
+    }
+  ],
+  "programs": [
+    {
+      "id": "activity-8",
+      "name": "An afternoon of affection",
+      "status": "blocked",
+      "responses": {
+        "wren": {
+          "status": "declined",
+          "reason": "I need a meal before taking part.",
+          "step": 32086,
+          "eventId": "51e47f27-03ed-4c39-a2c6-5bb309dafe79:324",
+          "provenance": "deterministic-policy"
+        }
+      },
+      "outcomes": [],
+      "provenance": {
+        "mode": "manual",
+        "proposalId": "f2cc188f-3151-4d32-a1db-8f1eeb6d3dc8"
+      }
+    }
+  ],
+  "replay": {
+    "verified": true,
+    "finalHash": "a53fa1c4a471279b5f381c833e242414da13d75e7a03ced7210de61d69c7b9c7",
+    "modelCalls": 0
+  }
+}

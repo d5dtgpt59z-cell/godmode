@@ -1,0 +1,12 @@
+Use case: stylized-concept.
+Asset type: production transparent pixel-art portrait sheet for an original cozy life-simulation game.
+Create ONE cohesive beautiful 8-portrait sheet, exactly FOUR equal columns by TWO equal rows, ideally 2048x1024 pixels with 512x512 slots. Every slot contains one complete waist/chest-up portrait, fully within the slot with generous transparent padding. Genuine transparent alpha background; no scenery, frames, grid lines, labels, writing, watermark, or cast shadows.
+Style: charming premium cozy anime pixel art, soft rounded adult faces, large friendly expressive eyes with clear highlights, small simple noses, appealing smiles, deliberate clean pixel clusters, gentle material highlights, warm colored outlines. Adults with cute proportions, not children, not gaunt elderly faces. No harsh black contours, sunken eyes, angular noses, blocky polygon faces, doll eyes, or gritty realism. The portraits should be beautifully appealing as dialogue portraits at small game size. Original designs only, no existing franchise characters.
+Columns from LEFT to RIGHT are always:
+1 KITT: friendly adult farmer, soft teal cap with a tiny ochre stitch, chestnut hair peeking out, hazel eyes, cream shirt and gentle teal work jacket; approachable slightly tousled adventurer energy.
+2 ADA: warm adult baker, lovely auburn hair in a tidy soft baker bun with loose cheek strands, kind amber eyes, round soft cheeks, cream blouse and coral apron; practical and sunny.
+3 MARA: friendly thoughtful adult planner, soft lavender-silver hair in a loose side braid, kind blue-violet eyes, sage-green cardigan over a muted plum blouse; graceful healthy youthful-adult face with soft cheeks, no gaunt aging anatomy.
+4 WREN: warm brown-skinned adult man, abundant soft dark brown curls, friendly dark amber eyes, russet scarf and cream/olive vest, rounded warm face with gentle cheek definition; curious and kind, visibly male but not rugged or stern.
+TOP ROW: neutral attentive expressions with a slight welcoming smile.
+BOTTOM ROW: same exact four people, identical identities/hair/outfits/proportions and framing, with warmer happy smiles and gentle expressive eyes.
+Keep every head and upper body similarly scaled, natural 3/4-facing-toward-viewer pose, eyes readable, all hair and shoulders fully inside each512 slot. Use a coordinated soft teal, coral, sage, russet, cream, lavender and warm-brown palette. Crisp pixel edges, no fake printed checkerboard; empty pixels must actually be transparent.

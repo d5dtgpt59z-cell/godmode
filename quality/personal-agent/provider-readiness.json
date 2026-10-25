@@ -1,0 +1,10 @@
+{
+  "ruleProvider": "meta",
+  "worldForgeAvailable": false,
+  "worldForgeFalseReason": "Muse Spark world generation requires explicit Meta selection, a key, verified credits and project budget. No world or alternate model was generated.",
+  "personalAgentAvailable": false,
+  "personalAgentFalseReason": "Personal reasoning needs an explicit selected provider, verified access/credit/budget and a paused personal branch opt-in.",
+  "naturalLanguageAvailable": false,
+  "actualMetaCalls": 0,
+  "actualLocalCalls": 21
+}

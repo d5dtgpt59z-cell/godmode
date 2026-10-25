@@ -1,0 +1,95 @@
+
+> godmode-living-world@0.1.0 build
+> node scripts/run-framework.mjs build
+
+
+  vinext build  (Vite 8.0.13)
+
+[1/5] analyze client references...
+[2K
+transforming...✓ 326 modules transformed.
+rendering chunks...
+✓ built in 900ms
+[2/5] analyze server references...
+[2K
+transforming...✓ 108 modules transformed.
+rendering chunks...
+✓ built in 1.85s
+[3/5] build rsc environment...
+[2K
+transforming...✓ 323 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 392ms
+[4/5] build client environment...
+[2K
+transforming...✓ 154 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.93s
+[5/5] build ssr environment...
+[2K
+transforming...✓ 114 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 773ms
+[0m
+  Route (app)
+  ┌ ? /
+  ├ λ /api/cozy
+  ├ λ /api/cozy/:id
+  ├ λ /api/cozy/:id/advance
+  ├ λ /api/cozy/:id/archives
+  ├ λ /api/cozy/:id/archives/:archiveId
+  ├ λ /api/cozy/:id/command
+  ├ λ /api/cozy/:id/compare
+  ├ λ /api/cozy/:id/evolve
+  ├ λ /api/cozy/:id/export
+  ├ λ /api/cozy/:id/fork
+  ├ λ /api/cozy/:id/initiative/pump
+  ├ λ /api/cozy/:id/npc-plans
+  ├ λ /api/cozy/:id/npc-plans/apply
+  ├ λ /api/cozy/:id/personal-evolve
+  ├ λ /api/cozy/:id/rewind
+  ├ λ /api/cozy/:id/rules
+  ├ λ /api/cozy/:id/rules/apply
+  ├ λ /api/cozy/:id/rules/preview
+  ├ λ /api/cozy/:id/rules/proposals
+  ├ λ /api/cozy/:id/rules/revert
+  ├ λ /api/cozy/:id/social/decision
+  ├ λ /api/cozy/:id/tick
+  ├ λ /api/cozy/forge/create
+  ├ λ /api/cozy/forge/proposals
+  ├ λ /api/cozy/import
+  ├ λ /api/cozy/replay
+  ├ λ /api/cozy/saves
+  ├ λ /api/cozy/status
+  ├ λ /api/import
+  ├ λ /api/replay
+  ├ λ /api/runs
+  ├ λ /api/runs/:id
+  ├ λ /api/runs/:id/advance
+  ├ λ /api/runs/:id/command
+  ├ λ /api/runs/:id/export
+  ├ λ /api/runs/:id/fork
+  ├ λ /api/runs/:id/rewind
+  ├ λ /api/status
+  ├ λ /api/world
+  ├ λ /api/world/archives
+  ├ λ /api/world/archives/:id
+  ├ λ /api/world/tick
+  ├ ? /bellwether
+  └ ? /play
+
+  λ API  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.

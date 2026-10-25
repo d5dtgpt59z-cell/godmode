@@ -1,0 +1,718 @@
+{
+  "aliases": {
+    "festival.bunting": "bunting",
+    "fx.affection": "social.heart.0",
+    "fx.affection.0": "social.heart.0",
+    "fx.affection.1": "social.heart.1",
+    "fx.affection.2": "social.heart.2",
+    "fx.affection.3": "social.heart.3",
+    "fx.dance": "social.dance.0",
+    "fx.dance.0": "social.dance.0",
+    "fx.dance.1": "social.dance.1",
+    "fx.dance.2": "social.dance.2",
+    "fx.dance.3": "social.dance.3",
+    "fx.harvest": "fx.harvest.0",
+    "fx.water": "fx.water.0"
+  },
+  "excludedSourceFrames": "All fenced crop beds and wet-soil bed excluded to preserve generated map soil. Optional wonder-tree excluded because its crown overlaps the preceding water-effect cell in the generated source.",
+  "frames": [
+    {
+      "alpha128Crop": [
+        24,
+        33,
+        258,
+        200
+      ],
+      "key": "festival.empty",
+      "packedSize": [
+        45,
+        32
+      ],
+      "sharedFamily": "festival.",
+      "sharedFamilyScale": 0.19047619047619047,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        12,
+        286,
+        282,
+        506
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        17,
+        237,
+        206
+      ],
+      "key": "festival.ready",
+      "packedSize": [
+        45,
+        36
+      ],
+      "sharedFamily": "festival.",
+      "sharedFamilyScale": 0.19047619047619047,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        284,
+        282,
+        540,
+        507
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        3,
+        18,
+        260,
+        141
+      ],
+      "key": "bunting",
+      "packedSize": [
+        78,
+        37
+      ],
+      "sharedFamily": "bunting",
+      "sharedFamilyScale": 0.3035019455252918,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        538,
+        321,
+        798,
+        492
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        44,
+        25,
+        191,
+        214
+      ],
+      "key": "carry.grain",
+      "packedSize": [
+        8,
+        10
+      ],
+      "sharedFamily": "carry.grain",
+      "sharedFamilyScale": 0.05291005291005291,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        808,
+        289,
+        1030,
+        510
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        40,
+        36,
+        187,
+        200
+      ],
+      "key": "carry.water",
+      "packedSize": [
+        9,
+        10
+      ],
+      "sharedFamily": "carry.water",
+      "sharedFamilyScale": 0.06097560975609756,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        1043,
+        292,
+        1283,
+        516
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        32,
+        16,
+        235,
+        194
+      ],
+      "key": "carry.timber",
+      "packedSize": [
+        10,
+        9
+      ],
+      "sharedFamily": "carry.timber",
+      "sharedFamilyScale": 0.04926108374384237,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        18,
+        523,
+        276,
+        743
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        23,
+        37,
+        221,
+        195
+      ],
+      "key": "carry.bread",
+      "packedSize": [
+        10,
+        8
+      ],
+      "sharedFamily": "carry.bread",
+      "sharedFamilyScale": 0.050505050505050504,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        282,
+        518,
+        538,
+        740
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        16,
+        28,
+        203,
+        199
+      ],
+      "key": "gift",
+      "packedSize": [
+        14,
+        13
+      ],
+      "sharedFamily": "gift",
+      "sharedFamilyScale": 0.0748663101604278,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        538,
+        516,
+        780,
+        740
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        27,
+        51,
+        185,
+        157
+      ],
+      "key": "fx.water.0",
+      "packedSize": [
+        16,
+        11
+      ],
+      "sharedFamily": "fx.water",
+      "sharedFamilyScale": 0.10426540284360189,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        789,
+        543,
+        1035,
+        752
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        20,
+        27,
+        216,
+        202
+      ],
+      "key": "fx.water.1",
+      "packedSize": [
+        20,
+        18
+      ],
+      "sharedFamily": "fx.water",
+      "sharedFamilyScale": 0.10426540284360189,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        1036,
+        512,
+        1296,
+        752
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        45,
+        42,
+        256,
+        159
+      ],
+      "key": "fx.water.2",
+      "packedSize": [
+        22,
+        12
+      ],
+      "sharedFamily": "fx.water",
+      "sharedFamilyScale": 0.10426540284360189,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        0,
+        758,
+        280,
+        950
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        36,
+        26,
+        221,
+        169
+      ],
+      "key": "fx.water.3",
+      "packedSize": [
+        19,
+        15
+      ],
+      "sharedFamily": "fx.water",
+      "sharedFamilyScale": 0.10426540284360189,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        280,
+        761,
+        540,
+        930
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        36,
+        20,
+        177,
+        167
+      ],
+      "key": "fx.harvest.0",
+      "packedSize": [
+        16,
+        17
+      ],
+      "sharedFamily": "fx.harvest",
+      "sharedFamilyScale": 0.11458333333333333,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        540,
+        745,
+        780,
+        974
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        34,
+        33,
+        197,
+        186
+      ],
+      "key": "fx.harvest.1",
+      "packedSize": [
+        19,
+        18
+      ],
+      "sharedFamily": "fx.harvest",
+      "sharedFamilyScale": 0.11458333333333333,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        780,
+        741,
+        1038,
+        974
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        27,
+        36,
+        203,
+        228
+      ],
+      "key": "fx.harvest.2",
+      "packedSize": [
+        20,
+        22
+      ],
+      "sharedFamily": "fx.harvest",
+      "sharedFamilyScale": 0.11458333333333333,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        1038,
+        746,
+        1296,
+        974
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        69,
+        31,
+        213,
+        180
+      ],
+      "key": "fx.harvest.3",
+      "packedSize": [
+        16,
+        17
+      ],
+      "sharedFamily": "fx.harvest",
+      "sharedFamilyScale": 0.11458333333333333,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        0,
+        974,
+        255,
+        1214
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        39,
+        27,
+        240,
+        186
+      ],
+      "key": "object.luminous-mushroom",
+      "packedSize": [
+        22,
+        17
+      ],
+      "sharedFamily": "object.luminous-mushroom",
+      "sharedFamilyScale": 0.10945273631840796,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        540,
+        976,
+        780,
+        1214
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        18,
+        242,
+        198
+      ],
+      "key": "object.garden-bench",
+      "packedSize": [
+        40,
+        30
+      ],
+      "sharedFamily": "object.garden-bench",
+      "sharedFamilyScale": 0.16666666666666666,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        780,
+        976,
+        1040,
+        1214
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        31,
+        0,
+        199,
+        205
+      ],
+      "key": "object.rain-catcher",
+      "packedSize": [
+        30,
+        37
+      ],
+      "sharedFamily": "object.rain-catcher",
+      "sharedFamilyScale": 0.17857142857142858,
+      "source": "art/cozy/imagegen-v4/raw/foreground-v4-sheet.png",
+      "sourceRegion": [
+        1040,
+        974,
+        1296,
+        1214
+      ],
+      "sourceSha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676"
+    },
+    {
+      "alpha128Crop": [
+        121,
+        179,
+        331,
+        392
+      ],
+      "key": "social.heart.0",
+      "packedSize": [
+        12,
+        12
+      ],
+      "sharedFamily": "social.heart",
+      "sharedFamilyScale": 0.05851063829787234,
+      "source": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sourceRegion": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "sourceSha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df"
+    },
+    {
+      "alpha128Crop": [
+        79,
+        141,
+        389,
+        405
+      ],
+      "key": "social.heart.1",
+      "packedSize": [
+        18,
+        15
+      ],
+      "sharedFamily": "social.heart",
+      "sharedFamilyScale": 0.05851063829787234,
+      "source": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sourceRegion": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "sourceSha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df"
+    },
+    {
+      "alpha128Crop": [
+        41,
+        88,
+        417,
+        425
+      ],
+      "key": "social.heart.2",
+      "packedSize": [
+        22,
+        20
+      ],
+      "sharedFamily": "social.heart",
+      "sharedFamilyScale": 0.05851063829787234,
+      "source": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sourceRegion": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "sourceSha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df"
+    },
+    {
+      "alpha128Crop": [
+        84,
+        158,
+        357,
+        405
+      ],
+      "key": "social.heart.3",
+      "packedSize": [
+        16,
+        14
+      ],
+      "sharedFamily": "social.heart",
+      "sharedFamilyScale": 0.05851063829787234,
+      "source": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sourceRegion": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "sourceSha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df"
+    },
+    {
+      "alpha128Crop": [
+        120,
+        113,
+        376,
+        368
+      ],
+      "key": "social.dance.0",
+      "packedSize": [
+        15,
+        15
+      ],
+      "sharedFamily": "social.dance",
+      "sharedFamilyScale": 0.05851063829787234,
+      "source": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sourceRegion": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "sourceSha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df"
+    },
+    {
+      "alpha128Crop": [
+        86,
+        61,
+        381,
+        381
+      ],
+      "key": "social.dance.1",
+      "packedSize": [
+        17,
+        19
+      ],
+      "sharedFamily": "social.dance",
+      "sharedFamilyScale": 0.05851063829787234,
+      "source": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sourceRegion": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "sourceSha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df"
+    },
+    {
+      "alpha128Crop": [
+        41,
+        52,
+        417,
+        389
+      ],
+      "key": "social.dance.2",
+      "packedSize": [
+        22,
+        20
+      ],
+      "sharedFamily": "social.dance",
+      "sharedFamilyScale": 0.05851063829787234,
+      "source": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sourceRegion": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "sourceSha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df"
+    },
+    {
+      "alpha128Crop": [
+        105,
+        105,
+        337,
+        372
+      ],
+      "key": "social.dance.3",
+      "packedSize": [
+        14,
+        16
+      ],
+      "sharedFamily": "social.dance",
+      "sharedFamilyScale": 0.05851063829787234,
+      "source": "art/cozy/imagegen-v4/raw/social-fx-v4-sheet.png",
+      "sourceRegion": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "sourceSha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df"
+    },
+    {
+      "alpha128Crop": [
+        143,
+        419,
+        667,
+        659
+      ],
+      "key": "crop.planted",
+      "packedSize": [
+        18,
+        8
+      ],
+      "sharedFamily": "crop",
+      "sharedFamilyScale": 0.03363914373088685,
+      "source": "art/cozy/imagegen-v4/raw/isolated-wheat-v4-sheet.png",
+      "sourceRegion": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "sourceSha256": "23c19cdbc89ba289231ecd6b449d1d50fbecfe1a30b356cfb2251998477cd567"
+    },
+    {
+      "alpha128Crop": [
+        70,
+        207,
+        724,
+        659
+      ],
+      "key": "crop.growing",
+      "packedSize": [
+        22,
+        15
+      ],
+      "sharedFamily": "crop",
+      "sharedFamilyScale": 0.03363914373088685,
+      "source": "art/cozy/imagegen-v4/raw/isolated-wheat-v4-sheet.png",
+      "sourceRegion": [
+        724,
+        0,
+        1448,
+        724
+      ],
+      "sourceSha256": "23c19cdbc89ba289231ecd6b449d1d50fbecfe1a30b356cfb2251998477cd567"
+    },
+    {
+      "alpha128Crop": [
+        0,
+        69,
+        604,
+        659
+      ],
+      "key": "crop.ripe",
+      "packedSize": [
+        20,
+        20
+      ],
+      "sharedFamily": "crop",
+      "sharedFamilyScale": 0.03363914373088685,
+      "source": "art/cozy/imagegen-v4/raw/isolated-wheat-v4-sheet.png",
+      "sourceRegion": [
+        1448,
+        0,
+        2172,
+        724
+      ],
+      "sourceSha256": "23c19cdbc89ba289231ecd6b449d1d50fbecfe1a30b356cfb2251998477cd567"
+    },
+    {
+      "key": "crop.empty",
+      "method": "Transparent semantic compatibility state; no painted soil or duplicate fenced bed. soil.wet is unused by current renderer."
+    },
+    {
+      "key": "soil.wet",
+      "method": "Transparent semantic compatibility state; no painted soil or duplicate fenced bed. soil.wet is unused by current renderer."
+    }
+  ]
+}

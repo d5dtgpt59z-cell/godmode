@@ -1,0 +1,253 @@
+{
+  "frames": [
+    {
+      "alpha128Crop": [
+        0,
+        12,
+        444,
+        444
+      ],
+      "key": "player-neutral",
+      "output": "public/assets/cozy/portraits/player-neutral.png",
+      "outputSha256": "069557172810ad8f0767aa60af2a78021d5bf26fbb7932b88094bf665df5937a",
+      "packedSize": [
+        184,
+        179
+      ],
+      "sharedCharacterScale": 0.4144144144144144,
+      "source": {
+        "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+        "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "sourceCell": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "sourceTouchesCellBoundary": true
+    },
+    {
+      "alpha128Crop": [
+        0,
+        11,
+        444,
+        443
+      ],
+      "key": "player-warm",
+      "output": "public/assets/cozy/portraits/player-warm.png",
+      "outputSha256": "fd973c13ea5ccee40ff9be04602e255ec4f642f945a8895680449e3a7210c14e",
+      "packedSize": [
+        184,
+        179
+      ],
+      "sharedCharacterScale": 0.4144144144144144,
+      "source": {
+        "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+        "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "sourceCell": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "sourceTouchesCellBoundary": true
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        431,
+        444
+      ],
+      "key": "ada-neutral",
+      "output": "public/assets/cozy/portraits/ada-neutral.png",
+      "outputSha256": "37763d2ecac8d7ef43e60a6053fc9d7b8718d05e3cdead3f020cfc238dda1fba",
+      "packedSize": [
+        179,
+        184
+      ],
+      "sharedCharacterScale": 0.4144144144144144,
+      "source": {
+        "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+        "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "sourceCell": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "sourceTouchesCellBoundary": true
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        431,
+        443
+      ],
+      "key": "ada-warm",
+      "output": "public/assets/cozy/portraits/ada-warm.png",
+      "outputSha256": "cd612095f777837e39a3966b7d493c779306848bd15eb09e5f534f1b39c45ccb",
+      "packedSize": [
+        179,
+        184
+      ],
+      "sharedCharacterScale": 0.4144144144144144,
+      "source": {
+        "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+        "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "sourceCell": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "sourceTouchesCellBoundary": true
+    },
+    {
+      "alpha128Crop": [
+        11,
+        10,
+        429,
+        444
+      ],
+      "key": "mara-neutral",
+      "output": "public/assets/cozy/portraits/mara-neutral.png",
+      "outputSha256": "ea57390f4fa51bf34d332452ccacd0d4a71a793f8d1ce1dd93637f5fe7cc7597",
+      "packedSize": [
+        177,
+        184
+      ],
+      "sharedCharacterScale": 0.423963133640553,
+      "source": {
+        "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+        "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "sourceCell": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "sourceTouchesCellBoundary": true
+    },
+    {
+      "alpha128Crop": [
+        11,
+        10,
+        429,
+        443
+      ],
+      "key": "mara-warm",
+      "output": "public/assets/cozy/portraits/mara-warm.png",
+      "outputSha256": "c8c4295250859755158f2e295ebcbcef939380b6a70c7b504a9eb52a5d8bdd87",
+      "packedSize": [
+        177,
+        184
+      ],
+      "sharedCharacterScale": 0.423963133640553,
+      "source": {
+        "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+        "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "sourceCell": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "sourceTouchesCellBoundary": true
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "key": "wren-neutral",
+      "output": "public/assets/cozy/portraits/wren-neutral.png",
+      "outputSha256": "32179336243ded786cbb22b5b3d8957a5d1ccd6c6a4f00e57390cf13be083710",
+      "packedSize": [
+        184,
+        184
+      ],
+      "sharedCharacterScale": 0.4144144144144144,
+      "source": {
+        "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+        "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "sourceCell": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "sourceTouchesCellBoundary": true
+    },
+    {
+      "alpha128Crop": [
+        0,
+        0,
+        444,
+        443
+      ],
+      "key": "wren-warm",
+      "output": "public/assets/cozy/portraits/wren-warm.png",
+      "outputSha256": "aa2a8e6c9ce1f146cebb44d18e8ae3b18264bc17c5e5f08a316d4a371ca7341c",
+      "packedSize": [
+        184,
+        184
+      ],
+      "sharedCharacterScale": 0.4144144144144144,
+      "source": {
+        "path": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+        "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "sourceCell": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "sourceTouchesCellBoundary": true
+    }
+  ],
+  "method": "Alpha>=128 bounds+2px; original RGBA retained inside crop; shared scale per expression pair; nearest resize; 4px outer padding"
+}

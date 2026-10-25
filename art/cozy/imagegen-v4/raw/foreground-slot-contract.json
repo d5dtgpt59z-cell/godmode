@@ -1,0 +1,131 @@
+{
+  "columns": 5,
+  "rows": 5,
+  "frames": [
+    {
+      "key": "crop.empty",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "key": "crop.planted",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "key": "crop.growing",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "key": "crop.ripe",
+      "column": 3,
+      "row": 0
+    },
+    {
+      "key": "soil.wet",
+      "column": 4,
+      "row": 0
+    },
+    {
+      "key": "festival.empty",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "key": "festival.ready",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "key": "bunting",
+      "column": 2,
+      "row": 1
+    },
+    {
+      "key": "carry.grain",
+      "column": 3,
+      "row": 1
+    },
+    {
+      "key": "carry.water",
+      "column": 4,
+      "row": 1
+    },
+    {
+      "key": "carry.timber",
+      "column": 0,
+      "row": 2
+    },
+    {
+      "key": "carry.bread",
+      "column": 1,
+      "row": 2
+    },
+    {
+      "key": "gift",
+      "column": 2,
+      "row": 2
+    },
+    {
+      "key": "fx.water.0",
+      "column": 3,
+      "row": 2
+    },
+    {
+      "key": "fx.water.1",
+      "column": 4,
+      "row": 2
+    },
+    {
+      "key": "fx.water.2",
+      "column": 0,
+      "row": 3
+    },
+    {
+      "key": "fx.water.3",
+      "column": 1,
+      "row": 3
+    },
+    {
+      "key": "fx.harvest.0",
+      "column": 2,
+      "row": 3
+    },
+    {
+      "key": "fx.harvest.1",
+      "column": 3,
+      "row": 3
+    },
+    {
+      "key": "fx.harvest.2",
+      "column": 4,
+      "row": 3
+    },
+    {
+      "key": "fx.harvest.3",
+      "column": 0,
+      "row": 4
+    },
+    {
+      "key": "prop.wonder-tree",
+      "column": 1,
+      "row": 4
+    },
+    {
+      "key": "prop.glowing-mushroom",
+      "column": 2,
+      "row": 4
+    },
+    {
+      "key": "prop.bench",
+      "column": 3,
+      "row": 4
+    },
+    {
+      "key": "prop.rain-catcher",
+      "column": 4,
+      "row": 4
+    }
+  ]
+}

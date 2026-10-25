@@ -1,0 +1,270 @@
+{
+  "provenance": "recorded real local Qwen output; replayed as a fixture only, no unit-test inference",
+  "model": "qwen3.5:9b",
+  "digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "context": {
+    "kind": "personal",
+    "version": 1,
+    "npcId": "wren",
+    "step": 200,
+    "triggerKey": "personal:wren:f93a7b766ffd374a091f7953",
+    "intentHash": "40e170a5030708edb947430698ee296c9fb366ce05d5d9c3bb15438a6a04518a",
+    "self": {
+      "name": "Wren",
+      "position": {
+        "x": 14,
+        "y": 16
+      },
+      "needs": {
+        "hunger": 17,
+        "energy": 94,
+        "social": 77
+      },
+      "inventory": {
+        "grain": 0,
+        "water": 0,
+        "timber": 0,
+        "bread": 0
+      },
+      "values": {
+        "care": 60,
+        "curiosity": 40,
+        "belonging": 95,
+        "autonomy": 60
+      },
+      "preferences": {
+        "food": "bread",
+        "restPlaceId": "wren-home"
+      }
+    },
+    "relationships": [
+      {
+        "actorId": "player",
+        "trust": 50,
+        "affinity": 40,
+        "helpfulness": 0,
+        "basis": "seeded",
+        "lastInteractionStep": null,
+        "evidenceIds": []
+      },
+      {
+        "actorId": "ada",
+        "trust": 50,
+        "affinity": 25,
+        "helpfulness": 0,
+        "basis": "seeded",
+        "lastInteractionStep": null,
+        "evidenceIds": []
+      },
+      {
+        "actorId": "mara",
+        "trust": 50,
+        "affinity": 25,
+        "helpfulness": 0,
+        "basis": "seeded",
+        "lastInteractionStep": null,
+        "evidenceIds": []
+      }
+    ],
+    "beliefs": [],
+    "aspirations": [],
+    "capabilityRequests": [],
+    "plan": null,
+    "observations": [],
+    "nearbyActors": [],
+    "contacts": [
+      {
+        "id": "player",
+        "name": "You",
+        "homeId": "player-home"
+      },
+      {
+        "id": "ada",
+        "name": "Ada",
+        "homeId": "ada-home"
+      },
+      {
+        "id": "mara",
+        "name": "Mara",
+        "homeId": "mara-home"
+      }
+    ],
+    "observedPlaces": [
+      {
+        "id": "square",
+        "stock": {
+          "grain": 0,
+          "water": 0,
+          "timber": 0,
+          "bread": 0
+        }
+      }
+    ],
+    "knownPlaces": [
+      {
+        "id": "player-home",
+        "position": {
+          "x": 4,
+          "y": 21
+        }
+      },
+      {
+        "id": "mara-home",
+        "position": {
+          "x": 4,
+          "y": 6
+        }
+      },
+      {
+        "id": "bakery",
+        "position": {
+          "x": 26,
+          "y": 6
+        }
+      },
+      {
+        "id": "ada-home",
+        "position": {
+          "x": 28,
+          "y": 11
+        }
+      },
+      {
+        "id": "wren-home",
+        "position": {
+          "x": 27,
+          "y": 21
+        }
+      },
+      {
+        "id": "well",
+        "position": {
+          "x": 8,
+          "y": 14
+        }
+      },
+      {
+        "id": "woodpile",
+        "position": {
+          "x": 5,
+          "y": 12
+        }
+      },
+      {
+        "id": "square",
+        "position": {
+          "x": 14,
+          "y": 16
+        }
+      },
+      {
+        "id": "market",
+        "position": {
+          "x": 24,
+          "y": 15
+        }
+      },
+      {
+        "id": "plot-1",
+        "position": {
+          "x": 11,
+          "y": 7
+        }
+      },
+      {
+        "id": "plot-2",
+        "position": {
+          "x": 13,
+          "y": 7
+        }
+      },
+      {
+        "id": "plot-3",
+        "position": {
+          "x": 14,
+          "y": 7
+        }
+      }
+    ],
+    "cooperation": [],
+    "affordances": [
+      {
+        "action": "inspect",
+        "constraints": "Travel to a known place/plot and observe it; no remote stock."
+      },
+      {
+        "action": "rest",
+        "constraints": "Travel to your own home; recovery takes real steps."
+      },
+      {
+        "action": "eat",
+        "constraints": "Consume one owned bread or grain after eating time."
+      },
+      {
+        "action": "seek-meal",
+        "constraints": "Visit bakery; finite public stock and seed floor enforced at arrival."
+      },
+      {
+        "action": "approach",
+        "constraints": "Find a known person physically; unseen positions are unavailable."
+      },
+      {
+        "action": "talk",
+        "constraints": "Actually reach recipient; speech is attributed testimony, not fact."
+      },
+      {
+        "action": "cooperate",
+        "constraints": "Only one real contribution to an existing permitted association; never a school or new mechanic."
+      },
+      {
+        "action": "wait",
+        "constraints": "Time passes; needs still change."
+      }
+    ],
+    "eligibility": {
+      "canImagine": true,
+      "aspirationSlotsRemaining": 8,
+      "nextEligibleStep": 200
+    },
+    "triggers": [
+      "company-matters",
+      "an-open-future"
+    ]
+  },
+  "decision": {
+    "npcId": "wren",
+    "triggerKey": "personal:wren:f93a7b766ffd374a091f7953",
+    "intentHash": "40e170a5030708edb947430698ee296c9fb366ce05d5d9c3bb15438a6a04518a",
+    "action": "seek-meal",
+    "aspirationId": null,
+    "aspiration": null,
+    "plan": {
+      "summary": "Walk to bakery to get bread for hunger.",
+      "steps": [
+        {
+          "action": "approach",
+          "targetId": "bakery",
+          "durationSteps": 120,
+          "speech": null
+        },
+        {
+          "action": "talk",
+          "targetId": "player",
+          "durationSteps": 60,
+          "speech": "I'm feeling hungry. Do you have any bread to share?"
+        },
+        {
+          "action": "eat",
+          "targetId": "bread",
+          "durationSteps": 30,
+          "speech": null
+        }
+      ]
+    },
+    "targetId": "bakery",
+    "speech": null,
+    "belief": null,
+    "reason": "Hunger is at 17; bakery is a known place with potential bread stock.",
+    "evidenceIds": []
+  }
+}

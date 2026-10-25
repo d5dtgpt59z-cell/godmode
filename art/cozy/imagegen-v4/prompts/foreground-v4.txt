@@ -1,0 +1,10 @@
+Use case: stylized-concept.
+Asset type: complete modular foreground/prop/effect atlas for an original cozy top-down life-sim game.
+Image1 is the current game map for camera/material/color harmony. Image2 is the approved newcharacter style. Create matching polished charming cozy anime PIXEL-ART game objects, crisp clusters, warmsoftcolored outlines, upper-left lighting, slight overhead obliqueview. Genuine transparent alpha, no text/grid/labels/frames, no characters. Objects are isolated and never clipped; equal5x5 square-slot grid with generous transparent gutters.
+EXACT25CELLS, FIVEcolumns byFIVErows, orderedleft-to-right row-by-row:
+ROW1:1empty tilledsoil bed withparallelfurrows;2samebedwithtinysproutingwheat;3samebedwithhealthy green growingwheat;4samebedwithripe goldenwheat ears;5sameemptysoilbed darkandwet.
+ROW2:1empty charmingwoodentable;2matchingtable readywithbread/wheatmeal andtwosimpleplates;3shortstringofteal/coral/creamfestivalbunting;4smalltiedwheatbundle;5smallwaterbucket.
+ROW3:1smallstackofthreecutlogs;2roundgoldenbreadloaf;3smallwrappedcreamgiftwithrussetribbon;4firsttinyclearbluewatersplash;5secondlargerwatersplash.
+ROW4:1thirdwatersplashspread;2fourthwatersplashsettlingdroplets;3firstgoldenharvestsparkletuft;4secondharvestsparkles;5thirdharvestsparkles.
+ROW5:1fourthharvestsparklesfading;2WONDER-TREE anoriginalsmallleafytreewithlovelysofttealgreenroundedcanopy,warmwoodtrunkandgentlelittleglowingseedpods;3GLOWINGMUSHROOM onecharmingclusterofsmallblue-lavenderbioluminescentmushrooms;4woodengardenBENCH withsofttealpaintedends;5practicalwoodenRAIN-CATCHER barrelwithsmallcreamclothfunnel/canopy.
+Everycrop uses SAME footprint andcamera; NO ripewheat baked intoempty/plantedstates. Tables share exact shape andangle. Effects are smalltransparentoverlays, not giantmagiccircles; fourphasewatersplash andharvestsparkles eachclearbutgentle. Carrygoods designedtobereadable12x12nativeicons. Mainnewtree48x64native,mushrooms24x32,bench48x32,raincatcher32x40. All25wholeassetscontained inowncells, generousalpha padding. No ground/grasspatch beneathnewprops; only soilbeds have soil. No bakedgroundshadows.

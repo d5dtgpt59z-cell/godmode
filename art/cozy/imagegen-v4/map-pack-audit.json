@@ -1,0 +1,13 @@
+{
+  "geometrySha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474",
+  "method": "Whole-source nearest resize512x384; no local pixels painted or geometry changed",
+  "outputSha256": "7047d9f04aefb18d907676912c0ad63ecbe883d8b2587b82173814e9f1027dba",
+  "source": {
+    "path": "art/cozy/imagegen-v4/raw/map-v4-style-edit.png",
+    "sha256": "94e07b5894d3a9d79bbebf9684790aab738f5eb101faead9dca855d140954a3a",
+    "size": [
+      1448,
+      1086
+    ]
+  }
+}

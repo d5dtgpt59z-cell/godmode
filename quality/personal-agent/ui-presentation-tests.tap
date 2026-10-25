@@ -1,0 +1,29 @@
+✔ foreground initiative never dispatches for paused, hidden, recorded, legacy, disabled or exhausted worlds (0.987ms)
+✔ one slow model request coalesces repeated polls without occupying a physical command queue (0.118625ms)
+✔ busy and lost responses retain the same request ID, including a page coordinator restart (1.349875ms)
+✔ pause retains a pending receipt and resume recovers it without a new generation ID (0.123459ms)
+✔ empty-storage pending ticket uses one stable recovery-only probe despite admission limits (0.211458ms)
+✔ fresh tab leaves a paused ready ticket alone, then resumes it through a recovery-only probe (0.082792ms)
+✔ terminal unknown outcome observes provider quarantine and never retries the previous generation ID (0.09275ms)
+✔ a completed response carries its original save ID for caller stale-save guards (0.059792ms)
+✔ idle polling backs off and allocates a fresh opportunity ID (1.774625ms)
+✔ private social observations do not become player notices (1.14175ms)
+✔ causal notebook follows cited receipts, not adjacent unrelated events, and reports missing references (0.43975ms)
+✔ doing labels reflect accepted physical tasks rather than generated reason text (0.372625ms)
+✔ idea provenance keeps fixtures, manual input and actual provider modes distinct (0.119917ms)
+✔ legacy notebook explicitly offers an independent paused living branch without inventing a proposal (5.411542ms)
+✔ empty living branch renders honest quiet state and paused guidance without diagnostic counters (6.549959ms)
+✔ permission controls require the actual exact preview and preserve independent refusal (7.725041ms)
+✔ resident page leads with original portrait, needs and social actions; raw policy stays in inspection (5.276667ms)
+✔ personal notes separate an unfinished wish from a completed supported plan and mark uncertain beliefs (4.887541ms)
+✔ normal memory wording uses recorded stance instead of policy formula (1.781833ms)
+✔ moving-neighbor approach uses current position and throttles meaningful reroutes (0.275125ms)
+✔ neighbor interaction delivers only in current physical range and remains bounded (0.094958ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 538.438208

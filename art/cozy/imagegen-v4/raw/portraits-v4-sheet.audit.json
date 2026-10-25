@@ -1,0 +1,143 @@
+{
+  "file": "art/cozy/imagegen-v4/raw/portraits-v4-sheet.png",
+  "width": 1774,
+  "height": 887,
+  "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+  "bytes": 2387590,
+  "alphaZeroPixels": 535177,
+  "alphaFullPixels": 911,
+  "alphaPartialPixels": 1037450,
+  "columns": 4,
+  "rows": 2,
+  "cells": [
+    {
+      "id": "player",
+      "expression": "neutral",
+      "rect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "alphaBoundingBoxInCell": [
+        0,
+        5,
+        444,
+        444
+      ]
+    },
+    {
+      "id": "ada",
+      "expression": "neutral",
+      "rect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "alphaBoundingBoxInCell": [
+        0,
+        0,
+        443,
+        444
+      ]
+    },
+    {
+      "id": "mara",
+      "expression": "neutral",
+      "rect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "alphaBoundingBoxInCell": [
+        0,
+        0,
+        443,
+        444
+      ]
+    },
+    {
+      "id": "wren",
+      "expression": "neutral",
+      "rect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "alphaBoundingBoxInCell": [
+        0,
+        0,
+        444,
+        444
+      ]
+    },
+    {
+      "id": "player",
+      "expression": "warm",
+      "rect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "alphaBoundingBoxInCell": [
+        0,
+        0,
+        444,
+        443
+      ]
+    },
+    {
+      "id": "ada",
+      "expression": "warm",
+      "rect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "alphaBoundingBoxInCell": [
+        0,
+        0,
+        443,
+        443
+      ]
+    },
+    {
+      "id": "mara",
+      "expression": "warm",
+      "rect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "alphaBoundingBoxInCell": [
+        0,
+        0,
+        443,
+        443
+      ]
+    },
+    {
+      "id": "wren",
+      "expression": "warm",
+      "rect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "alphaBoundingBoxInCell": [
+        0,
+        0,
+        444,
+        443
+      ]
+    }
+  ],
+  "note": "Imagegen source sheet; cell crops/normalization are a separate technical step, no manual replacement pixels."
+}

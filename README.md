@@ -10,6 +10,16 @@ The larger thesis is a living world whose rules you can propose in your own word
 
 **October 25, 2026 snapshot: the new cozy slice is LOCAL ONLY at the user’s explicit request, “Keep it local for now.” Final hackathon submission is ON HOLD.** The user authorized a public GitHub source mirror for inspection: [d5dtgpt59z-cell/godmode](https://github.com/d5dtgpt59z-cell/godmode). Hosted deployment, schedules, new credentials and final submission remain on hold. The earlier owner-private Bellwether release remains unchanged. This prototype and its assets began before the announced October 26 event start; eligibility and the application-idea pivot remain unconfirmed. See [COMPLIANCE.md](./COMPLIANCE.md) and [SUBMISSION-DRAFT.md](./SUBMISSION-DRAFT.md).
 
+## Current local milestone — October 25
+
+The entry now opens on a black command line. Describe a universe, review a validated Muse blueprint, then explicitly create a separate paused world. **Live Muse creation is blocked until verified Meta access is available.** The entry preserves descriptions and saved-world access; it does not substitute a preset or Qwen output. A blueprint currently changes three resident profiles, the first personal agent's values and existing rules on the fixed neighborhood map. It does not generate arbitrary mechanics or terrain.
+
+An optional engine3 branch gives the first personal agent persistent values, relationships, evidence-backed beliefs, wishes, capability requests and short executable plans. Real hunger and fatigue interrupt plans; in-person ideas are attributed evidence, not compulsory instructions. Composable activities add physical invitations, individual choices, travel, timed gestures, finite transfers and consumption. Registered image-generated mushrooms, rain catchers and benches can enter the physical world; nearby inhabitants discover them privately. Rain-catcher water is finite and conserved. The image-generation transport adapter is separately gated and fixture-tested; live image-service delivery is not wired into this local game.
+
+The art replacement uses original image-generated portraits, four-direction character animation, map and foreground assets with retained raw images and technical packing provenance. Existing art, engine1/2, recordings and Bellwether remain preserved. Three starting villagers meet the requested ceiling of ten; dynamic ten-character generation is not implemented.
+
+Current test evidence: `quality/personal-agent/`. See [current source and evidence](./PROJECT-INSPECTION.md), [architecture/design audit](./docs/PERSONAL-AGENT-AUDIT.md), and [Meta access and eligibility status](./docs/META-STATUS-20261025.md). Historical verification counts below describe earlier milestones.
+
 ## Latest inspection snapshot
 
 **Emergence foundation:** open the journal in an existing neighborhood, choose **Start a living branch**, then Play. The original save is preserved, with its original engine. The new branch can retain model-authored charters, physically delivered proposals, independent consent, an association, owner permission and real finite work. Slow inference runs outside movement and tick queues. Pausing stops new dispatches and retains in-flight results for safe recovery.
@@ -81,7 +91,7 @@ npm test
 npm run typecheck
 ```
 
-The current integrated release passed 147 tests, typecheck, scoped ESLint and the local production build. See `quality/emergence-{tests.tap,typecheck.log,lint.log,build.log}`. Earlier `quality/current-refinement-*` records the preceding 104-test character/dialogue release. Fresh living-branch gameplay verified original farming, physical delivery, differing responses, permission, real cooperative work, an evidence-backed change of mind, saved reload and exact replay. Preserve the final local source/package hashes and retained recording/archive lineage. The completed film’s replay/render/encoded-frame checks are documented in `demo/cozy/README.md`. A finished local artifact does not establish official submission-format compliance.
+The earlier social-charter release passed 147 tests, typecheck, scoped ESLint and the local production build. See `quality/emergence-{tests.tap,typecheck.log,lint.log,build.log}`. Earlier `quality/current-refinement-*` records the preceding 104-test character/dialogue release. Fresh living-branch gameplay verified original farming, physical delivery, differing responses, permission, real cooperative work, an evidence-backed change of mind, saved reload and exact replay. Preserve the final local source/package hashes and retained recording/archive lineage. The completed film’s replay/render/encoded-frame checks are documented in `demo/cozy/README.md`. A finished local artifact does not establish official submission-format compliance.
 
 ## Server, persistence and provenance
 

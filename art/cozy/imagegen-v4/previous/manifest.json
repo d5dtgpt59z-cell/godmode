@@ -1,0 +1,85 @@
+{
+  "scope": "Pre-imagegen-v4 runtime assets, preserved without modification",
+  "files": [
+    {
+      "path": "characters.json",
+      "sha256": "d17130618262ccab01f00796882a76c76aa9cf6192e118e46873fce515cb35a7",
+      "bytes": 96392
+    },
+    {
+      "path": "characters.png",
+      "sha256": "68a6fb0b918dad04c3a7eae3223b4d6b836e1c0f0bb87984d7b32cb0f789bcf9",
+      "bytes": 40123
+    },
+    {
+      "path": "foreground.json",
+      "sha256": "7ad49d045e663291fc7886b9652d32a7bdb8998c1cbcba6012acaa9e5218db9d",
+      "bytes": 8520
+    },
+    {
+      "path": "foreground.png",
+      "sha256": "901e5e3b38fd30836f8a603d73bffcc3a9796b27e4b6c5773cdb5afb8fc93643",
+      "bytes": 3875
+    },
+    {
+      "path": "map.json",
+      "sha256": "8adab62c5374979d39dddda4755ec2374a634b1d0e6a1e0f25765e66b2add474",
+      "bytes": 16940
+    },
+    {
+      "path": "map.png",
+      "sha256": "3c98aa7c5551618e5dab86f03d91726196c11893ba2ea1c3761e164f8d7f2937",
+      "bytes": 545656
+    },
+    {
+      "path": "portraits/ada-neutral.png",
+      "sha256": "04daaa067b52883a46c8b2719ce99e84109055190c713aa2a80b70fb8ab5561b",
+      "bytes": 2343
+    },
+    {
+      "path": "portraits/ada-warm.png",
+      "sha256": "1c7841bf19237afeba30c365973d286930de08123dabd03e24a00ff5799cb266",
+      "bytes": 2365
+    },
+    {
+      "path": "portraits/mara-neutral.png",
+      "sha256": "ef49fe53d2f0b0f27859b8b046fa68c9ff763535a5aa3e70205497dc875bcd01",
+      "bytes": 2648
+    },
+    {
+      "path": "portraits/mara-warm.png",
+      "sha256": "ebdc328e9f3a20ba85f9ec6ad80b9e630764b48dd27ca3e84635de375b739e63",
+      "bytes": 2660
+    },
+    {
+      "path": "portraits/player-neutral.png",
+      "sha256": "0f006bc0114da52ae5dc1becd884b9995baca0c42e47aa0670936e26d694900f",
+      "bytes": 2209
+    },
+    {
+      "path": "portraits/player-warm.png",
+      "sha256": "fc47da11b936e189bfb4a51ab98dfb1625f76be98a5d43bb585b50eb6aa858bf",
+      "bytes": 2225
+    },
+    {
+      "path": "portraits/wren-neutral.png",
+      "sha256": "7f9b8beb9b5ac011d60cda13e6583f428cf6a7721f2d0cf182ce5033bc2ca4a4",
+      "bytes": 2490
+    },
+    {
+      "path": "portraits/wren-warm.png",
+      "sha256": "b08d9ea48065e9b461f4bbc36f9bc4abd0af4e9973aded9ad2ebd1724bd66070",
+      "bytes": 2484
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "b556fab5bcb85c43dd084fff01011b81eff6e1937400ffc1d12dc010acdf0362",
+      "bytes": 6103
+    },
+    {
+      "path": "viewer.html",
+      "sha256": "ac868beb8a95eda1fb2f0f7efda0602e9fd86d74d3b1214eb56c325508616e7a",
+      "bytes": 119558
+    }
+  ]
+}

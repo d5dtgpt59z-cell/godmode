@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Audit baseline 01 \u2014 Wren\u2019s current personal notebook",
+    "file": "quality/personal-agent/audit-before/01-resident.jpg",
+    "dimensions": [
+      604,
+      984
+    ],
+    "sha256": "d24771f693479781f4b8903059f40262ebc517a20496d0e3012f523806af5941",
+    "source": "fresh native cua_repl screenshot, exact bytes"
+  },
+  {
+    "title": "Audit baseline 02 \u2014 normal playfield and permanent HUD",
+    "file": "quality/personal-agent/audit-before/02-playfield.jpg",
+    "dimensions": [
+      604,
+      984
+    ],
+    "sha256": "8832727e0410c6e9e2fdfbaafdde99a2d92431bacc93085d702b1df40bc88ba4",
+    "source": "fresh native cua_repl screenshot, exact bytes"
+  },
+  {
+    "title": "Audit baseline 03 \u2014 village journal information density",
+    "file": "quality/personal-agent/audit-before/03-journal.jpg",
+    "dimensions": [
+      604,
+      984
+    ],
+    "sha256": "0c55c95a791b311b179da807cecb67348d834f7850253cb1fa3e63b73fe82ea1",
+    "source": "fresh native cua_repl screenshot, exact bytes"
+  }
+]

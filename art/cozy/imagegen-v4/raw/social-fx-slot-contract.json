@@ -1,0 +1,50 @@
+{
+  "columns": 4,
+  "rows": 2,
+  "target": {
+    "width": 24,
+    "height": 24
+  },
+  "frames": [
+    {
+      "key": "fx.affection.0",
+      "row": 0,
+      "column": 0
+    },
+    {
+      "key": "fx.affection.1",
+      "row": 0,
+      "column": 1
+    },
+    {
+      "key": "fx.affection.2",
+      "row": 0,
+      "column": 2
+    },
+    {
+      "key": "fx.affection.3",
+      "row": 0,
+      "column": 3
+    },
+    {
+      "key": "fx.dance.0",
+      "row": 1,
+      "column": 0
+    },
+    {
+      "key": "fx.dance.1",
+      "row": 1,
+      "column": 1
+    },
+    {
+      "key": "fx.dance.2",
+      "row": 1,
+      "column": 2
+    },
+    {
+      "key": "fx.dance.3",
+      "row": 1,
+      "column": 3
+    }
+  ]
+}

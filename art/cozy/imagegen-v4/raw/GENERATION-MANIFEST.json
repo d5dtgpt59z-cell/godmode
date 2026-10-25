@@ -1,0 +1,129 @@
+{
+  "scope": "Imagegen-v4 raw output files only, before technical normalization/runtime integration",
+  "provider": "Built-in image_gen tool",
+  "builtInGenerationCalls": 12,
+  "cliOrExternalProviderApiCalls": 0,
+  "originalPixelSource": "All replacement visual pixels originate in built-in image-generation outputs; later crop/resize/packing is technical normalization, not native hand-authored pixel art.",
+  "images": [
+    {
+      "file": "ada-72-frames-v4.png",
+      "width": 887,
+      "height": 1774,
+      "sha256": "ac76e9e0a161efd74b1a85204968d472668d015fcc5a409ada74958aef03e289",
+      "bytes": 2194527,
+      "alphaZero": 798758,
+      "alpha240Plus": 494532,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "cast-turnaround-v4.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2f3284dc57f7cc9d11a49d05c4b792eb529a67d3cdc01272dce39dd297e82a9b",
+      "bytes": 1620715,
+      "alphaZero": 926337,
+      "alpha240Plus": 516499,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "foreground-v4-sheet.png",
+      "width": 1296,
+      "height": 1214,
+      "sha256": "c8f2f06338111dde8327e3b616a55b71f8f0e25f37a3bac0ef236b62f1ce0676",
+      "bytes": 1873213,
+      "alphaZero": 770213,
+      "alpha240Plus": 427643,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "isolated-wheat-v4-sheet.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "23c19cdbc89ba289231ecd6b449d1d50fbecfe1a30b356cfb2251998477cd567",
+      "bytes": 784293,
+      "alphaZero": 1087175,
+      "alpha240Plus": 383322,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "map-v4-style-edit.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "94e07b5894d3a9d79bbebf9684790aab738f5eb101faead9dca855d140954a3a",
+      "bytes": 3640610,
+      "alphaZero": 0,
+      "alpha240Plus": 1572528,
+      "hasTransparentPixels": false
+    },
+    {
+      "file": "mara-72-frames-v4.png",
+      "width": 887,
+      "height": 1774,
+      "sha256": "74177c35fd7e5e585fd3224a875f28191e095e69ced98a6612fbba141f299a37",
+      "bytes": 2366152,
+      "alphaZero": 792177,
+      "alpha240Plus": 575142,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "north-correction-player-mara-v4.png",
+      "width": 1230,
+      "height": 1278,
+      "sha256": "c1c706a0d2da16d23fa14cf70b2372ed9073e3762ee95dc0654ea26a27d78321",
+      "bytes": 2019530,
+      "alphaZero": 798689,
+      "alpha240Plus": 635094,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "player-72-frames-v4.png",
+      "width": 887,
+      "height": 1774,
+      "sha256": "0e43185e947e96fbfdf24dd306e1067336d344c38afb05edc315f33d40c4877d",
+      "bytes": 2096321,
+      "alphaZero": 820452,
+      "alpha240Plus": 567285,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "portraits-v4-sheet.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "d85c998e365ccfe76a56a8b7799de3de70bab2859078128f1ca40d9c3af02459",
+      "bytes": 2387590,
+      "alphaZero": 535177,
+      "alpha240Plus": 923323,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "social-fx-v4-sheet.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "a7edd7802c6b2e4b94eb751ce5fba9c57a87b9b00ad7bc0474a727c57329d1df",
+      "bytes": 1813428,
+      "alphaZero": 512021,
+      "alpha240Plus": 102938,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "wren-72-frames-v4.png",
+      "width": 887,
+      "height": 1774,
+      "sha256": "d0c9d10a64e9e6aba2acaef7a791138e2873c6b04bf364f1e84829f9bdf923cb",
+      "bytes": 2096456,
+      "alphaZero": 750014,
+      "alpha240Plus": 556290,
+      "hasTransparentPixels": true
+    },
+    {
+      "file": "wren-north-correction-v4.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "666c8ea690800e357d80dec98e3cd4dba4ee6446faaedbd84c9a6f45196977bd",
+      "bytes": 1427656,
+      "alphaZero": 929881,
+      "alpha240Plus": 504104,
+      "hasTransparentPixels": true
+    }
+  ]
+}
