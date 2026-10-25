@@ -22,7 +22,7 @@ Real recorded beats: rain at12:05; bridge completed at12:32:18 after3,600 worker
 
 The preview is `http://127.0.0.1:3019/#project/film` while its managed local server runs. It returnedHTTP200 when checked. The HyperFrames editor can change the source timing/overlays. `npx hyperframes open` opens the project in the HyperFrames desktop app if installed; no installation is required to use the local source.
 
-From `film/`, use the pinned CLI `npx --yes hyperframes@0.8.198 check --json`, `snapshot --review`, and `render --quality delivery --workers 1 --strict --output ../godmode-prototype-56s.mp4`. Local Chrome and FFmpeg8.1.1 were available. Usage query reported61% of the current HyperFrames weekly allowance remaining; financial spend was unavailable/unknown. Only local rendering is used.
+From `film/`, use the pinned CLI `npx --yes hyperframes@0.8.198 check --json`, `snapshot --review`, and `render --quality delivery --workers 1 --strict --output ../godmode-prototype-56s.mp4`. Local Chrome and FFmpeg8.1.1 were available. The CLI usage query returned61% remaining for its reported Codex harness window; financial spend was unavailable/unknown. This is not a verified Meta/provider credit balance. Only local rendering is used.
 
 ## Verification
 

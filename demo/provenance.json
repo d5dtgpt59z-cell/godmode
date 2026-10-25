@@ -231,8 +231,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4447,
-      "sha256": "9b6429df3ba78d3bb1b3f1ac2ebf9fec7e0ad72b70a10e14c1f05c815a07857e"
+      "bytes": 4502,
+      "sha256": "2963898733ca7f60cbf23eec99cec8b92b8cc05a0dab1e5d528f68682364eead"
     },
     {
       "path": "decoded-review/00-at-0s.png",
@@ -448,6 +448,11 @@
       "path": "generate-recording.ts",
       "bytes": 4288,
       "sha256": "bc3f1949603fe55380fceaeda85157299b3c4b00f7ca9ad5055b7908ca69204e"
+    },
+    {
+      "path": "package-source.py",
+      "bytes": 1125,
+      "sha256": "cff7693ca35538eb35a504699785a3f647f5dd700786c42390758e972787e552"
     },
     {
       "path": "primary-recording.json",
