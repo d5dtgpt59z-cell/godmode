@@ -1,6 +1,6 @@
 # GODMODE — inspection entry point
 
-Private source mirror: [d5dtgpt59z-cell/godmode](https://github.com/d5dtgpt59z-cell/godmode). This repository contains the project source and editable art; local saves, credentials, model weights and generated video exports remain on the author’s machine.
+Public source mirror: [d5dtgpt59z-cell/godmode](https://github.com/d5dtgpt59z-cell/godmode). This repository contains the project source and editable art; local saves, credentials, model weights and generated video exports remain on the author’s machine.
 
 Original cozy life sim: deterministic physical simulation, validated natural-language world-rule proposals, persistent evidence and reversible comparisons. Current temporary interpreter is local Qwen; NPC decisions/dialogue remain the recorded rule policy. Meta adapters are implemented but disconnected and unverified.
 

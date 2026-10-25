@@ -2,7 +2,7 @@
 
 **FINAL SUBMISSION ON HOLD — explicit user instruction.** Ryan authorized implementation/preparation, not final submission. This matrix is a dated evidence record, not an organizer-compliance certification.
 
-October 25, 2026 snapshot: the active pitch is **GODMODE — A small world. Its own ideas.** The new cozy game is **local only** at the user’s explicit request, “Keep it local for now.” The user authorized the private GitHub source mirror [d5dtgpt59z-cell/godmode](https://github.com/d5dtgpt59z-cell/godmode) for inspection. No hosted deployment, schedule or credential change is authorized. The older Bellwether private deployment remains unchanged and distinct. Last saved public official-source audit: 14:43 UTC / 08:43 Boise; no fresh official/legal review was performed for this documentation update.
+October 25, 2026 snapshot: the active pitch is **GODMODE — A small world. Its own ideas.** The new cozy game is **local only** at the user’s explicit request, “Keep it local for now.” The user authorized the public GitHub source mirror [d5dtgpt59z-cell/godmode](https://github.com/d5dtgpt59z-cell/godmode) for inspection. No hosted deployment, schedule or credential change is authorized. The older Bellwether private deployment remains unchanged and distinct. Last saved public official-source audit: 14:43 UTC / 08:43 Boise; no fresh official/legal review was performed for this documentation update.
 
 | Gate | State | Evidence / required next step |
 |---|---|---|
