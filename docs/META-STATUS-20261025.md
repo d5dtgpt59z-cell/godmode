@@ -12,7 +12,7 @@ The public [final portal](https://cerebralvalley.ai/e/meta-ai-developer-hackatho
 
 ## Unresolved and implementation consequence
 
-Admission, participant-only rules, October 25 pre-event work treatment, Worldlift→GODMODE pivot, assistance disclosures, exact final video/repository/upload/access fields and actual Meta credits/use remain unresolved. Preserve dates and original records. Missing public restrictions do not establish permission.
+Admission, participant-only rules, October 25 pre-event work treatment, the policy treatment of the later Worldlift→GODMODE replacement, assistance disclosures, exact final video/repository/upload/access fields and actual Meta credits/use remain unresolved. Preserve dates and original records. Missing public restrictions do not establish permission.
 
 Temporary installed Qwen enables local prototype research and gameplay. It does not establish the required Meta contribution or justify labeling Qwen as Meta. The new milestone must retain explicit model/source receipts, own-observation context, deterministic execution and replay, consent/permission boundaries, and preserved v1 recordings. No organizer approval of this architecture is claimed.
 
@@ -42,8 +42,17 @@ The [official structured-output documentation](https://dev.meta.ai/docs/structur
 
 The [Muse Image documentation](https://dev.meta.ai/docs/image-generation) specifies `muse-image-1.0`, one-off image generation and $0.01 per returned image. A separately gated adapter now validates a single PNG and its hash; it disables search/shell tools. No runtime HTTP image-generation route, automatic asset registration, real authentication test or generated image delivery is established. Current in-game object art remains the recorded production image-generation catalog, not Muse output.
 
-Pre-event eligibility, application pivot, final participant rules and final submission fields remain unresolved. Final submission remains **ON HOLD**; the new build remains local, with no new publication or provider/billing activation.
+Pre-event eligibility, organizer approval/policy treatment of the application replacement, final participant rules and final submission fields remain unresolved. Final submission remains **ON HOLD**; the new build remains local, with no new publication or provider/billing activation.
 
 ## Local provider selection verified after preview restart
 
 Root selected `GODMODE_COZY_PROVIDER=meta` locally with `GODMODE_META_CREDIT_AUTHORIZED=false`; credentials were unchanged. Runtime `/api/cozy/status` reports ruleProvider meta, naturalLanguageAvailable false, personalAgentAvailable false, worldForgeAvailable false and actualMetaCalls0. The database retains21 historical local Qwen calls; they are not Muse evidence. `quality/personal-agent/provider-readiness.json` records the sanitized status. No alternate provider fallback, API key, credit authorization or new paid request was activated.
+
+
+## Current application replacement — October25, submitted 23:15:36.705 UTC
+
+The user explicitly authorized withdrawing Worldlift and applying with GODMODE. Root observed the native Worldlift **Unregister success at 2026-10-25T22:55:36.993Z**. The first replacement Submit stopped at required Twitter-field validation. After the user confirmed no X/Twitter account, the field was completed truthfully as **“N/A — I do not have an X/Twitter account; LinkedIn provided.”** One corrected Submit at **2026-10-25T23:15:36.705Z / 17:15:36 Boise** then produced **“Successfully applied to event”** and **Pending**. Root opened the saved View Application and verified the GODMODE black-command-line pitch, then reopened the read-only full form and verified an exact match for all1735 proposal characters (SHA-256 `0c10ff06a32e8b96891c38fc8f995bf192aef3651f53323fd5493070d3d66ff5`). That proposal discloses the pre-event foundation and pending Muse access; Indie Dev, Paige and the other previously verified answers were retained.
+
+**Current displayed application: GODMODE, received and Pending. Worldlift: withdrawn, with historical records preserved.** Root is retaining native receipts outside the public repository. This chronology updates the earlier application observations above; it does not rewrite their historical scope. This documentation pass did not operate the application, contact organizers or submit a final project.
+
+The receipt does **not** establish participant admission, organizer approval of a project pivot, replacement/duplicate-policy interpretation, pre-event-work eligibility, final rules or real Muse access. Those remain unresolved. No credentials, billing or model calls changed. **Final project submission remains ON HOLD**, separately from the received event application.

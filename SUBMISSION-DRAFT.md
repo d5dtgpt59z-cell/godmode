@@ -1,8 +1,8 @@
 # GODMODE — submission draft
 
-**DRAFT ONLY. FINAL SUBMISSION ON HOLD.** This text is for preparation/review and must not be submitted under the current instruction. Final rules, eligibility, pivot permission and mandatory fields remain unresolved.
+**DRAFT ONLY. FINAL SUBMISSION ON HOLD.** This text is for preparation/review and must not be submitted under the current instruction. Final rules, eligibility, replacement/duplicate-policy interpretation, organizer approval of the project change and mandatory fields remain unresolved.
 
-Applicant: **Ryan Morrison**, founder of Built by Magnus LLC, Creative Director at North of Common Capital, independent developer. Existing application track: Indie Dev; submitted proposal: Worldlift. Snapshot: October 25, 2026.
+Applicant: **Ryan Morrison**, founder of Built by Magnus LLC, Creative Director at North of Common Capital, independent developer. Current application track: Indie Dev; current submitted proposal: **GODMODE**, received with **Pending** status on October 25, 2026. The user explicitly authorized replacing Worldlift; its native unregister succeeded at 22:55:36.993 UTC, and the subsequent corrected GODMODE application received the native “Successfully applied to event” confirmation. Saved View Application displays the GODMODE black-command-line pitch and discloses pre-event foundation work plus pending Muse access. Worldlift records remain historical; this receipt is not admission or eligibility clearance.
 
 ## Title and intended experience
 
