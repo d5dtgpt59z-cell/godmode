@@ -1,0 +1,16 @@
+✔ observed history excludes private thoughts, future records and unsupported event types without mutating the world (5.559167ms)
+✔ history follows explicit evidence links and never treats adjacent events or hidden intermediates as causes (1.527ms)
+✔ only the player’s memory receipts can resolve journal links, with bounded cycles and missing evidence (1.546333ms)
+✔ proposed or started gestures are never described as completed interactions (1.727083ms)
+✔ finite transfers describe the original receipt rather than current or invented resource quantities (1.698375ms)
+✔ source labels distinguish synthetic and imported claims from recorded Meta assistance (0.0625ms)
+✔ a real gift/dialogue journey yields an exact public evidence chain and keeps speech verbatim (2.427417ms)
+✔ history remains bounded, deduplicated and ordered across malformed caller limits (1.361625ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 281.272583

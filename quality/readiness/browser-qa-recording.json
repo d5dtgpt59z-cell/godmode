@@ -1,0 +1,1629 @@
+{
+  "format": "godmode-cozy-save",
+  "version": 1,
+  "recording": {
+    "format": "godmode-cozy",
+    "version": 1,
+    "engineVersion": "cozy-engine-3",
+    "contentVersion": "cozy-personal-wren-1",
+    "origin": {
+      "seed": 137,
+      "branchId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e",
+      "parentBranchId": "9d9fb435-ad91-4190-85e6-f9b9297913a9",
+      "parentHash": "62aff981b25bcad5edd28f497ff29c66934448a7fb44e0f1f2f41122770e267c",
+      "migration": {
+        "fromEngine": "cozy-engine-1",
+        "fromContent": "cozy-wheat-1",
+        "parentHash": "62aff981b25bcad5edd28f497ff29c66934448a7fb44e0f1f2f41122770e267c"
+      },
+      "checkpointState": "{\"branchId\":\"5a00f1d6-7dd1-4263-a7f3-8ba07122a09e\",\"commandIds\":[],\"contentVersion\":\"cozy-personal-wren-1\",\"day\":1,\"emergence\":{\"actors\":{\"ada\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-300},\"mara\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-300},\"wren\":{\"heardProposalIds\":[],\"initiativeCount\":0,\"intentRevision\":0,\"knownPermissions\":{},\"lastInitiativeStep\":-300}},\"history\":[],\"institutions\":[],\"proposals\":[],\"version\":1},\"engineVersion\":\"cozy-engine-3\",\"eventHead\":\"a33ef6847d87afa5095200a8accedc90ce1db9303a5ac146e948e9c61728dade\",\"eventSeq\":3,\"events\":[{\"actorId\":null,\"audience\":[],\"hash\":\"71e3a8c16492a8145443381b6f7da39a549a960a8a8f680b48fdc825b2250c13\",\"id\":\"5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:1\",\"payload\":{\"atStep\":0,\"parentBranchId\":\"9d9fb435-ad91-4190-85e6-f9b9297913a9\",\"parentHash\":\"62aff981b25bcad5edd28f497ff29c66934448a7fb44e0f1f2f41122770e267c\"},\"prevHash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"rulesRevision\":0,\"seq\":1,\"sourceIds\":[],\"step\":0,\"tick\":0,\"type\":\"cozy_branch_forked\"},{\"actorId\":null,\"audience\":[],\"hash\":\"d4684ba944b2664a374615cd5a9f545d9f1252282d7c9de24a9d59a328d2c5ab\",\"id\":\"5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:2\",\"payload\":{\"explicit\":true,\"fromContent\":\"cozy-wheat-1\",\"fromEngine\":\"cozy-engine-1\",\"parentHash\":\"62aff981b25bcad5edd28f497ff29c66934448a7fb44e0f1f2f41122770e267c\",\"toContent\":\"cozy-cooperation-1\",\"toEngine\":\"cozy-engine-2\"},\"prevHash\":\"71e3a8c16492a8145443381b6f7da39a549a960a8a8f680b48fdc825b2250c13\",\"rulesRevision\":0,\"seq\":2,\"sourceIds\":[],\"step\":0,\"tick\":0,\"type\":\"cozy_world_upgraded\"},{\"actorId\":null,\"audience\":[],\"hash\":\"a33ef6847d87afa5095200a8accedc90ce1db9303a5ac146e948e9c61728dade\",\"id\":\"5a00f1d6-7dd1-4263-a7f3-8ba07122a09e:3\",\"payload\":{\"explicit\":true,\"fromEngine\":\"cozy-engine-1\",\"npcId\":\"wren\",\"parentHash\":\"62aff981b25bcad5edd28f497ff29c66934448a7fb44e0f1f2f41122770e267c\",\"toEngine\":\"cozy-engine-3\"},\"prevHash\":\"d4684ba944b2664a374615cd5a9f545d9f1252282d7c9de24a9d59a328d2c5ab\",\"rulesRevision\":0,\"seq\":3,\"sourceIds\":[],\"step\":0,\"tick\":0,\"type\":\"cozy_personal_world_upgraded\"}],\"festival\":{\"announced\":false,\"completedAt\":null,\"food\":0,\"foodReserved\":{},\"id\":1,\"invitations\":{},\"participants\":[],\"phase\":\"planning\",\"setupDone\":false,\"setupOwner\":null,\"startedAt\":null,\"venue\":\"square\"},\"flood\":{\"active\":false,\"egress\":[],\"expiresAt\":null,\"ruleRevision\":0,\"startedAt\":null},\"ledger\":{\"consumed\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"environment\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"initial\":{\"bread\":2,\"grain\":11,\"timber\":6,\"water\":14},\"produced\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"waste\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},\"mind\":{\"aspirations\":[],\"beliefs\":[],\"capabilityRequests\":[],\"foodSearchBackoffUntil\":0,\"history\":[],\"intentRevision\":0,\"lastConsideredTrigger\":null,\"lastDecisionStep\":-300,\"nextReconsiderStep\":0,\"npcId\":\"wren\",\"observationCursor\":2,\"pastPlans\":[],\"plan\":null,\"preferences\":{\"food\":\"bread\",\"restPlaceId\":\"wren-home\"},\"regulation\":null,\"relationships\":{\"ada\":{\"actorId\":\"ada\",\"affinity\":25,\"basis\":\"seeded\",\"evidenceIds\":[],\"helpfulness\":0,\"lastInteractionStep\":null,\"trust\":50},\"mara\":{\"actorId\":\"mara\",\"affinity\":25,\"basis\":\"seeded\",\"evidenceIds\":[],\"helpfulness\":0,\"lastInteractionStep\":null,\"trust\":50},\"player\":{\"actorId\":\"player\",\"affinity\":40,\"basis\":\"seeded\",\"evidenceIds\":[],\"helpfulness\":0,\"lastInteractionStep\":null,\"trust\":50},\"wren\":{\"actorId\":\"wren\",\"affinity\":25,\"basis\":\"seeded\",\"evidenceIds\":[],\"helpfulness\":0,\"lastInteractionStep\":null,\"trust\":50}},\"values\":{\"autonomy\":60,\"belonging\":95,\"care\":60,\"curiosity\":40},\"version\":1},\"nextId\":1,\"npcs\":[{\"action\":\"Taking in the day\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":90},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"ada-home\",\"id\":\"ada\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":-20,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Ada\",\"needs\":{\"energy\":80,\"hunger\":35,\"social\":30},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Practical baker\",\"Grateful for useful grain\"],\"trust\":50,\"x\":26,\"y\":6},{\"action\":\"Taking in the day\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":65},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":50},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":90}],\"harvestsSeen\":0,\"homeId\":\"mara-home\",\"id\":\"mara\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":-20,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Mara\",\"needs\":{\"energy\":85,\"hunger\":20,\"social\":20},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Careful planner\",\"Checks preparations\"],\"trust\":50,\"x\":4,\"y\":6},{\"action\":\"Taking in the day\",\"affinity\":40,\"festivalAccepted\":false,\"giftCount\":0,\"goals\":[{\"id\":\"help\",\"label\":\"Make something useful\",\"weight\":60},{\"id\":\"belong\",\"label\":\"Share time with neighbors\",\"weight\":95},{\"id\":\"understand\",\"label\":\"Check before committing\",\"weight\":40}],\"harvestsSeen\":0,\"homeId\":\"wren-home\",\"id\":\"wren\",\"inventory\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0},\"knownFestival\":false,\"lastDecisionStep\":-20,\"lastGiftStep\":-1000,\"memories\":[],\"name\":\"Wren\",\"needs\":{\"energy\":95,\"hunger\":15,\"social\":75},\"path\":[],\"reason\":\"An ordinary morning.\",\"task\":null,\"traits\":[\"Sociable courier\",\"Shares good news\"],\"trust\":50,\"x\":27,\"y\":21}],\"operations\":[],\"origin\":{\"branchId\":\"5a00f1d6-7dd1-4263-a7f3-8ba07122a09e\",\"migration\":{\"fromContent\":\"cozy-wheat-1\",\"fromEngine\":\"cozy-engine-1\",\"parentHash\":\"62aff981b25bcad5edd28f497ff29c66934448a7fb44e0f1f2f41122770e267c\"},\"parentBranchId\":\"9d9fb435-ad91-4190-85e6-f9b9297913a9\",\"parentHash\":\"62aff981b25bcad5edd28f497ff29c66934448a7fb44e0f1f2f41122770e267c\",\"seed\":137},\"places\":[{\"id\":\"player-home\",\"kind\":\"home\",\"name\":\"Your cottage\",\"position\":{\"x\":4,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"mara-home\",\"kind\":\"home\",\"name\":\"Mara’s cottage\",\"position\":{\"x\":4,\"y\":6},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"bakery\",\"kind\":\"bakery\",\"name\":\"Ada’s bakery\",\"position\":{\"x\":26,\"y\":6},\"stock\":{\"bread\":2,\"grain\":7,\"timber\":0,\"water\":0}},{\"id\":\"ada-home\",\"kind\":\"home\",\"name\":\"Ada’s cottage\",\"position\":{\"x\":28,\"y\":11},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"wren-home\",\"kind\":\"home\",\"name\":\"Wren’s cottage\",\"position\":{\"x\":27,\"y\":21},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"well\",\"kind\":\"well\",\"name\":\"Catchment well\",\"position\":{\"x\":8,\"y\":14},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":12}},{\"id\":\"woodpile\",\"kind\":\"woodpile\",\"name\":\"Shared woodpile\",\"position\":{\"x\":5,\"y\":12},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":5,\"water\":0}},{\"id\":\"square\",\"kind\":\"venue\",\"name\":\"Village square\",\"position\":{\"x\":14,\"y\":16},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}},{\"id\":\"market\",\"kind\":\"venue\",\"name\":\"Market green\",\"position\":{\"x\":24,\"y\":15},\"stock\":{\"bread\":0,\"grain\":0,\"timber\":0,\"water\":0}}],\"player\":{\"action\":\"Taking in the day\",\"gifts\":0,\"harvests\":0,\"id\":\"player\",\"inventory\":{\"bread\":0,\"grain\":4,\"timber\":1,\"water\":2},\"memories\":[],\"name\":\"You\",\"path\":[],\"task\":null,\"x\":4,\"y\":21},\"plots\":[{\"harvestCount\":0,\"id\":\"plot-1\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":11,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":192,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-2\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":13,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":216,\"y\":124},\"wateredAt\":null},{\"harvestCount\":0,\"id\":\"plot-3\",\"phase\":\"empty\",\"plantedAt\":null,\"plantedBy\":null,\"position\":{\"x\":14,\"y\":7},\"readyAt\":null,\"visualAnchor\":{\"x\":240,\"y\":124},\"wateredAt\":null}],\"reservations\":[],\"ruleHistory\":[],\"rules\":{\"flood\":{\"durationSteps\":300,\"enabled\":false,\"zone\":\"low-path\"},\"foodTarget\":3,\"organizer\":\"player\",\"seedReserve\":1,\"venue\":\"square\"},\"rulesRevision\":0,\"seed\":137,\"step\":0,\"tick\":0,\"version\":1}"
+    },
+    "operations": [
+      {
+        "type": "activity-program",
+        "id": "9981a962-372f-41d0-b22a-e028c8a5b2f7",
+        "program": {
+          "name": "An afternoon of affection",
+          "purpose": "Invite neighbors to meet and choose their own social interactions.",
+          "organizerId": "wren",
+          "participants": [
+            "ada",
+            "mara",
+            "wren"
+          ],
+          "venue": "square",
+          "steps": [
+            {
+              "action": "gesture",
+              "actorId": null,
+              "targetId": null,
+              "item": null,
+              "quantity": null,
+              "gesture": "kiss",
+              "text": null,
+              "durationSteps": 100
+            }
+          ]
+        },
+        "provenance": {
+          "mode": "manual",
+          "proposalId": "115f13df-9991-492e-a682-25589615e00a"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 600
+      },
+      {
+        "type": "world-object",
+        "id": "9160ead2-dc7f-4ece-acce-7e66e99d9eae",
+        "proposal": {
+          "kind": "world-object",
+          "assetId": "rain-catcher",
+          "name": "First rain catcher",
+          "description": "Six finite water for our first garden.",
+          "position": {
+            "x": 5,
+            "y": 21
+          },
+          "water": 6
+        },
+        "provenance": {
+          "mode": "manual",
+          "proposalId": "eb9ea6b6-f995-4a52-aba6-1bcd99b175ce"
+        }
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "object-interact",
+          "objectId": "world-object-8",
+          "action": "collect",
+          "item": "water",
+          "quantity": 1,
+          "id": "bda10c8f-8f70-4770-b9ba-486f9694a9a9"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 2
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 12,
+            "y": 7
+          },
+          "id": "162cb7b3-1e4d-4169-bbbc-e6f6ca3946f7"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "plant",
+          "plotId": "plot-2",
+          "id": "516beb4a-0c18-49d4-a08e-cea4de8875e3"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 6
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "water",
+          "plotId": "plot-2",
+          "id": "860a8ae3-cfb8-4b66-bdd5-33eeea83ca40"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 600
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "harvest",
+          "plotId": "plot-2",
+          "id": "ffbee533-405c-43d4-bd8c-486e99410b15"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 6
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "move",
+          "target": {
+            "x": 12,
+            "y": 8
+          },
+          "id": "4f17a883-ef5b-4b2f-90b5-58c81204e456"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 1
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "command",
+        "command": {
+          "type": "gift",
+          "npcId": "mara",
+          "item": "grain",
+          "quantity": 1,
+          "id": "80f3faed-d661-423a-92ab-50d9ab80d3d5"
+        }
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 6
+      },
+      {
+        "type": "advance",
+        "steps": 4
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      },
+      {
+        "type": "advance",
+        "steps": 5
+      }
+    ],
+    "finalStep": 3012,
+    "finalHash": "4bac997d69dfd198c462ba3984acff20a4d7b863ebbeff592b73596e4663a343",
+    "eventHead": "09bd2b60c0e201bfd9027d2d981bd6cfd79f9e39d50a95a89a890856329e2dd8"
+  },
+  "clock": {
+    "paused": true,
+    "pace": 1
+  },
+  "initiativeTickets": [],
+  "creationAudit": null,
+  "providerAudit": [],
+  "importedProviderAudit": {
+    "provenance": "unverified-import",
+    "records": []
+  },
+  "archiveIndex": [],
+  "notice": "Local prototype started October25. Rule-policy simulation; imported provider claims are unverified. No final submission."
+}

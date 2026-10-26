@@ -1,0 +1,20 @@
+[
+  {
+    "path": "quality/readiness/screenshots/observed-history.jpg",
+    "nativeToolTitle": "Readiness QA \u2014 observed history and exact linked resource evidence",
+    "sha256": "862d249e822048207d528677a2c9b4d1f2df4481d15dbc688be7e4c18578a8bb",
+    "bytes": 56446
+  },
+  {
+    "path": "quality/readiness/screenshots/notebook-close.jpg",
+    "nativeToolTitle": "Readiness QA \u2014 notebook close control remains reachable after scrolling",
+    "sha256": "aaf606cb1f62171d503cdc8628dc0c95fff9057192cd1c3453c1492bfca96a37",
+    "bytes": 55962
+  },
+  {
+    "path": "quality/readiness/screenshots/gift-portrait.jpg",
+    "nativeToolTitle": "Readiness QA \u2014 portrait-led dialogue from a physical gift interaction",
+    "sha256": "adac9ec4649e0f2502c506dd699ed16e0881ccd8a5c5b63eefe3a2fa9b3d8f12",
+    "bytes": 199976
+  }
+]

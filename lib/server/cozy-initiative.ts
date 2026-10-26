@@ -1,5 +1,5 @@
 import {z} from 'zod';
-import {selectInitiativeOpportunity,validateSocialInitiative,applySocialInitiative,hashCozyWorld,verifyCozyWorld,selectPersonalOpportunity,validatePersonalDecision,applyPersonalDecision} from '../cozy';
+import {selectInitiativeOpportunity,validateSocialInitiative,applySocialInitiative,hashCozyWorld,verifyCozyWorld,selectPersonalOpportunity,preflightPersonalDecision,applyPersonalDecision} from '../cozy';
 import type {InitiativeContext,NpcId,SocialInitiativeDecision,PersonalContext,PersonalDecision} from '../cozy/contracts';
 import {hashValue} from '../sim/canonical';
 import {CozyStore,boundedJson,type CozyHead} from './cozy-store';
@@ -13,7 +13,7 @@ export type InitiativeRow={id:string;save_id:string;request_id:string;trigger_ke
 type FrozenContext=InitiativeContext|PersonalContext;
 type ResidentDecision=SocialInitiativeDecision|PersonalDecision;
 const personal=(context:FrozenContext):context is PersonalContext=>'kind'in context&&context.kind==='personal';
-function parseDecision(value:unknown,context:FrozenContext):ResidentDecision{return personal(context)?validatePersonalDecision(personalWire.parse(value),context):validateSocialInitiative(wire.parse(value),context);}
+function parseDecision(value:unknown,context:FrozenContext):ResidentDecision{return personal(context)?preflightPersonalDecision(personalWire.parse(value),context):validateSocialInitiative(wire.parse(value),context);}
 function frozenFormat(context:FrozenContext){const base=personal(context)?personalFormat:initiativeFormat;return{...base,properties:{...base.properties,npcId:{type:'string',enum:[context.npcId]},triggerKey:{type:'string',enum:[context.triggerKey]},intentHash:{type:'string',enum:[context.intentHash]}}};}
 const terminal=['applied','abstained','stale','rejected','unknown','failed'];
 const dto=(row:InitiativeRow):InitiativeDTO=>({ticketId:row.id,npcId:row.npc_id,status:terminal.includes(row.status)?row.status as InitiativeOutcome:'pending',...(row.summary?{summary:row.summary}:{}),...(row.error_code?{errorCode:row.error_code}:{})});

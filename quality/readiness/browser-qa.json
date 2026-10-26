@@ -1,0 +1,39 @@
+{
+  "saveId": "5a00f1d6-7dd1-4263-a7f3-8ba07122a09e",
+  "paused": true,
+  "step": 3012,
+  "playerInventory": {
+    "grain": 6,
+    "water": 2,
+    "timber": 1,
+    "bread": 0
+  },
+  "harvests": 1,
+  "gifts": 1,
+  "objects": [
+    {
+      "name": "First rain catcher",
+      "stock": {
+        "grain": 0,
+        "water": 5,
+        "timber": 0,
+        "bread": 0
+      },
+      "noticedBy": [
+        "player"
+      ]
+    }
+  ],
+  "replay": {
+    "verified": true,
+    "finalHash": "4bac997d69dfd198c462ba3984acff20a4d7b863ebbeff592b73596e4663a343",
+    "modelCalls": 0
+  },
+  "provider": {
+    "selected": "meta",
+    "actualMetaCalls": 0,
+    "actualLocalCalls": 21,
+    "naturalLanguageAvailable": false,
+    "worldForgeAvailable": false
+  }
+}
